@@ -1,0 +1,35 @@
+{
+ "updated": "2026-07-12T10:54:37.714125+00:00",
+ "note": "MUESTRA - se sobrescribe con la primera ejecucion del robot",
+ "indices": {
+  "US": [
+   {
+    "n": "S&P 500",
+    "v": 6480,
+    "chg": 0.34
+   }
+  ],
+  "ES": [
+   {
+    "n": "IBEX 35",
+    "v": 12480,
+    "chg": 0.45
+   }
+  ]
+ },
+ "fx": {
+  "ES": {
+   "v": "1.096",
+   "chg": -0.15
+  }
+ },
+ "companies": {
+  "AAPL": {
+   "px": 242.5,
+   "d": 0.6,
+   "w": 1.8,
+   "m": 4.2
+  }
+ },
+ "us10y": 4.28
+}

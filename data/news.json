@@ -1,0 +1,14 @@
+[
+ {
+  "title": "Ejemplo: los titulares reales aparecerán tras la primera ejecución del robot (pestaña Actions → Run workflow)",
+  "link": "https://github.com",
+  "source": "ATLAS",
+  "date": "2026-07-12T10:54:37.714125+00:00",
+  "desc": "Este archivo de muestra se sobrescribe automáticamente.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ }
+]

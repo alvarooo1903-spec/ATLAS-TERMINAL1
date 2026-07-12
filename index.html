@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATLAS · Global Financial Intelligence</title>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<style>
+:root{
+  --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  --font-mono:"SF Mono",SFMono-Regular,ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace;
+}
+[data-theme="dark"]{
+  --bg:#0b0e14; --bg2:#11151f; --bg3:#171c29; --bg4:#1e2434;
+  --border:#232a3b; --border2:#2e3750;
+  --text:#e8ecf4; --text2:#9aa5bd; --text3:#5f6a85;
+  --accent:#4f8ef7; --accent2:#7c5cff;
+  --pos:#2ecc71; --neg:#f05b5b; --neu:#e8b13f;
+  --pos-bg:rgba(46,204,113,.12); --neg-bg:rgba(240,91,91,.12); --neu-bg:rgba(232,177,63,.12);
+  --shadow:0 12px 40px rgba(0,0,0,.5);
+  --map-sea:#0b0e14; --map-land:#1c2333; --map-stroke:#2a3348;
+  --glass:rgba(17,21,31,.86);
+}
+[data-theme="light"]{
+  --bg:#f6f7fa; --bg2:#ffffff; --bg3:#f0f2f7; --bg4:#e7eaf2;
+  --border:#e2e6ef; --border2:#cdd4e2;
+  --text:#171d2b; --text2:#5a6478; --text3:#98a1b5;
+  --accent:#2f6fe4; --accent2:#6c4ce0;
+  --pos:#13943f; --neg:#d63c3c; --neu:#b07d10;
+  --pos-bg:rgba(19,148,63,.1); --neg-bg:rgba(214,60,60,.1); --neu-bg:rgba(176,125,16,.12);
+  --shadow:0 12px 40px rgba(30,40,70,.14);
+  --map-sea:#f6f7fa; --map-land:#dde3ee; --map-stroke:#c3cbdc;
+  --glass:rgba(255,255,255,.92);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--font-ui);font-size:14px;overflow:hidden;transition:background .25s,color .25s}
+button{font-family:inherit;color:inherit;background:none;border:none;cursor:pointer}
+input{font-family:inherit}
+::-webkit-scrollbar{width:9px;height:9px}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:5px}
+::-webkit-scrollbar-track{background:transparent}
+
+/* ---------- Topbar ---------- */
+#topbar{display:flex;align-items:center;gap:14px;height:52px;padding:0 16px;background:var(--bg2);border-bottom:1px solid var(--border);position:relative;z-index:60}
+.logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:15px;letter-spacing:.06em;white-space:nowrap}
+.logo .dot{width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 12px var(--accent)}
+.logo small{color:var(--text3);font-weight:500;letter-spacing:.14em;font-size:9px;margin-left:2px}
+#searchwrap{position:relative;flex:1;max-width:520px}
+#search{width:100%;height:34px;background:var(--bg3);border:1px solid var(--border);border-radius:9px;color:var(--text);padding:0 34px;font-size:13px;outline:none;transition:border .2s}
+#search:focus{border-color:var(--accent)}
+#searchwrap .sicon{position:absolute;left:11px;top:8px;color:var(--text3);pointer-events:none}
+#searchdrop{position:absolute;top:40px;left:0;right:0;background:var(--glass);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);max-height:380px;overflow:auto;display:none;z-index:100}
+#searchdrop .sd-group{padding:8px 12px 3px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--text3)}
+#searchdrop .sd-item{display:flex;align-items:center;gap:10px;padding:8px 12px;cursor:pointer;border-radius:8px;margin:1px 5px}
+#searchdrop .sd-item:hover,#searchdrop .sd-item.sel{background:var(--bg4)}
+#searchdrop .sd-item .sub{margin-left:auto;color:var(--text3);font-size:11px}
+.tbtn{height:32px;padding:0 12px;border:1px solid var(--border);border-radius:8px;background:var(--bg3);font-size:12px;font-weight:600;color:var(--text2);transition:all .15s;white-space:nowrap}
+.tbtn:hover{color:var(--text);border-color:var(--border2)}
+.tbtn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none}
+#clock{font-family:var(--font-mono);font-size:12px;color:var(--text2);white-space:nowrap}
+
+/* ---------- Ticker tape ---------- */
+#tape{height:30px;background:var(--bg2);border-bottom:1px solid var(--border);overflow:hidden;position:relative;z-index:50}
+#tape .tapetrack{display:flex;gap:34px;align-items:center;height:100%;white-space:nowrap;animation:tape 60s linear infinite;width:max-content;padding-left:100%}
+@keyframes tape{to{transform:translateX(-50%)}}
+.tapeitem{font-family:var(--font-mono);font-size:11.5px;color:var(--text2)}
+.tapeitem b{color:var(--text);font-weight:600}
+.up{color:var(--pos)!important}.down{color:var(--neg)!important}.flat{color:var(--neu)!important}
+
+/* ---------- Layout ---------- */
+#main{display:flex;height:calc(100vh - 82px)}
+#stage{flex:1;position:relative;overflow:hidden;display:flex;flex-direction:column}
+#sidebar{width:340px;min-width:340px;border-left:1px solid var(--border);background:var(--bg2);display:flex;flex-direction:column;overflow:hidden}
+@media(max-width:1000px){#sidebar{display:none}}
+
+/* ---------- Map view ---------- */
+#mapview{flex:1;display:flex;flex-direction:column;overflow:hidden}
+#layerbar{display:flex;gap:8px;align-items:center;padding:12px 18px 4px;flex-wrap:wrap}
+.chip{padding:6px 13px;border-radius:20px;border:1px solid var(--border);font-size:12px;font-weight:600;color:var(--text2);transition:all .15s;background:var(--bg2)}
+.chip:hover{border-color:var(--border2);color:var(--text)}
+.chip.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent;box-shadow:0 4px 14px rgba(79,142,247,.35)}
+#mapbox{flex:1;position:relative}
+#worldmap{width:100%;height:100%;display:block;cursor:grab}
+#worldmap:active{cursor:grabbing}
+.country-path{stroke:var(--map-stroke);stroke-width:.5;transition:opacity .2s;cursor:default}
+.country-path.hasdata{cursor:pointer}
+.country-path.hasdata:hover{opacity:.75;stroke:var(--text);stroke-width:1}
+#maplegend{position:absolute;left:18px;bottom:18px;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:12px;padding:12px 15px;font-size:11px;box-shadow:var(--shadow)}
+#maplegend .lg-title{font-weight:700;font-size:11px;margin-bottom:8px;letter-spacing:.04em}
+.lg-row{display:flex;align-items:center;gap:8px;margin-top:5px;color:var(--text2)}
+.lg-swatch{width:14px;height:14px;border-radius:4px}
+#maptip{position:fixed;pointer-events:none;background:var(--glass);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:13px;padding:13px 15px;min-width:250px;box-shadow:var(--shadow);z-index:200;display:none;font-size:12px}
+#maptip .tt-head{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-bottom:8px}
+#maptip .tt-row{display:flex;justify-content:space-between;gap:18px;padding:2.5px 0;color:var(--text2)}
+#maptip .tt-row b{color:var(--text);font-family:var(--font-mono);font-weight:600}
+.badge{display:inline-block;padding:2px 9px;border-radius:11px;font-size:10.5px;font-weight:700}
+.b-pos{background:var(--pos-bg);color:var(--pos)}
+.b-neg{background:var(--neg-bg);color:var(--neg)}
+.b-neu{background:var(--neu-bg);color:var(--neu)}
+.b-info{background:rgba(79,142,247,.14);color:var(--accent)}
+#maphint{position:absolute;top:14px;right:18px;background:var(--glass);border:1px solid var(--border);border-radius:10px;padding:7px 13px;font-size:11.5px;color:var(--text2);backdrop-filter:blur(10px)}
+
+/* ---------- Sidebar ---------- */
+.sb-tabs{display:flex;border-bottom:1px solid var(--border)}
+.sb-tab{flex:1;padding:11px 0;font-size:12px;font-weight:700;color:var(--text3);border-bottom:2px solid transparent;letter-spacing:.03em}
+.sb-tab.active{color:var(--text);border-bottom-color:var(--accent)}
+#sbcontent{flex:1;overflow-y:auto;padding:10px}
+.newscard{background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:12px 13px;margin-bottom:9px;cursor:pointer;transition:transform .12s,border .15s}
+.newscard:hover{border-color:var(--border2);transform:translateY(-1px)}
+.newscard .nc-meta{display:flex;gap:6px;align-items:center;margin-bottom:7px;flex-wrap:wrap}
+.newscard .nc-src{font-size:10.5px;color:var(--text3);margin-left:auto;white-space:nowrap}
+.newscard h4{font-size:12.8px;line-height:1.45;font-weight:600}
+.newscard .nc-sum{font-size:11.6px;color:var(--text2);line-height:1.5;margin-top:6px}
+.newscard .nc-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.tag{font-size:10px;padding:2px 8px;border-radius:9px;background:var(--bg4);color:var(--text2);font-weight:600;cursor:pointer}
+.tag:hover{color:var(--accent)}
+.mover{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;cursor:pointer}
+.mover:hover{background:var(--bg3)}
+.mover .mv-name{font-weight:600;font-size:12.5px}
+.mover .mv-sub{font-size:10.5px;color:var(--text3)}
+.mover .mv-px{margin-left:auto;text-align:right;font-family:var(--font-mono);font-size:12px}
+
+/* ---------- Country dashboard ---------- */
+#countryview{flex:1;overflow-y:auto;display:none;padding:20px 24px 60px}
+.cv-head{display:flex;align-items:center;gap:14px;margin-bottom:4px;flex-wrap:wrap}
+.cv-head h1{font-size:24px;font-weight:800;letter-spacing:-.01em}
+.backbtn{display:flex;align-items:center;gap:6px;padding:7px 14px;border:1px solid var(--border);border-radius:9px;font-size:12px;font-weight:600;color:var(--text2);background:var(--bg2)}
+.backbtn:hover{color:var(--text);border-color:var(--border2)}
+.cv-sub{color:var(--text2);font-size:12.5px;margin-bottom:16px}
+.cv-tabs{display:flex;gap:6px;margin:14px 0 18px;flex-wrap:wrap}
+.cv-tab{padding:8px 16px;border-radius:9px;font-size:12.5px;font-weight:700;color:var(--text2);background:var(--bg2);border:1px solid var(--border)}
+.cv-tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+.grid{display:grid;gap:12px}
+.g4{grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.g3{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(380px,1fr))}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:15px 16px}
+.card h3{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;margin-bottom:10px}
+.kpi{display:flex;flex-direction:column;gap:2px}
+.kpi .k-label{font-size:11px;color:var(--text3);font-weight:600}
+.kpi .k-val{font-size:19px;font-weight:700;font-family:var(--font-mono)}
+.kpi .k-sub{font-size:11px;color:var(--text2)}
+.mrow{display:flex;justify-content:space-between;align-items:center;padding:6.5px 0;border-bottom:1px solid var(--border);font-size:12.5px}
+.mrow:last-child{border-bottom:none}
+.mrow .ml{color:var(--text2)}
+.mrow .mv{font-family:var(--font-mono);font-weight:600}
+.light{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:7px;vertical-align:middle}
+.l-g{background:var(--pos);box-shadow:0 0 8px var(--pos)}
+.l-y{background:var(--neu);box-shadow:0 0 8px var(--neu)}
+.l-r{background:var(--neg);box-shadow:0 0 8px var(--neg)}
+table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+table.dt th{text-align:left;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--text3);padding:8px 10px;border-bottom:1px solid var(--border);font-weight:700;white-space:nowrap}
+table.dt td{padding:9px 10px;border-bottom:1px solid var(--border);white-space:nowrap;font-family:var(--font-mono)}
+table.dt td.tn{font-family:var(--font-ui);font-weight:600}
+table.dt tr.rowlink{cursor:pointer}
+table.dt tr.rowlink:hover td{background:var(--bg3)}
+.sparkline{vertical-align:middle}
+
+/* ---------- Modal (company) ---------- */
+#modalback{position:fixed;inset:0;background:rgba(5,8,14,.62);backdrop-filter:blur(6px);z-index:300;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:34px 20px}
+#modal{background:var(--bg);border:1px solid var(--border2);border-radius:18px;width:min(1060px,100%);box-shadow:var(--shadow);animation:pop .22s ease;margin-bottom:40px}
+@keyframes pop{from{transform:translateY(14px);opacity:0}to{transform:none;opacity:1}}
+#modal .m-head{display:flex;align-items:center;gap:14px;padding:20px 24px 0;flex-wrap:wrap}
+#modal .m-body{padding:18px 24px 26px}
+.xbtn{margin-left:auto;width:32px;height:32px;border-radius:9px;border:1px solid var(--border);color:var(--text2);font-size:15px}
+.xbtn:hover{color:var(--text);border-color:var(--border2)}
+.rangebar{display:flex;gap:5px;flex-wrap:wrap}
+.rbtn{padding:5px 12px;border-radius:8px;font-size:11.5px;font-weight:700;color:var(--text3);border:1px solid transparent}
+.rbtn.active{background:var(--bg3);color:var(--text);border-color:var(--border)}
+.ind-toggles{display:flex;gap:5px;flex-wrap:wrap}
+.itog{padding:4px 11px;border-radius:8px;font-size:10.5px;font-weight:700;color:var(--text3);border:1px dashed var(--border)}
+.itog.on{color:var(--accent);border-style:solid;border-color:var(--accent)}
+#pxchart{width:100%;display:block}
+.ai-section{border-left:3px solid var(--accent);padding:10px 14px;background:var(--bg2);border-radius:0 10px 10px 0;margin-bottom:10px}
+.ai-section h4{font-size:12px;font-weight:700;margin-bottom:4px;color:var(--accent)}
+.ai-section p{font-size:12.5px;color:var(--text2);line-height:1.55}
+.scenario{flex:1;min-width:180px;border:1px solid var(--border);border-radius:12px;padding:13px}
+.scenario .sc-px{font-size:21px;font-weight:800;font-family:var(--font-mono);margin:5px 0}
+
+/* ---------- Copilot ---------- */
+#copbtn{position:fixed;right:24px;bottom:24px;width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-size:21px;box-shadow:0 8px 26px rgba(79,142,247,.45);z-index:250;transition:transform .15s}
+#copbtn:hover{transform:scale(1.07)}
+#copilot{position:fixed;right:24px;bottom:88px;width:390px;max-width:calc(100vw - 40px);height:520px;max-height:calc(100vh - 130px);background:var(--glass);backdrop-filter:blur(18px);border:1px solid var(--border2);border-radius:18px;box-shadow:var(--shadow);z-index:250;display:none;flex-direction:column;overflow:hidden;animation:pop .2s ease}
+#copilot .cp-head{padding:14px 16px;border-bottom:1px solid var(--border);font-weight:700;font-size:13px;display:flex;align-items:center;gap:9px}
+#cpmsgs{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.cpmsg{max-width:88%;padding:10px 13px;border-radius:14px;font-size:12.5px;line-height:1.55;white-space:pre-wrap}
+.cp-user{align-self:flex-end;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-bottom-right-radius:4px}
+.cp-ai{align-self:flex-start;background:var(--bg3);border:1px solid var(--border);border-bottom-left-radius:4px;color:var(--text)}
+.cp-sugs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 8px}
+.cp-sug{font-size:10.5px;padding:5px 10px;border-radius:11px;border:1px solid var(--border);color:var(--text2);cursor:pointer;background:var(--bg2)}
+.cp-sug:hover{color:var(--accent);border-color:var(--accent)}
+#cpform{display:flex;gap:8px;padding:12px;border-top:1px solid var(--border)}
+#cpinput{flex:1;height:36px;background:var(--bg3);border:1px solid var(--border);border-radius:10px;color:var(--text);padding:0 12px;font-size:12.5px;outline:none}
+#cpinput:focus{border-color:var(--accent)}
+
+/* ---------- Misc ---------- */
+.fade{animation:fade .3s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.pill-imp{font-size:9.5px;letter-spacing:.06em;padding:2px 7px;border-radius:8px;font-weight:800;text-transform:uppercase}
+.imp-high{background:var(--neg-bg);color:var(--neg)}
+.imp-med{background:var(--neu-bg);color:var(--neu)}
+.imp-low{background:var(--bg4);color:var(--text3)}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(80px);background:var(--glass);border:1px solid var(--border2);border-radius:12px;padding:11px 18px;font-size:12.5px;box-shadow:var(--shadow);z-index:400;transition:transform .3s;backdrop-filter:blur(12px)}
+#toast.show{transform:translateX(-50%) translateY(0)}
+select.fsel{background:var(--bg3);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:6px 9px;font-size:11.5px;font-weight:600;outline:none}
+.disclaimer{font-size:10.5px;color:var(--text3);text-align:center;padding:8px}
+
+/* ---------- Alert center & day engine ---------- */
+#alertwrap{position:relative}
+#alertbadge{position:absolute;top:-5px;right:-5px;min-width:17px;height:17px;border-radius:9px;background:var(--neg);color:#fff;font-size:10px;font-weight:800;display:none;align-items:center;justify-content:center;padding:0 4px;box-shadow:0 0 0 2px var(--bg2)}
+#alertbtn.pulse{animation:bellpulse 1s ease 3}
+@keyframes bellpulse{0%,100%{transform:none}25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+#alertpanel{position:absolute;top:42px;right:0;width:400px;max-width:calc(100vw - 30px);max-height:480px;background:var(--glass);backdrop-filter:blur(16px);border:1px solid var(--border2);border-radius:14px;box-shadow:var(--shadow);z-index:120;display:none;flex-direction:column;overflow:hidden;animation:pop .18s ease}
+#alertpanel .ap-head{display:flex;align-items:center;gap:8px;padding:12px 14px;border-bottom:1px solid var(--border);font-weight:700;font-size:13px}
+#alertlist{overflow-y:auto;padding:8px}
+.alertitem{display:flex;gap:10px;padding:10px 11px;border-radius:11px;cursor:pointer;border:1px solid transparent;margin-bottom:4px}
+.alertitem:hover{background:var(--bg3);border-color:var(--border)}
+.alertitem.unread{background:var(--bg3)}
+.alertitem .ai-dot{width:9px;height:9px;border-radius:50%;margin-top:5px;flex-shrink:0}
+.alertitem .ai-txt{font-size:12px;line-height:1.45}
+.alertitem .ai-meta{font-size:10.5px;color:var(--text3);margin-top:3px}
+#dayctl{display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--text2);white-space:nowrap}
+#dayctl b{font-family:var(--font-mono);color:var(--text)}
+#daybtn{width:28px;height:28px;border-radius:8px;border:1px solid var(--border);background:var(--bg3);font-size:13px;color:var(--text2)}
+#daybtn:hover{color:var(--accent);border-color:var(--accent)}
+</style>
+</head>
+<body>
+<div id="topbar">
+  <div class="logo"><span class="dot"></span>ATLAS<small data-i18n="tagline">GLOBAL INTELLIGENCE</small></div>
+  <div id="searchwrap">
+    <span class="sicon">⌕</span>
+    <input id="search" autocomplete="off" placeholder="">
+    <div id="searchdrop"></div>
+  </div>
+  <span id="clock"></span>
+  <div id="dayctl"><span data-i18n="dayLabel">Día</span> <b id="dayind">D+0</b><button id="daybtn" title="Avanzar día">⏭</button></div>
+  <div id="alertwrap">
+    <button class="tbtn" id="alertbtn">🔔 <span data-i18n="alerts">Alertas</span><span id="alertbadge">0</span></button>
+    <div id="alertpanel">
+      <div class="ap-head">🔔 <span data-i18n="alertsTitle">Centro de alertas</span>
+        <button class="tbtn" style="margin-left:auto;height:26px;font-size:11px" id="markread" data-i18n="markRead">Marcar leídas</button></div>
+      <div id="alertlist"></div>
+    </div>
+  </div>
+  <button class="tbtn" id="langbtn">EN</button>
+  <button class="tbtn" id="themebtn">☀️</button>
+</div>
+<div id="tape"><div class="tapetrack" id="tapetrack"></div></div>
+<div id="main">
+  <div id="stage">
+    <div id="mapview">
+      <div id="layerbar"></div>
+      <div id="mapbox">
+        <svg id="worldmap"></svg>
+        <div id="maplegend"></div>
+        <div id="maphint" data-i18n="maphint">Haz clic en un país para abrir su dashboard</div>
+      </div>
+    </div>
+    <div id="countryview"></div>
+  </div>
+  <div id="sidebar">
+    <div class="sb-tabs">
+      <button class="sb-tab active" data-sb="news" data-i18n="sbNews">Noticias</button>
+      <button class="sb-tab" data-sb="movers" data-i18n="sbMovers">Top Movers</button>
+      <button class="sb-tab" data-sb="geo" data-i18n="sbGeo">Geopolítica</button>
+    </div>
+    <div id="sbcontent"></div>
+    <div class="disclaimer" data-i18n="demo">Datos simulados · Prototipo demostrativo</div>
+  </div>
+</div>
+<div id="maptip"></div>
+<div id="modalback"><div id="modal"></div></div>
+<button id="copbtn" title="Copilot">✦</button>
+<div id="copilot">
+  <div class="cp-head"><span style="color:var(--accent)">✦</span><span data-i18n="copilot">Copiloto financiero</span></div>
+  <div id="cpmsgs"></div>
+  <div class="cp-sugs" id="cpsugs"></div>
+  <form id="cpform"><input id="cpinput" placeholder=""><button class="tbtn primary" type="submit">➤</button></form>
+</div>
+<div id="toast"></div>
+<script>
+/* ============================================================
+   ATLAS Terminal — inteligencia financiera global
+   Base simulada + datos reales desde data/*.json (GitHub Actions)
+   ============================================================ */
+/* ==================== i18n ==================== */
+let LANG='es';
+const I18N={
+ tagline:{es:'INTELIGENCIA GLOBAL',en:'GLOBAL INTELLIGENCE'},
+ alerts:{es:'Alertas',en:'Alerts'},
+ maphint:{es:'Haz clic en un país para abrir su dashboard · Rueda para zoom',en:'Click a country to open its dashboard · Scroll to zoom'},
+ sbNews:{es:'Noticias',en:'News'}, sbMovers:{es:'Top Movers',en:'Top Movers'}, sbGeo:{es:'Geopolítica',en:'Geopolitics'},
+ demo:{es:'Prototipo · Datos con retardo, no constituye asesoramiento',en:'Prototype · Delayed data, not financial advice'},
+ copilot:{es:'Copiloto financiero',en:'Financial copilot'},
+ searchPh:{es:'Buscar países, empresas, índices, bonos, noticias…',en:'Search countries, companies, indices, bonds, news…'},
+ cpPh:{es:'Pregunta sobre mercados…',en:'Ask about markets…'},
+ layers:{es:'Capas',en:'Layers'},
+ lySent:{es:'Sentimiento',en:'Sentiment'}, lyRisk:{es:'Riesgo país',en:'Country risk'},
+ lyGeo:{es:'Riesgo geopolítico',en:'Geopolitical risk'}, lyNews:{es:'Intensidad de noticias',en:'News intensity'},
+ lyFlow:{es:'Flujos de capital',en:'Capital flows'}, lyFx:{es:'Divisa',en:'Currency'}, lyBond:{es:'Presión bonos',en:'Bond pressure'},
+ back:{es:'Volver al mapa',en:'Back to map'},
+ tabOverview:{es:'Resumen',en:'Overview'}, tabCompanies:{es:'Empresas',en:'Companies'},
+ tabBonds:{es:'Bonos',en:'Bonds'}, tabNews:{es:'Noticias',en:'News'},
+ gdp:{es:'PIB (interanual)',en:'GDP (YoY)'}, gdppc:{es:'PIB per cápita',en:'GDP per capita'},
+ cpi:{es:'Inflación',en:'Inflation'}, rate:{es:'Tipo de interés',en:'Policy rate'},
+ unemp:{es:'Desempleo',en:'Unemployment'}, pmiM:{es:'PMI manufacturero',en:'Manufacturing PMI'},
+ pmiS:{es:'PMI servicios',en:'Services PMI'}, deficit:{es:'Déficit fiscal',en:'Fiscal deficit'},
+ debt:{es:'Deuda pública / PIB',en:'Public debt / GDP'}, rating:{es:'Rating crediticio',en:'Credit rating'},
+ tradeBal:{es:'Balanza comercial',en:'Trade balance'}, currAcc:{es:'Cuenta corriente',en:'Current account'},
+ reserves:{es:'Reservas internacionales',en:'FX reserves'},
+ riskPol:{es:'Riesgo político',en:'Political risk'}, riskGeo:{es:'Riesgo geopolítico',en:'Geopolitical risk'},
+ riskCty:{es:'Riesgo país',en:'Country risk'},
+ sentiment:{es:'Sentimiento',en:'Sentiment'},
+ macroLights:{es:'Semáforo macroeconómico',en:'Macro traffic lights'},
+ econSummary:{es:'Resumen económico',en:'Economic summary'},
+ markets:{es:'Mercados',en:'Markets'},
+ indices:{es:'Índices bursátiles',en:'Equity indices'},
+ calendar:{es:'Calendario económico',en:'Economic calendar'},
+ topCompanies:{es:'Principales cotizadas',en:'Top listed companies'},
+ relNews:{es:'Noticias relevantes',en:'Relevant news'},
+ yieldCurve:{es:'Curva de tipos',en:'Yield curve'},
+ sovBonds:{es:'Bonos soberanos',en:'Sovereign bonds'},
+ spreadVs:{es:'Spread 10A vs',en:'10Y spread vs'},
+ cbExp:{es:'Expectativas del banco central',en:'Central bank expectations'},
+ col_company:{es:'Empresa',en:'Company'}, col_price:{es:'Precio',en:'Price'},
+ col_d:{es:'1D',en:'1D'}, col_w:{es:'1S',en:'1W'}, col_m:{es:'1M',en:'1M'},
+ col_mcap:{es:'Cap.',en:'Mkt cap'}, col_per:{es:'PER',en:'P/E'}, col_dy:{es:'Div.',en:'Div.'},
+ col_sector:{es:'Sector',en:'Sector'}, col_rec:{es:'Recom.',en:'Rating'}, col_sent:{es:'Sent.',en:'Sent.'},
+ col_maturity:{es:'Plazo',en:'Maturity'}, col_yield:{es:'TIR',en:'Yield'}, col_chg:{es:'Var. (pb)',en:'Chg (bp)'},
+ impact:{es:'Impacto',en:'Impact'}, prob:{es:'Probabilidad',en:'Probability'},
+ horizon:{es:'Horizonte',en:'Horizon'}, assets:{es:'Activos afectados',en:'Affected assets'},
+ pos:{es:'Positivo',en:'Positive'}, neg:{es:'Negativo',en:'Negative'}, neutral:{es:'Neutral',en:'Neutral'}, mixed:{es:'Mixto',en:'Mixed'},
+ high:{es:'Alta',en:'High'}, medium:{es:'Media',en:'Medium'}, low:{es:'Baja',en:'Low'},
+ highR:{es:'Alto',en:'High'}, mediumR:{es:'Medio',en:'Medium'}, lowR:{es:'Bajo',en:'Low'},
+ short:{es:'Corto plazo',en:'Short term'}, mid:{es:'Medio plazo',en:'Medium term'}, long:{es:'Largo plazo',en:'Long term'},
+ fund:{es:'Información financiera',en:'Financials'},
+ aiAnalysis:{es:'Análisis generado por IA',en:'AI-generated analysis'},
+ execSummary:{es:'Resumen ejecutivo',en:'Executive summary'},
+ positives:{es:'Factores positivos',en:'Positive factors'},
+ negatives:{es:'Factores negativos',en:'Negative factors'},
+ risks:{es:'Riesgos',en:'Risks'}, catalysts:{es:'Catalizadores',en:'Catalysts'},
+ scenarios:{es:'Escenarios de precio (12m)',en:'Price scenarios (12m)'},
+ bull:{es:'Optimista',en:'Bull'}, base:{es:'Base',en:'Base'}, bear:{es:'Pesimista',en:'Bear'},
+ analystCons:{es:'Consenso de analistas',en:'Analyst consensus'},
+ targetPx:{es:'Precio objetivo medio',en:'Avg. target price'},
+ simpleExpl:{es:'Explicación sencilla',en:'Plain-language view'},
+ newsAbout:{es:'Noticias de la empresa',en:'Company news'},
+ filters:{es:'Filtros',en:'Filters'},
+ all:{es:'Todos',en:'All'}, allF:{es:'Todas',en:'All'},
+ category:{es:'Categoría',en:'Category'}, country:{es:'País',en:'Country'},
+ importance:{es:'Relevancia',en:'Importance'},
+ alertMade:{es:'Alerta creada (demo): te avisaríamos por email y en la plataforma.',en:'Alert created (demo): you would be notified by email and in-app.'},
+ createAlert:{es:'Crear alerta',en:'Create alert'},
+ severity:{es:'Severidad',en:'Severity'}, escalation:{es:'Prob. de escalada',en:'Escalation prob.'},
+ involved:{es:'Países implicados',en:'Countries involved'},
+ sectorsAff:{es:'Sectores afectados',en:'Sectors affected'},
+ vsRegion:{es:'vs región',en:'vs region'},
+ loadingMap:{es:'Cargando mapa…',en:'Loading map…'},
+ mapFail:{es:'No se pudo cargar el mapa (requiere conexión). Usa el buscador o estas tarjetas para navegar por países.',en:'Map failed to load (requires internet). Use search or these cards to browse countries.'},
+ flowIn:{es:'Entradas netas',en:'Net inflows'}, flowOut:{es:'Salidas netas',en:'Net outflows'},
+ techView:{es:'Valoración técnica',en:'Technical view'}, fundView:{es:'Valoración fundamental',en:'Fundamental view'},
+ sensitivity:{es:'Sensibilidad a tipos, divisa y materias primas',en:'Sensitivity to rates, FX and commodities'},
+ competitors:{es:'Comparables y competidores',en:'Peers & competitors'},
+ forecast:{es:'Previsión',en:'Forecast'}, previous:{es:'Anterior',en:'Previous'}, consensus:{es:'Consenso',en:'Consensus'},
+ dayLabel:{es:'Día',en:'Day'}, alertsTitle:{es:'Centro de alertas',en:'Alert center'},
+ markRead:{es:'Marcar leídas',en:'Mark read'}, noAlerts:{es:'Sin alertas todavía. El mercado avanza un día cada 60 s (o con ⏭). Cuando ocurra algo que pueda afectar a la economía de un país, lo verás aquí.',en:'No alerts yet. The market advances one day every 60 s (or via ⏭). When something happens that could hit a country\'s economy, it will show up here.'},
+ recentAlerts:{es:'Alertas económicas recientes',en:'Recent economic alerts'},
+ liveBtn:{es:'En vivo',en:'Live'}, demoBtn:{es:'Demo',en:'Demo'},
+ lastUpd:{es:'Actualizado',en:'Updated'},
+ liveLoading:{es:'Cargando titulares reales de los medios…',en:'Loading real headlines from the wires…'},
+ liveFail:{es:'No se pudieron cargar los titulares (requiere internet; los proxies RSS pueden fallar puntualmente). Pulsa ⟳ para reintentar.',en:'Could not load headlines (needs internet; RSS proxies can fail occasionally). Press ⟳ to retry.'},
+ liveSources:{es:'Fuentes RSS: CNBC, MarketWatch, WSJ, FT, Expansión, El Economista',en:'RSS sources: CNBC, MarketWatch, WSJ, FT, Expansión, El Economista'},
+ openArticle:{es:'Abrir artículo ↗',en:'Open article ↗'},
+};
+const t=k=>(I18N[k]?I18N[k][LANG]:k);
+
+/* ==================== utils ==================== */
+function hashCode(s){let h=0;for(let i=0;i<s.length;i++){h=((h<<5)-h+s.charCodeAt(i))|0}return Math.abs(h)}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+const fmt=(n,d=2)=>n.toLocaleString(LANG==='es'?'es-ES':'en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct=n=>(n>0?'+':'')+fmt(n)+'%';
+const cls=n=>n>0.02?'up':(n<-0.02?'down':'flat');
+const sentBadge=s=>s>=1?['b-pos',t('pos')]:(s<=-1?['b-neg',t('neg')]:(s===0?['b-neu',t('neutral')]:['b-neu',t('mixed')]));
+const riskBadge=r=>r==='low'?['b-pos',t('lowR')]:(r==='high'?['b-neg',t('highR')]:['b-neu',t('mediumR')]);
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+
+/* ==================== DATA: countries ==================== */
+const COUNTRIES=[
+{code:'US',iso:840,flag:'🇺🇸',name:{es:'Estados Unidos',en:'United States'},region:'na',ccy:'USD',fx:{p:'DXY',v:'103.8',chg:0.28},sentiment:0,riskPol:'medium',riskGeoL:'medium',riskCty:18,riskGeo:52,newsInt:92,flow:1.4,fxStr:1.2,bondP:55,
+ macro:{gdp:'2.0%',gdppc:'$87,400',cpi:'2.6%',rate:'4.00%',unemp:'4.2%',pmiM:51.4,pmiS:53.2,deficit:'-6.4%',debt:'124%',rating:'AA+ (S&P)',tradeBal:'-3.1% PIB',currAcc:'-3.3% PIB',reserves:'$243B'},
+ indices:[{n:'S&P 500',v:6480,chg:0.34},{n:'Nasdaq 100',v:23650,chg:0.61},{n:'Dow Jones',v:44980,chg:-0.12},{n:'Russell 2000',v:2310,chg:0.48}],
+ bonds:{y2:3.78,y5:3.92,y10:4.28,y30:4.55,chg2:-2,chg5:1,chg10:4,chg30:5},
+ cb:{es:'La Fed mantiene sesgo neutral; el mercado descuenta un recorte de 25 pb en septiembre (prob. 62%). Powell insiste en dependencia de datos.',en:'The Fed keeps a neutral bias; markets price a 25 bp cut in September (62% prob.). Powell stresses data dependence.'},
+ cal:[{d:'08 Jul',ev:{es:'Actas FOMC',en:'FOMC minutes'},imp:'high',f:'—',p:'—',c:'—'},{d:'11 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'high',f:'2.5%',p:'2.6%',c:'2.5%'},{d:'15 Jul',ev:{es:'Ventas minoristas',en:'Retail sales'},imp:'medium',f:'+0.3%',p:'+0.1%',c:'+0.3%'},{d:'17 Jul',ev:{es:'Resultados: bancos (JPM, GS)',en:'Earnings: banks (JPM, GS)'},imp:'high',f:'—',p:'—',c:'—'}]},
+{code:'ES',iso:724,flag:'🇪🇸',name:{es:'España',en:'Spain'},region:'eu',ccy:'EUR',fx:{p:'EUR/USD',v:'1.096',chg:-0.15},sentiment:1,riskPol:'low',riskGeoL:'low',riskCty:22,riskGeo:24,newsInt:48,flow:0.8,fxStr:-0.2,bondP:30,
+ macro:{gdp:'2.4%',gdppc:'$36,190',cpi:'2.2%',rate:'2.00% (BCE)',unemp:'10.9%',pmiM:52.8,pmiS:55.1,deficit:'-3.0%',debt:'102%',rating:'A (S&P)',tradeBal:'-1.9% PIB',currAcc:'+2.6% PIB',reserves:'$99B'},
+ indices:[{n:'IBEX 35',v:12480,chg:0.45},{n:'IBEX Medium',v:15920,chg:0.22}],
+ bonds:{y2:2.31,y5:2.68,y10:3.12,y30:3.74,chg2:1,chg5:3,chg10:5,chg30:4},
+ cb:{es:'El BCE pausó en 2,00% tras el ciclo de recortes. Se espera estabilidad hasta 4T salvo sorpresa de inflación de servicios.',en:'The ECB paused at 2.00% after its cutting cycle. Stability expected until Q4 barring a services-inflation surprise.'},
+ cal:[{d:'10 Jul',ev:{es:'Producción industrial',en:'Industrial production'},imp:'low',f:'+0.4%',p:'+0.2%',c:'+0.3%'},{d:'14 Jul',ev:{es:'IPC final junio',en:'Final June CPI'},imp:'medium',f:'2.2%',p:'2.3%',c:'2.2%'},{d:'22 Jul',ev:{es:'Resultados: Iberdrola',en:'Earnings: Iberdrola'},imp:'medium',f:'—',p:'—',c:'—'},{d:'24 Jul',ev:{es:'Reunión BCE',en:'ECB meeting'},imp:'high',f:'2.00%',p:'2.00%',c:'2.00%'}]},
+{code:'DE',iso:276,flag:'🇩🇪',name:{es:'Alemania',en:'Germany'},region:'eu',ccy:'EUR',fx:{p:'EUR/USD',v:'1.096',chg:-0.15},sentiment:-1,riskPol:'low',riskGeoL:'medium',riskCty:12,riskGeo:38,newsInt:66,flow:-0.4,fxStr:-0.2,bondP:42,
+ macro:{gdp:'0.8%',gdppc:'$55,800',cpi:'2.1%',rate:'2.00% (BCE)',unemp:'6.2%',pmiM:47.9,pmiS:51.0,deficit:'-2.6%',debt:'64%',rating:'AAA',tradeBal:'+5.6% PIB',currAcc:'+6.1% PIB',reserves:'$310B'},
+ indices:[{n:'DAX 40',v:24310,chg:-0.38},{n:'MDAX',v:31240,chg:-0.55}],
+ bonds:{y2:1.92,y5:2.14,y10:2.52,y30:2.98,chg2:0,chg5:1,chg10:2,chg30:3},
+ cb:{es:'El Bund actúa como referencia europea. El paquete fiscal de infraestructura presiona ligeramente los plazos largos.',en:'Bunds remain the euro-area benchmark. The infrastructure fiscal package puts mild pressure on the long end.'},
+ cal:[{d:'07 Jul',ev:{es:'Pedidos de fábrica',en:'Factory orders'},imp:'medium',f:'+0.5%',p:'-1.4%',c:'+0.4%'},{d:'15 Jul',ev:{es:'ZEW confianza',en:'ZEW sentiment'},imp:'medium',f:'44',p:'47.5',c:'45'},{d:'24 Jul',ev:{es:'PMI flash',en:'Flash PMI'},imp:'high',f:'48.5',p:'47.9',c:'48.2'}]},
+{code:'FR',iso:250,flag:'🇫🇷',name:{es:'Francia',en:'France'},region:'eu',ccy:'EUR',fx:{p:'EUR/USD',v:'1.096',chg:-0.15},sentiment:-1,riskPol:'medium',riskGeoL:'low',riskCty:28,riskGeo:30,newsInt:58,flow:-0.6,fxStr:-0.2,bondP:58,
+ macro:{gdp:'1.0%',gdppc:'$48,000',cpi:'1.9%',rate:'2.00% (BCE)',unemp:'7.4%',pmiM:48.8,pmiS:50.2,deficit:'-5.4%',debt:'113%',rating:'AA- (S&P)',tradeBal:'-2.4% PIB',currAcc:'-1.0% PIB',reserves:'$250B'},
+ indices:[{n:'CAC 40',v:8110,chg:-0.42},{n:'SBF 120',v:6180,chg:-0.35}],
+ bonds:{y2:2.18,y5:2.55,y10:3.21,y30:3.95,chg2:2,chg5:4,chg10:7,chg30:8},
+ cb:{es:'El spread OAT-Bund (69 pb) sigue siendo el termómetro del riesgo fiscal francés tras la presentación del presupuesto.',en:'The OAT-Bund spread (69 bp) remains the gauge of French fiscal risk after the budget presentation.'},
+ cal:[{d:'09 Jul',ev:{es:'Balanza comercial',en:'Trade balance'},imp:'low',f:'-7.8B€',p:'-8.0B€',c:'-7.9B€'},{d:'16 Jul',ev:{es:'Subasta OAT 10A',en:'10Y OAT auction'},imp:'medium',f:'—',p:'—',c:'—'}]},
+{code:'GB',iso:826,flag:'🇬🇧',name:{es:'Reino Unido',en:'United Kingdom'},region:'eu',ccy:'GBP',fx:{p:'GBP/USD',v:'1.288',chg:0.10},sentiment:0,riskPol:'low',riskGeoL:'low',riskCty:20,riskGeo:28,newsInt:52,flow:0.2,fxStr:0.3,bondP:48,
+ macro:{gdp:'1.2%',gdppc:'$52,400',cpi:'2.9%',rate:'3.75%',unemp:'4.5%',pmiM:49.6,pmiS:52.4,deficit:'-4.4%',debt:'101%',rating:'AA',tradeBal:'-2.0% PIB',currAcc:'-2.7% PIB',reserves:'$190B'},
+ indices:[{n:'FTSE 100',v:9140,chg:0.18},{n:'FTSE 250',v:22040,chg:0.05}],
+ bonds:{y2:3.62,y5:3.85,y10:4.32,y30:5.02,chg2:-1,chg5:0,chg10:3,chg30:4},
+ cb:{es:'El BoE recortó a 3,75% en junio; los gilts largos siguen tensionados por la oferta y la inflación de servicios (4,1%).',en:'The BoE cut to 3.75% in June; long gilts remain pressured by supply and services inflation (4.1%).'},
+ cal:[{d:'16 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'high',f:'2.8%',p:'2.9%',c:'2.8%'},{d:'18 Jul',ev:{es:'Ventas minoristas',en:'Retail sales'},imp:'medium',f:'+0.2%',p:'-0.3%',c:'+0.2%'}]},
+{code:'IT',iso:380,flag:'🇮🇹',name:{es:'Italia',en:'Italy'},region:'eu',ccy:'EUR',fx:{p:'EUR/USD',v:'1.096',chg:-0.15},sentiment:0,riskPol:'medium',riskGeoL:'low',riskCty:34,riskGeo:26,newsInt:40,flow:0.3,fxStr:-0.2,bondP:44,
+ macro:{gdp:'0.9%',gdppc:'$41,100',cpi:'1.8%',rate:'2.00% (BCE)',unemp:'6.5%',pmiM:49.8,pmiS:52.0,deficit:'-3.8%',debt:'137%',rating:'BBB+ (S&P)',tradeBal:'+2.9% PIB',currAcc:'+1.1% PIB',reserves:'$260B'},
+ indices:[{n:'FTSE MIB',v:36890,chg:0.25}],
+ bonds:{y2:2.24,y5:2.72,y10:3.44,y30:4.18,chg2:1,chg5:2,chg10:3,chg30:3},
+ cb:{es:'El spread BTP-Bund (92 pb) está en mínimos de una década gracias a la disciplina fiscal y las mejoras de rating.',en:'The BTP-Bund spread (92 bp) sits at decade lows on fiscal discipline and rating upgrades.'},
+ cal:[{d:'11 Jul',ev:{es:'Producción industrial',en:'Industrial production'},imp:'low',f:'+0.2%',p:'0.0%',c:'+0.1%'},{d:'25 Jul',ev:{es:'Subasta BTP',en:'BTP auction'},imp:'medium',f:'—',p:'—',c:'—'}]},
+{code:'JP',iso:392,flag:'🇯🇵',name:{es:'Japón',en:'Japan'},region:'as',ccy:'JPY',fx:{p:'USD/JPY',v:'151.4',chg:0.42},sentiment:1,riskPol:'low',riskGeoL:'medium',riskCty:14,riskGeo:40,newsInt:60,flow:0.9,fxStr:-1.1,bondP:62,
+ macro:{gdp:'1.1%',gdppc:'$34,500',cpi:'2.4%',rate:'0.75%',unemp:'2.5%',pmiM:50.8,pmiS:52.6,deficit:'-5.6%',debt:'251%',rating:'A+',tradeBal:'-0.7% PIB',currAcc:'+3.8% PIB',reserves:'$1.23T'},
+ indices:[{n:'Nikkei 225',v:42350,chg:0.88},{n:'TOPIX',v:2980,chg:0.72}],
+ bonds:{y2:0.92,y5:1.18,y10:1.62,y30:2.75,chg2:2,chg5:3,chg10:5,chg30:8},
+ cb:{es:'El BoJ normaliza con cautela (0,75%). El mercado vigila la próxima subida en octubre y el efecto sobre el carry trade del yen.',en:'The BoJ normalises cautiously (0.75%). Markets watch an October hike and its effect on the yen carry trade.'},
+ cal:[{d:'12 Jul',ev:{es:'PPI junio',en:'June PPI'},imp:'low',f:'2.9%',p:'3.2%',c:'3.0%'},{d:'30 Jul',ev:{es:'Reunión BoJ',en:'BoJ meeting'},imp:'high',f:'0.75%',p:'0.75%',c:'0.75%'}]},
+{code:'CN',iso:156,flag:'🇨🇳',name:{es:'China',en:'China'},region:'as',ccy:'CNY',fx:{p:'USD/CNY',v:'7.18',chg:0.08},sentiment:-1,riskPol:'medium',riskGeoL:'high',riskCty:42,riskGeo:72,newsInt:84,flow:-1.2,fxStr:-0.5,bondP:25,
+ macro:{gdp:'4.6%',gdppc:'$13,900',cpi:'0.6%',rate:'2.90% (LPR 1a)',unemp:'5.1%',pmiM:49.4,pmiS:50.6,deficit:'-4.8%',debt:'89%',rating:'A+',tradeBal:'+3.4% PIB',currAcc:'+1.8% PIB',reserves:'$3.28T'},
+ indices:[{n:'CSI 300',v:4120,chg:-0.65},{n:'Hang Seng',v:20940,chg:-0.92}],
+ bonds:{y2:1.42,y5:1.66,y10:2.05,y30:2.38,chg2:-1,chg5:-2,chg10:-3,chg30:-2},
+ cb:{es:'El PBoC mantiene sesgo expansivo ante la deflación persistente y la debilidad inmobiliaria. Estímulo fiscal adicional en debate.',en:'The PBoC keeps an easing bias amid persistent deflation and property weakness. Further fiscal stimulus under debate.'},
+ cal:[{d:'09 Jul',ev:{es:'IPC/IPP junio',en:'June CPI/PPI'},imp:'medium',f:'0.5%',p:'0.6%',c:'0.5%'},{d:'15 Jul',ev:{es:'PIB 2T',en:'Q2 GDP'},imp:'high',f:'4.5%',p:'4.8%',c:'4.6%'}]},
+{code:'IN',iso:356,flag:'🇮🇳',name:{es:'India',en:'India'},region:'as',ccy:'INR',fx:{p:'USD/INR',v:'84.9',chg:0.05},sentiment:2,riskPol:'low',riskGeoL:'medium',riskCty:30,riskGeo:36,newsInt:55,flow:1.8,fxStr:0.1,bondP:35,
+ macro:{gdp:'6.8%',gdppc:'$2,940',cpi:'3.9%',rate:'5.50%',unemp:'7.6%',pmiM:57.8,pmiS:59.4,deficit:'-5.1%',debt:'82%',rating:'BBB-',tradeBal:'-6.9% PIB',currAcc:'-1.1% PIB',reserves:'$672B'},
+ indices:[{n:'Nifty 50',v:26480,chg:0.74},{n:'Sensex',v:87200,chg:0.69}],
+ bonds:{y2:6.12,y5:6.35,y10:6.58,y30:6.98,chg2:0,chg5:-1,chg10:-2,chg30:-1},
+ cb:{es:'El RBI mantiene 5,50% con inflación controlada. India sigue captando flujos por la rotación desde China y su inclusión en índices de bonos.',en:'The RBI holds at 5.50% with inflation contained. India keeps attracting flows on the China rotation and bond-index inclusion.'},
+ cal:[{d:'12 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'medium',f:'3.8%',p:'3.9%',c:'3.8%'},{d:'31 Jul',ev:{es:'Déficit fiscal',en:'Fiscal deficit'},imp:'low',f:'—',p:'—',c:'—'}]},
+{code:'BR',iso:76,flag:'🇧🇷',name:{es:'Brasil',en:'Brazil'},region:'la',ccy:'BRL',fx:{p:'USD/BRL',v:'5.42',chg:-0.35},sentiment:0,riskPol:'medium',riskGeoL:'low',riskCty:48,riskGeo:22,newsInt:38,flow:0.5,fxStr:0.6,bondP:52,
+ macro:{gdp:'2.2%',gdppc:'$10,300',cpi:'4.6%',rate:'13.75%',unemp:'6.9%',pmiM:51.2,pmiS:52.8,deficit:'-7.4%',debt:'88%',rating:'BB',tradeBal:'+3.6% PIB',currAcc:'-1.8% PIB',reserves:'$358B'},
+ indices:[{n:'Bovespa',v:142300,chg:0.51}],
+ bonds:{y2:12.85,y5:12.95,y10:13.10,y30:13.30,chg2:-4,chg5:-5,chg10:-6,chg30:-5},
+ cb:{es:'El BCB inicia el ciclo de recortes desde 13,75% tras el pico de Selic. El real se aprecia con el diferencial de tipos.',en:'The BCB starts cutting from 13.75% after the Selic peak. The real appreciates on the rate differential.'},
+ cal:[{d:'10 Jul',ev:{es:'IPCA junio',en:'June IPCA'},imp:'high',f:'4.5%',p:'4.6%',c:'4.5%'},{d:'29 Jul',ev:{es:'Reunión COPOM',en:'COPOM meeting'},imp:'high',f:'13.50%',p:'13.75%',c:'13.50%'}]},
+{code:'MX',iso:484,flag:'🇲🇽',name:{es:'México',en:'Mexico'},region:'la',ccy:'MXN',fx:{p:'USD/MXN',v:'18.9',chg:0.22},sentiment:-1,riskPol:'medium',riskGeoL:'medium',riskCty:52,riskGeo:46,newsInt:44,flow:-0.3,fxStr:-0.4,bondP:50,
+ macro:{gdp:'1.2%',gdppc:'$12,700',cpi:'4.1%',rate:'8.50%',unemp:'2.8%',pmiM:49.2,pmiS:51.0,deficit:'-4.9%',debt:'55%',rating:'BBB',tradeBal:'-1.2% PIB',currAcc:'-0.9% PIB',reserves:'$228B'},
+ indices:[{n:'IPC México',v:58400,chg:-0.28}],
+ bonds:{y2:8.9,y5:9.1,y10:9.4,y30:9.8,chg2:2,chg5:3,chg10:4,chg30:4},
+ cb:{es:'Banxico recorta con cautela; la incertidumbre comercial con EE. UU. y la revisión del T-MEC dominan la prima de riesgo.',en:'Banxico cuts cautiously; US trade uncertainty and the USMCA review dominate the risk premium.'},
+ cal:[{d:'09 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'medium',f:'4.0%',p:'4.1%',c:'4.0%'},{d:'08 Ago',ev:{es:'Reunión Banxico',en:'Banxico meeting'},imp:'high',f:'8.25%',p:'8.50%',c:'8.25%'}]},
+{code:'CA',iso:124,flag:'🇨🇦',name:{es:'Canadá',en:'Canada'},region:'na',ccy:'CAD',fx:{p:'USD/CAD',v:'1.352',chg:0.06},sentiment:0,riskPol:'low',riskGeoL:'low',riskCty:16,riskGeo:26,newsInt:30,flow:0.2,fxStr:0.0,bondP:40,
+ macro:{gdp:'1.5%',gdppc:'$56,000',cpi:'2.2%',rate:'2.75%',unemp:'6.4%',pmiM:50.4,pmiS:51.8,deficit:'-2.0%',debt:'69%',rating:'AAA',tradeBal:'+0.4% PIB',currAcc:'-0.6% PIB',reserves:'$118B'},
+ indices:[{n:'S&P/TSX',v:27480,chg:0.21}],
+ bonds:{y2:2.95,y5:3.05,y10:3.38,y30:3.62,chg2:0,chg5:1,chg10:2,chg30:2},
+ cb:{es:'El BoC en pausa en 2,75%; sensible a la política comercial estadounidense y al precio del crudo.',en:'The BoC on hold at 2.75%; sensitive to US trade policy and crude prices.'},
+ cal:[{d:'15 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'medium',f:'2.1%',p:'2.2%',c:'2.1%'}]},
+{code:'AU',iso:36,flag:'🇦🇺',name:{es:'Australia',en:'Australia'},region:'as',ccy:'AUD',fx:{p:'AUD/USD',v:'0.678',chg:-0.18},sentiment:0,riskPol:'low',riskGeoL:'low',riskCty:15,riskGeo:30,newsInt:26,flow:0.1,fxStr:-0.3,bondP:38,
+ macro:{gdp:'1.9%',gdppc:'$65,100',cpi:'2.8%',rate:'3.60%',unemp:'4.2%',pmiM:50.0,pmiS:52.2,deficit:'-1.8%',debt:'57%',rating:'AAA',tradeBal:'+2.2% PIB',currAcc:'+0.8% PIB',reserves:'$62B'},
+ indices:[{n:'ASX 200',v:8560,chg:0.15}],
+ bonds:{y2:3.42,y5:3.68,y10:4.05,y30:4.48,chg2:0,chg5:1,chg10:2,chg30:2},
+ cb:{es:'El RBA mantiene 3,60%; el mercado descuenta un recorte más este año si el empleo se enfría.',en:'The RBA holds at 3.60%; one more cut priced this year if jobs cool.'},
+ cal:[{d:'22 Jul',ev:{es:'IPC 2T',en:'Q2 CPI'},imp:'high',f:'2.7%',p:'2.8%',c:'2.7%'}]},
+{code:'KR',iso:410,flag:'🇰🇷',name:{es:'Corea del Sur',en:'South Korea'},region:'as',ccy:'KRW',fx:{p:'USD/KRW',v:'1,342',chg:0.15},sentiment:1,riskPol:'low',riskGeoL:'medium',riskCty:24,riskGeo:44,newsInt:42,flow:0.7,fxStr:-0.2,bondP:36,
+ macro:{gdp:'2.1%',gdppc:'$35,600',cpi:'1.9%',rate:'2.25%',unemp:'2.9%',pmiM:51.6,pmiS:51.0,deficit:'-1.6%',debt:'55%',rating:'AA',tradeBal:'+4.9% PIB',currAcc:'+4.4% PIB',reserves:'$415B'},
+ indices:[{n:'KOSPI',v:3180,chg:0.95}],
+ bonds:{y2:2.62,y5:2.78,y10:3.02,y30:2.95,chg2:0,chg5:1,chg10:1,chg30:1},
+ cb:{es:'El BoK apoya el ciclo de semiconductores con tipos bajos; el won sigue presionado por el dólar.',en:'The BoK supports the chip cycle with low rates; the won stays pressured by the dollar.'},
+ cal:[{d:'25 Jul',ev:{es:'PIB 2T',en:'Q2 GDP'},imp:'high',f:'2.2%',p:'2.0%',c:'2.1%'}]},
+{code:'CH',iso:756,flag:'🇨🇭',name:{es:'Suiza',en:'Switzerland'},region:'eu',ccy:'CHF',fx:{p:'USD/CHF',v:'0.872',chg:-0.05},sentiment:0,riskPol:'low',riskGeoL:'low',riskCty:8,riskGeo:18,newsInt:22,flow:0.6,fxStr:0.9,bondP:15,
+ macro:{gdp:'1.4%',gdppc:'$106,000',cpi:'0.7%',rate:'0.00%',unemp:'2.4%',pmiM:48.9,pmiS:52.0,deficit:'+0.2%',debt:'37%',rating:'AAA',tradeBal:'+8.9% PIB',currAcc:'+7.2% PIB',reserves:'$860B'},
+ indices:[{n:'SMI',v:12840,chg:0.08}],
+ bonds:{y2:0.12,y5:0.28,y10:0.55,y30:0.92,chg2:0,chg5:0,chg10:1,chg30:1},
+ cb:{es:'El SNB en 0,00% vigila la fortaleza del franco como activo refugio; no se descartan tipos negativos.',en:'The SNB at 0.00% watches franc strength as a haven; negative rates not ruled out.'},
+ cal:[{d:'17 Jul',ev:{es:'Balanza comercial',en:'Trade balance'},imp:'low',f:'—',p:'—',c:'—'}]},
+{code:'SA',iso:682,flag:'🇸🇦',name:{es:'Arabia Saudí',en:'Saudi Arabia'},region:'me',ccy:'SAR',fx:{p:'USD/SAR',v:'3.75',chg:0.0},sentiment:0,riskPol:'medium',riskGeoL:'high',riskCty:38,riskGeo:66,newsInt:50,flow:0.4,fxStr:0.0,bondP:32,
+ macro:{gdp:'3.8%',gdppc:'$33,000',cpi:'1.8%',rate:'4.50%',unemp:'3.6%',pmiM:54.2,pmiS:56.0,deficit:'-3.2%',debt:'29%',rating:'A+',tradeBal:'+9.8% PIB',currAcc:'+4.1% PIB',reserves:'$438B'},
+ indices:[{n:'Tadawul',v:12180,chg:-0.15}],
+ bonds:{y2:4.55,y5:4.72,y10:4.95,y30:5.35,chg2:1,chg5:1,chg10:2,chg30:2},
+ cb:{es:'SAMA sigue a la Fed por la paridad del riyal. El precio del Brent (78$) condiciona el plan fiscal de Vision 2030.',en:'SAMA tracks the Fed via the riyal peg. Brent ($78) drives the Vision 2030 fiscal plan.'},
+ cal:[{d:'05 Ago',ev:{es:'Reunión OPEP+',en:'OPEC+ meeting'},imp:'high',f:'—',p:'—',c:'—'}]},
+{code:'ZA',iso:710,flag:'🇿🇦',name:{es:'Sudáfrica',en:'South Africa'},region:'af',ccy:'ZAR',fx:{p:'USD/ZAR',v:'17.6',chg:0.30},sentiment:-1,riskPol:'medium',riskGeoL:'medium',riskCty:58,riskGeo:38,newsInt:24,flow:-0.5,fxStr:-0.6,bondP:60,
+ macro:{gdp:'1.1%',gdppc:'$6,400',cpi:'4.4%',rate:'7.25%',unemp:'32.1%',pmiM:48.2,pmiS:49.8,deficit:'-6.0%',debt:'75%',rating:'BB-',tradeBal:'+1.6% PIB',currAcc:'-1.9% PIB',reserves:'$62B'},
+ indices:[{n:'JSE Top 40',v:82400,chg:-0.35}],
+ bonds:{y2:8.1,y5:9.0,y10:10.2,y30:11.4,chg2:3,chg5:4,chg10:6,chg30:6},
+ cb:{es:'El SARB mantiene sesgo restrictivo con el rand débil; el riesgo fiscal y eléctrico pesan sobre la deuda local.',en:'The SARB keeps a hawkish bias with a weak rand; fiscal and power risks weigh on local debt.'},
+ cal:[{d:'23 Jul',ev:{es:'IPC junio',en:'June CPI'},imp:'medium',f:'4.3%',p:'4.4%',c:'4.3%'}]},
+{code:'TR',iso:792,flag:'🇹🇷',name:{es:'Turquía',en:'Türkiye'},region:'me',ccy:'TRY',fx:{p:'USD/TRY',v:'38.4',chg:0.55},sentiment:-2,riskPol:'high',riskGeoL:'high',riskCty:72,riskGeo:64,newsInt:46,flow:-1.4,fxStr:-1.6,bondP:78,
+ macro:{gdp:'3.0%',gdppc:'$13,400',cpi:'28.4%',rate:'38.00%',unemp:'8.8%',pmiM:47.5,pmiS:49.0,deficit:'-4.6%',debt:'27%',rating:'B+',tradeBal:'-3.8% PIB',currAcc:'-2.4% PIB',reserves:'$152B'},
+ indices:[{n:'BIST 100',v:11240,chg:-1.20}],
+ bonds:{y2:36.5,y5:32.0,y10:28.4,y30:26.0,chg2:15,chg5:12,chg10:10,chg30:8},
+ cb:{es:'El CBRT mantiene la política ultra restrictiva para desinflar; la credibilidad sigue siendo el principal riesgo.',en:'The CBRT keeps ultra-tight policy to disinflate; credibility remains the key risk.'},
+ cal:[{d:'24 Jul',ev:{es:'Reunión CBRT',en:'CBRT meeting'},imp:'high',f:'37.00%',p:'38.00%',c:'37.00%'}]},
+];
+const C=Object.fromEntries(COUNTRIES.map(c=>[c.code,c]));
+const CBYISO=Object.fromEntries(COUNTRIES.map(c=>[c.iso,c]));
+
+/* ==================== DATA: companies ==================== */
+const COMPANIES=[
+{tk:'AAPL',nm:'Apple',cc:'US',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Hardware y servicios',en:'Hardware & services'},px:242.5,d:0.6,w:1.8,m:4.2,mcap:3640,per:32.4,dy:0.5,beta:1.24,vol:'54M',wgt:'6.8% S&P 500',sent:1,rec:'Buy',target:265,
+ f:{rev:'$402B',ebitda:'$135B',ni:'$101B',gm:'46.5%',om:'31.8%',fcf:'$104B',debt:'$96B',cash:'$62B',roe:'148%',roa:'29%',evE:'26.1x',eps:'$6.72',revG:'+5.2%',epsG:'+8.9%',payout:'15%'}},
+{tk:'MSFT',nm:'Microsoft',cc:'US',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Software y nube',en:'Software & cloud'},px:512.8,d:0.9,w:2.4,m:6.1,mcap:3810,per:36.2,dy:0.7,beta:0.95,wgt:'7.1% S&P 500',vol:'21M',sent:2,rec:'Strong Buy',target:565,
+ f:{rev:'$278B',ebitda:'$147B',ni:'$97B',gm:'69.8%',om:'44.9%',fcf:'$78B',debt:'$67B',cash:'$80B',roe:'38%',roa:'19%',evE:'25.4x',eps:'$13.05',revG:'+15.1%',epsG:'+16.3%',payout:'25%'}},
+{tk:'NVDA',nm:'Nvidia',cc:'US',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Semiconductores',en:'Semiconductors'},px:172.4,d:2.1,w:5.2,m:11.4,mcap:4210,per:48.6,dy:0.03,beta:1.75,wgt:'7.6% S&P 500',vol:'188M',sent:2,rec:'Strong Buy',target:198,
+ f:{rev:'$165B',ebitda:'$105B',ni:'$89B',gm:'74.2%',om:'62.4%',fcf:'$72B',debt:'$10B',cash:'$44B',roe:'92%',roa:'61%',evE:'38.9x',eps:'$3.55',revG:'+58%',epsG:'+62%',payout:'1%'}},
+{tk:'AMZN',nm:'Amazon',cc:'US',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'E-commerce y nube',en:'E-commerce & cloud'},px:238.6,d:0.4,w:1.1,m:3.8,mcap:2510,per:38.4,dy:0,beta:1.3,wgt:'4.0% S&P 500',vol:'42M',sent:1,rec:'Buy',target:262,
+ f:{rev:'$672B',ebitda:'$132B',ni:'$65B',gm:'49.1%',om:'11.9%',fcf:'$58B',debt:'$135B',cash:'$88B',roe:'25%',roa:'10%',evE:'19.8x',eps:'$6.21',revG:'+11%',epsG:'+22%',payout:'0%'}},
+{tk:'GOOGL',nm:'Alphabet',cc:'US',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Internet y publicidad',en:'Internet & advertising'},px:198.2,d:-0.3,w:0.8,m:2.6,mcap:2430,per:24.8,dy:0.4,beta:1.05,wgt:'4.2% S&P 500',vol:'28M',sent:0,rec:'Buy',target:218,
+ f:{rev:'$392B',ebitda:'$142B',ni:'$108B',gm:'58.4%',om:'33.1%',fcf:'$74B',debt:'$28B',cash:'$110B',roe:'32%',roa:'22%',evE:'16.2x',eps:'$8.02',revG:'+13%',epsG:'+18%',payout:'5%'}},
+{tk:'META',nm:'Meta Platforms',cc:'US',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Redes sociales',en:'Social media'},px:742.1,d:1.2,w:3.0,m:5.5,mcap:1880,per:27.6,dy:0.4,beta:1.2,wgt:'2.9% S&P 500',vol:'14M',sent:1,rec:'Buy',target:810,
+ f:{rev:'$188B',ebitda:'$102B',ni:'$70B',gm:'81.5%',om:'43.2%',fcf:'$52B',debt:'$29B',cash:'$70B',roe:'37%',roa:'25%',evE:'17.9x',eps:'$27.1',revG:'+18%',epsG:'+24%',payout:'8%'}},
+{tk:'JPM',nm:'JPMorgan Chase',cc:'US',sec:{es:'Financiero',en:'Financials'},ind:{es:'Banca universal',en:'Universal banking'},px:298.4,d:-0.5,w:-1.2,m:1.4,mcap:842,per:13.8,dy:2.1,beta:1.1,wgt:'1.5% S&P 500',vol:'9M',sent:0,rec:'Hold',target:305,
+ f:{rev:'$178B',ebitda:'—',ni:'$56B',gm:'—',om:'42%',fcf:'—',debt:'$430B',cash:'$1.4T act.',roe:'17%',roa:'1.4%',evE:'—',eps:'$19.9',revG:'+4%',epsG:'+6%',payout:'27%'}},
+{tk:'TSLA',nm:'Tesla',cc:'US',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'Automoción eléctrica',en:'EV & energy'},px:284.9,d:-2.4,w:-5.8,m:-3.1,mcap:912,per:88.4,dy:0,beta:2.05,wgt:'1.6% S&P 500',vol:'96M',sent:-1,rec:'Hold',target:270,
+ f:{rev:'$104B',ebitda:'$14.8B',ni:'$8.9B',gm:'18.2%',om:'8.1%',fcf:'$4.2B',debt:'$8B',cash:'$32B',roe:'13%',roa:'8%',evE:'58x',eps:'$2.61',revG:'+7%',epsG:'-4%',payout:'0%'}},
+{tk:'ITX',nm:'Inditex',cc:'ES',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'Moda minorista',en:'Apparel retail'},px:52.8,d:0.8,w:2.1,m:4.6,mcap:178,per:24.2,dy:2.6,beta:0.9,wgt:'14.2% IBEX',vol:'2.8M',sent:1,rec:'Buy',target:57,
+ f:{rev:'€41.2B',ebitda:'€11.5B',ni:'€6.4B',gm:'57.8%',om:'19.4%',fcf:'€5.1B',debt:'€0',cash:'€12.1B',roe:'31%',roa:'19%',evE:'13.8x',eps:'€2.05',revG:'+8.4%',epsG:'+10.2%',payout:'60%'}},
+{tk:'IBE',nm:'Iberdrola',cc:'ES',sec:{es:'Utilities',en:'Utilities'},ind:{es:'Energía eléctrica y renovables',en:'Power & renewables'},px:16.9,d:0.3,w:1.0,m:2.8,mcap:112,per:16.8,dy:4.1,beta:0.7,wgt:'13.1% IBEX',vol:'11M',sent:1,rec:'Buy',target:18.2,
+ f:{rev:'€48.9B',ebitda:'€16.2B',ni:'€6.1B',gm:'—',om:'22.4%',fcf:'€4.0B',debt:'€47B',cash:'€4.8B',roe:'12%',roa:'4%',evE:'9.6x',eps:'€0.96',revG:'+5.1%',epsG:'+7.4%',payout:'70%'}},
+{tk:'SAN',nm:'Banco Santander',cc:'ES',sec:{es:'Financiero',en:'Financials'},ind:{es:'Banca minorista global',en:'Global retail banking'},px:7.42,d:1.4,w:2.8,m:6.9,mcap:118,per:7.9,dy:4.8,beta:1.25,wgt:'12.8% IBEX',vol:'38M',sent:1,rec:'Buy',target:8.1,
+ f:{rev:'€62.4B',ebitda:'—',ni:'€12.8B',gm:'—',om:'—',fcf:'—',debt:'—',cash:'—',roe:'13.1%',roa:'0.8%',evE:'—',eps:'€0.86',revG:'+6.2%',epsG:'+12.4%',payout:'50%'}},
+{tk:'BBVA',nm:'BBVA',cc:'ES',sec:{es:'Financiero',en:'Financials'},ind:{es:'Banca minorista',en:'Retail banking'},px:11.85,d:1.1,w:2.2,m:5.4,mcap:74,per:7.4,dy:5.6,beta:1.3,wgt:'9.9% IBEX',vol:'22M',sent:1,rec:'Buy',target:13.0,
+ f:{rev:'€36.1B',ebitda:'—',ni:'€10.4B',gm:'—',om:'—',fcf:'—',debt:'—',cash:'—',roe:'17.2%',roa:'1.1%',evE:'—',eps:'€1.72',revG:'+9.1%',epsG:'+14.8%',payout:'50%'}},
+{tk:'REP',nm:'Repsol',cc:'ES',sec:{es:'Energía',en:'Energy'},ind:{es:'Petróleo y gas integrado',en:'Integrated oil & gas'},px:13.4,d:-0.6,w:-1.8,m:0.9,mcap:16,per:6.8,dy:7.1,beta:1.15,wgt:'3.4% IBEX',vol:'8M',sent:0,rec:'Hold',target:14.5,
+ f:{rev:'€58.2B',ebitda:'€7.9B',ni:'€2.9B',gm:'—',om:'8.9%',fcf:'€2.4B',debt:'€6.8B',cash:'€5.2B',roe:'10%',roa:'5%',evE:'3.2x',eps:'€2.28',revG:'-3.4%',epsG:'-8.1%',payout:'35%'}},
+{tk:'FER',nm:'Ferrovial',cc:'ES',sec:{es:'Industrial',en:'Industrials'},ind:{es:'Infraestructuras',en:'Infrastructure'},px:44.2,d:0.5,w:1.4,m:3.2,mcap:33,per:34.6,dy:1.8,beta:0.85,wgt:'4.8% IBEX',vol:'1.4M',sent:1,rec:'Buy',target:48,
+ f:{rev:'€9.8B',ebitda:'€1.4B',ni:'€0.9B',gm:'—',om:'11.2%',fcf:'€0.7B',debt:'€5.9B',cash:'€4.6B',roe:'14%',roa:'4%',evE:'22.4x',eps:'€1.28',revG:'+7.8%',epsG:'+15.2%',payout:'45%'}},
+{tk:'CLNX',nm:'Cellnex',cc:'ES',sec:{es:'Telecomunicaciones',en:'Telecom'},ind:{es:'Torres de telecomunicación',en:'Telecom towers'},px:36.8,d:-0.2,w:0.6,m:-1.4,mcap:28,per:0,dy:0.4,beta:0.95,wgt:'3.2% IBEX',vol:'1.9M',sent:0,rec:'Buy',target:44,
+ f:{rev:'€4.2B',ebitda:'€3.2B',ni:'€0.15B',gm:'—',om:'18%',fcf:'€1.7B',debt:'€17.2B',cash:'€2.1B',roe:'1%',roa:'0.4%',evE:'14.1x',eps:'€0.21',revG:'+6.0%',epsG:'n.s.',payout:'10%'}},
+{tk:'SAP',nm:'SAP',cc:'DE',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Software empresarial',en:'Enterprise software'},px:248.6,d:0.7,w:1.9,m:3.4,mcap:296,per:42.1,dy:1.0,beta:1.0,wgt:'11.2% DAX',vol:'1.2M',sent:1,rec:'Buy',target:275,
+ f:{rev:'€38.9B',ebitda:'€11.8B',ni:'€7.2B',gm:'73%',om:'27%',fcf:'€6.9B',debt:'€9B',cash:'€11B',roe:'16%',roa:'9%',evE:'23.9x',eps:'€6.12',revG:'+11%',epsG:'+19%',payout:'40%'}},
+{tk:'SIE',nm:'Siemens',cc:'DE',sec:{es:'Industrial',en:'Industrials'},ind:{es:'Conglomerado industrial',en:'Industrial conglomerate'},px:228.4,d:-0.8,w:-1.5,m:0.8,mcap:196,per:19.8,dy:2.3,beta:1.1,wgt:'9.4% DAX',vol:'1.6M',sent:0,rec:'Buy',target:245,
+ f:{rev:'€79.4B',ebitda:'€14.2B',ni:'€9.1B',gm:'38%',om:'15%',fcf:'€8.4B',debt:'€42B',cash:'€12B',roe:'17%',roa:'6%',evE:'13.9x',eps:'€11.4',revG:'+4%',epsG:'+7%',payout:'52%'}},
+{tk:'ALV',nm:'Allianz',cc:'DE',sec:{es:'Financiero',en:'Financials'},ind:{es:'Seguros',en:'Insurance'},px:352.0,d:-0.2,w:0.4,m:1.9,mcap:142,per:12.4,dy:4.4,beta:0.9,wgt:'7.8% DAX',vol:'0.7M',sent:0,rec:'Hold',target:360,
+ f:{rev:'€172B',ebitda:'—',ni:'€10.2B',gm:'—',om:'—',fcf:'—',debt:'—',cash:'—',roe:'17%',roa:'1%',evE:'—',eps:'€26.4',revG:'+6%',epsG:'+9%',payout:'60%'}},
+{tk:'MC',nm:'LVMH',cc:'FR',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'Lujo',en:'Luxury goods'},px:612.0,d:-1.4,w:-3.2,m:-6.8,mcap:332,per:22.6,dy:2.2,beta:1.15,wgt:'9.8% CAC',vol:'0.5M',sent:-1,rec:'Hold',target:640,
+ f:{rev:'€84.2B',ebitda:'€25.1B',ni:'€13.9B',gm:'68%',om:'24%',fcf:'€10.8B',debt:'€12B',cash:'€9B',roe:'20%',roa:'10%',evE:'13.4x',eps:'€27.8',revG:'-2%',epsG:'-6%',payout:'50%'}},
+{tk:'TTE',nm:'TotalEnergies',cc:'FR',sec:{es:'Energía',en:'Energy'},ind:{es:'Petróleo y gas',en:'Oil & gas'},px:58.4,d:-0.4,w:-1.1,m:1.2,mcap:142,per:8.2,dy:5.4,beta:1.05,wgt:'7.2% CAC',vol:'4.8M',sent:0,rec:'Buy',target:64,
+ f:{rev:'€198B',ebitda:'€44B',ni:'€18.4B',gm:'—',om:'14%',fcf:'€15.9B',debt:'€24B',cash:'€28B',roe:'16%',roa:'7%',evE:'4.1x',eps:'€8.02',revG:'-4%',epsG:'-6%',payout:'42%'}},
+{tk:'AZN',nm:'AstraZeneca',cc:'GB',sec:{es:'Salud',en:'Healthcare'},ind:{es:'Farmacéutica',en:'Pharmaceuticals'},px:134.2,d:0.4,w:1.2,m:2.4,mcap:262,per:19.4,dy:2.2,beta:0.6,wgt:'8.9% FTSE',vol:'2.1M',sent:1,rec:'Buy',target:148,
+ f:{rev:'$56.4B',ebitda:'$19.8B',ni:'$9.4B',gm:'82%',om:'26%',fcf:'$8.8B',debt:'$26B',cash:'$8B',roe:'23%',roa:'9%',evE:'14.6x',eps:'$4.42',revG:'+12%',epsG:'+15%',payout:'44%'}},
+{tk:'SHEL',nm:'Shell',cc:'GB',sec:{es:'Energía',en:'Energy'},ind:{es:'Petróleo y gas integrado',en:'Integrated oil & gas'},px:32.4,d:-0.6,w:-1.4,m:0.4,mcap:198,per:9.1,dy:4.0,beta:0.95,wgt:'8.2% FTSE',vol:'7.4M',sent:0,rec:'Buy',target:36,
+ f:{rev:'$284B',ebitda:'$62B',ni:'$22B',gm:'—',om:'12%',fcf:'$28B',debt:'$74B',cash:'$40B',roe:'12%',roa:'5%',evE:'4.4x',eps:'$3.58',revG:'-6%',epsG:'-9%',payout:'38%'}},
+{tk:'7203',nm:'Toyota',cc:'JP',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'Automoción',en:'Automobiles'},px:3140,d:1.1,w:2.6,m:5.8,mcap:278,per:10.2,dy:2.8,beta:0.75,wgt:'4.1% TOPIX',vol:'22M',sent:1,rec:'Buy',target:3450,
+ f:{rev:'¥48.2T',ebitda:'¥7.4T',ni:'¥4.6T',gm:'20%',om:'11%',fcf:'¥3.1T',debt:'¥28T',cash:'¥9T',roe:'14%',roa:'5%',evE:'8.9x',eps:'¥342',revG:'+6%',epsG:'+9%',payout:'30%'}},
+{tk:'6758',nm:'Sony',cc:'JP',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Electrónica y entretenimiento',en:'Electronics & entertainment'},px:4280,d:0.6,w:1.8,m:4.4,mcap:172,per:19.6,dy:0.8,beta:0.9,wgt:'2.9% TOPIX',vol:'8M',sent:1,rec:'Buy',target:4700,
+ f:{rev:'¥13.4T',ebitda:'¥2.4T',ni:'¥1.2T',gm:'28%',om:'11%',fcf:'¥0.9T',debt:'¥3.9T',cash:'¥2.1T',roe:'15%',roa:'4%',evE:'10.8x',eps:'¥198',revG:'+8%',epsG:'+13%',payout:'16%'}},
+{tk:'700',nm:'Tencent',cc:'CN',sec:{es:'Tecnología',en:'Technology'},ind:{es:'Internet y videojuegos',en:'Internet & gaming'},px:498.0,d:-1.1,w:-2.4,m:-4.2,mcap:598,per:19.2,dy:0.9,beta:1.1,wgt:'8.4% HSI',vol:'18M',sent:-1,rec:'Buy',target:560,
+ f:{rev:'¥712B',ebitda:'¥268B',ni:'¥198B',gm:'53%',om:'32%',fcf:'¥172B',debt:'¥98B',cash:'¥210B',roe:'22%',roa:'11%',evE:'13.2x',eps:'¥20.8',revG:'+9%',epsG:'+14%',payout:'12%'}},
+{tk:'9988',nm:'Alibaba',cc:'CN',sec:{es:'Consumo discrecional',en:'Consumer discretionary'},ind:{es:'E-commerce y nube',en:'E-commerce & cloud'},px:112.4,d:-1.8,w:-3.6,m:-6.4,mcap:268,per:13.4,dy:1.1,beta:1.25,wgt:'7.9% HSI',vol:'24M',sent:-1,rec:'Hold',target:128,
+ f:{rev:'¥998B',ebitda:'¥196B',ni:'¥128B',gm:'38%',om:'14%',fcf:'¥142B',debt:'¥168B',cash:'¥520B',roe:'12%',roa:'7%',evE:'8.4x',eps:'¥53.2',revG:'+6%',epsG:'+4%',payout:'0%'}},
+];
+const CO=Object.fromEntries(COMPANIES.map(c=>[c.tk,c]));
+
+/* ==================== DATA: news (demo) ==================== */
+const CATS={cb:{es:'Bancos centrales',en:'Central banks'},eq:{es:'Bolsa',en:'Equities'},bd:{es:'Bonos',en:'Bonds'},er:{es:'Resultados',en:'Earnings'},ma:{es:'M&A',en:'M&A'},rg:{es:'Regulación',en:'Regulation'},tc:{es:'Tecnología',en:'Technology'},en_:{es:'Energía',en:'Energy'},cm:{es:'Materias primas',en:'Commodities'},gp:{es:'Geopolítica',en:'Geopolitics'},fx:{es:'Divisas',en:'FX'},inf:{es:'Inflación',en:'Inflation'},sv:{es:'Riesgo soberano',en:'Sovereign risk'},bk:{es:'Riesgo bancario',en:'Banking risk'}};
+const NEWS=[
+{id:1,cat:'cb',imp:'high',src:'Reuters',date:'2026-07-04 08:12',sent:1,impact:'pos',prob:'high',hor:'short',countries:['US'],sectors:['eq','bd'],tks:['MSFT','NVDA','AAPL'],
+ h:{es:'Las actas de la Fed abren la puerta a un recorte en septiembre si el empleo se enfría',en:'Fed minutes open the door to a September cut if the labour market cools'},
+ s:{es:'Varios miembros del FOMC ven margen para relajar la política si el paro sube por encima del 4,3%. El mercado eleva al 62% la probabilidad de recorte de 25 pb en septiembre; el Treasury 10Y cae 4 pb.',en:'Several FOMC members see room to ease if unemployment rises above 4.3%. Markets lift September 25 bp cut odds to 62%; the 10Y Treasury falls 4 bp.'}},
+{id:2,cat:'er',imp:'high',src:'Bloomberg',date:'2026-07-03 22:05',sent:2,impact:'pos',prob:'high',hor:'short',countries:['US','KR','JP'],sectors:['tc'],tks:['NVDA','MSFT'],
+ h:{es:'Nvidia eleva su guidance por la demanda de centros de datos de IA y arrastra al sector de semiconductores',en:'Nvidia raises guidance on AI data-center demand, lifting the chip complex'},
+ s:{es:'La compañía anticipa ingresos trimestrales de 62.000 M$, un 8% sobre consenso, citando pedidos de hiperescaladores. SK Hynix y TSMC suben en Asia; el Nasdaq apunta a nuevos máximos.',en:'The company guides quarterly revenue to $62bn, 8% above consensus, citing hyperscaler orders. SK Hynix and TSMC rally in Asia; the Nasdaq eyes new highs.'}},
+{id:3,cat:'bk',imp:'medium',src:'Financial Times',date:'2026-07-03 17:40',sent:1,impact:'pos',prob:'medium',hor:'mid',countries:['ES'],sectors:['bk','eq'],tks:['SAN','BBVA'],
+ h:{es:'La banca española bate previsiones: el margen de intereses resiste pese a los tipos del BCE en el 2%',en:'Spanish banks beat forecasts: net interest income resists despite ECB rates at 2%'},
+ s:{es:'Santander y BBVA mejoran la guía de RoTE para 2026 gracias a comisiones y a México y Brasil. Los analistas elevan precios objetivo; el sector lidera el IBEX con +1,3%.',en:'Santander and BBVA lift 2026 RoTE guidance on fees and Mexico/Brazil. Analysts raise targets; the sector leads IBEX, +1.3%.'}},
+{id:4,cat:'gp',imp:'high',src:'Reuters',date:'2026-07-04 06:30',sent:-2,impact:'neg',prob:'medium',hor:'short',countries:['CN','US'],sectors:['tc','gp'],tks:['NVDA','700','9988'],
+ h:{es:'Washington estudia nuevas restricciones a la exportación de chips avanzados a China',en:'Washington weighs new curbs on advanced chip exports to China'},
+ s:{es:'El Departamento de Comercio revisa licencias de aceleradores de IA. Impacto potencial en la cadena de suministro asiática; los ADR chinos caen un 2% en preapertura y el sector de semis modera las subidas.',en:'Commerce reviews AI accelerator licences. Potential impact across the Asian supply chain; China ADRs fall 2% pre-market and semis pare gains.'}},
+{id:5,cat:'sv',imp:'medium',src:'Bloomberg',date:'2026-07-02 11:20',sent:-1,impact:'neg',prob:'medium',hor:'mid',countries:['FR'],sectors:['bd','sv'],tks:[],
+ h:{es:'El spread OAT-Bund vuelve a 70 pb ante las dudas sobre la senda fiscal francesa',en:'OAT-Bund spread back at 70 bp on French fiscal doubts'},
+ s:{es:'La presentación del presupuesto 2027 reaviva la presión sobre la deuda francesa. Moody\'s advierte de que un déficit >5% podría costar la AA-. Los bancos franceses caen un 1,5%.',en:'The 2027 budget rekindles pressure on French debt. Moody\'s warns a >5% deficit could cost the AA-. French banks drop 1.5%.'}},
+{id:6,cat:'en_',imp:'medium',src:'S&P Global',date:'2026-07-03 09:15',sent:-1,impact:'neg',prob:'high',hor:'short',countries:['SA','ES','FR'],sectors:['en_','cm'],tks:['REP','TTE','SHEL'],
+ h:{es:'La OPEP+ sorprende con un aumento de producción y el Brent cae a 78 dólares',en:'OPEC+ surprises with an output hike; Brent slides to $78'},
+ s:{es:'El grupo añadirá 411.000 b/d desde agosto. Las petroleras europeas corrigen (-1,2% de media) mientras aerolíneas y consumo respiran. Efecto desinflacionista estimado de -0,1 pp en IPC de la eurozona.',en:'The group adds 411k b/d from August. European oil majors slip (-1.2% avg.) while airlines and consumer names breathe. Estimated -0.1 pp disinflationary effect on euro-area CPI.'}},
+{id:7,cat:'ma',imp:'medium',src:'Wall Street Journal',date:'2026-07-01 15:48',sent:1,impact:'pos',prob:'medium',hor:'mid',countries:['ES'],sectors:['ma'],tks:['CLNX'],
+ h:{es:'Fondos de infraestructuras sondean una oferta por activos de torres de Cellnex en Francia',en:'Infrastructure funds sound out a bid for Cellnex tower assets in France'},
+ s:{es:'Según fuentes del mercado, la operación valoraría los activos en 3.500 M€ (14x EBITDA). Cellnex sube un 2,8% intradía; la compañía no comenta. Sería un catalizador para reducir deuda.',en:'Sources say the deal would value the assets at €3.5bn (14x EBITDA). Cellnex jumps 2.8% intraday; the company declines comment. A deleveraging catalyst.'}},
+{id:8,cat:'inf',imp:'high',src:'Reuters',date:'2026-07-01 11:00',sent:1,impact:'pos',prob:'high',hor:'short',countries:['ES','DE','FR','IT'],sectors:['inf','bd'],tks:[],
+ h:{es:'La inflación de la eurozona se modera al 2,0% y consolida la pausa del BCE',en:'Euro-area inflation eases to 2.0%, cementing the ECB pause'},
+ s:{es:'El IPC general toca el objetivo por primera vez desde 2021; la subyacente baja al 2,2%. Los swaps descuentan que el BCE mantendrá el 2,00% hasta diciembre. El Bund apenas reacciona.',en:'Headline CPI hits target for the first time since 2021; core eases to 2.2%. Swaps price the ECB on hold at 2.00% into December. Bunds barely react.'}},
+{id:9,cat:'tc',imp:'medium',src:'CNBC',date:'2026-06-30 20:30',sent:-1,impact:'neg',prob:'medium',hor:'mid',countries:['US'],sectors:['tc','rg'],tks:['GOOGL','META'],
+ h:{es:'La UE abre expediente a las grandes plataformas por el uso de datos en modelos de IA',en:'EU opens probe into big platforms over data use in AI models'},
+ s:{es:'Bruselas investiga si el entrenamiento de modelos con datos de usuarios vulnera el DMA. Alphabet y Meta se dejan un 1% en la preapertura. Posibles multas de hasta el 6% de la facturación global.',en:'Brussels probes whether training models on user data breaches the DMA. Alphabet and Meta slip 1% pre-market. Fines of up to 6% of global revenue possible.'}},
+{id:10,cat:'fx',imp:'medium',src:'MarketWatch',date:'2026-07-03 13:25',sent:-1,impact:'neg',prob:'medium',hor:'short',countries:['JP','US'],sectors:['fx'],tks:['7203','6758'],
+ h:{es:'El yen cae a 151,4 por dólar y reaviva las apuestas de intervención de Tokio',en:'Yen slides to 151.4 per dollar, reviving Tokyo intervention bets'},
+ s:{es:'El diferencial de tipos con EE. UU. vuelve a presionar la divisa. El Ministerio de Finanzas habla de "movimientos especulativos". Los exportadores japoneses celebran: Toyota +1,1%.',en:'The US rate gap pressures the currency again. The MoF flags "speculative moves". Japanese exporters cheer: Toyota +1.1%.'}},
+{id:11,cat:'cm',imp:'medium',src:'Bloomberg',date:'2026-07-02 07:45',sent:1,impact:'pos',prob:'high',hor:'mid',countries:['IN'],sectors:['eq'],tks:[],
+ h:{es:'India capta 24.000 M$ de flujos extranjeros en el semestre, récord desde 2021',en:'India draws $24bn of foreign flows in H1, best since 2021'},
+ s:{es:'La rotación desde China y la inclusión de bonos en índices globales impulsan los flujos. El Nifty marca máximos históricos y la rupia se mantiene estable pese al dólar fuerte.',en:'The China rotation and bond-index inclusion power flows. The Nifty prints record highs and the rupee holds steady despite the strong dollar.'}},
+{id:12,cat:'sv',imp:'high',src:'Fitch Ratings',date:'2026-06-29 16:00',sent:-2,impact:'neg',prob:'high',hor:'mid',countries:['TR'],sectors:['sv','fx'],tks:[],
+ h:{es:'Fitch mantiene a Turquía en B+ con perspectiva negativa por la persistencia de la inflación',en:'Fitch affirms Türkiye at B+ with negative outlook on sticky inflation'},
+ s:{es:'La agencia cita la inflación del 28%, las reservas netas frágiles y el riesgo de relajación prematura. La lira cae un 0,6% y el CDS a 5 años sube a 285 pb.',en:'The agency cites 28% inflation, fragile net reserves and premature-easing risk. The lira slips 0.6%; 5Y CDS widens to 285 bp.'}},
+{id:13,cat:'er',imp:'medium',src:'Expansión',date:'2026-07-02 08:30',sent:1,impact:'pos',prob:'medium',hor:'short',countries:['ES'],sectors:['eq','er'],tks:['ITX'],
+ h:{es:'Inditex acelera ventas un 9% en el arranque del trimestre y el mercado eleva estimaciones',en:'Inditex sales accelerate 9% early in the quarter; the street raises estimates'},
+ s:{es:'Las ventas a tipo constante crecen al 9% entre mayo y junio. La integración logística y el pricing power sostienen márgenes récord. Varias casas suben el precio objetivo por encima de 57 €.',en:'Constant-FX sales grow 9% in May–June. Logistics integration and pricing power sustain record margins. Several brokers lift targets above €57.'}},
+{id:14,cat:'gp',imp:'high',src:'Reuters',date:'2026-07-03 05:50',sent:-1,impact:'neg',prob:'medium',hor:'mid',countries:['CN','US','KR','JP'],sectors:['gp','tc'],tks:[],
+ h:{es:'Aumenta la tensión en el estrecho de Taiwán tras nuevas maniobras militares chinas',en:'Taiwan Strait tension rises after new Chinese military drills'},
+ s:{es:'Pekín despliega el mayor ejercicio naval del año cerca de la isla. Washington y Tokio expresan "seria preocupación". El won y el yen actúan de termómetro; los semis asiáticos amplían la prima de riesgo.',en:'Beijing stages the year\'s largest naval drill near the island. Washington and Tokyo voice "serious concern". The won and yen act as barometers; Asian semis price a higher risk premium.'}},
+{id:15,cat:'bd',imp:'medium',src:'Financial Times',date:'2026-06-30 12:10',sent:-1,impact:'neg',prob:'medium',hor:'long',countries:['GB','US'],sectors:['bd'],tks:[],
+ h:{es:'La venta masiva de bonos largos reaviva el debate sobre la sostenibilidad fiscal en el G7',en:'Long-bond selloff revives the G7 fiscal sustainability debate'},
+ s:{es:'El gilt a 30 años supera el 5% y el Treasury a 30 años el 4,55%. Los vigilantes de bonos exigen mayor prima por plazo ante los déficits estructurales. Los fondos de pensiones aprovechan para inmunizar carteras.',en:'The 30Y gilt tops 5% and the 30Y Treasury 4.55%. Bond vigilantes demand more term premium amid structural deficits. Pension funds seize yields to immunise.'}},
+{id:16,cat:'eq',imp:'low',src:'Morningstar',date:'2026-07-01 09:40',sent:0,impact:'neu',prob:'medium',hor:'long',countries:['US'],sectors:['eq'],tks:['AAPL','MSFT','NVDA'],
+ h:{es:'La concentración del S&P 500 marca un récord: las 10 mayores pesan ya el 38%',en:'S&P 500 concentration hits a record: top 10 now 38% of the index'},
+ s:{es:'La amplitud de mercado sigue siendo estrecha: solo el 42% de los componentes supera su media de 200 sesiones. Los gestores activos advierten del riesgo de correlación en una corrección de las megacaps.',en:'Breadth stays narrow: only 42% of members trade above their 200-day average. Active managers flag correlation risk in a megacap pullback.'}},
+{id:17,cat:'cb',imp:'medium',src:'Nikkei',date:'2026-07-02 03:20',sent:0,impact:'neu',prob:'medium',hor:'mid',countries:['JP'],sectors:['cb','fx'],tks:[],
+ h:{es:'El BoJ debate una subida en octubre mientras los salarios crecen al mayor ritmo en 30 años',en:'BoJ debates an October hike as wages grow at the fastest pace in 30 years'},
+ s:{es:'El shunto cerró con alzas salariales del 5,4%. Ueda insiste en que la normalización será "gradual y predecible". El mercado asigna un 55% a una subida de 25 pb en octubre.',en:'Shunto wage talks closed at +5.4%. Ueda insists normalisation will be "gradual and predictable". Markets assign 55% to a 25 bp October hike.'}},
+{id:18,cat:'bk',imp:'low',src:'Cinco Días',date:'2026-06-28 10:15',sent:0,impact:'neu',prob:'low',hor:'long',countries:['ES'],sectors:['bk','rg'],tks:['SAN','BBVA'],
+ h:{es:'El BCE ultima los requisitos de capital 2027: la banca española, cómoda con los buffers actuales',en:'ECB finalises 2027 capital requirements: Spanish banks comfortable with current buffers'},
+ s:{es:'El SREP preliminar no anticipa recargos relevantes. Los ratios CET1 del sector (12,8% de media) superan holgadamente los mínimos. Sin impacto esperado en políticas de dividendo.',en:'Preliminary SREP flags no material add-ons. Sector CET1 ratios (12.8% avg.) comfortably exceed minimums. No expected impact on dividend policies.'}},
+];
+
+/* ==================== DATA: geopolitical events ==================== */
+const GEOEVENTS=[
+{d:'2026-07-03',sev:'high',esc:'medium',countries:['CN','US','JP','KR'],sectors:{es:'Semiconductores, defensa, transporte marítimo',en:'Semiconductors, defence, shipping'},
+ t:{es:'Maniobras militares en el estrecho de Taiwán',en:'Military drills in the Taiwan Strait'},
+ x:{es:'Mayor ejercicio naval chino del año. Riesgo para la cadena de suministro de chips (TSMC concentra >60% de la fundición avanzada). Impacto potencial: prima de riesgo en semis asiáticos, refugio en USD/JPY y oro.',en:'Largest Chinese naval drill of the year. Risk to the chip supply chain (TSMC holds >60% of advanced foundry). Potential impact: risk premium in Asian semis, haven bids in USD/JPY and gold.'}},
+{d:'2026-07-04',sev:'medium',esc:'medium',countries:['US','CN'],sectors:{es:'Tecnología, hardware, IA',en:'Technology, hardware, AI'},
+ t:{es:'Revisión de controles de exportación de chips de IA',en:'Review of AI chip export controls'},
+ x:{es:'Comercio de EE. UU. estudia endurecer licencias de aceleradores. Afecta a Nvidia, AMD y a la cadena asiática. Escalada posible vía restricciones recíprocas de tierras raras.',en:'US Commerce weighs tighter accelerator licences. Affects Nvidia, AMD and the Asian chain. Possible escalation via reciprocal rare-earth curbs.'}},
+{d:'2026-06-30',sev:'medium',esc:'low',countries:['MX','US'],sectors:{es:'Automoción, agroalimentario, logística',en:'Autos, agrifood, logistics'},
+ t:{es:'Revisión del T-MEC: primeras posiciones negociadoras',en:'USMCA review: opening negotiating positions'},
+ x:{es:'La revisión de 2026 arranca con fricciones en reglas de origen del sector auto. El peso mexicano cotiza una prima de incertidumbre de ~3% según BBVA Research.',en:'The 2026 review opens with friction over auto rules of origin. The peso trades an uncertainty premium of ~3% per BBVA Research.'}},
+{d:'2026-06-27',sev:'medium',esc:'medium',countries:['SA'],sectors:{es:'Energía, petroquímica',en:'Energy, petrochemicals'},
+ t:{es:'OPEP+: cambio de estrategia hacia cuota de mercado',en:'OPEC+: pivot toward market share'},
+ x:{es:'El aumento de producción sugiere prioridad de cuota sobre precio. Brent en 78$; breakeven fiscal saudí ~92$. Presión sobre productores de alto coste y high yield energético de EE. UU.',en:'The output hike signals share over price. Brent at $78; Saudi fiscal breakeven ~$92. Pressure on high-cost producers and US energy high yield.'}},
+{d:'2026-06-25',sev:'low',esc:'low',countries:['FR'],sectors:{es:'Banca, utilities, deuda soberana',en:'Banks, utilities, sovereign debt'},
+ t:{es:'Tensión parlamentaria por el presupuesto francés 2027',en:'Parliamentary tension over the 2027 French budget'},
+ x:{es:'Riesgo de moción de censura si el ajuste de 28.000 M€ no prospera. OAT-Bund en 70 pb; sensibilidad directa de bancos franceses y aseguradoras.',en:'Censure-motion risk if the €28bn adjustment fails. OAT-Bund at 70 bp; direct sensitivity for French banks and insurers.'}},
+{d:'2026-06-22',sev:'high',esc:'high',countries:['TR'],sectors:{es:'Divisas, deuda emergente',en:'FX, EM debt'},
+ t:{es:'Presión política sobre el banco central turco',en:'Political pressure on Türkiye\'s central bank'},
+ x:{es:'Declaraciones oficiales pidiendo recortes "cuanto antes" reavivan el temor a una relajación prematura con inflación del 28%. CDS 5A en 285 pb, lira en mínimos.',en:'Official calls for cuts "as soon as possible" revive fears of premature easing with 28% inflation. 5Y CDS at 285 bp, lira at lows.'}},
+];
+
+/* ==================== Layers & map ==================== */
+const LAYERS=[
+ {id:'sent',label:'lySent',get:c=>c.sentiment,scale:v=>v>=1.5?'#1e9e5a':v>=0.5?'#4fba7f':v>=-0.4?'#e8b13f':v>=-1.4?'#e07b39':'#e04f4f',
+  legend:[['#1e9e5a','pos'],['#e8b13f','neutral'],['#e04f4f','neg']]},
+ {id:'risk',label:'lyRisk',get:c=>c.riskCty,scale:v=>v<20?'#2e9e6b':v<35?'#8ab84f':v<50?'#e8b13f':v<65?'#e07b39':'#e04f4f',
+  legend:[['#2e9e6b','lowR'],['#e8b13f','mediumR'],['#e04f4f','highR']]},
+ {id:'geo',label:'lyGeo',get:c=>c.riskGeo,scale:v=>v<25?'#2e9e6b':v<40?'#8ab84f':v<55?'#e8b13f':v<68?'#e07b39':'#e04f4f',
+  legend:[['#2e9e6b','lowR'],['#e8b13f','mediumR'],['#e04f4f','highR']]},
+ {id:'news',label:'lyNews',get:c=>c.newsInt,scale:v=>v<30?'#31456e':v<50?'#3d5f9e':v<70?'#4f8ef7':'#7c5cff',
+  legend:[['#31456e','low'],['#4f8ef7','medium'],['#7c5cff','high']]},
+ {id:'flow',label:'lyFlow',get:c=>c.flow,scale:v=>v>=1?'#1e9e5a':v>=0.3?'#4fba7f':v>=-0.3?'#e8b13f':v>=-1?'#e07b39':'#e04f4f',
+  legend:[['#1e9e5a','flowIn'],['#e04f4f','flowOut']]},
+ {id:'bond',label:'lyBond',get:c=>c.bondP,scale:v=>v<30?'#2e9e6b':v<45?'#8ab84f':v<60?'#e8b13f':v<72?'#e07b39':'#e04f4f',
+  legend:[['#2e9e6b','lowR'],['#e8b13f','mediumR'],['#e04f4f','highR']]},
+ {id:'fx',label:'lyFx',get:c=>c.fxStr,scale:v=>v>=0.8?'#1e9e5a':v>=0.2?'#4fba7f':v>=-0.3?'#e8b13f':v>=-1?'#e07b39':'#e04f4f',
+  legend:[['#1e9e5a','pos'],['#e8b13f','neutral'],['#e04f4f','neg']]},
+];
+let activeLayer=LAYERS[0];
+let geoPaths=null,svgG=null,projection=null;
+
+function renderLayerbar(){
+  const bar=document.getElementById('layerbar');
+  bar.innerHTML=`<span style="font-size:11px;color:var(--text3);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-right:4px">${t('layers')}</span>`+
+    LAYERS.map(l=>`<button class="chip ${l.id===activeLayer.id?'active':''}" data-layer="${l.id}">${t(l.label)}</button>`).join('');
+  bar.querySelectorAll('[data-layer]').forEach(b=>b.onclick=()=>{activeLayer=LAYERS.find(l=>l.id===b.dataset.layer);renderLayerbar();paintMap();renderLegend()});
+}
+function renderLegend(){
+  const lg=document.getElementById('maplegend');if(!lg)return;
+  lg.innerHTML=`<div class="lg-title">${t(activeLayer.label)}</div>`+
+    activeLayer.legend.map(([c,k])=>`<div class="lg-row"><span class="lg-swatch" style="background:${c}"></span>${t(k)}</div>`).join('')+
+    `<div class="lg-row"><span class="lg-swatch" style="background:var(--map-land)"></span>${LANG==='es'?'Sin cobertura':'No coverage'}</div>`;
+}
+function paintMap(){
+  if(!geoPaths)return;
+  geoPaths.attr('fill',d=>{const c=CBYISO[+d.id];return c?activeLayer.scale(activeLayer.get(c)):'var(--map-land)'})
+    .attr('class',d=>'country-path'+(CBYISO[+d.id]?' hasdata':''));
+}
+function mapFallback(){
+  const box=document.getElementById('mapbox');
+  box.innerHTML=`<div style="padding:24px;overflow-y:auto;height:100%">
+    <div style="color:var(--text2);font-size:12.5px;margin-bottom:14px">${t('mapFail')}</div>
+    <div class="grid g4">${COUNTRIES.map(c=>{const[sb2,sl2]=sentBadge(c.sentiment);
+      return `<div class="card rowlink" style="cursor:pointer" onclick="openCountry('${c.code}')">
+        <div style="font-weight:700;font-size:14px;margin-bottom:6px">${c.flag} ${c.name[LANG]}</div>
+        <div style="font-size:11.5px;color:var(--text2)">${c.indices[0].n}: <b class="${cls(c.indices[0].chg)}">${pct(c.indices[0].chg)}</b></div>
+        <div style="margin-top:7px"><span class="badge ${sb2}">${sl2}</span></div></div>`}).join('')}</div></div>`;
+}
+async function initMap(){
+  if(typeof d3==='undefined'||typeof topojson==='undefined'){mapFallback();return}
+  const box=document.getElementById('mapbox');
+  const svg=d3.select('#worldmap');
+  const W=box.clientWidth||1000,H=box.clientHeight||620;
+  svg.attr('viewBox',`0 0 ${W} ${H}`);
+  projection=d3.geoNaturalEarth1().scale(W/5.6).translate([W/2,H/1.82]);
+  const path=d3.geoPath(projection);
+  svgG=svg.append('g');
+  try{
+    const world=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(r=>r.json());
+    const countries=topojson.feature(world,world.objects.countries).features.filter(f=>+f.id!==10);
+    geoPaths=svgG.selectAll('path').data(countries).join('path').attr('d',path)
+      .on('mousemove',(ev,d)=>{const c=CBYISO[+d.id];if(c)showTip(ev,c);else hideTip()})
+      .on('mouseleave',hideTip)
+      .on('click',(ev,d)=>{const c=CBYISO[+d.id];if(c)openCountry(c.code)});
+    paintMap();
+    svg.call(d3.zoom().scaleExtent([1,8]).on('zoom',ev=>svgG.attr('transform',ev.transform)));
+  }catch(e){mapFallback()}
+}
+function showTip(ev,c){
+  const tip=document.getElementById('maptip');
+  const [sb,sl]=sentBadge(c.sentiment),[gb,gl]=riskBadge(c.riskGeoL),[pb,pl]=riskBadge(c.riskPol);
+  const nNews=NEWS.filter(n=>n.countries.includes(c.code)).length;
+  const idx=c.indices[0];
+  tip.innerHTML=`<div class="tt-head">${c.flag} ${c.name[LANG]} <span class="badge ${sb}" style="margin-left:auto">${sl}</span></div>
+   <div class="tt-row"><span>${idx.n}</span><b class="${cls(idx.chg)}">${fmt(idx.v,0)} · ${pct(idx.chg)}</b></div>
+   <div class="tt-row"><span>${LANG==='es'?'Bono 10A':'10Y bond'}</span><b>${fmt(c.bonds.y10)}% <span class="${c.bonds.chg10>0?'down':'up'}">(${c.bonds.chg10>0?'+':''}${c.bonds.chg10} pb)</span></b></div>
+   <div class="tt-row"><span>${c.fx.p}</span><b class="${cls(c.fx.chg)}">${c.fx.v} · ${pct(c.fx.chg)}</b></div>
+   <div class="tt-row"><span>${t('riskPol')}</span><span class="badge ${pb}">${pl}</span></div>
+   <div class="tt-row"><span>${t('riskGeo')}</span><span class="badge ${gb}">${gl}</span></div>
+   <div class="tt-row"><span>${LANG==='es'?'Noticias relevantes':'Relevant news'}</span><b>${nNews}</b></div>
+   <div style="margin-top:7px;font-size:10.5px;color:var(--text3)">${LANG==='es'?'Clic para abrir el dashboard':'Click to open dashboard'}</div>`;
+  tip.style.display='block';
+  const x=Math.min(ev.clientX+16,innerWidth-290),y=Math.min(ev.clientY+14,innerHeight-240);
+  tip.style.left=x+'px';tip.style.top=y+'px';
+}
+function hideTip(){document.getElementById('maptip').style.display='none'}
+
+/* ==================== Ticker tape ==================== */
+function renderTape(){
+  const items=[];
+  COUNTRIES.forEach(c=>c.indices.slice(0,1).forEach(i=>items.push(`<span class="tapeitem"><b>${i.n}</b> ${fmt(i.v,0)} <span class="${cls(i.chg)}">${pct(i.chg)}</span></span>`)));
+  items.push(`<span class="tapeitem"><b>US 10Y</b> ${fmt(C.US.bonds.y10)}%</span>`,
+    `<span class="tapeitem"><b>EUR/USD</b> ${C.ES.fx.v} <span class="${cls(C.ES.fx.chg)}">${pct(C.ES.fx.chg)}</span></span>`);
+  document.getElementById('tapetrack').innerHTML=items.join('')+items.join('');
+}
+
+/* ==================== Sidebar ==================== */
+let sbTab='news';
+
+/* ==================== LIVE news (real RSS) ==================== */
+let liveMode=false,liveItems=[],liveUpdated=null,liveLoading=false,liveTimer=null;
+const FEEDS=[
+ {src:'CNBC',url:'https://www.cnbc.com/id/100003114/device/rss/rss.html'},
+ {src:'CNBC Markets',url:'https://www.cnbc.com/id/10000664/device/rss/rss.html'},
+ {src:'MarketWatch',url:'https://feeds.content.dowjones.io/public/rss/mw_topstories'},
+ {src:'WSJ Markets',url:'https://feeds.content.dowjones.io/public/rss/RSSMarketsMain'},
+ {src:'Financial Times',url:'https://www.ft.com/rss/home'},
+ {src:'Expansión',url:'https://e00-expansion.uecdn.es/rss/mercados.xml'},
+ {src:'El Economista',url:'https://www.eleconomista.es/rss/rss-mercados.php'},
+];
+const CTY_KW={
+ US:/\b(fed\b|fomc|powell|wall street|u\.s\.|us stocks|treasur|nasdaq|s&p ?500|dow jones|estados unidos|ee\.? ?uu)/i,
+ ES:/\b(spain|españa|ibex|santander|bbva|iberdrola|inditex|repsol|ferrovial|cellnex|madrid)/i,
+ DE:/\b(german|alemania|alemán|dax\b|bund\b|bundesbank|siemens|sap\b)/i,
+ FR:/\b(france|francia|francés|french|cac ?40|oat\b|macron|lvmh|totalenergies)/i,
+ GB:/\b(uk\b|britain|reino unido|británic|ftse|gilt|bank of england|boe\b|london|sterling|libra)/i,
+ IT:/\b(ital|btp\b|milan|meloni)/i,
+ JP:/\b(japan|japón|japon[eé]s|nikkei|boj\b|yen\b|tokyo|tokio|toyota|sony)/i,
+ CN:/\b(china|chino|beijing|pekín|yuan|hang seng|alibaba|tencent|taiwan|taiwán)/i,
+ IN:/\b(india\b|indio|rupee|rupia|nifty|sensex|mumbai|rbi\b)/i,
+ BR:/\b(brazil|brasil|bovespa|selic|copom)/i,
+ MX:/\b(mexico|méxico|mexican|banxico|usmca|t-mec)/i,
+ CA:/\b(canada|canadá|canadian|loonie|toronto)/i,
+ AU:/\b(australia|aussie|rba\b|sydney)/i,
+ KR:/\b(korea|corea|kospi|won\b|samsung|sk hynix|seoul|seúl)/i,
+ CH:/\b(switzerland|suiza|swiss|snb\b|franco suizo|zurich)/i,
+ SA:/\b(saudi|saudí|arabia|opec|opep|aramco|riyadh)/i,
+ ZA:/\b(south africa|sudáfrica|rand\b|johannesburg)/i,
+ TR:/\b(turkey|turquía|turkish|lira turca|erdogan|cbrt|estambul|istanbul)/i,
+};
+const CAT_KW=[
+ ['cb',/\b(fed\b|fomc|ecb\b|bce\b|boj\b|boe\b|central bank|banco central|rate cut|rate hike|tipos de interés|monetary|powell|lagarde)/i],
+ ['inf',/\b(inflation|inflación|cpi\b|ipc\b|deflation|prices? r[oi]se)/i],
+ ['bd',/\b(bond|bono|yield|treasur|gilt|bund\b|deuda|debt sale|auction|spread)/i],
+ ['er',/\b(earnings|results|resultados|profit|beneficio|guidance|revenue|quarterly)/i],
+ ['ma',/\b(merger|acquisition|adquisición|takeover|opa\b|buyout|deal\b|fusión)/i],
+ ['en_',/\b(oil|crude|petróleo|brent|opec|opep|gas natural|energy|energía|barril)/i],
+ ['cm',/\b(gold|oro\b|copper|cobre|commodit|materias primas|wheat|trigo)/i],
+ ['fx',/\b(dollar|dólar|euro\b|yen\b|currency|divisa|forex|exchange rate|tipo de cambio)/i],
+ ['gp',/\b(war|guerra|sanction|sanciones|tariff|arancel|geopolit|conflict|military|militar|ukraine|ucrania|taiwan|taiwán|missile)/i],
+ ['rg',/\b(regulat|antitrust|competencia|fine|multa|lawsuit|sec\b|probe|investigation)/i],
+ ['tc',/\b(ai\b|artificial intelligence|inteligencia artificial|chip|semiconductor|tech|tecnolog|software|nvidia|apple|microsoft|google)/i],
+];
+const IMP_KW=/\b(crash|plunge|desplome|surge|soar|se dispara|emergency|downgrade|rebaja de rating|default|impago|crisis|recession|recesión|war|guerra|rate cut|rate hike|sube los tipos|baja los tipos|record high|máximo histórico|tumble|collapse)/i;
+function classifyLive(txt){
+  const ccs=Object.keys(CTY_KW).filter(cc=>CTY_KW[cc].test(txt));
+  const catHit=CAT_KW.find(([_,rx])=>rx.test(txt));
+  return {ccs,cat:catHit?catHit[0]:'eq',imp:IMP_KW.test(txt)?'high':(catHit?'medium':'low')};
+}
+async function fetchViaProxy(url){
+  const proxies=[u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),u=>'https://corsproxy.io/?url='+encodeURIComponent(u)];
+  for(const p of proxies){
+    try{
+      const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),9000);
+      const r=await fetch(p(url),{signal:ctl.signal});clearTimeout(to);
+      if(r.ok){const txt=await r.text();if(txt.includes('<item'))return txt}
+    }catch(e){}
+  }
+  return null;
+}
+async function refreshLive(){
+  if(liveLoading)return;
+  liveLoading=true;if(sbTab==='news')renderSidebar();
+  const results=await Promise.all(FEEDS.map(async f=>{
+    const xml=await fetchViaProxy(f.url);if(!xml)return[];
+    try{
+      const doc=new DOMParser().parseFromString(xml,'text/xml');
+      return [...doc.querySelectorAll('item')].slice(0,12).map(it=>{
+        const g=s=>it.getElementsByTagName(s)[0]?.textContent||'';
+        return {src:f.src,title:g('title').trim(),link:g('link').trim(),
+          date:new Date(g('pubDate')||Date.now()),
+          desc:g('description').replace(/<[^>]*>/g,'').replace(/&[a-z#0-9]+;/gi,' ').trim().slice(0,220)};
+      });
+    }catch(e){return[]}
+  }));
+  let items=results.flat().filter(i=>i.title&&!isNaN(i.date));
+  const seen=new Set();
+  items=items.filter(i=>{const k=i.title.toLowerCase().slice(0,60);if(seen.has(k))return false;seen.add(k);return true});
+  const recent=items.filter(i=>Date.now()-i.date<48*3600e3);
+  if(recent.length>=5)items=recent;
+  items.sort((a,b)=>b.date-a.date);
+  liveItems=items.slice(0,45).map(i=>({...i,...classifyLive(i.title+' '+i.desc)}));
+  liveUpdated=new Date();liveLoading=false;
+  liveItems.filter(i=>i.imp==='high'&&i.ccs.length).slice(0,6).forEach(i=>{
+    const key='live'+hashCode(i.title);
+    if(!ALERTS.some(a=>a.key===key)){
+      ALERTS.unshift({key,day:simDay,date:simDate(),cc:i.ccs[0],sev:'high',msg:{es:'📰 '+i.title,en:'📰 '+i.title},unread:true,link:i.link});
+    }
+  });
+  if(typeof updateAlertUI==='function')updateAlertUI();
+  if(sbTab==='news')renderSidebar();
+}
+function setLive(v){
+  liveMode=v;renderSidebar();
+  clearInterval(liveTimer);
+  if(v){if(!liveItems.length)refreshLive();liveTimer=setInterval(refreshLive,300000)}
+}
+function relTime(dt){
+  const m=Math.max(0,Math.round((Date.now()-dt)/60000));
+  if(m<60)return LANG==='es'?`hace ${m} min`:`${m} min ago`;
+  const h=Math.round(m/60);
+  if(h<24)return LANG==='es'?`hace ${h} h`:`${h} h ago`;
+  return dt.toLocaleDateString(LANG==='es'?'es-ES':'en-US',{day:'numeric',month:'short'});
+}
+function liveCard(i){
+  const impCls=i.imp==='high'?'imp-high':i.imp==='medium'?'imp-med':'imp-low';
+  const impTxt=i.imp==='high'?t('high'):i.imp==='medium'?t('medium'):t('low');
+  const ctys=i.ccs.slice(0,3).map(cc=>`<span class="tag" onclick="event.stopPropagation();openCountry('${cc}')">${C[cc].flag} ${C[cc].name[LANG]}</span>`).join('');
+  return `<div class="newscard fade" onclick="window.open('${i.link.replace(/'/g,'')}','_blank')">
+    <div class="nc-meta"><span class="pill-imp ${impCls}">${impTxt}</span><span class="badge b-info">${CATS[i.cat][LANG]}</span><span class="nc-src">${i.src} · ${relTime(i.date)}</span></div>
+    <h4>${esc(i.title)}</h4>
+    ${i.desc?`<div class="nc-sum">${esc(i.desc)}</div>`:''}
+    <div class="nc-tags">${ctys}<span class="tag" style="color:var(--accent)">${t('openArticle')}</span></div>
+  </div>`;
+}
+function newsCard(n){
+  const cat=CATS[n.cat][LANG];
+  const impCls=n.imp==='high'?'imp-high':n.imp==='medium'?'imp-med':'imp-low';
+  const impTxt=n.imp==='high'?t('high'):n.imp==='medium'?t('medium'):t('low');
+  const [ib,il]=n.impact==='pos'?['b-pos','🟢 '+t('pos')]:n.impact==='neg'?['b-neg','🔴 '+t('neg')]:['b-neu','⚪ '+t('neutral')];
+  const tks=n.tks.map(tk=>`<span class="tag" onclick="event.stopPropagation();openCompany('${tk}')">${CO[tk]?CO[tk].nm:tk}</span>`).join('');
+  const ctys=n.countries.map(cc=>`<span class="tag" onclick="event.stopPropagation();openCountry('${cc}')">${C[cc].flag} ${C[cc].name[LANG]}</span>`).join('');
+  return `<div class="newscard fade" onclick="toggleNews(this)">
+    <div class="nc-meta"><span class="pill-imp ${impCls}">${impTxt}</span><span class="badge b-info">${cat}</span><span class="nc-src">${n.src} · ${n.date.slice(5,16)}</span></div>
+    <h4>${n.h[LANG]}</h4>
+    <div class="nc-detail" style="display:none">
+      <div class="nc-sum">✦ ${n.s[LANG]}</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:9px;font-size:11px;color:var(--text2)">
+        <span>${t('impact')}: <span class="badge ${ib}">${il}</span></span>
+        <span>${t('prob')}: <b>${t(n.prob==='high'?'high':n.prob==='medium'?'medium':'low')}</b></span>
+        <span>${t('horizon')}: <b>${t(n.hor)}</b></span>
+      </div>
+      <div class="nc-tags">${ctys}${tks}</div>
+    </div>
+  </div>`;
+}
+function toggleNews(el){const d=el.querySelector('.nc-detail');d.style.display=d.style.display==='none'?'block':'none'}
+function renderSidebar(){
+  const el=document.getElementById('sbcontent');
+  if(sbTab==='news'){
+    const controls=`<div style="display:flex;gap:6px;align-items:center;margin:2px 2px 9px;flex-wrap:wrap">
+      <button class="chip ${!liveMode?'active':''}" onclick="setLive(false)">${t('demoBtn')}</button>
+      <button class="chip ${liveMode?'active':''}" onclick="setLive(true)">🔴 ${t('liveBtn')}</button>
+      ${liveMode?`<button class="tbtn" style="height:27px;font-size:12px;padding:0 9px" onclick="refreshLive()" title="Refresh">⟳</button>`:''}
+    </div>
+    ${liveMode?`<div style="font-size:10px;color:var(--text3);margin:0 2px 9px;line-height:1.5">${liveUpdated?`${t('lastUpd')}: ${liveUpdated.toLocaleTimeString(LANG==='es'?'es-ES':'en-US',{hour:'2-digit',minute:'2-digit'})} · `:''}${t('liveSources')}</div>`:''}`;
+    let body;
+    if(!liveMode)body=NEWS.slice().sort((a,b)=>b.date.localeCompare(a.date)).map(n=>newsCard(n)).join('');
+    else if(liveLoading&&!liveItems.length)body=`<div class="card" style="font-size:12px;color:var(--text2)">⏳ ${t('liveLoading')}</div>`;
+    else if(!liveItems.length)body=`<div class="card" style="font-size:12px;color:var(--text2)">${t('liveFail')}</div>`;
+    else body=(liveLoading?`<div style="font-size:10.5px;color:var(--accent);margin:0 2px 8px">⏳ ${t('liveLoading')}</div>`:'')+liveItems.map(liveCard).join('');
+    el.innerHTML=controls+body;
+  }else if(sbTab==='movers'){
+    const sorted=COMPANIES.slice().sort((a,b)=>b.d-a.d);
+    const render=c=>`<div class="mover" onclick="openCompany('${c.tk}')">
+      <div><div class="mv-name">${c.nm} <span style="color:var(--text3);font-size:10px">${c.tk}</span></div><div class="mv-sub">${C[c.cc].flag} ${c.sec[LANG]}</div></div>
+      <div class="mv-px"><div>${fmt(c.px)}</div><div class="${cls(c.d)}">${pct(c.d)}</div></div></div>`;
+    el.innerHTML=`<div style="font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;padding:6px 10px">▲ ${LANG==='es'?'Mayores subidas':'Top gainers'}</div>`+
+      sorted.slice(0,6).map(render).join('')+
+      `<div style="font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;padding:12px 10px 6px">▼ ${LANG==='es'?'Mayores caídas':'Top losers'}</div>`+
+      sorted.slice(-6).reverse().map(render).join('');
+  }else{
+    el.innerHTML=GEOEVENTS.map(g=>{
+      const sev=g.sev==='high'?['b-neg',t('highR')]:g.sev==='medium'?['b-neu',t('mediumR')]:['b-pos',t('lowR')];
+      const esc2=g.esc==='high'?['b-neg',t('highR')]:g.esc==='medium'?['b-neu',t('mediumR')]:['b-pos',t('lowR')];
+      return `<div class="newscard fade">
+        <div class="nc-meta"><span class="badge ${sev[0]}">${t('severity')}: ${sev[1]}</span><span class="nc-src">${g.d}</span></div>
+        <h4>${g.t[LANG]}</h4>
+        <div class="nc-sum">${g.x[LANG]}</div>
+        <div style="font-size:11px;color:var(--text2);margin-top:8px">${t('escalation')}: <span class="badge ${esc2[0]}">${esc2[1]}</span></div>
+        <div style="font-size:11px;color:var(--text2);margin-top:5px">${t('sectorsAff')}: ${g.sectors[LANG]}</div>
+        <div class="nc-tags">${g.countries.map(cc=>`<span class="tag" onclick="openCountry('${cc}')">${C[cc].flag} ${C[cc].name[LANG]}</span>`).join('')}</div>
+      </div>`;
+    }).join('');
+  }
+}
+document.querySelectorAll('.sb-tab').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.sb-tab').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');sbTab=b.dataset.sb;renderSidebar();
+});
+
+/* ==================== SVG chart helpers ==================== */
+function genSeries(seed,n,start,volat,drift){
+  const rnd=mulberry32(seed);let p=start;const out=[];
+  for(let i=0;i<n;i++){p*=1+(rnd()-0.5)*volat+drift;out.push(p)}
+  return out;
+}
+function sma(arr,w){return arr.map((_,i)=>i<w-1?null:arr.slice(i-w+1,i+1).reduce((a,b)=>a+b,0)/w)}
+function stdev(arr){const m=arr.reduce((a,b)=>a+b,0)/arr.length;return Math.sqrt(arr.reduce((a,b)=>a+(b-m)**2,0)/arr.length)}
+function calcRSI(prices,w=14){
+  const rsi=[null];let g=0,l=0;
+  for(let i=1;i<prices.length;i++){
+    const ch=prices[i]-prices[i-1];const up=Math.max(ch,0),dn=Math.max(-ch,0);
+    if(i<=w){g+=up;l+=dn;rsi.push(null);if(i===w){g/=w;l/=w;rsi[i]=100-100/(1+(l===0?100:g/l))}}
+    else{g=(g*(w-1)+up)/w;l=(l*(w-1)+dn)/w;rsi.push(100-100/(1+(l===0?100:g/l)))}
+  }
+  return rsi;
+}
+function linePath(vals,x,y){let d='';vals.forEach((v,i)=>{if(v==null)return;d+=(d===''?'M':'L')+x(i).toFixed(1)+','+y(v).toFixed(1)});return d}
+function sparkSVG(seed,up){
+  const s=genSeries(seed,28,100,0.03,up?0.003:-0.003);
+  const min=Math.min(...s),max=Math.max(...s);
+  const x=i=>i*(84/27),y=v=>22-(v-min)/(max-min+1e-9)*20;
+  return `<svg class="sparkline" width="84" height="24" viewBox="0 0 84 24"><path d="${linePath(s,x,y)}" fill="none" stroke="${up?'var(--pos)':'var(--neg)'}" stroke-width="1.6"/></svg>`;
+}
+
+/* ==================== Country dashboard ==================== */
+let cvTab='overview',currentCountry=null;
+function openCountry(code){
+  currentCountry=code;cvTab='overview';
+  document.getElementById('mapview').style.display='none';
+  const v=document.getElementById('countryview');v.style.display='block';v.scrollTop=0;
+  renderCountry();
+}
+function closeCountry(){
+  document.getElementById('countryview').style.display='none';
+  document.getElementById('mapview').style.display='flex';
+  currentCountry=null;
+}
+function macroLight(kind,c){
+  const v=parseFloat(String(c.macro[kind]).replace(',','.'));
+  if(kind==='cpi')return v<=2.5?'l-g':v<=4?'l-y':'l-r';
+  if(kind==='gdp')return v>=2?'l-g':v>=0.8?'l-y':'l-r';
+  if(kind==='unemp')return v<=5?'l-g':v<=9?'l-y':'l-r';
+  if(kind==='debt')return v<=70?'l-g':v<=110?'l-y':'l-r';
+  if(kind==='deficit')return v>=-3?'l-g':v>=-5.5?'l-y':'l-r';
+  if(kind==='pmiM'||kind==='pmiS')return c.macro[kind]>=52?'l-g':c.macro[kind]>=49?'l-y':'l-r';
+  return 'l-y';
+}
+function yieldCurveSVG(c,W=460,H=190){
+  const pts=[[2,c.bonds.y2],[5,c.bonds.y5],[10,c.bonds.y10],[30,c.bonds.y30]];
+  const us=C.US.bonds,usPts=[[2,us.y2],[5,us.y5],[10,us.y10],[30,us.y30]];
+  const allY=pts.concat(c.code==='US'?[]:usPts).map(p=>p[1]);
+  const ymin=Math.min(...allY)-0.25,ymax=Math.max(...allY)+0.25;
+  const xs=v=>40+(Math.log(v)/Math.log(30))*(W-60);
+  const ys=v=>H-28-(v-ymin)/(ymax-ymin)*(H-52);
+  const mk=(ps,col,w,dash)=>`<path d="${ps.map((p,i)=>(i?'L':'M')+xs(p[0])+','+ys(p[1])).join('')}" fill="none" stroke="${col}" stroke-width="${w}" ${dash?'stroke-dasharray="4 4"':''}/>`+
+    ps.map(p=>`<circle cx="${xs(p[0])}" cy="${ys(p[1])}" r="3.4" fill="${col}"/>`).join('');
+  let grid='';
+  for(let g=Math.ceil(ymin*2)/2;g<=ymax;g+=0.5){grid+=`<line x1="40" y1="${ys(g)}" x2="${W-20}" y2="${ys(g)}" stroke="var(--border)" stroke-width="1"/><text x="34" y="${ys(g)+4}" text-anchor="end" font-size="10" fill="var(--text3)">${fmt(g,1)}</text>`}
+  const xlabels=pts.map(p=>`<text x="${xs(p[0])}" y="${H-8}" text-anchor="middle" font-size="10" fill="var(--text3)">${p[0]}${LANG==='es'?'A':'Y'}</text>`).join('');
+  const legend=c.code==='US'?'':`<rect x="${W-160}" y="8" width="10" height="3" fill="var(--text3)"/><text x="${W-145}" y="13" font-size="10" fill="var(--text3)">US Treasuries</text>`;
+  return `<svg width="100%" viewBox="0 0 ${W} ${H}">${grid}${c.code==='US'?'':mk(usPts,'var(--text3)',1.4,true)}${mk(pts,'var(--accent)',2.2,false)}${xlabels}${legend}</svg>`;
+}
+function renderCountry(){
+  const c=C[currentCountry];if(!c)return;
+  const v=document.getElementById('countryview');
+  const [sb,sl]=sentBadge(c.sentiment),[gb,gl]=riskBadge(c.riskGeoL),[pb,pl]=riskBadge(c.riskPol);
+  const tabs=[['overview','tabOverview'],['companies','tabCompanies'],['bonds','tabBonds'],['news','tabNews']];
+  let body='';
+  if(cvTab==='overview')body=cvOverview(c);
+  else if(cvTab==='companies')body=cvCompanies(c);
+  else if(cvTab==='bonds')body=cvBonds(c);
+  else body=cvNews(c);
+  v.innerHTML=`
+   <div class="cv-head fade">
+     <button class="backbtn" onclick="closeCountry()">← ${t('back')}</button>
+     <h1>${c.flag} ${c.name[LANG]}</h1>
+     <span class="badge ${sb}">${t('sentiment')}: ${sl}</span>
+     <span class="badge ${pb}">${t('riskPol')}: ${pl}</span>
+     <span class="badge ${gb}">${t('riskGeo')}: ${gl}</span>
+   </div>
+   <div class="cv-sub">${c.ccy} · ${c.fx.p} ${c.fx.v} (<span class="${cls(c.fx.chg)}">${pct(c.fx.chg)}</span>) · ${t('rating')}: <b>${c.macro.rating}</b> · ${t('riskCty')}: <b>${c.riskCty}/100</b></div>
+   <div class="cv-tabs">${tabs.map(([id,k])=>`<button class="cv-tab ${cvTab===id?'active':''}" onclick="cvTab='${id}';renderCountry()">${t(k)}</button>`).join('')}</div>
+   <div class="fade">${body}</div>`;
+}
+function cvOverview(c){
+  const M=c.macro;
+  const kpi=(k,val,sub)=>`<div class="card kpi"><span class="k-label">${t(k)}</span><span class="k-val">${val}</span>${sub?`<span class="k-sub">${sub}</span>`:''}</div>`;
+  const lights=[['gdp','gdp'],['cpi','cpi'],['unemp','unemp'],['deficit','deficit'],['debt','debt'],['pmiM','pmiM'],['pmiS','pmiS']];
+  const region={na:{es:'Norteamérica',en:'North America'},eu:{es:'Europa',en:'Europe'},as:{es:'Asia-Pacífico',en:'Asia-Pacific'},la:{es:'Latinoamérica',en:'LatAm'},me:{es:'Oriente Medio',en:'Middle East'},af:{es:'África',en:'Africa'}}[c.region][LANG];
+  const peers=COUNTRIES.filter(x=>x.region===c.region&&x.code!==c.code).slice(0,4);
+  const ctyAlerts=ALERTS.filter(a=>a.cc===c.code).slice(0,5);
+  const alertsBlock=ctyAlerts.length?`<div class="card" style="margin-bottom:14px;border-color:${ctyAlerts.some(a=>a.sev==='high')?'var(--neg)':'var(--border2)'}"><h3>🚨 ${t('recentAlerts')}</h3>
+    ${ctyAlerts.map(a=>{const col=a.sev==='high'?'var(--neg)':a.sev==='medium'?'var(--neu)':'var(--pos)';
+      return `<div class="mrow"><span class="ml"><span class="light" style="background:${col};box-shadow:0 0 7px ${col}"></span>${a.msg[LANG]}</span><span class="mv" style="font-size:11px;color:var(--text3)">D+${a.day} · ${a.date}</span></div>`}).join('')}</div>`:'';
+  return `${alertsBlock}
+  <div class="grid g4" style="margin-bottom:14px">
+    ${kpi('gdp',M.gdp,region)}${kpi('cpi',M.cpi)}${kpi('rate',M.rate)}${kpi('unemp',M.unemp)}
+    ${kpi('debt',M.debt)}${kpi('deficit',M.deficit)}${kpi('gdppc',M.gdppc)}${kpi('reserves',M.reserves)}
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3>${t('econSummary')}</h3>
+      <div class="mrow"><span class="ml">${t('pmiM')}</span><span class="mv">${M.pmiM}</span></div>
+      <div class="mrow"><span class="ml">${t('pmiS')}</span><span class="mv">${M.pmiS}</span></div>
+      <div class="mrow"><span class="ml">${t('tradeBal')}</span><span class="mv">${M.tradeBal}</span></div>
+      <div class="mrow"><span class="ml">${t('currAcc')}</span><span class="mv">${M.currAcc}</span></div>
+      <div class="mrow"><span class="ml">${t('rating')}</span><span class="mv">${M.rating}</span></div>
+      <div class="mrow"><span class="ml">${t('riskCty')}</span><span class="mv">${c.riskCty}/100</span></div>
+      <div class="mrow"><span class="ml">${t('riskGeo')}</span><span class="mv">${c.riskGeo}/100</span></div>
+    </div>
+    <div class="card"><h3>${t('macroLights')}</h3>
+      ${lights.map(([k,kk])=>`<div class="mrow"><span class="ml"><span class="light ${macroLight(kk,c)}"></span>${t(k)}</span><span class="mv">${M[kk]}</span></div>`).join('')}
+    </div>
+    <div class="card"><h3>${t('indices')}</h3>
+      ${c.indices.map(i=>`<div class="mrow"><span class="ml">${i.n} ${sparkSVG(hashCode(i.n),i.chg>=0)}</span><span class="mv ${cls(i.chg)}">${fmt(i.v,0)} · ${pct(i.chg)}</span></div>`).join('')}
+      <div class="mrow"><span class="ml">${c.fx.p}</span><span class="mv ${cls(c.fx.chg)}">${c.fx.v} · ${pct(c.fx.chg)}</span></div>
+      <div class="mrow"><span class="ml">${LANG==='es'?'Bono 10 años':'10-year bond'}</span><span class="mv">${fmt(c.bonds.y10)}% <span class="${c.bonds.chg10>0?'down':'up'}">(${c.bonds.chg10>0?'+':''}${c.bonds.chg10} pb)</span></span></div>
+    </div>
+    <div class="card"><h3>${t('calendar')}</h3>
+      ${c.cal.map(e=>{const ic=e.imp==='high'?'imp-high':e.imp==='medium'?'imp-med':'imp-low';
+       return `<div class="mrow"><span class="ml"><span class="pill-imp ${ic}" style="margin-right:7px">${e.imp==='high'?t('high'):e.imp==='medium'?t('medium'):t('low')}</span>${e.ev[LANG]}</span>
+        <span class="mv" style="font-size:11px;color:var(--text2)">${e.d}${e.c!=='—'?` · ${t('consensus')}: ${e.c}`:''}</span></div>`}).join('')}
+    </div>
+    <div class="card" style="grid-column:1/-1"><h3>${t('vsRegion')} — ${LANG==='es'?'comparación rápida':'quick comparison'}</h3>
+      <table class="dt"><thead><tr><th>${t('country')}</th><th>${t('gdp')}</th><th>${t('cpi')}</th><th>${t('rate')}</th><th>${t('debt')}</th><th>${LANG==='es'?'Bono 10A':'10Y'}</th><th>${t('sentiment')}</th></tr></thead><tbody>
+      ${[c,...peers].map(x=>{const[xb,xl]=sentBadge(x.sentiment);
+        return `<tr class="rowlink" onclick="openCountry('${x.code}')"><td class="tn">${x.flag} ${x.name[LANG]}${x.code===c.code?' ◂':''}</td><td>${x.macro.gdp}</td><td>${x.macro.cpi}</td><td>${x.macro.rate}</td><td>${x.macro.debt}</td><td>${fmt(x.bonds.y10)}%</td><td><span class="badge ${xb}">${xl}</span></td></tr>`}).join('')}
+      </tbody></table>
+    </div>
+  </div>`;
+}
+function cvCompanies(c){
+  const rows=COMPANIES.filter(x=>x.cc===c.code);
+  if(!rows.length)return `<div class="card">${LANG==='es'?'Sin cobertura de empresas para este país en el prototipo.':'No company coverage for this country in the prototype.'}</div>`;
+  return `<div class="card"><h3>${t('topCompanies')} (${rows.length})</h3>
+   <div style="overflow-x:auto"><table class="dt"><thead><tr>
+   <th>${t('col_company')}</th><th>${t('col_price')}</th><th>${t('col_d')}</th><th>${t('col_w')}</th><th>${t('col_m')}</th><th>${t('col_mcap')}</th><th>${t('col_per')}</th><th>${t('col_dy')}</th><th>β</th><th>${t('col_sector')}</th><th>${t('col_rec')}</th><th>${t('col_sent')}</th></tr></thead><tbody>
+   ${rows.map(x=>{const[xb,xl]=sentBadge(x.sent);
+    return `<tr class="rowlink" onclick="openCompany('${x.tk}')">
+     <td class="tn">${x.nm} <span style="color:var(--text3);font-size:10px">${x.tk}</span></td>
+     <td>${fmt(x.px)}</td>
+     <td class="${cls(x.d)}">${pct(x.d)}</td><td class="${cls(x.w)}">${pct(x.w)}</td><td class="${cls(x.m)}">${pct(x.m)}</td>
+     <td>$${x.mcap>=1000?fmt(x.mcap/1000,2)+'T':fmt(x.mcap,0)+'B'}</td>
+     <td>${x.per?fmt(x.per,1):'—'}</td><td>${fmt(x.dy,1)}%</td><td>${fmt(x.beta,2)}</td>
+     <td class="tn" style="font-weight:500">${x.sec[LANG]}</td>
+     <td class="tn" style="font-weight:600;color:${x.rec.includes('Buy')?'var(--pos)':x.rec==='Hold'?'var(--neu)':'var(--neg)'}">${x.rec}</td>
+     <td><span class="badge ${xb}">${xl}</span></td></tr>`}).join('')}
+   </tbody></table></div></div>`;
+}
+function cvBonds(c){
+  const b=c.bonds;
+  const ref=c.code==='US'?null:(c.region==='eu'&&c.code!=='GB'&&c.code!=='CH'?'DE':'US');
+  const spread=ref?((b.y10-C[ref].bonds.y10)*100).toFixed(0):null;
+  const slope=((b.y10-b.y2)*100).toFixed(0);
+  const rows=[['2',b.y2,b.chg2],['5',b.y5,b.chg5],['10',b.y10,b.chg10],['30',b.y30,b.chg30]];
+  return `<div class="grid g2">
+   <div class="card"><h3>${t('yieldCurve')}</h3>${yieldCurveSVG(c)}
+     <div style="display:flex;gap:20px;margin-top:8px;font-size:12px;color:var(--text2);flex-wrap:wrap">
+       <span>${LANG==='es'?'Pendiente 2s10s':'2s10s slope'}: <b style="color:${slope>=0?'var(--pos)':'var(--neg)'}">${slope>0?'+':''}${slope} pb</b></span>
+       ${spread!==null?`<span>${t('spreadVs')} ${C[ref].name[LANG]}: <b>${spread>0?'+':''}${spread} pb</b></span>`:''}
+     </div></div>
+   <div class="card"><h3>${t('sovBonds')}</h3>
+     <table class="dt"><thead><tr><th>${t('col_maturity')}</th><th>${t('col_yield')}</th><th>${t('col_chg')}</th></tr></thead><tbody>
+     ${rows.map(([m,y,ch])=>`<tr><td class="tn">${m} ${LANG==='es'?'años':'yr'}</td><td>${fmt(y)}%</td><td class="${ch>0?'down':ch<0?'up':'flat'}">${ch>0?'+':''}${ch} pb</td></tr>`).join('')}
+     </tbody></table>
+     ${Math.abs(b.chg10)>=8?`<div style="margin-top:10px"><span class="badge b-neg">⚠ ${LANG==='es'?'Alerta: movimiento brusco en el 10 años':'Alert: sharp move in the 10-year'}</span></div>`:''}
+   </div>
+   <div class="card" style="grid-column:1/-1"><h3>${t('cbExp')}</h3>
+     <p style="font-size:13px;color:var(--text2);line-height:1.6">${c.cb[LANG]}</p></div>
+  </div>`;
+}
+function cvNews(c){
+  const items=NEWS.filter(n=>n.countries.includes(c.code));
+  const live=liveItems.filter(i=>i.ccs.includes(c.code)).slice(0,10);
+  const liveBlock=live.length?`<h3 style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;margin:4px 0 10px">🔴 ${t('liveBtn')}</h3>`+live.map(liveCard).join(''):'';
+  const demoBlock=items.length?items.map(n=>newsCard(n)).join(''):'';
+  return `<div style="max-width:760px">${liveBlock}${demoBlock||liveBlock?demoBlock:`<div class="card">${LANG==='es'?'Sin noticias para este país.':'No news for this country.'}</div>`}</div>`;
+}
+
+/* ==================== Company sheet ==================== */
+let curCo=null,curRange='6M',ind={ma:true,vol:true,boll:false,rsi:false};
+const RANGES={'1D':{n:78,volat:0.004},'5D':{n:130,volat:0.007},'1M':{n:22,volat:0.018},'6M':{n:128,volat:0.02},'1Y':{n:252,volat:0.02},'5Y':{n:260,volat:0.045}};
+function openCompany(tk){
+  curCo=CO[tk];if(!curCo)return;
+  curRange='6M';ind={ma:true,vol:true,boll:false,rsi:false};
+  document.getElementById('modalback').style.display='flex';
+  renderCompany();
+}
+function closeCompany(){document.getElementById('modalback').style.display='none';curCo=null}
+document.getElementById('modalback').addEventListener('click',e=>{if(e.target.id==='modalback')closeCompany()});
+
+function priceChartSVG(co){
+  const cfg=RANGES[curRange];
+  const drift=(co.m>=0?1:-1)*0.0012;
+  const prices=genSeries(hashCode(co.tk+curRange),cfg.n,co.px*0.92,cfg.volat,drift);
+  const k=co.px/prices[prices.length-1];const P=prices.map(p=>p*k);
+  const vols=genSeries(hashCode(co.tk+'vol'+curRange),cfg.n,50,0.4,0).map(v=>Math.abs(v));
+  const W=980,Hp=300,Hv=ind.vol?54:0,Hr=ind.rsi?70:0,H=Hp+Hv+Hr+30;
+  const min=Math.min(...P)*0.995,max=Math.max(...P)*1.005;
+  const x=i=>52+i*(W-72)/(cfg.n-1);
+  const y=v=>14+(1-(v-min)/(max-min))*(Hp-24);
+  let out='';
+  for(let g=0;g<5;g++){const gv=min+(max-min)*g/4;out+=`<line x1="52" y1="${y(gv)}" x2="${W-20}" y2="${y(gv)}" stroke="var(--border)"/><text x="46" y="${y(gv)+4}" text-anchor="end" font-size="10" fill="var(--text3)">${fmt(gv,gv>1000?0:2)}</text>`}
+  if(ind.boll){
+    const m20=sma(P,20);
+    const up2=[],lo=[];
+    P.forEach((_,i)=>{if(i<19){up2.push(null);lo.push(null);return}const seg=P.slice(i-19,i+1);const sd=stdev(seg);up2.push(m20[i]+2*sd);lo.push(m20[i]-2*sd)});
+    let area='';
+    for(let i=19;i<P.length;i++)area+=(i===19?'M':'L')+x(i)+','+y(Math.min(up2[i],max));
+    for(let i=P.length-1;i>=19;i--)area+='L'+x(i)+','+y(Math.max(lo[i],min));
+    out+=`<path d="${area}Z" fill="var(--accent)" opacity="0.07"/>`;
+    out+=`<path d="${linePath(up2.map(v=>v&&Math.min(v,max)),x,y)}" fill="none" stroke="var(--accent)" stroke-width="1" opacity=".5" stroke-dasharray="3 3"/>`;
+    out+=`<path d="${linePath(lo.map(v=>v&&Math.max(v,min)),x,y)}" fill="none" stroke="var(--accent)" stroke-width="1" opacity=".5" stroke-dasharray="3 3"/>`;
+  }
+  const up=P[P.length-1]>=P[0];
+  const col=up?'var(--pos)':'var(--neg)';
+  out+=`<path d="${linePath(P,x,y)}L${x(cfg.n-1)},${Hp-10}L52,${Hp-10}Z" fill="${col}" opacity="0.08"/>`;
+  out+=`<path d="${linePath(P,x,y)}" fill="none" stroke="${col}" stroke-width="2"/>`;
+  if(ind.ma){
+    out+=`<path d="${linePath(sma(P,20),x,y)}" fill="none" stroke="var(--neu)" stroke-width="1.3"/>`;
+    if(cfg.n>60)out+=`<path d="${linePath(sma(P,50),x,y)}" fill="none" stroke="var(--accent2)" stroke-width="1.3"/>`;
+  }
+  const rmax=Math.max(...P.slice(-Math.floor(cfg.n/2))),rmin=Math.min(...P.slice(-Math.floor(cfg.n/2)));
+  out+=`<line x1="52" y1="${y(rmax)}" x2="${W-20}" y2="${y(rmax)}" stroke="var(--neg)" stroke-width="1" stroke-dasharray="6 4" opacity=".55"/><text x="${W-22}" y="${y(rmax)-4}" text-anchor="end" font-size="9.5" fill="var(--neg)">R ${fmt(rmax,1)}</text>`;
+  out+=`<line x1="52" y1="${y(rmin)}" x2="${W-20}" y2="${y(rmin)}" stroke="var(--pos)" stroke-width="1" stroke-dasharray="6 4" opacity=".55"/><text x="${W-22}" y="${y(rmin)+11}" text-anchor="end" font-size="9.5" fill="var(--pos)">S ${fmt(rmin,1)}</text>`;
+  if(ind.vol){
+    const vy0=Hp+Hv;const vmax=Math.max(...vols);
+    vols.forEach((v,i)=>{const h=v/vmax*(Hv-8);const c2=i>0&&P[i]>=P[i-1]?'var(--pos)':'var(--neg)';out+=`<rect x="${x(i)-1.2}" y="${vy0-h}" width="2.4" height="${h}" fill="${c2}" opacity=".45"/>`});
+    out+=`<text x="52" y="${Hp+12}" font-size="9.5" fill="var(--text3)">VOL</text>`;
+  }
+  if(ind.rsi){
+    const ry0=Hp+Hv+12,rH=Hr-16;
+    const rsi=calcRSI(P);
+    const ry=v=>ry0+(1-v/100)*rH;
+    out+=`<rect x="52" y="${ry(70)}" width="${W-72}" height="${ry(30)-ry(70)}" fill="var(--accent)" opacity="0.05"/>`;
+    [30,70].forEach(l=>out+=`<line x1="52" y1="${ry(l)}" x2="${W-20}" y2="${ry(l)}" stroke="var(--border2)" stroke-dasharray="3 3"/><text x="46" y="${ry(l)+3}" text-anchor="end" font-size="9" fill="var(--text3)">${l}</text>`);
+    let d='';rsi.forEach((v,i)=>{if(v==null)return;d+=(d===''?'M':'L')+x(i).toFixed(1)+','+ry(v).toFixed(1)});
+    out+=`<path d="${d}" fill="none" stroke="var(--accent2)" stroke-width="1.4"/><text x="52" y="${ry0-2}" font-size="9.5" fill="var(--text3)">RSI(14): ${fmt(rsi[rsi.length-1]||50,0)}</text>`;
+  }
+  return `<svg id="pxchart" viewBox="0 0 ${W} ${H}">${out}</svg>`;
+}
+function aiAnalysis(co){
+  const es=LANG==='es';
+  const peerList=COMPANIES.filter(x=>x.sec[LANG]===co.sec[LANG]&&x.tk!==co.tk).slice(0,3).map(x=>x.nm).join(', ')||(es?'sin comparables en cobertura':'no covered peers');
+  const upTarget=((co.target/co.px-1)*100);
+  const bull=co.px*1.22,base=co.target,bear=co.px*0.82;
+  const idxRef=C[co.cc].indices[0].n;
+  const news=NEWS.filter(n=>n.tks.includes(co.tk));
+  const S={
+   exec:es?`${co.nm} cotiza a ${fmt(co.px)} con una capitalización de $${co.mcap>=1000?fmt(co.mcap/1000,2)+' billones':fmt(co.mcap,0)+'.000 M'}. El consenso (${co.rec}) fija un precio objetivo medio de ${fmt(co.target)} (potencial ${pct(upTarget)}). El momentum ${co.m>=0?'positivo':'negativo'} del último mes (${pct(co.m)}) ${co.m>=0?'apoya':'lastra'} la tesis de corto plazo.`:`${co.nm} trades at ${fmt(co.px)} with a $${co.mcap>=1000?fmt(co.mcap/1000,2)+'tn':fmt(co.mcap,0)+'bn'} market cap. Consensus (${co.rec}) sets an average target of ${fmt(co.target)} (${pct(upTarget)} upside). ${co.m>=0?'Positive':'Negative'} one-month momentum (${pct(co.m)}) ${co.m>=0?'supports':'weighs on'} the short-term thesis.`,
+   posi:es?`Crecimiento de ingresos del ${co.f.revG} y de BPA del ${co.f.epsG}; ROE del ${co.f.roe}; posición competitiva sólida en ${co.ind.es.toLowerCase()}.`:`Revenue growth of ${co.f.revG} and EPS growth of ${co.f.epsG}; ROE of ${co.f.roe}; strong competitive position in ${co.ind.en.toLowerCase()}.`,
+   nega:es?`Valoración ${co.per>30?'exigente':'razonable'} (PER ${co.per?fmt(co.per,1):'n/a'}); beta ${fmt(co.beta,2)} ${co.beta>1.2?'implica mayor sensibilidad a correcciones de mercado':'ofrece un perfil defensivo'}; deuda de ${co.f.debt}.`:`${co.per>30?'Demanding':'Reasonable'} valuation (P/E ${co.per?fmt(co.per,1):'n/a'}); beta ${fmt(co.beta,2)} ${co.beta>1.2?'implies higher sensitivity to market corrections':'offers a defensive profile'}; debt of ${co.f.debt}.`,
+   risk:es?`Riesgos: ciclo macro en ${C[co.cc].name.es}, presión regulatoria en el sector ${co.sec.es.toLowerCase()}, y sensibilidad a tipos de interés ${co.per>25?'elevada por la duración implícita de sus flujos':'moderada'}.`:`Risks: macro cycle in ${C[co.cc].name.en}, regulatory pressure in ${co.sec.en.toLowerCase()}, and ${co.per>25?'high rate sensitivity given implied cash-flow duration':'moderate rate sensitivity'}.`,
+   cata:es?`Catalizadores: próxima publicación de resultados, revisiones de guidance, y noticias de flujo corporativo. ${news.length?`Hay ${news.length} noticia(s) activa(s) en el radar de la plataforma.`:'Sin noticias activas en el radar.'}`:`Catalysts: upcoming earnings, guidance revisions and corporate news flow. ${news.length?`${news.length} active item(s) on the platform radar.`:'No active items on the radar.'}`,
+   tech:es?`Técnico: el valor cotiza ${co.m>=0?'por encima':'por debajo'} de su media de 20 sesiones; RSI en zona ${co.d>1?'de sobrecompra moderada':co.d<-1?'de sobreventa moderada':'neutral'}. Soportes y resistencias marcados en el gráfico frente a ${idxRef}.`:`Technicals: the stock trades ${co.m>=0?'above':'below'} its 20-day average; RSI in ${co.d>1?'mildly overbought':co.d<-1?'mildly oversold':'neutral'} territory. Support/resistance marked on the chart vs ${idxRef}.`,
+   sens:es?`Sensibilidad: ${co.sec.es==='Financiero'?'positiva a subidas de tipos (margen de intereses)':co.sec.es==='Energía'?'alta al precio del crudo y del gas':co.sec.es==='Tecnología'?'negativa a subidas de tipos (duración) y al dólar fuerte':'moderada a tipos y divisa'}; exposición divisa vía ingresos internacionales.`:`Sensitivity: ${co.sec.en==='Financials'?'positive to rate hikes (NII)':co.sec.en==='Energy'?'high to crude and gas prices':co.sec.en==='Technology'?'negative to rate rises (duration) and a strong dollar':'moderate to rates and FX'}; currency exposure via international revenue.`,
+   simple:es?`En sencillo: ${co.nm} ${co.sent>=1?'atraviesa un buen momento':co.sent<=-1?'atraviesa un momento complicado':'está en una situación mixta'}. ${upTarget>8?'Los analistas creen que la acción vale más de lo que cuesta hoy.':upTarget<0?'Los analistas creen que la acción está algo cara a estos precios.':'Los analistas creen que cotiza cerca de su valor razonable.'} Como toda inversión, tiene riesgos: no es una recomendación de compra o venta.`:`In plain terms: ${co.nm} is ${co.sent>=1?'in good shape':co.sent<=-1?'going through a rough patch':'in a mixed spot'}. ${upTarget>8?'Analysts think the stock is worth more than it costs today.':upTarget<0?'Analysts think the stock looks somewhat expensive here.':'Analysts think it trades near fair value.'} Like any investment it carries risk: this is not a buy or sell recommendation.`,
+  };
+  return `
+  <h3 style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;margin:18px 0 10px">✦ ${t('aiAnalysis')}</h3>
+  <div class="ai-section"><h4>${t('execSummary')}</h4><p>${S.exec}</p></div>
+  <div class="grid g2" style="margin-bottom:10px">
+    <div class="ai-section" style="border-color:var(--pos)"><h4 style="color:var(--pos)">${t('positives')}</h4><p>${S.posi}</p></div>
+    <div class="ai-section" style="border-color:var(--neg)"><h4 style="color:var(--neg)">${t('negatives')}</h4><p>${S.nega}</p></div>
+    <div class="ai-section" style="border-color:var(--neu)"><h4 style="color:var(--neu)">${t('risks')}</h4><p>${S.risk}</p></div>
+    <div class="ai-section"><h4>${t('catalysts')}</h4><p>${S.cata}</p></div>
+    <div class="ai-section"><h4>${t('techView')}</h4><p>${S.tech}</p></div>
+    <div class="ai-section"><h4>${t('sensitivity')}</h4><p>${S.sens}</p></div>
+  </div>
+  <div class="card" style="margin-bottom:10px"><h3>${t('scenarios')} · ${t('analystCons')}: <b style="color:var(--text)">${co.rec}</b> · ${t('targetPx')}: <b style="color:var(--text)">${fmt(co.target)}</b></h3>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <div class="scenario" style="border-color:var(--pos)"><div style="font-size:11px;font-weight:700;color:var(--pos)">🟢 ${t('bull')}</div><div class="sc-px">${fmt(bull)}</div><div style="font-size:11px;color:var(--text2)">${pct((bull/co.px-1)*100)}</div></div>
+      <div class="scenario" style="border-color:var(--accent)"><div style="font-size:11px;font-weight:700;color:var(--accent)">🔵 ${t('base')}</div><div class="sc-px">${fmt(base)}</div><div style="font-size:11px;color:var(--text2)">${pct((base/co.px-1)*100)}</div></div>
+      <div class="scenario" style="border-color:var(--neg)"><div style="font-size:11px;font-weight:700;color:var(--neg)">🔴 ${t('bear')}</div><div class="sc-px">${fmt(bear)}</div><div style="font-size:11px;color:var(--text2)">${pct((bear/co.px-1)*100)}</div></div>
+    </div>
+    <div style="font-size:11px;color:var(--text2);margin-top:10px">${t('competitors')}: ${peerList}</div>
+  </div>
+  <div class="ai-section" style="border-color:var(--accent2)"><h4 style="color:var(--accent2)">${t('simpleExpl')}</h4><p>${S.simple}</p></div>
+  <div style="font-size:10.5px;color:var(--text3);margin-top:8px">${LANG==='es'?'Análisis generado automáticamente. En producción citaría las fuentes originales. No constituye asesoramiento financiero.':'Auto-generated analysis. In production it would cite original sources. Not financial advice.'}</div>`;
+}
+function renderCompany(){
+  const co=curCo;const c=C[co.cc];
+  const F=co.f;
+  const frow=(l,v)=>`<div class="mrow"><span class="ml">${l}</span><span class="mv">${v}</span></div>`;
+  const es=LANG==='es';
+  const news=NEWS.filter(n=>n.tks.includes(co.tk));
+  document.getElementById('modal').innerHTML=`
+  <div class="m-head">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><h2 style="font-size:21px;font-weight:800">${co.nm}</h2>
+      <span class="tag">${co.tk}</span><span class="tag" style="cursor:pointer" onclick="closeCompany();openCountry('${co.cc}')">${c.flag} ${c.name[LANG]}</span><span class="tag">${co.sec[LANG]}</span></div>
+      <div style="font-size:12px;color:var(--text2);margin-top:4px">${co.ind[LANG]} · ${co.wgt} · Vol: ${co.vol}</div>
+    </div>
+    <div style="text-align:right;margin-left:auto">
+      <div style="font-size:24px;font-weight:800;font-family:var(--font-mono)">${fmt(co.px)}</div>
+      <div class="${cls(co.d)}" style="font-family:var(--font-mono);font-size:13px">${pct(co.d)} 1D · ${pct(co.w)} 1S · ${pct(co.m)} 1M</div>
+    </div>
+    <button class="xbtn" onclick="closeCompany()">✕</button>
+  </div>
+  <div class="m-body">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px">
+      <div class="rangebar">${Object.keys(RANGES).map(r=>`<button class="rbtn ${r===curRange?'active':''}" onclick="curRange='${r}';renderCompany()">${r}</button>`).join('')}</div>
+      <div class="ind-toggles">
+        <button class="itog ${ind.ma?'on':''}" onclick="ind.ma=!ind.ma;renderCompany()">MA 20/50</button>
+        <button class="itog ${ind.vol?'on':''}" onclick="ind.vol=!ind.vol;renderCompany()">${es?'Volumen':'Volume'}</button>
+        <button class="itog ${ind.boll?'on':''}" onclick="ind.boll=!ind.boll;renderCompany()">Bollinger</button>
+        <button class="itog ${ind.rsi?'on':''}" onclick="ind.rsi=!ind.rsi;renderCompany()">RSI</button>
+      </div>
+    </div>
+    ${priceChartSVG(co)}
+    <div class="grid g3" style="margin-top:16px">
+      <div class="card"><h3>${t('fund')} I</h3>
+        ${frow(es?'Ingresos':'Revenue',F.rev)}${frow('EBITDA',F.ebitda)}${frow(es?'Beneficio neto':'Net income',F.ni)}
+        ${frow(es?'Margen bruto':'Gross margin',F.gm)}${frow(es?'Margen operativo':'Op. margin',F.om)}${frow('FCF',F.fcf)}</div>
+      <div class="card"><h3>${t('fund')} II</h3>
+        ${frow(es?'Deuda':'Debt',F.debt)}${frow(es?'Caja':'Cash',F.cash)}${frow('ROE',F.roe)}${frow('ROA',F.roa)}
+        ${frow('EV/EBITDA',F.evE)}${frow('BPA / EPS',F.eps)}</div>
+      <div class="card"><h3>${t('fund')} III</h3>
+        ${frow('PER / P/E',co.per?fmt(co.per,1)+'x':'—')}${frow(es?'Crec. ingresos':'Revenue growth',F.revG)}${frow(es?'Crec. BPA':'EPS growth',F.epsG)}
+        ${frow('Payout',F.payout)}${frow(es?'Rent. dividendo':'Dividend yield',fmt(co.dy,1)+'%')}${frow('Beta',fmt(co.beta,2))}</div>
+    </div>
+    ${aiAnalysis(co)}
+    <h3 style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--text3);font-weight:700;margin:18px 0 10px">${t('newsAbout')} (${news.length})</h3>
+    ${news.length?news.map(n=>newsCard(n)).join(''):`<div class="card" style="color:var(--text2);font-size:12.5px">${es?'Sin noticias activas para esta empresa.':'No active news for this company.'}</div>`}
+    <div style="margin-top:14px;display:flex;gap:8px">
+      <button class="tbtn" onclick="makeAlert('${co.nm}')">🔔 ${t('createAlert')}</button>
+    </div>
+  </div>`;
+}
+function makeAlert(name){showToast(`🔔 ${name}: ${t('alertMade')}`)}
+function showToast(msg){const tst=document.getElementById('toast');tst.textContent=msg;tst.classList.add('show');clearTimeout(tst._t);tst._t=setTimeout(()=>tst.classList.remove('show'),3400)}
+
+/* ==================== Global search ==================== */
+const searchEl=document.getElementById('search'),dropEl=document.getElementById('searchdrop');
+function buildSearchIndex(){
+  const idx=[];
+  COUNTRIES.forEach(c=>idx.push({type:'country',label:`${c.flag} ${c.name[LANG]}`,sub:c.ccy,key:(c.name.es+' '+c.name.en+' '+c.code).toLowerCase(),act:()=>openCountry(c.code)}));
+  COMPANIES.forEach(co=>idx.push({type:'company',label:`${co.nm}`,sub:`${co.tk} · ${C[co.cc].flag} ${co.sec[LANG]}`,key:(co.nm+' '+co.tk).toLowerCase(),act:()=>openCompany(co.tk)}));
+  COUNTRIES.forEach(c=>c.indices.forEach(i=>idx.push({type:'index',label:i.n,sub:`${c.flag} ${fmt(i.v,0)} · ${pct(i.chg)}`,key:i.n.toLowerCase(),act:()=>openCountry(c.code)})));
+  NEWS.forEach(n=>idx.push({type:'news',label:n.h[LANG].slice(0,70)+(n.h[LANG].length>70?'…':''),sub:n.src,key:(n.h.es+' '+n.h.en).toLowerCase(),act:()=>{sbTab='news';renderSidebar();document.querySelectorAll('.sb-tab').forEach(x=>x.classList.toggle('active',x.dataset.sb==='news'));closeCountry();showToast(LANG==='es'?'Noticia disponible en el panel lateral':'News available in the side panel')}}));
+  return idx;
+}
+let searchIdx=[];
+searchEl.addEventListener('input',()=>{
+  const q=searchEl.value.trim().toLowerCase();
+  if(q.length<2){dropEl.style.display='none';return}
+  const res=searchIdx.filter(i=>i.key.includes(q)).slice(0,12);
+  if(!res.length){dropEl.style.display='none';return}
+  const groups={country:LANG==='es'?'Países':'Countries',company:LANG==='es'?'Empresas':'Companies',index:LANG==='es'?'Índices':'Indices',news:LANG==='es'?'Noticias':'News'};
+  let html='',last='';
+  res.forEach((r,i)=>{if(r.type!==last){html+=`<div class="sd-group">${groups[r.type]}</div>`;last=r.type}
+    html+=`<div class="sd-item" data-i="${i}">${r.label}<span class="sub">${r.sub}</span></div>`});
+  dropEl.innerHTML=html;dropEl.style.display='block';
+  dropEl.querySelectorAll('.sd-item').forEach(el=>el.onclick=()=>{res[+el.dataset.i].act();dropEl.style.display='none';searchEl.value=''});
+});
+document.addEventListener('click',e=>{if(!e.target.closest('#searchwrap'))dropEl.style.display='none'});
+searchEl.addEventListener('keydown',e=>{if(e.key==='Escape'){dropEl.style.display='none';searchEl.blur()}});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==searchEl&&document.activeElement.id!=='cpinput'){e.preventDefault();searchEl.focus()}
+  if(e.key==='Escape'){if(document.getElementById('modalback').style.display==='flex')closeCompany();else if(currentCountry)closeCountry()}});
+
+/* ==================== Copilot ==================== */
+const COP_QA=[
+ {kw:['banc','bank'],a:{es:'📉 Sector bancario europeo: el driver principal es el repunte del spread OAT-Bund (70 pb) por las dudas fiscales francesas, que penaliza a los bancos franceses (-1,5%). En cambio, la banca española sube: Santander y BBVA baten previsiones y mejoran guidance de RoTE (fuente: FT). El BCE en pausa al 2,00% estabiliza el margen de intereses del sector.',en:'📉 European banks: the main driver is the wider OAT-Bund spread (70 bp) on French fiscal doubts, hurting French banks (-1.5%). Spanish banks rally instead: Santander and BBVA beat and raised RoTE guidance (source: FT). The ECB pause at 2.00% stabilises sector NII.'}},
+ {kw:['petró','petrol','oil','crudo','brent'],a:{es:'🛢️ Con la OPEP+ añadiendo 411k b/d y el Brent en 78$, las españolas más afectadas son: Repsol (negativo, ~60% del EBITDA ligado a upstream/refino), y como beneficiadas IAG y aerolíneas (menor coste de combustible), más el consumo discrecional vía renta disponible. Iberdrola es prácticamente neutral (negocio regulado y renovable).',en:'🛢️ With OPEC+ adding 411k b/d and Brent at $78, most affected Spanish names: Repsol (negative, ~60% of EBITDA tied to upstream/refining); beneficiaries include IAG/airlines (lower fuel costs) and discretionary via disposable income. Iberdrola is broadly neutral (regulated/renewables).'}},
+ {kw:['soberan','sovereign','riesgo país','country risk'],a:{es:'⚠️ Mayor riesgo soberano esta semana: 1) Turquía (B+, CDS 285 pb, inflación 28%, presión política sobre el CBRT); 2) Francia (spread OAT-Bund en 70 pb por el presupuesto 2027); 3) Sudáfrica (BB-, 10A al 10,2%, riesgo fiscal y eléctrico). En el lado positivo, Italia sigue estrechando: BTP-Bund en 92 pb, mínimos de una década.',en:'⚠️ Highest sovereign risk this week: 1) Türkiye (B+, CDS 285 bp, 28% inflation, political pressure on the CBRT); 2) France (OAT-Bund at 70 bp on the 2027 budget); 3) South Africa (BB-, 10Y at 10.2%, fiscal & power risk). On the bright side, Italy keeps tightening: BTP-Bund at 92 bp, decade lows.'}},
+ {kw:['subida de tipos','rate hike','tipos','rates','duración','duration'],a:{es:'📈 Sectores más expuestos a una subida de tipos: tecnología de alta valoración (duración larga de flujos: Nvidia PER 49x, SAP 42x), utilities endeudadas (Iberdrola, deuda €47B) y torres (Cellnex, deuda €17B). Beneficiados: bancos (margen de intereses: Santander, BBVA, JPMorgan) y aseguradoras (Allianz).',en:'📈 Sectors most exposed to a rate hike: richly valued tech (long cash-flow duration: Nvidia 49x, SAP 42x), levered utilities (Iberdrola, €47bn debt) and towers (Cellnex, €17bn). Winners: banks (NII: Santander, BBVA, JPMorgan) and insurers (Allianz).'}},
+ {kw:['euro','depreciación','depreciation','eur/usd'],a:{es:'💱 Con un euro más débil ganan las exportadoras europeas con ingresos en dólares: Inditex (~20% ventas en América), LVMH y lujo (turismo + USD), SAP (facturación global), AstraZeneca y farma (ingresos USD), Ferrovial (autopistas en EE. UU.). Pierden las importadoras de energía y las aerolíneas (costes en USD).',en:'💱 A weaker euro favours European exporters with USD revenue: Inditex (~20% Americas sales), LVMH/luxury (tourism + USD), SAP (global billing), AstraZeneca/pharma (USD revenue), Ferrovial (US toll roads). Energy importers and airlines (USD costs) lose.'}},
+ {kw:['mañana','tomorrow','eventos','events','calendario','calendar','macro'],a:{es:'🗓️ Próximos eventos con capacidad de mover mercado: actas del FOMC, IPC de EE. UU., PIB trimestral de China, IPC de Reino Unido, resultados bancarios en EE. UU. y reunión del BCE. El más sensible para bonos: el IPC americano. Consulta el calendario de cada país en su dashboard.',en:'🗓️ Upcoming market-movers: FOMC minutes, US CPI, China quarterly GDP, UK CPI, US bank earnings and the ECB meeting. Most bond-sensitive: US CPI. See each country dashboard for its calendar.'}},
+ {kw:['nvidia','nvda','chip','semicond'],a:{es:'🤖 Nvidia: guidance elevado a 62.000 M$ trimestrales (+8% vs consenso) por demanda de hiperescaladores (Bloomberg). Riesgo abierto: Washington estudia nuevas restricciones de exportación a China (Reuters), que podrían recortar ~8-10% del mercado direccionable. Consenso: Strong Buy, objetivo 198$. Sentimiento: muy positivo con riesgo regulatorio.',en:'🤖 Nvidia: guidance raised to $62bn quarterly (+8% vs consensus) on hyperscaler demand (Bloomberg). Open risk: Washington weighs new China export curbs (Reuters), potentially cutting ~8-10% of TAM. Consensus: Strong Buy, $198 target. Sentiment: very positive with regulatory risk.'}},
+ {kw:['china','taiwán','taiwan'],a:{es:'🇨🇳 China combina deflación (IPC 0,6%), PMI manufacturero en contracción (49,4) y salidas de capital. El riesgo geopolítico es alto (72/100): maniobras en el estrecho de Taiwán y posible endurecimiento de controles de chips de EE. UU. Los ADR (Alibaba, Tencent) cotizan la prima de riesgo.',en:'🇨🇳 China combines deflation (CPI 0.6%), contracting manufacturing PMI (49.4) and capital outflows. Geopolitical risk is high (72/100): Taiwan Strait drills and possible tighter US chip controls. ADRs (Alibaba, Tencent) price the risk premium.'}},
+];
+const copEl=document.getElementById('copilot');
+document.getElementById('copbtn').onclick=()=>{copEl.style.display=copEl.style.display==='flex'?'none':'flex';if(copEl.style.display==='flex')initCopilot()};
+let copInit=false;
+function initCopilot(){
+  if(copInit)return;copInit=true;
+  addMsg('ai',LANG==='es'?'Hola, soy tu copiloto financiero. Pregúntame por sectores, países, empresas o eventos macro. Ejemplos abajo. 👇':'Hi, I\'m your financial copilot. Ask me about sectors, countries, companies or macro events. Examples below. 👇');
+  renderSugs();
+}
+function renderSugs(){
+  const sugs=LANG==='es'?['¿Qué explica la caída de la banca europea?','¿Qué empresas españolas sufren con el petróleo?','¿Qué países tienen más riesgo soberano?','¿Qué eventos macro mueven el mercado mañana?']:['What explains the European banks selloff?','Which Spanish names suffer from oil?','Which countries carry most sovereign risk?','Which macro events move markets tomorrow?'];
+  document.getElementById('cpsugs').innerHTML=sugs.map(s=>`<span class="cp-sug" onclick="askCop('${s.replace(/'/g,"\\'")}')">${s}</span>`).join('');
+}
+function addMsg(who,txt){
+  const box=document.getElementById('cpmsgs');
+  const div=document.createElement('div');div.className='cpmsg cp-'+(who==='ai'?'ai':'user');div.textContent=txt;
+  box.appendChild(div);box.scrollTop=box.scrollHeight;
+}
+function askCop(q){
+  addMsg('user',q);
+  const ql=q.toLowerCase();
+  const hit=COP_QA.find(x=>x.kw.some(k=>ql.includes(k)));
+  setTimeout(()=>{
+    if(hit)addMsg('ai',hit.a[LANG]);
+    else{
+      const co=COMPANIES.find(x=>ql.includes(x.nm.toLowerCase())||ql.includes(x.tk.toLowerCase()));
+      const cc=COUNTRIES.find(x=>ql.includes(x.name.es.toLowerCase())||ql.includes(x.name.en.toLowerCase()));
+      if(co)addMsg('ai',(LANG==='es'?`${co.nm} (${co.tk}): cotiza a ${fmt(co.px)} (${pct(co.d)} hoy). Consenso ${co.rec}, objetivo ${fmt(co.target)}. PER ${co.per?fmt(co.per,1):'n/a'}, dividendo ${fmt(co.dy,1)}%. Abre su ficha para ver el análisis completo generado por IA.`:`${co.nm} (${co.tk}): trades at ${fmt(co.px)} (${pct(co.d)} today). Consensus ${co.rec}, target ${fmt(co.target)}. P/E ${co.per?fmt(co.per,1):'n/a'}, dividend ${fmt(co.dy,1)}%. Open its sheet for the full AI analysis.`));
+      else if(cc)addMsg('ai',(LANG==='es'?`${cc.flag} ${cc.name.es}: PIB ${cc.macro.gdp}, inflación ${cc.macro.cpi}, tipos ${cc.macro.rate}, bono 10A ${fmt(cc.bonds.y10)}%. Riesgo país ${cc.riskCty}/100, geopolítico ${cc.riskGeo}/100. Haz clic en el país en el mapa para el dashboard completo.`:`${cc.flag} ${cc.name.en}: GDP ${cc.macro.gdp}, inflation ${cc.macro.cpi}, rates ${cc.macro.rate}, 10Y ${fmt(cc.bonds.y10)}%. Country risk ${cc.riskCty}/100, geopolitical ${cc.riskGeo}/100. Click the country on the map for the full dashboard.`));
+      else addMsg('ai',(LANG==='es'?'En este prototipo respondo con una base de conocimiento simulada. Prueba a preguntar por: banca europea, petróleo, riesgo soberano, subidas de tipos, el euro, Nvidia, China o el calendario macro. En producción, este copiloto se conectaría a datos en tiempo real y a un LLM con acceso a todas las noticias de la plataforma.':'In this prototype I answer from a simulated knowledge base. Try asking about: European banks, oil, sovereign risk, rate hikes, the euro, Nvidia, China or the macro calendar. In production this copilot would connect to live data and an LLM with access to all platform news.'));
+    }
+  },420);
+}
+document.getElementById('cpform').addEventListener('submit',e=>{
+  e.preventDefault();const inp=document.getElementById('cpinput');
+  if(inp.value.trim()){askCop(inp.value.trim());inp.value=''}
+});
+
+/* ==================== Theme / language / clock ==================== */
+document.getElementById('themebtn').onclick=()=>{
+  const html=document.documentElement;
+  const nx=html.dataset.theme==='dark'?'light':'dark';
+  html.dataset.theme=nx;
+  document.getElementById('themebtn').textContent=nx==='dark'?'☀️':'🌙';
+  paintMap();
+};
+document.getElementById('langbtn').onclick=()=>{
+  LANG=LANG==='es'?'en':'es';
+  document.getElementById('langbtn').textContent=LANG==='es'?'EN':'ES';
+  document.documentElement.lang=LANG;
+  applyI18n();
+};
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n));
+  searchEl.placeholder=t('searchPh');
+  document.getElementById('cpinput').placeholder=t('cpPh');
+  renderLayerbar();renderLegend();renderTape();renderSidebar();
+  searchIdx=buildSearchIndex();
+  if(currentCountry)renderCountry();
+  if(curCo)renderCompany();
+  if(copInit){renderSugs()}
+  if(typeof updateAlertUI==='function'){updateAlertUI();document.getElementById('dayind').textContent='D+'+simDay+(simDay?' · '+simDate():'')}
+}
+function tickClock(){
+  const now=new Date();
+  document.getElementById('clock').textContent=now.toLocaleTimeString(LANG==='es'?'es-ES':'en-US',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}
+setInterval(tickClock,1000);
+
+/* ==================== Daily engine & alert center ==================== */
+let simDay=0;const ALERTS=[];
+const EVENTS=[
+ {sev:'high',fx:c=>{c.sentiment=Math.max(-2,c.sentiment-1);c.riskCty=Math.min(95,c.riskCty+7);c.bonds.chg10+=8;c.bonds.y10=+(c.bonds.y10+0.08).toFixed(2)},
+  m:{es:c=>`La inflación de ${c.name.es} sorprende al alza: los bonos se venden y el 10 años sube 8 pb`,en:c=>`${c.name.en} inflation surprises to the upside: bonds sell off, 10Y up 8 bp`}},
+ {sev:'high',fx:c=>{c.riskCty=Math.min(95,c.riskCty+9);c.sentiment=Math.max(-2,c.sentiment-1)},
+  m:{es:c=>`Una agencia de rating pone la deuda de ${c.name.es} en revisión negativa`,en:c=>`A rating agency puts ${c.name.en}'s debt on negative watch`}},
+ {sev:'high',fx:c=>{c.riskGeo=Math.min(95,c.riskGeo+12);c.riskGeoL='high';c.indices.forEach(i=>i.chg-=0.8)},
+  m:{es:c=>`Escalada geopolítica que implica a ${c.name.es}: la bolsa cae y sube la prima de riesgo`,en:c=>`Geopolitical escalation involving ${c.name.en}: equities drop, risk premium rises`}},
+ {sev:'medium',fx:c=>{c.sentiment=Math.max(-2,c.sentiment-1);c.indices.forEach(i=>i.chg-=0.5)},
+  m:{es:c=>`El PMI manufacturero de ${c.name.es} entra en zona de contracción`,en:c=>`${c.name.en}'s manufacturing PMI slips into contraction`}},
+ {sev:'medium',fx:c=>{c.bonds.chg10+=5;c.bonds.y10=+(c.bonds.y10+0.05).toFixed(2);c.bondP=Math.min(95,c.bondP+6)},
+  m:{es:c=>`Subasta de deuda débil en ${c.name.es}: la demanda cae y el Tesoro paga más`,en:c=>`Weak debt auction in ${c.name.en}: demand drops and the Treasury pays up`}},
+ {sev:'medium',fx:c=>{c.riskPol='high';c.riskCty=Math.min(95,c.riskCty+5)},
+  m:{es:c=>`Crisis política en ${c.name.es}: el gobierno pierde una votación clave de presupuestos`,en:c=>`Political crisis in ${c.name.en}: the government loses a key budget vote`}},
+ {sev:'medium',fx:c=>{c.fxStr=Math.max(-2,c.fxStr-0.6);c.fx.chg=+(-(Math.random()*0.9+0.3)).toFixed(2)},
+  m:{es:c=>`La divisa de ${c.name.es} se deprecia con fuerza frente al dólar`,en:c=>`${c.name.en}'s currency depreciates sharply against the dollar`}},
+ {sev:'low',fx:c=>{c.sentiment=Math.min(2,c.sentiment+1);c.indices.forEach(i=>i.chg+=0.6)},
+  m:{es:c=>`El PIB de ${c.name.es} bate previsiones y la bolsa lo celebra`,en:c=>`${c.name.en}'s GDP beats forecasts and equities cheer`}},
+ {sev:'low',fx:c=>{c.flow=Math.min(2,c.flow+0.6);c.riskCty=Math.max(3,c.riskCty-4)},
+  m:{es:c=>`Fuertes entradas de capital extranjero en ${c.name.es}: mejora el riesgo país`,en:c=>`Strong foreign inflows into ${c.name.en}: country risk improves`}},
+ {sev:'low',fx:c=>{c.sentiment=Math.min(2,c.sentiment+1);c.bonds.chg10-=4;c.bonds.y10=+(c.bonds.y10-0.04).toFixed(2)},
+  m:{es:c=>`El banco central de ${c.name.es} sugiere recortes de tipos: los bonos suben`,en:c=>`${c.name.en}'s central bank hints at rate cuts: bonds rally`}},
+];
+function simDate(){const d=new Date();d.setDate(d.getDate()+simDay);return d.toLocaleDateString(LANG==='es'?'es-ES':'en-US',{day:'numeric',month:'short'})}
+function advanceDay(){
+  simDay++;
+  COUNTRIES.forEach(c=>{c.indices.forEach(i=>{const dv=+((Math.random()-0.5)*1.6).toFixed(2);i.chg=dv;i.v=Math.max(10,Math.round(i.v*(1+dv/100)))});
+    const bm=Math.round((Math.random()-0.5)*8);c.bonds.chg10=bm;c.bonds.y10=+(Math.max(0.05,c.bonds.y10+bm/100)).toFixed(2);
+    c.fx.chg=+((Math.random()-0.5)*0.8).toFixed(2)});
+  COMPANIES.forEach(co=>{const dv=+((Math.random()-0.5)*3.4).toFixed(2);co.m=+(co.m+co.d/4).toFixed(1);co.w=+((co.w*0.7)+dv*0.3).toFixed(1);co.d=dv;co.px=+(co.px*(1+dv/100)).toFixed(2)});
+  const n=1+Math.floor(Math.random()*3);
+  const used=new Set();
+  for(let i=0;i<n;i++){
+    const ev=EVENTS[Math.floor(Math.random()*EVENTS.length)];
+    let c=COUNTRIES[Math.floor(Math.random()*COUNTRIES.length)];
+    if(used.has(c.code))continue;used.add(c.code);
+    ev.fx(c);
+    const msg=ev.m[LANG==='es'?'es':'en'](c);
+    ALERTS.unshift({day:simDay,date:simDate(),cc:c.code,sev:ev.sev,msg:{es:ev.m.es(c),en:ev.m.en(c)},unread:true});
+    if(ev.sev==='high'){showToast(`🚨 ${c.flag} ${msg}`);const b=document.getElementById('alertbtn');b.classList.remove('pulse');void b.offsetWidth;b.classList.add('pulse')}
+  }
+  if(ALERTS.length>60)ALERTS.length=60;
+  updateAlertUI();
+  document.getElementById('dayind').textContent='D+'+simDay+' · '+simDate();
+  renderTape();renderSidebar();paintMap();renderLegend();
+  if(currentCountry)renderCountry();
+}
+function updateAlertUI(){
+  const unread=ALERTS.filter(a=>a.unread).length;
+  const badge=document.getElementById('alertbadge');
+  badge.style.display=unread?'flex':'none';badge.textContent=unread;
+  const list=document.getElementById('alertlist');
+  if(!ALERTS.length){list.innerHTML=`<div style="padding:18px 14px;font-size:12px;color:var(--text2);line-height:1.55">${t('noAlerts')}</div>`;return}
+  list.innerHTML=ALERTS.slice(0,40).map((a,i)=>{
+    const col=a.sev==='high'?'var(--neg)':a.sev==='medium'?'var(--neu)':'var(--pos)';
+    const c=C[a.cc];
+    return `<div class="alertitem ${a.unread?'unread':''}" onclick="alertClick(${i})">
+      <span class="ai-dot" style="background:${col};box-shadow:0 0 7px ${col}"></span>
+      <div><div class="ai-txt">${c.flag} ${a.msg[LANG]}</div><div class="ai-meta">D+${a.day} · ${a.date} · ${t('severity')}: ${a.sev==='high'?t('highR'):a.sev==='medium'?t('mediumR'):t('lowR')}</div></div>
+    </div>`}).join('');
+}
+function alertClick(i){
+  const a=ALERTS[i];if(!a)return;
+  a.unread=false;updateAlertUI();toggleAlertPanel(false);
+  if(a.link)window.open(a.link,'_blank');else openCountry(a.cc);
+}
+function toggleAlertPanel(force){
+  const p=document.getElementById('alertpanel');
+  const show=force!==undefined?force:p.style.display!=='flex';
+  p.style.display=show?'flex':'none';
+  if(show)updateAlertUI();
+}
+document.getElementById('alertbtn').onclick=()=>toggleAlertPanel();
+document.getElementById('markread').onclick=e=>{e.stopPropagation();ALERTS.forEach(a=>a.unread=false);updateAlertUI()};
+document.addEventListener('click',e=>{if(!e.target.closest('#alertwrap'))toggleAlertPanel(false)});
+document.getElementById('daybtn').onclick=advanceDay;
+setInterval(advanceDay,60000);
+
+/* ==================== Init ==================== */
+window.toggleNews=toggleNews;window.openCountry=openCountry;window.openCompany=openCompany;
+window.closeCountry=closeCountry;window.closeCompany=closeCompany;window.makeAlert=makeAlert;window.askCop=askCop;
+window.setLive=setLive;window.refreshLive=refreshLive;window.alertClick=alertClick;
+
+/* ==================== REAL DATA loader (data/*.json generados por GitHub Actions) ==================== */
+let realDataStamp=null;
+async function loadRealData(){
+  try{
+    const r=await fetch('data/market.json?_='+Date.now());
+    if(r.ok){
+      const D=await r.json();
+      realDataStamp=D.updated||null;
+      if(D.indices)COUNTRIES.forEach(c=>{const arr=D.indices[c.code];if(!arr)return;
+        c.indices.forEach(ix=>{const hit=arr.find(a=>a.n===ix.n);if(hit&&hit.v!=null){ix.v=hit.v;ix.chg=hit.chg??ix.chg}})});
+      if(D.fx)COUNTRIES.forEach(c=>{const f=D.fx[c.code];if(f&&f.v!=null){c.fx.v=f.v;c.fx.chg=f.chg??c.fx.chg}});
+      if(D.companies)COMPANIES.forEach(co=>{const q=D.companies[co.tk];if(q&&q.px!=null){co.px=q.px;if(q.d!=null)co.d=q.d;if(q.w!=null)co.w=q.w;if(q.m!=null)co.m=q.m}});
+      if(D.us10y!=null){C.US.bonds.y10=D.us10y}
+      renderTape();renderSidebar();
+      if(realDataStamp){
+        const when=new Date(realDataStamp).toLocaleString(LANG==='es'?'es-ES':'en-US',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+        const hint=document.getElementById('maphint');
+        if(hint)hint.innerHTML=`<span style="color:var(--pos);font-weight:700">● ${LANG==='es'?'Datos reales':'Real data'}</span> · ${when} · ${t('maphint')}`;
+      }
+    }
+  }catch(e){}
+  try{
+    const r2=await fetch('data/news.json?_='+Date.now());
+    if(r2.ok){
+      const N=await r2.json();
+      if(Array.isArray(N)&&N.length){
+        liveItems=N.map(i=>({src:i.source,title:i.title,link:i.link,date:new Date(i.date),desc:i.desc||'',ccs:i.ccs||[],cat:CATS[i.cat]?i.cat:'eq',imp:i.imp||'low'}));
+        liveUpdated=realDataStamp?new Date(realDataStamp):new Date();
+        liveMode=true;
+        liveItems.filter(i=>i.imp==='high'&&i.ccs.length).slice(0,6).forEach(i=>{
+          const key='live'+hashCode(i.title);
+          if(!ALERTS.some(a=>a.key===key))ALERTS.unshift({key,day:simDay,date:simDate(),cc:i.ccs[0],sev:'high',msg:{es:'📰 '+i.title,en:'📰 '+i.title},unread:true,link:i.link});
+        });
+        updateAlertUI();renderSidebar();
+      }
+    }
+  }catch(e){}
+}
+applyI18n();tickClock();initMap();loadRealData();
+</script>
+</body>
+</html>
