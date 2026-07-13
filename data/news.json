@@ -1,385 +1,182 @@
 [
  {
-  "title": "Sen. Lindsey Graham, influential lawmaker and Trump ally,  dies at 71 after a brief illness",
-  "link": "https://www.cnbc.com/2026/07/12/senator-lindsey-graham-has-died-after-a-brief-illness-his-office-says.html",
-  "source": "CNBC",
-  "date": "2026-07-12T11:19:48+00:00",
-  "desc": "Graham, a prominent Republican senator from South Carolina, was 71. His office announced his death and said he had just returned from a trip to Ukraine.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Why are China and India so bad at football?",
-  "link": "https://www.ft.com/content/300c7ec9-afca-4252-8696-31366ce3746f",
-  "source": "Financial Times",
-  "date": "2026-07-12T11:00:07+00:00",
-  "desc": "Despite large populations and economies, the countries consistently fail to qualify for the World Cup",
-  "ccs": [
-   "CN",
-   "IN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US launches fresh strikes after Tehran declares Strait of Hormuz closed",
-  "link": "https://www.ft.com/content/6b6c23e9-f24e-4c3e-bb1a-e5cb6860008d",
-  "source": "Financial Times",
-  "date": "2026-07-12T09:38:05+00:00",
-  "desc": "Iran retaliates against targets in Jordan, Oman, Kuwait, Bahrain and Qatar",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Can AI Make Better Drugs? Not on Wall Street’s Timeline",
-  "link": "https://www.wsj.com/tech/ai/can-ai-make-better-drugs-not-on-wall-streets-timeline-98a50d9d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-12T09:30:00+00:00",
-  "desc": "The technology has arrived in the drug lab. But should investors pay up for it?",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says",
-  "link": "https://www.cnbc.com/2026/07/11/us-airstrikes-iran-strait-hormuz.html",
-  "source": "CNBC",
-  "date": "2026-07-12T09:28:02+00:00",
-  "desc": "Iran has attacked ships using a route along Oman's coast protected by the U.S. military. Tehran demands vessels use a northern route through its waters.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "US senator Lindsey Graham dies aged 71",
-  "link": "https://www.ft.com/content/b3b93565-652a-41e9-aabd-9ed35309bdeb",
-  "source": "Financial Times",
-  "date": "2026-07-12T09:26:47+00:00",
-  "desc": "South Carolina politician was one of the most influential and hawkish Republicans",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘Almost unlimited’: Execs says AI demand remains strong even as enterprises move to ‘valuemaxxing’",
-  "link": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html",
-  "source": "CNBC",
-  "date": "2026-07-12T05:00:01+00:00",
-  "desc": "AI-related chip stocks have been volatile amid a debate over AI demand and spending.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Stranded pollock prompt EU to delay fish import controls for US",
-  "link": "https://www.ft.com/content/aba8d356-489a-469b-bb49-b54e74acc3a0",
-  "source": "Financial Times",
-  "date": "2026-07-12T04:00:14+00:00",
-  "desc": "System introduced to crack down on illegal fishing has left cargoes stuck in docks for days",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The EU has ways out of its budget trap",
-  "link": "https://www.ft.com/content/127fd859-5e3d-4786-a4e2-318295976764",
-  "source": "Financial Times",
-  "date": "2026-07-12T04:00:06+00:00",
-  "desc": "Side agreements and special purpose funds could bypass the usual trench warfare",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "It pays to kiss up and kick down",
-  "link": "https://www.ft.com/content/719ce75b-dd30-4c98-ab48-a296188dfb8f",
-  "source": "Financial Times",
-  "date": "2026-07-12T04:00:06+00:00",
-  "desc": "But treating colleagues badly might not be quite as helpful as some of the worst offenders think",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "China cracks down on top ratings for corporate bonds",
-  "link": "https://www.ft.com/content/750c90d4-6c6f-464a-85c2-5ae86b085da8",
-  "source": "Financial Times",
-  "date": "2026-07-12T04:00:06+00:00",
-  "desc": "Regulators pressure agencies to limit triple-A designations for higher-interest borrowers",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Big Tech to face fines for consumer protection failures, says EU official",
-  "link": "https://www.ft.com/content/25640be5-a5bd-4548-81f9-bd0e16f87f35",
-  "source": "Financial Times",
-  "date": "2026-07-12T04:00:06+00:00",
-  "desc": "Justice commissioner Michael McGrath says Brussels seeks to strengthen social media safeguards",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Bellingham brace carries England past Norway into World Cup semi-final",
-  "link": "https://www.ft.com/content/34f8f9c2-07f8-4c71-b6b4-9bbf26878c9e",
-  "source": "Financial Times",
-  "date": "2026-07-12T02:21:40+00:00",
-  "desc": "Real Madrid star outshines Harry Kane and Erling Haaland as Thomas Tuchel’s side claim 2-1 extra-time win",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How to Invest When the Global Crises Never Stop",
-  "link": "https://www.wsj.com/finance/investing/how-to-invest-when-the-global-crises-never-stop-3c8cc542?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-12T02:00:00+00:00",
-  "desc": "In a world of wars, trade wars and crop failures, bond yields need to be higher than they were because they offer so much less protection than they used to.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-  "link": "https://www.cnbc.com/2026/07/11/trump-threat.html",
-  "source": "CNBC",
-  "date": "2026-07-11T22:58:53+00:00",
-  "desc": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
-  "link": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
+  "title": "Geopolitical shock exposes SK Hynix leverage after hot ADR debut",
+  "link": "https://www.marketwatch.com/story/geopolitical-shock-exposes-sk-hynix-leverage-after-hot-adr-debut-340ae8d4?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T21:45:00+00:00",
-  "desc": "“My house shook violently from the wind.”",
+  "date": "2026-07-13T13:34:00+00:00",
+  "desc": "Just one trading session after a highly successful U.S. listing for its depositary receipts, local shares in South Korean chip maker SK Hynix plummeted 15% on the domestic exchange in Seoul.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "These biggest and ‘least loved’ stocks are the ones to pick ahead of earnings",
+  "link": "https://www.marketwatch.com/story/these-biggest-and-least-loved-stocks-are-the-ones-to-pick-ahead-of-earnings-f7f012e3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-13T13:32:00+00:00",
+  "desc": "Profit growth will overcome artificial intelligence concerns and lift the S&P 500, says Evercore ISI.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Why prediction markets like Polymarket and Kalshi often fail the average investor",
+  "link": "https://www.marketwatch.com/story/why-the-prediction-markets-often-fail-95c9d235?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-13T13:30:00+00:00",
+  "desc": "Big traders don’t always know best.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
-  "link": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+  "title": "I’m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
+  "link": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T19:00:00+00:00",
-  "desc": "“I have very little money, while my ex’s financial statements show assets in the millions.”",
+  "date": "2026-07-13T13:30:00+00:00",
+  "desc": "“When I pass, all my retirement income is reduced to $30,000 a year.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
+ },
+ {
+  "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
+  "link": "https://www.cnbc.com/2026/07/13/bank-earnings-jpmorgan-chase-goldman-sachs-bank-of-america.html",
+  "source": "CNBC",
+  "date": "2026-07-13T13:19:24+00:00",
+  "desc": "Big banks are set to report booming Q2 revenue as the SpaceX IPO, Iran war volatility and a rebound in commercial lending fuel Wall Street's \"sweet spot.\"",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "high"
  },
  {
   "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
   "link": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T18:46:00+00:00",
+  "date": "2026-07-13T13:15:00+00:00",
   "desc": "“I’ve always been a little skeptical of the government’s encouragement to delay claiming benefits.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Is it better to spend my savings now so I can delay taking Social Security? How do I choose?",
-  "link": "https://www.marketwatch.com/story/my-retirement-savings-will-suffer-if-i-delay-social-security-how-do-i-choose-between-the-two-a85273e3?mod=mw_rss_topstories",
+  "title": "The stock-market rally now hinges more on AI than oil",
+  "link": "https://www.marketwatch.com/story/the-stock-market-rally-now-hinges-more-on-ai-than-oil-1292260a?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T16:44:00+00:00",
-  "desc": "“By claiming earlier, I could preserve more of my portfolio and allow those assets to continue compounding.”",
+  "date": "2026-07-13T13:12:00+00:00",
+  "desc": "As earnings season kicks off, AI investment remains front and center.",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
-  "link": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-11T16:01:00+00:00",
-  "desc": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
-  "ccs": [],
-  "cat": "tc",
+  "cat": "er",
   "imp": "medium"
  },
  {
-  "title": "Only 5% of U.S. adults can ace this 8-question financial-literacy test. Can you?",
-  "link": "https://www.marketwatch.com/story/only-5-of-u-s-adults-can-ace-this-8-question-financial-literacy-test-can-you-93a57cc6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-11T16:00:00+00:00",
-  "desc": "Financial literacy just hit a 10-year low — and it is devastating bank accounts.",
+  "title": "Trump: U.S. should be reimbursed for guarding Strait of Hormuz",
+  "link": "https://www.cnbc.com/2026/07/13/trump-iran-hormuz-strait-charge-reimburse.html",
+  "source": "CNBC",
+  "date": "2026-07-13T13:00:14+00:00",
+  "desc": "The Strait of Hormuz is a major oil-shipping route and the epicenter of the U.S. and Israel's ongoing war with Iran.",
   "ccs": [
    "US"
   ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "You want a portfolio that matches your morals. Your retirement plan might disagree.",
-  "link": "https://www.marketwatch.com/story/you-want-a-portfolio-that-matches-your-morals-but-that-could-sink-your-retirement-plans-0b6fb5bf?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-11T16:00:00+00:00",
-  "desc": "More investors want their money to reflect their values. It feels righteous — but the reality is a lot messier.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.",
-  "link": "https://www.marketwatch.com/story/the-dot-com-crash-was-a-5-trillion-blip-why-the-next-financial-crisis-could-hit-4-times-harder-29f4aa57?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-11T16:00:00+00:00",
-  "desc": "The next global financial crisis is already under way. Here is how it will unfold.",
-  "ccs": [],
-  "cat": "eq",
+  "cat": "en_",
   "imp": "high"
  },
  {
-  "title": "Stocks rally when Congress goes on summer break. Here’s why.",
-  "link": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
+  "title": "Global tech stocks fall as Asian memory chipmakers hammered",
+  "link": "https://www.ft.com/content/54be872f-c0a2-46dd-9337-5cad9124e734",
+  "source": "Financial Times",
+  "date": "2026-07-13T12:46:07+00:00",
+  "desc": "Oil jumps as US-Iran hostilities escalate and investors go into ‘risk-off’ mode",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "The No. 1 decision for aging retirees: Stay at home or move into a senior community?",
+  "link": "https://www.marketwatch.com/story/the-no-1-decision-for-aging-retirees-stay-at-home-or-move-into-a-senior-community-4ea23d02?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T16:00:00+00:00",
-  "desc": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create.",
+  "date": "2026-07-13T12:40:00+00:00",
+  "desc": "Why staying in your longtime home requires more planning than you think.",
   "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "Your investing expectations are more than double the reality. Here is the tough truth.",
-  "link": "https://www.marketwatch.com/story/your-investing-expectations-are-more-than-double-the-reality-here-is-the-tough-truth-dea61820?mod=mw_rss_topstories",
+  "title": "‘I’ve no idea how they got her number’: My student-loan servicer called a friend after I missed a payment. Is that legal?",
+  "link": "https://www.marketwatch.com/story/ive-no-idea-how-they-got-her-number-my-student-loan-servicer-called-a-friend-after-i-missed-a-payment-is-that-legal-28ef698e?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-07-11T16:00:00+00:00",
-  "desc": "Long-term real returns above 10% annualized are exceedingly rare.",
+  "date": "2026-07-13T12:30:00+00:00",
+  "desc": "“She said it’s the second message they have left.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "SpaceX, entre la confianza y la cautela",
-  "link": "https://www.expansion.com/mercados/2026/07/11/6a522ef7468aeb023c8b4572.html",
-  "source": "Expansión",
-  "date": "2026-07-11T15:36:02+00:00",
-  "desc": "El consenso de analistas otorga un potencial de revalorización a doce meses del 58%. Pero las dudas sobre la valoración, las necesidades de financiación y la volatilidad limitan el entusiasmo. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "These underperforming trades could yield big returns over next six months",
-  "link": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
+  "title": "AI is changing older workers' careers, research finds — here's how",
+  "link": "https://www.cnbc.com/2026/07/13/ai-older-workers-careers.html",
   "source": "CNBC",
-  "date": "2026-07-11T15:00:01+00:00",
-  "desc": "ETF Action's Mike Akins is encouraging investors to boost exposure to groups that underperformed compared with major artificial intelligence stocks.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "New housing law targets affordability — what it means for homebuyers and sellers",
-  "link": "https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html",
-  "source": "CNBC",
-  "date": "2026-07-11T13:41:13+00:00",
-  "desc": "While the legislation is aimed at least partly at addressing affordability, experts say the benefits of the measure will take time to show up in the market.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The best states to live in for 2026: No. 1 has a six-year winning streak",
-  "link": "https://www.cnbc.com/2026/07/11/best-states-to-live-in-america-2026.html",
-  "source": "CNBC",
-  "date": "2026-07-11T13:00:01+00:00",
-  "desc": "Return to office mandates and a decline in remote work have companies looking more closely at the quality of life in the place where they establish offices.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "These are America’s 10 worst states to live in for 2026",
-  "link": "https://www.cnbc.com/2026/07/11/worst-states-to-live-in-america-2026.html",
-  "source": "CNBC",
-  "date": "2026-07-11T13:00:01+00:00",
-  "desc": "Some states may have low costs and light regulation, but high crime and lack of healthcare are among important factors when people choose where to live.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
-  "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
-  "source": "CNBC",
-  "date": "2026-07-11T12:47:23+00:00",
-  "desc": "Following a wave of price hikes, at-home pastimes like streaming movies or playing video games are pinching pocketbooks.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
-  "link": "https://www.cnbc.com/2026/07/11/burnout-frustration-and-heartbreak-amazon-layoffs-take-their-toll.html",
-  "source": "CNBC",
-  "date": "2026-07-11T12:00:01+00:00",
-  "desc": "In the eight-plus months since Amazon announced its most expansive job cuts ever, laid off workers have been thrust into an increasingly saturated labor market.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-  "link": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-  "source": "CNBC",
-  "date": "2026-07-11T04:09:20+00:00",
-  "desc": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
+  "date": "2026-07-13T12:15:01+00:00",
+  "desc": "AI may either prompt some older workers to leave their jobs or help make their roles more efficient, research finds. Here's which careers may be most affected.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "There’s an IPO Gold Rush—and Texas Is Coming for New York",
-  "link": "https://www.wsj.com/finance/texas-new-stock-exchange-fbf71931?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-11T00:00:00+00:00",
-  "desc": "The state prides itself on its outsize ideas. It is hustling for business and this week bet big with the Texas Stock Exchange.",
+  "title": "Intel to invest €5bn in Irish plant as AI chip demand surges",
+  "link": "https://www.ft.com/content/8bcc19e1-2101-444c-bd2e-3a4b113becec",
+  "source": "Financial Times",
+  "date": "2026-07-13T12:00:04+00:00",
+  "desc": "Move strengthens Dublin’s role in Europe’s bid to secure advanced semiconductor manufacturing",
   "ccs": [],
-  "cat": "cm",
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+  "link": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-13T12:00:00+00:00",
+  "desc": "“I’m actually earning more each week than I ever have before.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
+  "link": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-13T12:00:00+00:00",
+  "desc": "“My house shook violently from the wind.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Ibex amortigua el revés del petróleo",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/07/13/6a547ba5468aeb78108b457b.html",
+  "source": "Expansión",
+  "date": "2026-07-13T11:47:44+00:00",
+  "desc": "La escalada en el conflicto entre Irán y EEUU vuelve a elevar el precio del petróleo. Los inversores, sin embargo, se resisten a las ventas en una jornada de transición, a la espera de las referencias clave de mañana. El",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "en_",
   "imp": "medium"
  },
  {
-  "title": "El automóvil europeo: más sombras que luces",
-  "link": "https://www.expansion.com/mercados/2026/07/11/6a42123a468aeb303b8b4578.html",
+  "title": "Telefónica acelera en el Ibex con el 'efecto Vodafone'",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a54c886468aeb864a8b456d.html",
   "source": "Expansión",
-  "date": "2026-07-10T23:10:57+00:00",
-  "desc": "La formación bajista de BMW no apunta buenas maneras y Stellantis se encuentra en caída libre. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los usuarios de Binance se desplazan a monederos autocustodia",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/07/11/6a511cfce5fdea016d8b457b.html",
-  "source": "Expansión",
-  "date": "2026-07-10T23:10:14+00:00",
-  "desc": "Desde el 1 de julio, Binance no puede ofrecer servicios con criptomonedas. La plataforma sigue esperando la obtención de la licencia MiCA. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Tres empresas 'cripto' ya cuentan con la licencia de pagos en España",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/07/11/6a511c3fe5fdea3e7e8b457c.html",
-  "source": "Expansión",
-  "date": "2026-07-10T23:10:13+00:00",
-  "desc": "Las plataformas especializadas en intercambio de criptomonedas necesitan esta autorización del Banco de España para poder operar con 'stablecoin'. Leer",
+  "date": "2026-07-13T11:47:43+00:00",
+  "desc": "La cotización de Telefónica sale del bache sufrido en el último mes. La teleco ya despuntó el viernes, y hoy vuelve a destacar en las subidas del Ibex contagiado del rally bursátil de Vodafone. Leer",
   "ccs": [
    "ES"
   ],
@@ -387,10 +184,200 @@
   "imp": "low"
  },
  {
+  "title": "Kalshi launches 'Pro' product for users trading multiple markets at same time, perpetual futures",
+  "link": "https://www.cnbc.com/2026/07/13/kalshi-launches-pro-product-for-users-trading-multiple-markets-at-same-time-perpetual-futures.html",
+  "source": "CNBC",
+  "date": "2026-07-13T11:36:00+00:00",
+  "desc": "The platform is designed to alleviate problems the company's most active traders have run into, according to a memo provided to CNBC.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump’s plan for Europe is falling apart",
+  "link": "https://www.ft.com/content/23041bb7-4647-4efe-b790-b763d270fb72",
+  "source": "Financial Times",
+  "date": "2026-07-13T11:30:55+00:00",
+  "desc": "The US president has a genius for alienating existing and potential allies",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "US launches more strikes on Iran as ceasefire teeters",
+  "link": "https://www.ft.com/content/c5beec47-ba53-412e-910e-6b9ab2f3238d",
+  "source": "Financial Times",
+  "date": "2026-07-13T11:21:54+00:00",
+  "desc": "Fighting escalates as Trump insists Strait of Hormuz remains open while Tehran says it is closed",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Precio del Bitcoin hoy, 13 de julio: El precio del Bitcoin se ha devaluado en un 2,11%",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/07/13/6a54b023e5fdea1b048b459c.html",
+  "source": "Expansión",
+  "date": "2026-07-13T11:15:43+00:00",
+  "desc": "Desciende el precio del bitcoin hoy 13 de julio y se queda en 62.724,03 dólares Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Euríbor hoy, 13 de julio: El Euríbor pierde fuelle ante la escalada de la semana pasada",
+  "link": "https://www.expansion.com/mercados/euribor/2026/07/13/6a54b729e5fdea2c0e8b4574.html",
+  "source": "Expansión",
+  "date": "2026-07-13T11:12:42+00:00",
+  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 2,749% en julio, lo que supone una disminución de 0,049 puntos respecto al día anterior. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Media Deals: Great for Bankers, Usually Not for You",
+  "link": "https://www.wsj.com/finance/stocks/media-deals-great-for-bankers-usually-not-for-you-0dab0920?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T10:41:00+00:00",
+  "desc": "Plus, let’s just call it Schrödinger’s Strait.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Ukraine’s drone swarms test Moscow air defences",
+  "link": "https://www.ft.com/content/4194d23f-4cce-4aaa-bf22-9bf4c953e04e",
+  "source": "Financial Times",
+  "date": "2026-07-13T10:29:38+00:00",
+  "desc": "Kyiv intensifies deep-strike campaign against Russia after attacks on refineries sparked fuel crisis",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "When the ducks are quacking, feed them",
+  "link": "https://www.ft.com/content/eb835b03-4528-4dd4-90fe-e8bf3e22891d",
+  "source": "Financial Times",
+  "date": "2026-07-13T09:55:55+00:00",
+  "desc": "Memory mania redux",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "What Lindsey Graham’s Death Means for the Balance of Power on Capitol Hill",
+  "link": "https://www.wsj.com/finance/investing/what-lindsey-grahams-death-means-for-the-balance-of-power-on-capitol-hill-b5315e16?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T09:53:00+00:00",
+  "desc": "Plus, an onslaught of artificial-intelligence bonds tests investors’ limits, and Apple CEO Tim Cook goes to battle against OpenAI.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "¿En defensa de los mercados de predicción?",
+  "link": "https://www.expansion.com/economia/financial-times/2026/07/13/6a54ab1c468aebc45c8b459c.html",
+  "source": "Expansión",
+  "date": "2026-07-13T09:51:10+00:00",
+  "desc": "Convertir todo en una apuesta puede ser complicado, pero tiene sus ventajas. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
+  "link": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html",
+  "source": "CNBC",
+  "date": "2026-07-13T09:30:01+00:00",
+  "desc": "Meta said the planned Hyperion data center supercluster in Richland Parish, Louisiana, will be a 5GW facility and cost over $50 billion.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Think the S&P 500 Looks Cheap? Read the Fine Print",
+  "link": "https://www.wsj.com/finance/stocks/think-the-s-p-500-looks-cheap-read-the-fine-print-fa888f6e?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T09:30:00+00:00",
+  "desc": "The index’s price/earnings, or P/E, ratio depends on who is defining the “E.”",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Kathryn Ruemmler Digs In at Goldman, Complicating Search for Next General Counsel",
+  "link": "https://www.wsj.com/finance/kathryn-ruemmler-digs-in-at-goldman-complicating-search-for-next-general-counsel-e9e37afc?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T09:30:00+00:00",
+  "desc": "The investment bank’s lawyer defended her long relationship with Jeffrey Epstein and blamed Goldman executives for leaks.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "SK Hynix pierde en un día todo lo ganado en el debut de sus ADR en EEUU",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a54a0e5e5fdea1b048b4592.html",
+  "source": "Expansión",
+  "date": "2026-07-13T09:04:07+00:00",
+  "desc": "SK Hynix ha encadenado, con el fin de semana de por medio, dos jornadas de fuertes contrastes. El viernes sus ADR debutaron en Wall Street con un rally del 12,7%. Hoy, en la Bolsa de Seúl, sus acciones han borrado, con c",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Cellnex rebota en soportes y salva un 'match ball'",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a54a025468aeb023c8b45a6.html",
+  "source": "Expansión",
+  "date": "2026-07-13T08:52:49+00:00",
+  "desc": "El valor ha perdido una cuarta parte de su valor desde los altos de principios de marzo hasta los mínimos del pasado viernes. Leer",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "¿Hasta dónde puede llegar el rebote del petróleo?",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a548e19468aeb42478b45a3.html",
+  "source": "Expansión",
+  "date": "2026-07-13T07:47:00+00:00",
+  "desc": "El oro negro acumula una subida del 13% desde los mínimos de principios de julio en las inmediaciones del soporte de los 70 dólares/barril. Leer",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+  "link": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html",
+  "source": "CNBC",
+  "date": "2026-07-13T07:29:26+00:00",
+  "desc": "Ahead of its second-quarter earnings, TSMC reported its June and first-half revenue for 2026.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Stock Market Today: AI Jitters Weigh on Nasdaq at Open",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-13-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T07:22:43+00:00",
+  "desc": "SK Hynix stock slumps after blockbuster U.S. debut, oil rises",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
   "title": "Los valores con más tirón para rentabilizar el verano",
   "link": "https://www.expansion.com/inversion/2026/07/11/6a511c17e5fdeab0548b4584.html",
   "source": "Expansión",
-  "date": "2026-07-10T22:42:53+00:00",
+  "date": "2026-07-13T06:55:47+00:00",
   "desc": "Iberdrola, Inditex, Amadeus, Santander y Merlin son las compañías de la Bolsa española preferidas para invertir este trimestre, junto a Sacyr, Indra, CaixaBank, Viscofan y BBVA. Leer",
   "ccs": [
    "ES"
@@ -399,87 +386,99 @@
   "imp": "low"
  },
  {
-  "title": "Ibex 35: los grandes bancos, entre los favoritos",
-  "link": "https://www.expansion.com/ahorro/2026/07/11/6a5152e4468aeba6398b45a1.html",
+  "title": "ArcelorMittal mantiene intacta su directriz alcista",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a5482fa468aeb023c8b459a.html",
   "source": "Expansión",
-  "date": "2026-07-10T22:38:10+00:00",
-  "desc": "Santander, CaixaBank y BBVA son las apuestas de los inversores en el sector para los próximos meses. Ganan posiciones respecto al trimestre anterior a la expectativa de unos buenos resultados. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "JPMorgan bate la cartera clásica 60/40 con agentes de IA",
-  "link": "https://www.expansion.com/mercados/2026/07/11/6a5166ede5fdea86628b4590.html",
-  "source": "Expansión",
-  "date": "2026-07-10T22:25:46+00:00",
-  "desc": "El agente de inteligencia artificial le permite tomar decisiones en un entorno de incertidumbre, logrando una rentabilidad superior a la de un índice de referencia. Leer",
+  "date": "2026-07-13T06:46:08+00:00",
+  "desc": "A pesar de la fase correctiva o de ajuste desplegada a lo largo del mes de junio los títulos del gigante acerero suben en el año cerca del 50%. Leer",
   "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "South Korean Memory Chip Maker’s Historic U.S. Debut Jolts Stocks",
-  "link": "https://www.wsj.com/finance/stocks/south-korean-memory-chip-makers-historic-u-s-debut-jolts-stocks-1cc199b2?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-10T21:02:00+00:00",
-  "desc": "Major indexes edged higher on Friday, capping a volatile week.",
-  "ccs": [
-   "US",
-   "KR"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz",
-  "link": "https://www.cnbc.com/2026/07/10/iran-strait-hormuz-oil-tanker-mou-trump.html",
-  "source": "CNBC",
-  "date": "2026-07-10T17:26:08+00:00",
-  "desc": "The U.S. and Iran's contradictory interperations of the memorandum of understanding have led to renewed fighting over the Strait of Hormuz.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Vodafone se dispara un 12% en Bolsa con la entrada de Xavier Niel",
-  "link": "https://www.expansion.com/mercados/2026/07/10/6a50b53ae5fdeada068b45a5.html",
-  "source": "Expansión",
-  "date": "2026-07-10T16:08:20+00:00",
-  "desc": "El grupo británico de telecomunicaciones se dispara en Bolsa, al anotarse subidas finales del 12,6% Los inversores celebran la entrada en su accionariado del magnate francés del sector Xabier Niel. Leer",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "JPMorgan impulsa un 6% a ArcelorMittal y un 3% a Acerinox",
-  "link": "https://www.expansion.com/mercados/2026/07/10/6a50a670468aebdc128b4580.html",
-  "source": "Expansión",
-  "date": "2026-07-10T16:07:34+00:00",
-  "desc": "Los inversores aceleran hoy la toma de posiciones en ArcelorMittal y Acerinox, en una jornada en la que los analistas de JPMorgan han elevado notablemente sus valoraciones de las dos acereras del Ibex. Leer",
-  "ccs": [
-   "ES"
-  ],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "El gigante coreano SK Hynix sube un 14% en el debut de sus ADR en Wall Street",
-  "link": "https://www.expansion.com/mercados/2026/07/10/6a50f3e0e5fdea953e8b456d.html",
-  "source": "Expansión",
-  "date": "2026-07-10T16:04:23+00:00",
-  "desc": "La empresa coreana de chips salta a Wall Street poco después de superar la barrera del billón de dólares de capitalización. En el estreno de sus ADR en el mercado estadounidense, SK Hynix se dispara un 14%. Leer",
+  "title": "AI is not enough to arrest China’s decline",
+  "link": "https://www.ft.com/content/0dbbef33-059b-4ec9-b504-31f37a0c4053",
+  "source": "Financial Times",
+  "date": "2026-07-13T04:00:18+00:00",
+  "desc": "There are other, more powerful forces weighing on the country’s economy",
   "ccs": [
-   "US",
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Investors alarmed as Asian chipmakers take stranglehold on indices",
+  "link": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
+  "source": "Financial Times",
+  "date": "2026-07-13T04:00:17+00:00",
+  "desc": "TSMC, SK Hynix and Samsung Electronics together account for 29% of MSCI Emerging Markets index",
+  "ccs": [
    "KR"
   ],
-  "cat": "fx",
-  "imp": "high"
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Companies turn to Chinese AI models to cut costs",
+  "link": "https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee",
+  "source": "Financial Times",
+  "date": "2026-07-13T04:00:17+00:00",
+  "desc": "DoorDash, Siemens and Airbnb are among those seeking to curb ballooning bills and reduce reliance on US technology",
+  "ccs": [
+   "DE"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Jane Fraser’s ruthless remake of Citigroup",
+  "link": "https://www.ft.com/content/632c0f53-66f2-4c7d-8e4f-bae514cef713",
+  "source": "Financial Times",
+  "date": "2026-07-13T04:00:05+00:00",
+  "desc": "The bank has sold assets, cut jobs and made controversial new hires while cultivating a closer relationship with Trump. Is it enough to get back into the big time?",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "EU buys record amount of gas from Russia’s flagship plant",
+  "link": "https://www.ft.com/content/de9bbc3a-c317-4e5f-a324-6ec0dde45722",
+  "source": "Financial Times",
+  "date": "2026-07-13T03:00:02+00:00",
+  "desc": "Europe purchased almost all the LNG produced by the Yamal facility in the first half of 2026 ahead of import ban",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "McConnell provides health update after long unexplained absence; says he suffered fall, pneumonia",
+  "link": "https://www.cnbc.com/2026/07/12/mcconnell-provides-health-update-after-long-unexplained-absence.html",
+  "source": "CNBC",
+  "date": "2026-07-13T01:25:20+00:00",
+  "desc": "McConnell is the longest-serving party leader in Senate history.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The Quarter-Trillion-Dollar Onslaught of AI Bonds Is Testing Investors’ Limits",
+  "link": "https://www.wsj.com/finance/investing/the-quarter-trillion-dollar-onslaught-of-ai-bonds-is-testing-investors-limits-e4cd2bda?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-13T00:00:00+00:00",
+  "desc": "Tech giants are borrowing even more than expected, weighing on bond prices.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Molins dice adiós a  los corros y debuta en el Mercado Continuo",
+  "link": "https://www.expansion.com/mercados/2026/07/13/6a53da9ee5fdea92768b4592.html",
+  "source": "Expansión",
+  "date": "2026-07-12T22:04:00+00:00",
+  "desc": "La cementera catalana cotizaba en la Bolsa de Barcelona desde 1942. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
  }
 ]
