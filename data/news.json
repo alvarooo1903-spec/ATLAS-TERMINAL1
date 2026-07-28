@@ -1,5 +1,485 @@
 [
  {
+  "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
+  "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
+  "source": "CNBC",
+  "date": "2026-07-28T12:23:28+00:00",
+  "desc": "Boeing took a $280 million charge on its long-delayed Air Force One program.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Meta is up against a wall of AI pessimism heading into earnings",
+  "link": "https://www.marketwatch.com/story/meta-is-up-against-a-wall-of-ai-pessimism-heading-into-earnings-4d3bbcc9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T12:17:00+00:00",
+  "desc": "Following Alphabet’s earnings last week, investors will be closely scrutinizing Meta’s AI spending.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
+  "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T12:15:00+00:00",
+  "desc": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Oil prices decline further after Trump claims ‘deep talks’ are underway with Iran",
+  "link": "https://www.marketwatch.com/story/oil-prices-decline-further-after-trump-claims-deep-talks-are-underway-with-iran-167a5393?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T12:01:00+00:00",
+  "desc": "Brent crude and West Texas Intermediate’s front-month contracts fell again as the U.S. and Iran continue to pause fighting.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+  "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
+  "source": "CNBC",
+  "date": "2026-07-28T12:00:01+00:00",
+  "desc": "Alphabet's free cash flow has turned negative, and the company lifted its capital spending forecast. Slower-growing cloud rivals report this week.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+  "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T12:00:00+00:00",
+  "desc": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs",
+  "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
+  "source": "CNBC",
+  "date": "2026-07-28T11:54:11+00:00",
+  "desc": "Coca-Cola stock has risen 19% this year, outstripping the gains of the S&P 500.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "UPS beats earnings expectations, raises full-year guidance",
+  "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
+  "source": "CNBC",
+  "date": "2026-07-28T11:50:50+00:00",
+  "desc": "UPS beat Wall Street expectations and raised its full-year guidance in its second-quarter earnings report Tuesday.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "PayPal delivers an earnings beat as investors await updates on possible merger",
+  "link": "https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:41:00+00:00",
+  "desc": "PayPal is showing progress on some metrics as a standalone company, but Wall Street is preoccupied with its deal prospects following recent news.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Emerging China threat puts a scare into AI hardware stocks. Is the ‘picks and shovels’ trade breaking down?",
+  "link": "https://www.marketwatch.com/story/picks-and-shovels-trade-comes-unstuck-as-ai-hardware-stocks-plunge-on-competitive-threat-from-china-41a0c2b4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:40:00+00:00",
+  "desc": "Asian stocks sold off sharply on Tuesday amid reports that China is now capable of manufacturing DUV lithography machines.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "AI stock sell-off deepens as investors dump chipmakers",
+  "link": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T11:36:19+00:00",
+  "desc": "Wall Street tech shares set for further declines after South Korean markets tumble",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Trump’s waning sway over the world",
+  "link": "https://www.ft.com/content/3441b5aa-9d58-4829-bd2e-b2c0ce0198f1?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T11:35:38+00:00",
+  "desc": "The habitual trolling that serves him at home is sapping his potency on the global stage",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "UPS turns the page as job cuts and Amazon ‘glide down’ are completed",
+  "link": "https://www.marketwatch.com/story/ups-turns-the-page-as-job-cuts-and-amazon-glide-down-are-completed-e16f03fe?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:31:00+00:00",
+  "desc": "UPS’s stock rallies after reporting an earnings beat and raised outlook.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Apple, el valor más valioso del mundo aún tiene recorrido en Bolsa",
+  "link": "https://www.expansion.com/inversion/2026/07/28/6a688fa2e5fdeaae0f8b457d.html",
+  "source": "Expansión",
+  "date": "2026-07-28T11:30:20+00:00",
+  "desc": "Apple se hace fuerte en Bolsa y los analistas confían en su recorrido. La compañía de la manzana superó ayer a Nvidia por capitalización bursátil por primera vez en varios años, con precios de cierre. Alcanzó un tamaño d",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
+  "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:30:00+00:00",
+  "desc": "“I have an IRA, a high-yield savings account, four CDs and checking and savings accounts.”",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "As chips sell off, rattled investors should heed this Cisco Systems lesson from the last millennium",
+  "link": "https://www.marketwatch.com/story/as-semis-sell-off-rattled-investors-should-heed-last-millenniums-lesson-from-cisco-systems-4bb53304?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:21:00+00:00",
+  "desc": "The market should recover its poise within the next few days, says Fundstrat’s Tom Lee.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Blurred front lines: Trump to meet Zelenskyy as Ukraine, Iran wars collide",
+  "link": "https://www.cnbc.com/2026/07/28/trump-zelenskyy-ukraine-russia-iran-war.html",
+  "source": "CNBC",
+  "date": "2026-07-28T11:08:51+00:00",
+  "desc": "Trump and Zelenskyy's meeting comes as the U.S war against Iran and Russia's full-scale invasion of Ukraine have threatened to overlap in recent days.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
+  "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
+  "source": "CNBC",
+  "date": "2026-07-28T11:01:48+00:00",
+  "desc": "Elon Musk's space company has wiped off more than $1.2 trillion in market cap since hitting a high of $225.64 per share in June.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "How the fight over Cracker Barrel’s logo marked the beginning of the end for its CEO",
+  "link": "https://www.marketwatch.com/story/how-the-fight-over-cracker-barrels-logo-marked-the-beginning-of-the-end-for-its-ceo-89283d83?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-07-28T11:00:00+00:00",
+  "desc": "Cracker Barrel must decide between appealing to its most loyal diners or potentially alienating them by breaking from its roots.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Ibex esquiva las caídas tecnológicas y merodea récords",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/07/28/6a68428be5fdea9b658b45b5.html",
+  "source": "Expansión",
+  "date": "2026-07-28T10:58:13+00:00",
+  "desc": "La semana comenzó con los mercados impulsados por el desplome del petróleo. Hoy el foco se desvía al sector tecnológico, y en especial, al correctivo que sufren las inversiones más disparadas por la IA. El Kospi coreano",
+  "ccs": [
+   "ES",
+   "KR"
+  ],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Powerful earthquake hits Japan’s southern Kumamoto prefecture",
+  "link": "https://www.ft.com/content/568eb170-a4c1-445d-8edb-67fa51f7a134?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T10:53:00+00:00",
+  "desc": "Reports of multiple deaths from blast at shopping centre and widespread damage to buildings and infrastructure",
+  "ccs": [
+   "JP"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Growth Is Off the Menu at Starbucks",
+  "link": "https://www.wsj.com/finance/stocks/growth-is-off-the-menu-at-starbucks-ce78101f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-28T10:51:00+00:00",
+  "desc": "Plus, the chip meltdown worsens.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "SpaceX stock-purchasing by Congress members fuels conflict concerns",
+  "link": "https://www.cnbc.com/2026/07/28/spacex-stock-congress-lawmakers-ipo-conflict-of-interest.html",
+  "source": "CNBC",
+  "date": "2026-07-28T10:30:01+00:00",
+  "desc": "Five of the Congress members serve on committees whose work touches SpaceX's federal contracts, defense programs, AI, telecommunications or securities markets.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "China’s reported chip breakthrough comes with some big caveats",
+  "link": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
+  "source": "CNBC",
+  "date": "2026-07-28T09:44:13+00:00",
+  "desc": "China is reportedly producing a key chip tool in a market dominated by ASML. But analysts questioned China's ability to compete with the Dutch giant.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "The Price to Finance the AI Data Center Boom Is Rising, Just Ask Meta",
+  "link": "https://www.wsj.com/finance/the-price-to-finance-the-ai-data-center-boom-is-rising-just-ask-meta-7894d503?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-28T09:30:00+00:00",
+  "desc": "Meta’s data-center project priced a $12.5 billion offering with a higher interest rate than a similar deal last year, as AI companies flood the market with new debt.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Big Tech Stocks Are Pricing In a Miracle on Costs",
+  "link": "https://www.wsj.com/finance/big-tech-stocks-are-pricing-in-a-miracle-on-costs-6d93664f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-28T09:30:00+00:00",
+  "desc": "Analysts’ models are assuming new efficiencies, but some of the numbers look too good to be true.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Zelenskyy returns to Oval Office as Trump shifts towards Ukraine",
+  "link": "https://www.ft.com/content/5dca4c81-be8a-4555-971f-181eebf53e62?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T09:13:53+00:00",
+  "desc": "Kyiv hopes White House talks will turn improved relations with US into fresh backing against Russia",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Micron, Nvidia fall after SK Hynix plunges nearly 15% as chip sell-off deepens",
+  "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
+  "source": "CNBC",
+  "date": "2026-07-28T08:41:56+00:00",
+  "desc": "Semiconductor stocks fell in premarket trading on Tuesday, extending a rout in chipmakers after another weak session on Wall Street.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Cobas AM reduce su apuesta por las energéticas e invierte en negocios familiares",
+  "link": "https://www.expansion.com/inversion/2026/07/28/6a686123468aebf5528b4571.html",
+  "source": "Expansión",
+  "date": "2026-07-28T08:25:06+00:00",
+  "desc": "El sector energético, la principal apuesta de la gestora durante los últimos cinco años, baja de peso en las apuestas de Cobas AM. El peso de la energía en la Cartera Internacional pasó de cerca del 30% al cierre de 2025",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Supreme Court approval hits record low as Republicans' support declines",
+  "link": "https://www.cnbc.com/2026/07/28/supreme-court-approval-poll-gallup-republicans-trump.html",
+  "source": "CNBC",
+  "date": "2026-07-28T08:00:01+00:00",
+  "desc": "The Trump administration saw some big losses at the Supreme Court in 2026 on issues involving tariffs, birthright citizenship and the Federal Reserve.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "JPMorgan acelera su ofensiva bajista contra Rovi",
+  "link": "https://www.expansion.com/mercados/2026/07/28/6a684ea4e5fdeac16c8b456d.html",
+  "source": "Expansión",
+  "date": "2026-07-28T07:49:19+00:00",
+  "desc": "La racha alcista lograda por Rovi al calor de la publicación de sus resultados no impide que JPMorgan siga acelerando su aumento de posiciones cortas en la empresa farmacéutica del Ibex. Leer",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Iran hosts Hormuz calls with Saudi Arabia, Oman as Trump hails ‘good talks’",
+  "link": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html",
+  "source": "CNBC",
+  "date": "2026-07-28T06:59:36+00:00",
+  "desc": "Talks over the Strait of Hormuz continue as Iran's foreign ministry discussed the strategically vital maritime passage with Saudi and Omani counterparts.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stock Market Today: Chip Stocks Under Pressure as AI Worries Push Investors to Other Sectors",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-28-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-28T05:45:29+00:00",
+  "desc": "Nasdaq futures drop about 1% while Dow looks set to rise",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "CXMT’s blockbuster IPO delivers windfall for its home city",
+  "link": "https://www.ft.com/content/d6439cb3-5a9e-4f6e-b5d6-b0e5621567c4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T05:35:45+00:00",
+  "desc": "Funds run by local government in Hefei make gains of 5,000% from chipmaker’s blockbuster listing",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "EU hesitates to target Irish plant accused of supplying Russia’s war industry",
+  "link": "https://www.ft.com/content/ef7ff634-b738-4975-91b5-2edffc51da68?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T04:00:23+00:00",
+  "desc": "Officials fear that measures restricting alumina exports to Russia would threaten bloc’s aluminium supply chain",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "TotalEnergies benefits from EU sanctions reprieve on Russian gas",
+  "link": "https://www.ft.com/content/0ee947e4-0b2a-48e4-93de-2c7985662f14?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T04:00:23+00:00",
+  "desc": "French energy major can continue selling LNG from its Yamal project in Siberia to Asian customers",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "The UAE’s bold gambit on Iran",
+  "link": "https://www.ft.com/content/6d2d0b89-0d26-4e49-8e52-a53bdc178974?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T04:00:15+00:00",
+  "desc": "It has quietly rebuilt economic and diplomatic ties while also deepening defence links to Israel and the US",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "How Iran adapted its missile war with Trump",
+  "link": "https://www.ft.com/content/82acf078-9214-4eb6-a162-15f584a5e3ca?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T04:00:15+00:00",
+  "desc": "Recent fighting has provided conditions for Tehran’s forces to launch more precision strikes across Gulf and Jordan",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Nvidia behind $50bn lease on Texas data centre that will use its chips",
+  "link": "https://www.ft.com/content/685014e7-47dd-471b-a585-1b9b73ce5d6f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-07-28T04:00:15+00:00",
+  "desc": "CEO Jensen Huang deploys balance sheet to backstop growth of AI computing market",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "¿Puede Japón detonar una corrección veraniega en las Bolsas?",
+  "link": "https://www.expansion.com/mercados/2026/07/28/6a67acb5e5fdea91748b45a8.html",
+  "source": "Expansión",
+  "date": "2026-07-27T23:42:54+00:00",
+  "desc": "La súbita escalada del yen hizo caer un 24% la Bolsa de Tokio y un 8% el Ibex en el verano de 2024. Leer",
+  "ccs": [
+   "ES",
+   "JP"
+  ],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Las inversiones con más rentabilidad esperada hasta fin de año",
+  "link": "https://www.expansion.com/mercados/2026/07/28/6a674ed2468aeb93558b457a.html",
+  "source": "Expansión",
+  "date": "2026-07-27T23:42:53+00:00",
+  "desc": "Los mercados vuelven a reaccionar a los bandazos geopolíticos y del petróleo. A las puertas del mes vacacional por excelencia, agosto, los analistas de Citi desglosan sus previsiones por activos de cara al fin de año, co",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "El mercado descuenta que la Fed mantendrá los tipos pese al alza de precios",
+  "link": "https://www.expansion.com/mercados/2026/07/28/6a67b0a7468aebff738b4591.html",
+  "source": "Expansión",
+  "date": "2026-07-27T23:42:47+00:00",
+  "desc": "Los analistas prevén que la Reserva Federal deje mañana los tipos en el 3,75%, pese a la presión inflacionaria del conflicto en Oriente Proximo, tras la mejora del IPC de junio. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Invertir en coches clásicos con una meta de rentabilidad del 15%",
+  "link": "https://www.expansion.com/mercados/2026/07/28/6a67c424e5fdea916c8b45b0.html",
+  "source": "Expansión",
+  "date": "2026-07-27T22:17:57+00:00",
+  "desc": "Los coches clásicos rentan un 140% en 15 años, según el índice K500 que sigue el sector. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia Falls Behind Apple in Mixed Day for Stocks",
+  "link": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-27-2026-f8e6f1a5?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-07-27T21:04:00+00:00",
+  "desc": "Chip stocks declined, with a big week of tech earnings looming. The Nasdaq composite fell 0.2%, while the Dow industrials rose 0.5%.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
   "title": "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
   "link": "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html",
   "source": "CNBC",
@@ -9,479 +489,6 @@
    "US"
   ],
   "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI hacking incident is ‘warning shot’ on cyber security, Microsoft’s AI chief warns",
-  "link": "https://www.ft.com/content/f7fc5555-7b2a-4134-960e-5de7f15a06e8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T20:44:09+00:00",
-  "desc": "Software giant says ‘no choice’ but to develop AI defences against onslaught of automated attacks",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "SpaceX’s stock falls to a new low despite a near-flawless Starship flight",
-  "link": "https://www.marketwatch.com/story/spacexs-stock-falls-to-a-new-low-despite-a-near-flawless-starship-flight-034a99ab?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T20:41:00+00:00",
-  "desc": "SpaceX’s earnings report next week could unleash a further wave of selling, as some insiders will soon be able to unload shares.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Micron and other chip stocks fall as China steals the spotlight",
-  "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-fall-as-china-steals-the-spotlight-cff9d73c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T20:33:00+00:00",
-  "desc": "CXMT had a strong public debut in Shanghai, and now investors are weighing the prospect of a manufacturing breakthrough that could make China’s chip industry more competitive.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
-  "link": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T20:30:00+00:00",
-  "desc": "“To my surprise, the proceeds from the sale were credited to my money-market settlement fund.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Chinese IPO Rattles Chip Stocks",
-  "link": "https://www.wsj.com/finance/stocks/chinese-ipo-rattles-chip-stocks-a563c5f6?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T20:27:00+00:00",
-  "desc": "",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Apple reclaims title of world’s largest company after historic stretch of outperformance",
-  "link": "https://www.marketwatch.com/story/apple-reclaims-title-of-worlds-largest-company-after-historic-stretch-of-outperformance-92920ab6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T20:12:00+00:00",
-  "desc": "Apple’s stock is on track to see its best monthly performance in more than two decades relative to the Nasdaq-100.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Trump administration asks Supreme Court to intervene to allow mail-in voting restrictions",
-  "link": "https://www.cnbc.com/2026/07/27/trump-supreme-court-mail-in-voting-restrictions.html",
-  "source": "CNBC",
-  "date": "2026-07-27T20:10:27+00:00",
-  "desc": "A federal appeals court on Saturday kept the restrictions blocked in 23 states that sued, finding states must prepare for potentially disruptive election changes.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Consolidated food supply may be worsening cyclospora outbreaks, experts say",
-  "link": "https://www.cnbc.com/2026/07/27/cyclospora-outbreak-food-industry-consolidation.html",
-  "source": "CNBC",
-  "date": "2026-07-27T19:48:30+00:00",
-  "desc": "Experts say food industry consolidation may be amplifying the cyclospora outbreak, allowing contaminated produce to spread farther.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Treasury Yields Fall Ahead of Fed Meeting as U.S., Iran Hold Fire",
-  "link": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T19:47:00+00:00",
-  "desc": "Demand for Treasurys partially recovered from last week’s slump, sending yields lower, as oil prices plunged.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Sam Altman to meet with Trump administration, senators this week. Here's what he plans to say",
-  "link": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
-  "source": "CNBC",
-  "date": "2026-07-27T19:44:01+00:00",
-  "desc": "Altman will preview the capabilities of the company's upcoming family of AI models and answer questions about cybersecurity and open-weight models.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
-  "link": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
-  "source": "CNBC",
-  "date": "2026-07-27T19:14:30+00:00",
-  "desc": "Crypto stocks proved some of the top gainers Monday even as the broader market sold off and  capital rotated away from chip and AI infrastructure names.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘I know what he wants to do,’ Trump says of Fed’s Warsh, as president presses for rate cuts",
-  "link": "https://www.marketwatch.com/story/i-know-what-he-wants-to-do-trump-says-of-feds-warsh-as-president-presses-for-rate-cuts-edaa115e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T19:06:00+00:00",
-  "desc": "New Federal Reserve Chair Kevin Warsh “wants to do the right thing” but is facing a Fed board that might oppose him, the president said.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
-  "link": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
-  "source": "CNBC",
-  "date": "2026-07-27T18:58:23+00:00",
-  "desc": "Kalshi traders are predicting Warsh will mention last week's supply shock at this week's Federal Reserve press conference.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "France and Spain brace for more extreme heat as wildfires rage",
-  "link": "https://www.ft.com/content/45867580-65a2-4a7d-ba4c-8143e86f4e36?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T18:43:54+00:00",
-  "desc": "French President Emmanuel Macron warns ‘weeks ahead will be hard’ on visit to firefighting centre in the Gironde region",
-  "ccs": [
-   "ES",
-   "FR"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
-  "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T18:30:00+00:00",
-  "desc": "“I own my home outright, have no children or other dependents.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
-  "link": "https://www.cnbc.com/2026/07/27/trump-warsh-interest-rates.html",
-  "source": "CNBC",
-  "date": "2026-07-27T18:15:18+00:00",
-  "desc": "President Trump Monday voiced support for Federal Reserve Chairman Kevin Warsh while insisting that the U.S. should have the lowest interest rates in the world.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
-  "link": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
-  "source": "CNBC Markets",
-  "date": "2026-07-27T18:06:35+00:00",
-  "desc": "CME Group on Monday launched cash-settled single-stock futures on 55 U.S. equities, along with micro-sized contracts on 22 names.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-  "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T18:00:00+00:00",
-  "desc": "“At that point, they arguably no longer need the government’s retirement safety net.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Should you get paid to care for a family member?",
-  "link": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T17:56:00+00:00",
-  "desc": "Serving as a family caregiver isn’t just exhausting. It can be financially devastating, as well.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump says Israel ‘would not survive’ without US",
-  "link": "https://www.ft.com/content/0a0684fe-2ba0-4909-82ca-0e5e70955ce3?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T17:51:39+00:00",
-  "desc": "Remarks come ahead of meeting where Benjamin Netanyahu is expected to make case for expanding war with Iran",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles",
-  "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-  "source": "CNBC",
-  "date": "2026-07-27T17:43:48+00:00",
-  "desc": "A temporary pause to the U.S.-Iran conflict appeared to hold on Monday, after negotiations over a lasting peace faced fresh hurdles over the weekend.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Ex-JPMorgan Banker Alleges Racism, Sexual Assault in Federal Lawsuit",
-  "link": "https://www.wsj.com/business/ex-jpmorgan-banker-alleges-racism-sexual-assault-in-federal-lawsuit-a6a54d0e?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T17:40:00+00:00",
-  "desc": "Chirayu Rana accused former colleague Lorna Hajdini of violating his civil rights and named three other leveraged-finance bankers.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
-  "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T17:30:00+00:00",
-  "desc": "“His proposal involves a proprietary equity hedge strategy to manage $700,000 of my assets.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Netflix woes setting up for a Hollywood ending, says trader Mike Khouw",
-  "link": "https://www.cnbc.com/2026/07/27/netflix-woes-setting-up-for-a-hollywood-ending-says-trader-mike-khouw.html",
-  "source": "CNBC",
-  "date": "2026-07-27T17:25:45+00:00",
-  "desc": "Netflix's stock price may have lost the plot, but its fundamental narrative remains intact.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-  "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-07-27T17:25:00+00:00",
-  "desc": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Oil price tumbles as Iran and US pause strikes over Strait of Hormuz",
-  "link": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T17:24:50+00:00",
-  "desc": "Brent 6% lower after two weeks of escalating violence had pushed crude to more than $100 a barrel",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Ares Management has held talks to buy Leonard Green & Partners",
-  "link": "https://www.ft.com/content/9f446812-5dc9-4d25-9a4b-ac5162e62d81?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T17:23:25+00:00",
-  "desc": "A deal between the LA groups would dramatically expand the size of Ares’ private equity business",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia bets $5bn on Ilya Sutskever’s AI breakthrough",
-  "link": "https://www.ft.com/content/5c78dec1-b6d6-415e-9456-f1ab5eed6146?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T17:20:13+00:00",
-  "desc": "Safe Superintelligence will use Vera Rubin chips to rapidly expand computing capacity for its secretive research",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
-  "link": "https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html",
-  "source": "CNBC",
-  "date": "2026-07-27T17:14:58+00:00",
-  "desc": "JetBlue is doing away with its \"Core\" product and putting economy tickets under a new name.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Sen. McConnell still not cleared to go back to work as he recovers from fall, doctors say",
-  "link": "https://www.cnbc.com/2026/07/27/mcconnell-fall-hospital-senate-recovery.html",
-  "source": "CNBC",
-  "date": "2026-07-27T17:13:36+00:00",
-  "desc": "McConnell's office shared a written statement from the senator apologizing for being unable to attend an annual Kentucky picnic and a physician's assessment.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Donald Trump rebuilds his tariff wall",
-  "link": "https://www.ft.com/content/426d49ae-1d07-45f4-b784-e65756a4f5ac?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T16:57:19+00:00",
-  "desc": "The US president is moving his signature trade policy into a new phase",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "El unicornio británico Humanoid indica el camino a seguir por la tecnología europea",
-  "link": "https://www.expansion.com/economia/financial-times/2026/07/27/6a678ce9e5fdea9b658b459b.html",
-  "source": "Expansión",
-  "date": "2026-07-27T16:53:13+00:00",
-  "desc": "La empresa londinense muestra que, si bien el continente se está desindustrializando, aún posee una notable capacidad manufacturera. Leer",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Apple destrona a Nvidia como la mayor cotizada",
-  "link": "https://www.expansion.com/mercados/2026/07/27/6a67872de5fdead6638b4592.html",
-  "source": "Expansión",
-  "date": "2026-07-27T16:28:31+00:00",
-  "desc": "Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex toca récords con el desplome del petróleo",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/07/27/6a66f195468aebe57e8b459a.html",
-  "source": "Expansión",
-  "date": "2026-07-27T16:03:57+00:00",
-  "desc": "La semana comienza con una de las noticias más anheladas en los mercados, el desplome del precio del petróleo. La pausa en los ataques de EEUU e Irán se une al renovado tirón de las tecnológicas. El Ibex aprovecha la coy",
-  "ccs": [
-   "US",
-   "ES"
-  ],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Dior rebound helps LVMH’s fashion business return to growth",
-  "link": "https://www.ft.com/content/7b1c40ef-4a21-47f3-a9dc-5d1444ec726a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T15:50:11+00:00",
-  "desc": "Luxury giant’s crucial fashion and leather goods division back in growth for first time in almost two years",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "ESMA da luz verde al primer registro único europeo para acciones y ETF, que estará operativa antes de octubre",
-  "link": "https://www.expansion.com/inversion/2026/07/27/6a67635c468aeb0f7a8b45b2.html",
-  "source": "Expansión",
-  "date": "2026-07-27T15:48:05+00:00",
-  "desc": "La Autoridad Europea de Valores y Mercados (ESMA) ha autorizado a EuroCTP, un consorcio en el que participan varias bolsas europeas, como proveedor de la primera cinta consolidada europea (Consolidated Tape Provider) par",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How the Big Premium Credit Cards Stack Up Against Each Other",
-  "link": "https://www.wsj.com/finance/how-the-big-premium-credit-cards-stack-up-against-each-other-13132b90?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T14:19:00+00:00",
-  "desc": "The high-end credit card market is more crowded than ever. Here’s a guide to key perks that come with five of the elite cards.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Spain and France wildfires force more than 300,000 to flee as Macron calls crisis meeting",
-  "link": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
-  "source": "CNBC",
-  "date": "2026-07-27T13:00:29+00:00",
-  "desc": "The impact of a gigantic wildfire ravaging France's Bordeaux region and Spain has been like a \"clap of thunder\" for the local economy, a minister said.",
-  "ccs": [
-   "ES",
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Euribor hoy, 27 de julio: El Euribor rebaja su tasa hasta el 2,982%",
-  "link": "https://www.expansion.com/mercados/euribor/2026/07/27/6a6742a4e5fdeaff518b458b.html",
-  "source": "Expansión",
-  "date": "2026-07-27T12:24:06+00:00",
-  "desc": "Tras la subida del Euríbor, la media mensual se sitúa en 2,835% en julio, lo que supone un aumento de 0,037 puntos con respecto a la media del mes anterior. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El precio del Bitcoin hoy, 27 de julio: el Bitcoin asciende de los 66.000 dólares",
-  "link": "https://www.expansion.com/mercados/bitcoin/2026/07/27/6a672523468aebac0f8b4571.html",
-  "source": "Expansión",
-  "date": "2026-07-27T11:20:03+00:00",
-  "desc": "El Bitcoin se sitúa hoy en los 65.357,99 dólares y registro una variación del 1,36 % con respecto a la sesión anterior Leer",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Ukraine, Iran and how regional wars go global",
-  "link": "https://www.ft.com/content/51ea0e62-f9ad-4307-84b9-475029edbe39?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-07-27T11:14:33+00:00",
-  "desc": "Conflicts in Europe and Asia are overlapping and two rival blocs may be forming",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "The ETF Crazy Train Is Picking Up Speed",
-  "link": "https://www.wsj.com/finance/investing/the-etf-crazy-train-is-picking-up-speed-99189a11?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T10:26:00+00:00",
-  "desc": "Plus, the Fed and Mag Seven dominate the week.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Big Tech Earnings and Fed Rate Decision Put Stock Rally to the Test",
-  "link": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-07-27T10:10:00+00:00",
-  "desc": "Plus, America’s big cities are rapidly losing kids, and Trump puts off a major escalation of his military campaign against Iran.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Un diseño español compite por hacerse con los euros del futuro",
-  "link": "https://www.expansion.com/mercados/2026/07/27/6a67180ae5fdea09138b4576.html",
-  "source": "Expansión",
-  "date": "2026-07-27T09:56:52+00:00",
-  "desc": "Las firmas españolas cruz más cruz y rubio & del amo cuentan con una candidatura entre las 10 finalistas. pertenece a la categoría de 'cultura europea' y es posible apoyarla en la web del bce. Leer",
-  "ccs": [],
-  "cat": "cb",
   "imp": "medium"
  }
 ]
