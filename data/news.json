@@ -1,19 +1,246 @@
 [
  {
+  "title": "This indicator is giving the bull market another lease on life",
+  "link": "https://www.marketwatch.com/story/this-indicator-is-giving-the-bull-market-another-lease-on-life-47479269?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T20:44:00+00:00",
+  "desc": "Stock-market timers recently rushed to the exits, which is bullish from a contrarian perspective.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Snap's stock jumps 10% on earnings beat and strong sales forecast",
+  "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:36:41+00:00",
+  "desc": "Snap beat analysts' estimates across the board in its second-quarter earnings report.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Palantir posts blowout Q2 numbers, with U.S. commercial revenue soaring nearly 150%",
+  "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:36:27+00:00",
+  "desc": "Palantir's second-quarter earnings beat expectations, and the AI software company lifted revenue guidance.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Twenty five states sue Trump administration over latest global tariffs",
+  "link": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:35:17+00:00",
+  "desc": "Twenty five states sued the Trump administration, arguing its latest global tariffs unlawfully replace duties already struck down by courts.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Traders in the world’s most important financial market are bracing for a wild stretch ahead",
+  "link": "https://www.marketwatch.com/story/traders-in-the-worlds-most-important-financial-market-are-bracing-for-a-wild-stretch-ahead-4a1507dc?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T20:32:00+00:00",
+  "desc": "Volatility is ticking higher in the $30 trillion Treasury market as investors bet that yields will push higher.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
+  "link": "https://www.cnbc.com/2026/08/03/trump-pirro-reflecting-pool-vandalism-case.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:30:54+00:00",
+  "desc": "President Donald Trump said Jeanine Pirro, the U.S. attorney for the District of Columbia, \"choked\" and \"folded like an umbrella\" in the Reflecting Pool case.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stocks Rally as Oil Drops on Hormuz Diplomatic Hopes",
+  "link": "https://www.wsj.com/finance/stocks/stocks-rally-as-oil-drops-on-hormuz-diplomatic-hopes-75cf4ce1?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-03T20:26:00+00:00",
+  "desc": "Plus, Amazon tops $3 trillion market value and Alibaba releases a new AI model.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Boeing clears key hurdle and stock rallies to lead the Dow",
+  "link": "https://www.marketwatch.com/story/boeing-clears-key-hurdle-and-stock-rallies-leading-the-dow-ffd2dcbd?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T20:17:00+00:00",
+  "desc": "Wall Street gets one more sign that Boeing’s turnaround continues apace.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "FAA clears smallest Boeing 737 Max to fly after years of delays",
+  "link": "https://www.cnbc.com/2026/08/03/faa-boeing-737-max-certification.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:09:19+00:00",
+  "desc": "Airlines can finally start flying passengers soon after planes are certified, but it can take them months to work them into schedules.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Palantir’s stock gains as AI drives turbocharged growth",
+  "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T20:07:00+00:00",
+  "desc": "Companies are turning to Palantir for greater autonomy over their AI models and data, according to CEO Alex Karp.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
+  "link": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
+  "source": "CNBC",
+  "date": "2026-08-03T20:02:34+00:00",
+  "desc": "U.S. crude oil prices have gained about 20% since the U.S. and Israel attacked Iran on Feb. 28.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
   "title": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
   "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
   "source": "CNBC",
-  "date": "2026-08-03T15:50:20+00:00",
+  "date": "2026-08-03T20:02:17+00:00",
   "desc": "Shares of Amazon hit a new all-time high Monday, putting its market cap over $3 trillion.",
   "ccs": [],
   "cat": "er",
   "imp": "high"
  },
  {
+  "title": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+  "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T19:40:00+00:00",
+  "desc": "The rally in Microsoft shares “has legs” because its capital spending is showing a payoff.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Cyclospora outbreak is linked to two deaths in Michigan as case counts continue to rise",
+  "link": "https://www.marketwatch.com/story/cyclospora-outbreak-is-linked-to-two-deaths-in-michigan-as-case-counts-continue-to-rise-77b49a5a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T19:30:00+00:00",
+  "desc": "It’s rare for cyclosporiasis to cause death. These are the first deaths associated with the largest-ever cyclospora outbreak in the U.S.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "California's diesel prices have jumped since the Iran war started, with ripple effects across the country",
+  "link": "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-03T19:20:25+00:00",
+  "desc": "California has the highest gas prices in the country as well as the busiest containership port, meaning consumers across the country could feel the impact of higher diesel.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "How to plan for the high cost of having your first kid in your 40s",
+  "link": "https://www.marketwatch.com/story/how-to-plan-for-the-high-cost-of-having-your-first-kid-in-your-40s-bfe0c28a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T19:11:00+00:00",
+  "desc": "Older parenthood is on the rise — but it comes with a tough new set of financial rules.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
+  "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T19:00:00+00:00",
+  "desc": "“My car was nearly 20 years old, and I only carried liability and uninsured motorist coverage, not collision coverage.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "This High-Powered Real-Estate Fund Is Run by College Students",
+  "link": "https://www.wsj.com/finance/investing/this-high-powered-real-estate-fund-is-run-by-college-students-11ad5ebb?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-03T18:40:00+00:00",
+  "desc": "Indiana University undergrads operate Sample Gates Management, a commercial private-equity fund that just sold its first investment and earned a 65% gross profit.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Can Palantir pull off a Microsoft-style comeback? Here's what options say",
+  "link": "https://www.cnbc.com/2026/08/03/can-palantir-pull-off-a-microsoft-style-comeback-heres-what-options-say.html",
+  "source": "CNBC",
+  "date": "2026-08-03T18:34:52+00:00",
+  "desc": "Hopes are running high that high-profile software provider Palantir can shake off its nine-month bear market and rally after earnings.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
+  "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T18:30:00+00:00",
+  "desc": "“I expect to have several years before I take distributions from my 401(k) account.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+  "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-03T18:15:00+00:00",
+  "desc": "A reader writes: “I will likely be in a position to decline my benefits.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Apple launches legal challenge to UK attempt to access encrypted user data",
+  "link": "https://www.ft.com/content/2cc9c96a-0e5b-4c33-a95a-3d11072a145c?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-03T18:10:01+00:00",
+  "desc": "iPhone maker files complaint over latest government demand to connect to cloud backups of British users",
+  "ccs": [
+   "GB"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
   "title": "Hugging Face CEO says China is winning the AI race and dominating on open models",
   "link": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
   "source": "CNBC",
-  "date": "2026-08-03T15:49:38+00:00",
+  "date": "2026-08-03T17:28:17+00:00",
   "desc": "Hugging Face CEO Clément Delangue said Chinese AI models could catch up to the U.S. as soon as this year.",
   "ccs": [
    "US",
@@ -23,16 +250,90 @@
   "imp": "medium"
  },
  {
-  "title": "Oil prices tumble after Trump calls off attack on Iran",
-  "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+  "title": "El dominio de ASML sobre el futuro de la fabricación de chips se está debilitando",
+  "link": "https://www.expansion.com/economia/financial-times/2026/08/03/6a70cd9e468aeb406f8b4584.html",
+  "source": "Expansión",
+  "date": "2026-08-03T17:19:38+00:00",
+  "desc": "El monopolio de la empresa neerlandesa no corre un riesgo inminente, pero China se acerca cada vez más. Leer",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How big was the American JPY intervention?",
+  "link": "https://www.ft.com/content/e279135e-cd6e-46d4-b80b-2e6b0c0901a9",
+  "source": "Financial Times",
+  "date": "2026-08-03T17:14:10+00:00",
+  "desc": "We can but guess, for now",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Are Americans ready to embrace tiny 'cars'? These companies think so",
+  "link": "https://www.cnbc.com/2026/08/03/electric-lsv-stellantis-fiat-toppolino.html",
   "source": "CNBC",
-  "date": "2026-08-03T15:47:24+00:00",
-  "desc": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
+  "date": "2026-08-03T16:57:42+00:00",
+  "desc": "Electric low-speed vehicles, or LSVs, are a step above a traditional golf cart but below a typical light-duty car or truck sold in the U.S.",
   "ccs": [
    "US"
   ],
-  "cat": "en_",
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
+  "link": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-03T16:44:25+00:00",
+  "desc": "It is also the latest move by Visa to expand its value-added services business, which has become one of the company's fastest-growing divisions.",
+  "ccs": [],
+  "cat": "tc",
   "imp": "high"
+ },
+ {
+  "title": "AstraZeneca and Bristol-Myers: when Big Pharma isn’t big enough",
+  "link": "https://www.ft.com/content/6282b88a-6f49-40cc-b1d8-5e147e7e37f1?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-03T16:33:17+00:00",
+  "desc": "Sheer mass helps when enlarged balance sheets allow for bigger bets on potential blockbuster drugs",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "AstraZeneca investors raise concerns over mega-merger talks",
+  "link": "https://www.ft.com/content/6d40c74b-ac40-42f1-9387-957925f48daa?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-03T16:24:25+00:00",
+  "desc": "Shareholders question looming patent cliff and antitrust risks in potential $400bn tie-up with Bristol Myers Squibb",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Kalshi traders think July jobs report will come in slightly cooler than economists’ predictions",
+  "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-think-july-jobs-will-come-in-cooler-than-estimates.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-03T15:59:04+00:00",
+  "desc": "Speculators on the platform place just under 50-50 odds that employers added more than 80,000 jobs in July.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "UBS fined $125mn over lax money laundering controls",
+  "link": "https://www.ft.com/content/03c413f2-6ad5-45d1-b5ac-fdb6ed8b4cff?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-03T15:53:15+00:00",
+  "desc": "Swiss bank failed to implement adequate curbs despite previous sanction by US regulators",
+  "ccs": [
+   "CH"
+  ],
+  "cat": "gp",
+  "imp": "medium"
  },
  {
   "title": "'Spider-Man: Brand New Day' beats out 'Avengers: Endgame' for highest domestic opening ever",
@@ -47,79 +348,16 @@
   "imp": "low"
  },
  {
-  "title": "Senate appears ready to advance Todd Blanche for attorney general after Cornyn strikes deal",
-  "link": "https://www.cnbc.com/2026/08/03/todd-blanche-doj-ag-senate-cornyn.html",
-  "source": "CNBC",
-  "date": "2026-08-03T15:46:15+00:00",
-  "desc": "President Donald Trump's attorneys continue to fight in court against a judicial order that said the settlement deal as legally baseless.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "California's diesel prices have jumped since the Iran war started, with ripple effects across the country",
-  "link": "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
-  "source": "CNBC",
-  "date": "2026-08-03T15:27:52+00:00",
-  "desc": "California has the highest gas prices in the country as well as the busiest containership port, meaning consumers across the country could feel the impact of higher diesel.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
   "title": "El Ibex acaricia récords con el petróleo desinflado",
   "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/03/6a702b8f468aeb73518b4597.html",
   "source": "Expansión",
-  "date": "2026-08-03T15:22:10+00:00",
+  "date": "2026-08-03T15:40:47+00:00",
   "desc": "El mes de agosto comienza en los mercados con novedades geopolíticas alentadoras. La decisión de Trump de cancelar los ataques contra Irán desinfla el precio del petróleo, y allana de paso las compras en Bolsa. La tensió",
   "ccs": [
    "ES"
   ],
   "cat": "en_",
   "imp": "medium"
- },
- {
-  "title": "Todd Blanche wins backing of senators after scrapping $1.8bn ‘slush fund’",
-  "link": "https://www.ft.com/content/518d4dea-01b4-4030-85c1-916e91661580?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-03T15:20:10+00:00",
-  "desc": "Support of two Republicans paves way for acting US attorney-general to be confirmed in the post",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Why the U.S. decided to help Japan by boosting the flailing yen",
-  "link": "https://www.marketwatch.com/story/joint-u-s-japanese-intervention-boosts-the-yen-but-will-it-be-enough-069451f5?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T15:20:00+00:00",
-  "desc": "The U.S. Treasury Department and Federal Reserve have joined forces with their Japanese counterparts to stage a historic joint intervention to boost the Japanese yen, according to Japan’s Ministry of Finance, which confi",
-  "ccs": [
-   "US",
-   "JP"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Disappointed by your skimpy pay raise? Blame your healthcare benefits.",
-  "link": "https://www.marketwatch.com/story/disappointed-by-your-skimpy-pay-raise-blame-your-healthcare-benefits-8025491b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T15:17:00+00:00",
-  "desc": "It’s been two decades since companies’ health-benefit costs have climbed this fast.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
-  "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T15:15:00+00:00",
-  "desc": "“My car was nearly 20 years old, and I only carried liability and uninsured motorist coverage, not collision coverage.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  },
  {
   "title": "Japan vows further yen intervention with US if needed",
@@ -131,18 +369,6 @@
    "JP"
   ],
   "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Why tech stocks are likely to take a back seat for the rest of 2026, according to JPMorgan strategists",
-  "link": "https://www.marketwatch.com/story/why-tech-stocks-are-likely-to-take-a-back-seat-for-the-rest-of-2026-according-to-jpmorgan-strategists-93e1c61f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T15:03:00+00:00",
-  "desc": "Strategists at the bank see non-U.S. shares performing well in the second half of the year and prefer semiconductor stocks to hyperscalers.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
   "imp": "medium"
  },
  {
@@ -168,108 +394,6 @@
   "imp": "low"
  },
  {
-  "title": "Are Americans ready to embrace tiny 'cars'? These companies think so",
-  "link": "https://www.cnbc.com/2026/08/03/electric-lsv-stellantis-fiat-toppolino.html",
-  "source": "CNBC",
-  "date": "2026-08-03T14:55:42+00:00",
-  "desc": "Electric low-speed vehicles, or LSVs, are a step above a traditional golf cart but below a typical light-duty car or truck sold in the U.S.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "They spent tens of thousands of dollars on home remodels — only to regret it. ‘It’s just been so much.’",
-  "link": "https://www.marketwatch.com/story/they-spent-tens-of-thousands-of-dollars-on-home-remodels-only-to-regret-it-8cfa23e6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:52:00+00:00",
-  "desc": "Some homeowners spend big bucks to upgrade their house, only to end up having second thoughts.",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Trump says Iran talks to resume Monday after calling off planned strikes",
-  "link": "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html",
-  "source": "CNBC",
-  "date": "2026-08-03T14:38:05+00:00",
-  "desc": "The latest peace proposal calls for warring parties to return to negotiations and continue working out some of the thorny issues that derailed diplomatic efforts.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "My boss and I work in different cities and she never responds to my messages. What do I do?",
-  "link": "https://www.marketwatch.com/story/my-boss-and-i-work-in-different-cities-and-she-never-responds-to-my-messages-what-do-i-do-45713e98?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:37:00+00:00",
-  "desc": "“Most of the time it feels like I’m just talking into the ether.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-  "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:30:00+00:00",
-  "desc": "“I expect to have several years before I take distributions from my 401(k) account.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’",
-  "link": "https://www.marketwatch.com/story/astrazeneca-tie-up-talks-with-bristol-myers-squibb-are-moving-stocks-analysts-are-puzzled-7ae60fef?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:22:00+00:00",
-  "desc": "AstraZeneca shares were slumping while Bristol-Myers Squibb’s stock was jumping on Monday on reported deal talks. But the big question is why these two pharmaceutical giants would want to come together in the first place",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "American manufacturers grow at fastest clip in 4 years due to AI boom — but all is not well",
-  "link": "https://www.marketwatch.com/story/american-manufacturers-grow-at-fastest-clip-in-4-years-due-to-ai-boom-but-all-is-not-well-c49eb383?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:21:00+00:00",
-  "desc": "American manufacturers grew in July at the fastest pace in more than four year as they bore the fruits of a massive boom in artificial intelligence, but they’re also being hampered by pandemic-era-like supply shortages a",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
-  "link": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html",
-  "source": "CNBC",
-  "date": "2026-08-03T14:11:17+00:00",
-  "desc": "It is also the latest move by Visa to expand its value-added services business, which has become one of the company's fastest-growing divisions.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
-  "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-03T14:00:00+00:00",
-  "desc": "A reader writes: “I will likely be in a position to decline my benefits.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Iran denies Trump claim of imminent talks",
-  "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-03T13:48:15+00:00",
-  "desc": "US president had said negotiations would begin on Monday but Tehran denied the two parties were in talks",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
   "link": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
   "source": "CNBC",
@@ -280,39 +404,6 @@
   ],
   "cat": "er",
   "imp": "high"
- },
- {
-  "title": "What the market is saying about the U.S. intervention to prop up the yen",
-  "link": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
-  "source": "CNBC",
-  "date": "2026-08-03T13:43:55+00:00",
-  "desc": "Following the joint involvement the yen now sits at 157 to the dollar, down from just above 163, which represented its lowest level in four decades.",
-  "ccs": [
-   "US",
-   "JP"
-  ],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Struggling to make sense of AstraZeneca-BMS",
-  "link": "https://www.ft.com/content/eddbdc29-5206-4c79-9ea7-f1a06ff040f1",
-  "source": "Financial Times",
-  "date": "2026-08-03T13:21:47+00:00",
-  "desc": "All about oncology? A cardio workout? Patent-cliff avoidance? American dreaming?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Greece wildfire in pictures: Firefighters battle blaze worsened by 100km per hour winds",
-  "link": "https://www.cnbc.com/2026/08/03/greece-wildfire-pictures-winds-heatwave.html",
-  "source": "CNBC",
-  "date": "2026-08-03T12:11:05+00:00",
-  "desc": "Greece is entering its second week of wildfires spread by extreme winds as more countries in Southern Europe battle with intensifying climate change.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
  },
  {
   "title": "Law Firm Jackson Walker to Pay $15 Million to Settle Government Claims Over Ex-Judge’s Romance",
@@ -402,93 +493,5 @@
   ],
   "cat": "en_",
   "imp": "high"
- },
- {
-  "title": "Euríbor hoy, 3 de agosto: El Euríbor arranca el mes con descuentos",
-  "link": "https://www.expansion.com/mercados/euribor/2026/08/03/6a7066aae5fdea2c458b456d.html",
-  "source": "Expansión",
-  "date": "2026-08-03T10:22:12+00:00",
-  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 2,939% en agosto, lo que supone un aumento de 0,084 puntos respecto al día anterior. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Struggling Colleges Tap Restricted Donor Funds to Keep the Lights On",
-  "link": "https://www.wsj.com/finance/investing/struggling-colleges-tap-restricted-donor-funds-to-keep-the-lights-on-83243eb5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-03T10:01:00+00:00",
-  "desc": "Plus, Big Tech earnings send valuations in wildly different directions, and the Kremlin bullies more Russians into fighting in Ukraine.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "How to Play the Flood of AI Bonds",
-  "link": "https://www.wsj.com/finance/investing/how-to-play-the-flood-of-ai-bonds-279f6ba5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-03T09:30:00+00:00",
-  "desc": "Big tech wants to borrow money for decades, but investors have better options.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "The Worries That Drove Uncle Sam to Buy Yen",
-  "link": "https://www.wsj.com/finance/currencies/the-worries-that-drove-uncle-sam-to-buy-yen-4ff554f1?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-03T09:03:00+00:00",
-  "desc": "The U.S. and Japan are seeking to contain tremors that could be triggered by a cratering Japanese currency.",
-  "ccs": [
-   "US",
-   "JP"
-  ],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "AstraZeneca holds talks with Bristol Myers Squibb over $400bn tie-up",
-  "link": "https://www.ft.com/content/e9027253-e13c-460a-a4b1-f9047e5a6ca7?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-03T08:23:26+00:00",
-  "desc": "Deal would create world’s fourth-largest drugmaker by market value",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Stock Market Today: Stocks Rally, Oil Slides on Return to Mideast Diplomacy",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-03T07:58:14+00:00",
-  "desc": "Dow jumps 500 points; U.S.-Japan intervention props up yen",
-  "ccs": [
-   "US",
-   "JP"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Los bajistas dan marcha atrás en los valores del Ibex de cara a agosto",
-  "link": "https://www.expansion.com/mercados/2026/08/03/6a703930e5fdea63458b4596.html",
-  "source": "Expansión",
-  "date": "2026-08-03T07:34:08+00:00",
-  "desc": "Los cuatro últimos ajustes de carteras de las firmas bajistas notificados al cierre de julio en los integrantes del Ibex se han traducido en cuatro repliegues de sus posiciones cortas. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los tres grandes focos de atención de los mercados en agosto",
-  "link": "https://www.expansion.com/mercados/2026/08/03/6a6c8a00468aeb3b348b4588.html",
-  "source": "Expansión",
-  "date": "2026-08-03T06:05:34+00:00",
-  "desc": "Los inversores que se mantengan activos en Bolsa durante el mes de agosto pueden centrar su atención en los tres grandes focos que captan el interés de los mercados. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  }
 ]
