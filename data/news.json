@@ -1,9 +1,382 @@
 [
  {
+  "title": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
+  "link": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html",
+  "source": "CNBC",
+  "date": "2026-08-14T17:11:52+00:00",
+  "desc": "Mangione's lawyers immediately argued his federal plea means he cannot be prosecuted in state court for Brian Thompson's slaying due to double jeopardy.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Drone stocks are soaring thanks to Trump’s new tariffs",
+  "link": "https://www.marketwatch.com/story/drone-stocks-are-soaring-thanks-to-trumps-new-tariffs-895c6658?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T17:04:00+00:00",
+  "desc": "Rally is being led by shares of Unusual Machines, which previously disclosed Donald Trump Jr. as an adviser.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "JPMorgan Ended Banking Relationship with Polymarket over Regulatory Concerns",
+  "link": "https://www.wsj.com/finance/banking/jpmorgan-ended-banking-relationship-with-polymarket-over-regulatory-concerns-d8d00d32?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T16:56:00+00:00",
+  "desc": "The bank maintains some ties to prediction market giant.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Group including Jeff Bezos buys minority stake in Liverpool FC, with option to become controlling owner",
+  "link": "https://www.cnbc.com/2026/08/14/jeff-bezos-group-buys-stake-liverpool-fc.html",
+  "source": "CNBC",
+  "date": "2026-08-14T16:40:03+00:00",
+  "desc": "The group that includes Jeff Bezos has an option to become the majority shareholder within the next year.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Luigi Mangione pleads guilty to federal charges over death of UnitedHealthcare CEO",
+  "link": "https://www.ft.com/content/68873521-58fa-435d-b46f-6309612964b2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-14T16:38:38+00:00",
+  "desc": "Ivy League graduate reverses stance in case that has become lightning rod for debate about US healthcare system",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Disney CEO Josh D'Amaro tells CNBC parks were 'big surprise' in last quarter, company has 'clarity' and 'stability'",
+  "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
+  "source": "CNBC",
+  "date": "2026-08-14T16:27:45+00:00",
+  "desc": "New CEO Josh D'Amaro has said his strategy for continued growth at Disney is centered around storytelling, intellectual property and technology.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Court rules companies can't import Gilead medications from overseas in blow to AFP health programs",
+  "link": "https://www.cnbc.com/2026/08/14/court-ruling-gilead-medications-overseas-afps.html",
+  "source": "CNBC",
+  "date": "2026-08-14T16:27:07+00:00",
+  "desc": "A U.S. appeals court has ruled in favor of Gilead Sciences against companies known as alternative funding programs that import medicines from overseas.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Los rumores de opa en el sector disparan la remontada de los valores de software",
+  "link": "https://www.expansion.com/mercados/2026/08/14/6a7ed23c468aeb9e768b4583.html",
+  "source": "Expansión",
+  "date": "2026-08-14T16:22:08+00:00",
+  "desc": "Los inversores han recibido un estímulo extra para tomar posiciones en uno de los sectores más castigados en Bolsa en 2025 y 2026. El interés del capital riesgo en la compra de empresas de software ha disparado las subid",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "Still trying to time the stock market? This chart shows why it’s tougher than you think.",
+  "link": "https://www.marketwatch.com/story/still-trying-to-time-the-stock-market-this-chart-shows-why-its-tougher-than-you-think-79a726c4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T16:21:00+00:00",
+  "desc": "The “fear of missing out” and “fear of topping out” may drive you to make mistakes.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+  "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+  "source": "CNBC",
+  "date": "2026-08-14T16:14:45+00:00",
+  "desc": "OpenAI's C-suite turnover gives investors another reason for concern as the company pushes toward a mammoth IPO.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "I have $10 million and pay two advisers for financial help, but still have questions",
+  "link": "https://www.marketwatch.com/story/i-have-10-million-and-pay-two-advisers-for-financial-help-but-still-have-questions-7c29b83f?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T16:10:00+00:00",
+  "desc": "If you don’t trust the money advice you’re getting from professionals, what are you paying for?",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bezos-backed group strikes deal for stake in Liverpool FC",
+  "link": "https://www.ft.com/content/98cd55c6-8692-47f0-882a-f81de2351130?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-14T16:00:06+00:00",
+  "desc": "Consortium led by son-in-law of steel billionaire Lakshmi Mittal invests at valuation of more than $7bn",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "El Ibex aprovecha la tregua para buscar nuevos récords",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/14/6a7eabdc468aebb5298b4581.html",
+  "source": "Expansión",
+  "date": "2026-08-14T15:45:49+00:00",
+  "desc": "La calma impera de nuevo en los mercados. La ausencia de grandes referencias, y la estabilidad tanto del petróleo como de las tecnológicas apuntan a otra jornada de baja intensidad. La tregua abre la puerta a la conquist",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
+  "link": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T15:45:00+00:00",
+  "desc": "“We were advised to return the bonus and take out a home-equity loan.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Los inversores vuelven a apostar con fuerza por Wall Street",
+  "link": "https://www.expansion.com/economia/financial-times/2026/08/14/6a7f30ece5fdeabf118b4595.html",
+  "source": "Expansión",
+  "date": "2026-08-14T15:31:53+00:00",
+  "desc": "Una brillante temporada de resultados y la caída de la inflación impulsan la recuperación de los índices estadounidenses tras el desplome de los chips en julio. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
+  "link": "https://www.cnbc.com/2026/08/13/cnbc-poll-half-of-those-18-to-34-view-democratic-socialism-positively.html",
+  "source": "CNBC",
+  "date": "2026-08-14T15:22:00+00:00",
+  "desc": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively and nearly 80% see the U.S. economy negatively.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump asks Supreme Court to let White House ballroom construction continue",
+  "link": "https://www.cnbc.com/2026/08/14/trump-ballroom-supreme-court-white-house.html",
+  "source": "CNBC",
+  "date": "2026-08-14T15:11:41+00:00",
+  "desc": "President Donald Trump tore down the White House East Wing to make way for the ballroom project.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Your prescription drugs shouldn’t cost more than your mortgage. Inside the broken math that got us here.",
+  "link": "https://www.marketwatch.com/story/your-prescription-drugs-shouldnt-cost-more-than-your-mortgage-inside-the-broken-math-that-got-us-here-b5a2c4aa?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T15:07:00+00:00",
+  "desc": "We will never make medicine affordable if how to tie a drug’s price to its value is solely determined by the companies creating the drugs.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?",
+  "link": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T15:00:00+00:00",
+  "desc": "“Right now, we’re withdrawing about $100,000 a year from our investments.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Heatwaves expose the great human gift for ignoring catastrophe",
+  "link": "https://www.ft.com/content/63a28eea-9d73-487b-bb46-34530e215fce?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-14T14:46:18+00:00",
+  "desc": "We need to stop waiting for someone else to break the spell",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Investors pile back into US stocks as bullishness returns to Wall Street",
+  "link": "https://www.ft.com/content/d4897d94-0d69-445a-9466-5150840c801e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-14T14:35:44+00:00",
+  "desc": "Stellar earnings season and falling inflation fuel rebound from July’s chip rout",
+  "ccs": [
+   "US"
+  ],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Should I tap my home equity or sell stocks to build a $100,000 emergency fund?",
+  "link": "https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T14:30:00+00:00",
+  "desc": "“We have about $1.7 million invested but only around $20,000 in cash.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
+  "link": "https://www.marketwatch.com/story/congress-changed-the-rules-around-charitable-giving-do-it-earlier-in-the-year-to-save-money-392e5de3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T14:14:00+00:00",
+  "desc": "Congress changed three charitable-deduction rules this year. The most common way people give money to charities these days is now also probably the most expensive way.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘I didn’t know what else to do’: Patients take their health-insurance battles to Facebook and LinkedIn",
+  "link": "https://www.marketwatch.com/story/i-didnt-know-what-else-to-do-patients-take-their-health-insurance-battles-to-facebook-and-linkedin-500bda58?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T14:13:00+00:00",
+  "desc": "Pushed to their limits, patients are turning to social media to plead for help getting their medical care covered.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
+  "link": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-14T14:01:00+00:00",
+  "desc": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+  "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+  "source": "CNBC",
+  "date": "2026-08-14T13:24:54+00:00",
+  "desc": "The widening price of copper between two metals exchanges is offering investors a gauge of U.S. tariff risk.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Daniel Kinahan, Ireland’s most wanted man, faces his day in court",
+  "link": "https://www.ft.com/content/0095afa5-5945-49cf-b21e-cd502abd1d87?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-14T12:45:52+00:00",
+  "desc": "Crime boss suspect tried to mix legitimate business with allegedly running a murderous empire",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
+  "link": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
+  "source": "CNBC",
+  "date": "2026-08-14T12:28:54+00:00",
+  "desc": "Japan protested Vladimir Putin’s first visit to the disputed Kuril Islands, escalating tensions over territory claimed by both Tokyo and Moscow.",
+  "ccs": [
+   "JP"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Data breach notices have already blown past last year’s total — and AI is playing a growing role",
+  "link": "https://www.cnbc.com/2026/08/14/data-breaches-surge-2026-ai-cyberattacks.html",
+  "source": "CNBC",
+  "date": "2026-08-14T12:15:01+00:00",
+  "desc": "Data breaches are surging in 2026, with artificial intelligence playing a growing role in cyberattacks, and 'malicious insider' incidents also on the rise.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
+  "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+  "source": "CNBC",
+  "date": "2026-08-14T11:50:40+00:00",
+  "desc": "\"It will be a combination of economic isolation like ‌the world has ​never seen before, ​and ​the continued blockade in ‌the Strait of ​Hormuz,\" Bessent said.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Companies Have Rarely Had Such Great Expectations",
+  "link": "https://www.wsj.com/finance/stocks/companies-have-rarely-had-such-great-expectations-c5824f70?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T10:29:00+00:00",
+  "desc": "Plus, a big shift in rate hike odds",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "How Trump and Musk Rebuilt Their Alliance After a Public Falling Out",
+  "link": "https://www.wsj.com/finance/investing/how-trump-and-musk-rebuilt-their-alliance-after-a-public-falling-out-6348dd4d?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T10:01:00+00:00",
+  "desc": "Plus, see the battlefield innovations reshaping the Russia-Ukraine war, and go behind the scenes of our documentary on North Korea’s secret U.S. workforce.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "What to Ask When Your Adviser Pushes Private Funds",
+  "link": "https://www.wsj.com/finance/investing/what-to-ask-when-your-adviser-pushes-private-funds-b037503b?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T09:30:00+00:00",
+  "desc": "Good questions are every investor’s best defense. Here are the questions you need to ask before joining Wall Street’s $2 trillion party.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "How Big Tech’s Earnings Are Inflated by Other Tech Companies",
+  "link": "https://www.wsj.com/finance/stocks/the-121-billion-in-one-time-gains-boosting-big-techs-profits-5d2201da?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T09:30:00+00:00",
+  "desc": "Gains on investments in companies like Anthropic are boosting earnings at some of the biggest technology companies.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Stock Market Today: S&P Slips Back From Records",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-14T08:27:38+00:00",
+  "desc": "U.S. retail sales slid in July",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
   "title": "Las recompras inyectarán gasolina a la Bolsa europea en la recta final del año",
   "link": "https://www.expansion.com/mercados/2026/08/14/6a7ebb46468aebac078b456d.html",
   "source": "Expansión",
-  "date": "2026-08-14T06:55:33+00:00",
+  "date": "2026-08-14T07:18:53+00:00",
   "desc": "Las recompras de acciones son una de las variables que más ha aumentado en los últimos tiempos en la renta variable europea, y en particular en el Ibex. Los analistas de Barclays destacan además que desde ahora hasta el",
   "ccs": [
    "ES"
@@ -24,66 +397,6 @@
   "imp": "medium"
  },
  {
-  "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
-  "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
-  "source": "CNBC",
-  "date": "2026-08-14T06:24:41+00:00",
-  "desc": "Farage stepped down last month to trigger the special vote amid controversy over his finances.",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El Ibex aprovecha la tregua para buscar nuevos récords",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/14/6a7eabdc468aebb5298b4581.html",
-  "source": "Expansión",
-  "date": "2026-08-14T06:22:46+00:00",
-  "desc": "La calma impera de nuevo en los mercados. La ausencia de grandes referencias, y la estabilidad tanto del petróleo como de las tecnológicas apuntan a otra jornada de baja intensidad. La tregua abre la puerta a la conquist",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Investigation into Farage to resume after he wins Clacton by-election",
-  "link": "https://www.ft.com/content/1bc8c77b-f3e2-4ad4-aefc-94b3f48426c6?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-14T06:18:49+00:00",
-  "desc": "Reform UK leader increases number of votes after mainstream parties shunned poll as stunt",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "China built robots that can do backflips – but can they make money?",
-  "link": "https://www.cnbc.com/2026/08/14/china-humanoid-robots-unitree-ipo-tesla-optimus.html",
-  "source": "CNBC",
-  "date": "2026-08-14T05:00:47+00:00",
-  "desc": "Unitree’s IPO will gauge investors’ appetite for a technology that has yet to prove its commercial viability amid intensifying geopolitical tensions.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
-  "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
-  "source": "CNBC",
-  "date": "2026-08-14T05:00:01+00:00",
-  "desc": "The widening price of copper between two metals exchanges is offering investors a gauge of U.S. tariff risk.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
   "title": "JPMorgan debanked Polymarket over regulatory concerns",
   "link": "https://www.ft.com/content/4e3774b6-52e5-4b8a-be76-0bb87495e1f0?syn-25a6b1a6=1",
   "source": "Financial Times",
@@ -92,16 +405,6 @@
   "ccs": [],
   "cat": "rg",
   "imp": "medium"
- },
- {
-  "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-  "link": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-14T04:00:14+00:00",
-  "desc": "US groups release cheaper models after new challenges to their trillion-dollar ambitions",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "high"
  },
  {
   "title": "The exodus from Israel",
@@ -114,58 +417,14 @@
   "imp": "low"
  },
  {
-  "title": "Pakistan and the new great game of Risk",
-  "link": "https://www.ft.com/content/a9573d72-7bb2-462f-83d7-c0fe36f8c98d?syn-25a6b1a6=1",
+  "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+  "link": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01?syn-25a6b1a6=1",
   "source": "Financial Times",
   "date": "2026-08-14T04:00:14+00:00",
-  "desc": "Islamabad has bold ambitions to play a more proactive role in the world",
+  "desc": "US groups release cheaper models after new challenges to their trillion-dollar ambitions",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Farage aide Cottrell had secret Polymarket account that placed bets on Trump victory",
-  "link": "https://www.ft.com/content/4fccf8b5-5e32-4322-9435-d996a0273dff?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-14T04:00:14+00:00",
-  "desc": "Large sums involved shine light on the financial activities of one of Farage’s closest confidants",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The quest to find the world’s best honey",
-  "link": "https://www.ft.com/content/77816bbf-0316-4a73-8121-cfa22e6235be?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-14T04:00:05+00:00",
-  "desc": "Since ancient times, Turkey has sought to make the world’s finest and now most expensive product",
-  "ccs": [
-   "TR"
-  ],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "US investment giant T Rowe says it will take years to stem outflows",
-  "link": "https://www.ft.com/content/d0cf28db-bc8d-4fc1-85b6-7b59ab67a451?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-14T04:00:05+00:00",
-  "desc": "Firm’s struggles illustrate challenge for active managers amid low-cost competition from indexing and ETFs",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
-  "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
-  "source": "CNBC",
-  "date": "2026-08-14T01:52:07+00:00",
-  "desc": "\"It will be a combination of economic isolation like ‌the world has ​never seen before, ​and ​the continued blockade in ‌the Strait of ​Hormuz,\" Bessent said.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
+  "cat": "fx",
+  "imp": "high"
  },
  {
   "title": "AI frenzy drives Chinese tech valuations to multiples of US peers",
@@ -182,7 +441,7 @@
  {
   "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
   "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-  "source": "CNBC",
+  "source": "CNBC Markets",
   "date": "2026-08-14T01:02:39+00:00",
   "desc": "The rollout comes as robotaxi fleet sizes become increasingly critical for commercialization.",
   "ccs": [
@@ -192,55 +451,11 @@
   "imp": "medium"
  },
  {
-  "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
-  "link": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-14T00:19:00+00:00",
-  "desc": "After past snubs, social-media site Reddit has landed a spot on the S&P 500, sending shares on an after-hours rally Thursday.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
-  "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
-  "source": "CNBC",
-  "date": "2026-08-14T00:09:11+00:00",
-  "desc": "Global companies are increasingly tapping Chinese technology for its growing capabilities and scale, even as geopolitical risks remain.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Reddit stock jumps on inclusion in S&P 500",
-  "link": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html",
-  "source": "CNBC",
-  "date": "2026-08-13T23:04:21+00:00",
-  "desc": "Reddit shares jumped on the company's inclusion in the S&P 500.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "SpaceX suma 500.000 millones a su valoración en una semana",
   "link": "https://www.expansion.com/empresas/2026/08/14/6a7e4897e5fdea1a628b4598.html",
   "source": "Expansión",
   "date": "2026-08-13T22:50:00+00:00",
   "desc": "La compañía especializada en fabricación aeroespacial y de servicios de transporte espacial propiedad de Elon Musk, SpaceX, acumula una revalorización de alrededor del 35% en las últimas cinco sesiones en Bolsa. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?",
-  "link": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:31:00+00:00",
-  "desc": "“Right now, we’re withdrawing about $100,000 a year from our investments.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
@@ -266,223 +481,5 @@
   ],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
-  "link": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:09:00+00:00",
-  "desc": "Shares of Dell have roughly quadrupled in price this year, with Lenovo’s earnings report helping to drive the latest bout of momentum for the PC and server maker.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Salesforce’s stock gets a boost as J.P. Morgan says AI fears are overblown",
-  "link": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:07:00+00:00",
-  "desc": "An analyst predicts 29% upside for Salesforce shares, citing some promising AI features.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Sandisk’s stock is flying higher. Here are the new targets that are exciting Wall Street.",
-  "link": "https://www.marketwatch.com/story/sandisks-stock-is-flying-higher-here-are-the-new-targets-that-are-exciting-wall-street-4eaab99d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:05:00+00:00",
-  "desc": "The memory-chip company just offered revenue-growth forecasts stretching to the end of the decade, and Sandisk expects to maintain its high profitability as the years go on.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Markets are looking eerily calm as investors chase FOMO rally",
-  "link": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:05:00+00:00",
-  "desc": "By nearly every headline measure, investors have never looked more relaxed in a year not short of wild rides. But that calm may not be as reassuring as it looks.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘It feels like a medical miracle’: How did a single QR code coupon cut my $618 Walgreens prescription to $15?",
-  "link": "https://www.marketwatch.com/story/it-feels-like-a-medical-miracle-how-did-a-single-qr-code-coupon-cut-my-618-walgreens-prescription-to-15-524a1151?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:00:00+00:00",
-  "desc": "“This medication was generic.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-  "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T22:00:00+00:00",
-  "desc": "“The landlord has not been here in months, so I assume it was a previous tenant.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Workday’s stock sees a record surge. Could a buyout spark a software revival?",
-  "link": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T21:34:00+00:00",
-  "desc": "Shares of the HR software company rose 18% on Thursday on reports of a potential private-equity acquisition.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
-  "link": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-13T21:30:00+00:00",
-  "desc": "“I would like to offer a piece of advice for women who are or have been married.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "EEUU paga el mayor interés por su deuda a 30 años desde 2001",
-  "link": "https://www.expansion.com/mercados/renta-fija/2026/08/13/6a7e2c3c468aeb826b8b457f.html",
-  "source": "Expansión",
-  "date": "2026-08-13T20:48:52+00:00",
-  "desc": "Los rendimientos han aumentado ante la preocupación por el creciente endeudamiento público y una inflación persistentemente elevada. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Cool Inflation Data Propels Stocks to Fresh Records",
-  "link": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-13T20:47:00+00:00",
-  "desc": "Wall Street now expects the Federal Reserve to hold rates steady next month.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Stocks Hit New Highs on Inflation Relief",
-  "link": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-13T20:23:00+00:00",
-  "desc": "Plus, Coach owner Tapestry tumbles and Workday soars.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "These charts show why stocks keep rallying. Profit margins are the highest on record",
-  "link": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
-  "source": "CNBC Markets",
-  "date": "2026-08-13T20:21:51+00:00",
-  "desc": "Recent FactSet data show that the rise in earnings is not coming from sales growth alone.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Workday shares post best day in 10 years on Silver Lake takeover report",
-  "link": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html",
-  "source": "CNBC",
-  "date": "2026-08-13T20:07:24+00:00",
-  "desc": "Workday investors have been on edge over the prospect of AI disrupting its business model",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI loses revenue chief Denise Dresser, second major executive departure in days",
-  "link": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-  "source": "CNBC",
-  "date": "2026-08-13T19:59:46+00:00",
-  "desc": "Denise Dresser's sudden departure could be a major blow to OpenAI as it pursues a blockbuster IPO.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Trade court upholds Trump's closure of 'de minimis' loophole",
-  "link": "https://www.cnbc.com/2026/08/13/trump-trade-court-de-minimis-tariffs-ieepa.html",
-  "source": "CNBC",
-  "date": "2026-08-13T19:56:06+00:00",
-  "desc": "President Donald Trump in a Truth Social post celebrated the continued closure of the deminimis exemption as a \"BIG WIN.\"",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The Lakers’ Owner Needed Cash. Then Came a $12.5 Billion Offer to Buy the Team.",
-  "link": "https://www.wsj.com/sports/basketball/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-13T18:58:00+00:00",
-  "desc": "Facing a federal investigation and a liquidity crunch, Mark Walter needed only 72 hours to accept an out-of-the-blue offer to sell the Lakers to Joshua Kushner and Bob Iger.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic CFO Krishna Rao is leading early IPO meetings with investors and has not discussed valuation, sources say",
-  "link": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
-  "source": "CNBC",
-  "date": "2026-08-13T18:44:12+00:00",
-  "desc": "Anthropic CFO Krishna Rao is leading early investor meetings, which have focused on big-picture themes like its Claude AI models, management and more.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Bill Ackman Calls His New Fund’s Slumping Stock Price ‘Frankly Absurd’",
-  "link": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-13T17:34:00+00:00",
-  "desc": "The billionaire investor’s portfolio has trailed the broader market since he took the fund, Pershing Square USA, and his firm public in April.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Cómo Aston Martin les dio la espalda a los tenedores de bonos",
-  "link": "https://www.expansion.com/economia/financial-times/2026/08/13/6a7df857468aeb52568b4570.html",
-  "source": "Expansión",
-  "date": "2026-08-13T17:09:53+00:00",
-  "desc": "El bajo precio de los bonos de la compañía sugiere que incluso los acreedores principales son pesimistas sobre sus perspectivas. Leer",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Oro, cobre y uranio digitales: los inversores apuestan por la fusión entre metales y criptomonedas",
-  "link": "https://www.expansion.com/economia/financial-times/2026/08/13/6a7dda66e5fdea56798b458c.html",
-  "source": "Expansión",
-  "date": "2026-08-13T17:08:02+00:00",
-  "desc": "La tokenización de minerales es el último intento de trasladar el entusiasmo por las criptomonedas a una nueva clase de activos. Leer",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Iran looks to ramp up economic alliance with BRICS nations as war with U.S. drags on",
-  "link": "https://www.cnbc.com/2026/08/13/iran-war-brics-bank.html",
-  "source": "CNBC Markets",
-  "date": "2026-08-13T16:38:06+00:00",
-  "desc": "Iran’s central bank chief said Thursday that the country is set to join the BRICS New Development Bank.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
  }
 ]
