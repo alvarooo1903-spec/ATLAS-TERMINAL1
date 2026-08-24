@@ -1,55 +1,327 @@
 [
  {
-  "title": "El Ibex quiere recuperar los 20.000 puntos",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/24/6a8bd70be5fdea35478b456d.html",
-  "source": "Expansión",
-  "date": "2026-08-24T06:20:23+00:00",
-  "desc": "Los futuros de los principales índices europeos anticipan una apertura con tendencia mixta y con ligeros avances para el Ibex 35, que se acercaría al nivel de los 20.000 puntos que perdió justo hace una semana. Leer",
+  "title": "Bessent tapping Treasury’s rainy-day fund for buybacks isn’t a ‘bazooka’ to get markets to move his way",
+  "link": "https://www.marketwatch.com/story/bessent-tapping-treasurys-rainy-day-fund-for-buybacks-isnt-a-bazooka-to-get-markets-to-move-his-way-705ca356?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T16:52:00+00:00",
+  "desc": "Bessent’s move “does not change anything. It just reduces the cash that Treasury has on deposit,” one analyst says.",
   "ccs": [
-   "ES"
+   "US"
   ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump Media CEO defends selling faster access to president's Truth Social posts, says more have signed up",
+  "link": "https://www.cnbc.com/2026/08/24/trump-media-ceo-truth-api.html",
+  "source": "CNBC",
+  "date": "2026-08-24T16:38:55+00:00",
+  "desc": "Trump Media interim CEO Kevin McGurn defended his company offering faster access to President Donald Trump's Truth Social posts.",
+  "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Warsh seeks to soothe investors’ nerves as signs of economic strain mount",
-  "link": "https://www.ft.com/content/40ae9cd3-fbc8-4a55-adaa-c24bc80481c9?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-24T06:07:51+00:00",
-  "desc": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
-  "link": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
+  "title": "A massive trade just happened in gold. The options market is buzzing",
+  "link": "https://www.cnbc.com/2026/08/24/a-massive-trade-just-happened-in-gold-the-options-market-is-buzzing.html",
   "source": "CNBC",
-  "date": "2026-08-24T05:24:43+00:00",
-  "desc": "Consumer prices rose 2.2% last month, compared with the 2.3% expected by economists polled by Reuters",
+  "date": "2026-08-24T16:38:37+00:00",
+  "desc": "Twenty minutes after the market opened Monday, someone sold almost 116,000 420-strike calls in the SPDR Gold Shares ETF (GLD) expiring Sep. 18.",
   "ccs": [],
-  "cat": "inf",
+  "cat": "cm",
   "imp": "medium"
  },
  {
-  "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
-  "link": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
+  "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+  "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
   "source": "CNBC",
-  "date": "2026-08-24T04:59:42+00:00",
-  "desc": "Oil prices fell Monday as investors awaited details of what Washington has billed as its toughest-ever sanctions campaign against Iran.",
+  "date": "2026-08-24T16:31:04+00:00",
+  "desc": "President Donald Trump said the U.S. will raise tariffs on imports of cars, trucks and auto parts from Canada to 50% on Jan. 1, 2027.",
   "ccs": [
-   "US"
+   "US",
+   "CA"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Make these 7 money moves before taking out a private student loan",
+  "link": "https://www.marketwatch.com/story/make-these-7-money-moves-before-taking-out-a-private-student-loan-09cf3e08?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T16:28:00+00:00",
+  "desc": "After the federal government put new limits on certain types of student-loan borrowing this summer, lending experts expect more students to turn to private loans to help cover tuition costs.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
+  "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T16:15:00+00:00",
+  "desc": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+  "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T16:15:00+00:00",
+  "desc": "“We don’t know whether they have signed leases or are renting month to month.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "From Nvidia earnings to trade war tape bombs, a simple strategy could be this week's best bet",
+  "link": "https://www.cnbc.com/2026/08/24/from-nvidia-earnings-to-trade-war-tape-bombs-a-simple-strategy-could-be-this-weeks-best-bet.html",
+  "source": "CNBC",
+  "date": "2026-08-24T16:07:35+00:00",
+  "desc": "Mike Khouw gives a low-risk options strategy to play the next few weeks.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Global oil prices above $90 a barrel ahead of Bessent’s ‘economic D-Day’ announcement on Iran",
+  "link": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T16:03:00+00:00",
+  "desc": "What matters more for oil prices is how hard U.S. sanctions hit China, Iran’s biggest oil buyer, and whether Beijing pushes back.",
+  "ccs": [
+   "US",
+   "CN"
   ],
   "cat": "en_",
   "imp": "medium"
  },
  {
+  "title": "Trump says US to increase tariffs on Canadian cars to 50%",
+  "link": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T16:01:38+00:00",
+  "desc": "Move marks further escalation of Washington’s trade war with Ottawa",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
+  "link": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+  "source": "CNBC",
+  "date": "2026-08-24T15:50:50+00:00",
+  "desc": "Goldman Sachs is embracing AI, but one of its senior tech leaders warns that it comes with an unintended risk: weakening the reasoning skills of future bankers.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "high"
+ },
+ {
+  "title": "U.S. automakers and home builders are among the big losers as Trump launches a trade war against Canada",
+  "link": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T15:46:00+00:00",
+  "desc": "While certain U.S. sectors are facing headwinds from the new tariffs on Canadian goods, analysts have said the broad economic effects of the new 50% U.S. levies could be modest for the U.S. overall.",
+  "ccs": [
+   "US",
+   "CA"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "California AG Rob Bonta cancels Paramount settlement meeting, citing 'lack of good faith'",
+  "link": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
+  "source": "CNBC",
+  "date": "2026-08-24T15:41:29+00:00",
+  "desc": "California AG Rob Bonta was scheduled to meet with Paramount representatives on Monday, he said, but canceled the meeting.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Ibex recupera los 20.000 puntos en el inicio de una semana marcada por la Fed y Nvidia",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/24/6a8bd70be5fdea35478b456d.html",
+  "source": "Expansión",
+  "date": "2026-08-24T15:38:32+00:00",
+  "desc": "Los principales índices europeos han despedido la sesión con recortes moderados en el arranque de una semana marcada por la reunión de la Fed en Jackson Hole y los resultados de Nvidia. El Ibex ha destacado con un avance",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Prediction market traders doubtful Bessent’s bond interventions will push yields lower",
+  "link": "https://www.cnbc.com/2026/08/24/prediction-market-traders-skeptical-bessent-will-send-yields-lower.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-24T15:34:11+00:00",
+  "desc": "Speculators still see yields hitting new highs in 2026 and ending the year at levels elevated from where they're currently trading.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Shipping industry warns small battery exemption increases fire risk on vessels",
+  "link": "https://www.ft.com/content/2efb4e7f-9091-4d3a-9e9c-7ac54c06c328?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T15:30:46+00:00",
+  "desc": "Container lines push regulator to change rules where laptops or power banks with batteries do not need to be declared",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Think Medicare Advantage provides better care for chronic conditions? A new study suggests otherwise.",
+  "link": "https://www.marketwatch.com/story/think-medicare-advantage-provides-better-care-for-chronic-conditions-a-new-study-suggests-otherwise-276c7ffd?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T15:29:00+00:00",
+  "desc": "Medicare Advantage enrollees with diabetes aren’t healthier than Americans on traditional Medicare — despite the grocery and gym perks.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
+  "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-24T15:22:09+00:00",
+  "desc": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+  "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T15:16:00+00:00",
+  "desc": "“The cost is absolutely ridiculous.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
+  "link": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T15:15:00+00:00",
+  "desc": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Canadian businesses fear ‘vortex of downward pressures’ from Trump’s tariffs",
+  "link": "https://www.ft.com/content/7522bdde-49f8-4bf0-a930-6591b40eb5e4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T15:05:26+00:00",
+  "desc": "Renewed trade war has inflicted pain and uncertainty on companies that deal with US",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "It’s time to bet big on Nvidia’s stock, says this analyst who thinks the market has it all wrong",
+  "link": "https://www.marketwatch.com/story/its-time-to-bet-big-on-nvidias-stock-says-this-analyst-who-thinks-the-market-has-it-all-wrong-4388d3a6?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-24T15:02:00+00:00",
+  "desc": "Nvidia’s controversial financial plays could actually keep the company on top, according to this analysis.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia says Groq racks will be online this year following $20 billion purchase",
+  "link": "https://www.cnbc.com/2026/08/24/nvidia-says-groq-racks-will-be-online-this-year-after-20-billion-deal.html",
+  "source": "CNBC",
+  "date": "2026-08-24T15:00:01+00:00",
+  "desc": "Nvidia's race to manufacture Groq chips and make them available to customers highlights the growing importance in AI of low-latency inference.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How Shein’s $100bn dream unravelled",
+  "link": "https://www.ft.com/content/5c8aaa6d-5170-4688-beeb-f1319e5ff29e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T15:00:00+00:00",
+  "desc": "Once high-flying fast-fashion retailer is listing in Hong Kong at quarter of peak value after years of false starts",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Crypto extends gains after biggest 3-day rally since 2023",
+  "link": "https://www.cnbc.com/2026/08/24/crypto-extends-gains-after-biggest-3-day-rally-since-2023.html",
+  "source": "CNBC",
+  "date": "2026-08-24T14:02:54+00:00",
+  "desc": "Bitcoin and crypto stocks extended their rally after the flagship cryptocurrency broke out of its trading range.",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "El precio del Bitcoin hoy, 24 de agosto: el Bitcoin desciende de los 78.000 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/08/24/6a8c0f24e5fdead74c8b4587.html",
+  "source": "Expansión",
+  "date": "2026-08-24T13:18:00+00:00",
+  "desc": "El Bitcoin cerró la jornada de ayer en 77.094,36 dólares, mostrando una variación del 0,53% con respecto al día de hoy Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+  "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+  "source": "CNBC",
+  "date": "2026-08-24T13:17:35+00:00",
+  "desc": "Using the TGA would provide the Treasury with considerable firepower to influence long-term bond yields.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Santoli: Why all the fuss about bond yields is happening now",
+  "link": "https://www.cnbc.com/2026/08/24/why-all-the-fuss-about-bond-yields-is-happening-now.html",
+  "source": "CNBC",
+  "date": "2026-08-24T12:31:13+00:00",
+  "desc": "The textbooks say the cycle high in real yields should act as a restraint on economic growth and equity valuations.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "US plans nuclear-powered merchant fleet to challenge China’s shipbuilding dominance",
+  "link": "https://www.ft.com/content/bb60f5f1-bf4c-439e-b78b-3b018062c400?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T12:00:01+00:00",
+  "desc": "British company Core Power plans its first vessel in 2028 following partnership deal with Trump administration",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Revisiting the Lockerbie bombing, 37 years later",
+  "link": "https://www.ft.com/content/895d08d0-5cb9-45f4-9a90-cbfdd164a0dd",
+  "source": "Financial Times",
+  "date": "2026-08-24T11:57:34+00:00",
+  "desc": "For the first time, a US court will try one of those alleged to be responsible for the attack",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
   "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
   "link": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
   "source": "CNBC",
-  "date": "2026-08-24T04:58:03+00:00",
+  "date": "2026-08-24T11:51:45+00:00",
   "desc": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
   "ccs": [
    "US"
@@ -58,23 +330,93 @@
   "imp": "high"
  },
  {
-  "title": "Does AI belong on your face?",
-  "link": "https://www.ft.com/content/3f25f892-2de2-40e6-9592-a7ac18682c6c?syn-25a6b1a6=1",
+  "title": "An offer Canada could only refuse",
+  "link": "https://www.ft.com/content/c806d2ce-efed-47a0-9abb-508e218b62b5?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-08-24T04:00:14+00:00",
-  "desc": "Big Tech thinks wearables are the gateway to artificial intelligence. Critics call it cringe stalkerware",
+  "date": "2026-08-24T11:31:01+00:00",
+  "desc": "Saint Mark Carney’s canonisation owes much to Donald Trump’s inept bullying",
+  "ccs": [
+   "CA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Ukraine hits Russia’s second-largest online retailer",
+  "link": "https://www.ft.com/content/353032d0-4031-40fe-83ab-958d473401f0?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T11:27:46+00:00",
+  "desc": "Kyiv’s drones target Ozon warehouses after weeks of strikes against market leader Wildberries",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "A ‘democratised’ financial crisis is still a crisis",
-  "link": "https://www.ft.com/content/f3f51071-3c6e-49ee-a984-92d8d7af99b2?syn-25a6b1a6=1",
+  "title": "Iran threatens 46 ships in Strait of Hormuz transit crackdown",
+  "link": "https://www.ft.com/content/9ebcd1d7-9959-468b-af96-987ef5bf83a8?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-08-24T04:00:14+00:00",
-  "desc": "Private credit’s insurance boom could have hidden costs",
+  "date": "2026-08-24T11:14:56+00:00",
+  "desc": "Tehran said vessels violated protocols for travelling across waterway and could face fines or confiscation",
   "ccs": [],
-  "cat": "eq",
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Uncle Sam’s $40 Trillion Tab Is Living Rent-Free in Your Mortgage Payment",
+  "link": "https://www.wsj.com/finance/investing/uncle-sams-40-trillion-tab-is-living-rent-free-in-your-mortgage-payment-ec2ff19d?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-24T10:12:00+00:00",
+  "desc": "Plus, Asian tech companies stumble and Moderna’s second act.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "How Trump’s Crypto Push Is Linked to Bessent’s Treasury Moves",
+  "link": "https://www.wsj.com/finance/currencies/how-trumps-crypto-push-is-linked-to-bessents-treasury-moves-809defdc?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-24T09:30:00+00:00",
+  "desc": "Stablecoins could drive demand for Treasury bills.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Alibaba plunges after announcing $10.2 billion share placement to fund AI push",
+  "link": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-24T08:21:17+00:00",
+  "desc": "Alibaba shares plunged 10% after the tech giant priced a $10.2 billion share placement to fund its growing AI investments.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Stock Market Today: Oil Drops as Investors Await Bessent’s Plan to Squeeze Iran",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-24-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-24T08:06:51+00:00",
+  "desc": "Nasdaq slips as chip stocks start week under pressure",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Warsh seeks to reassure investors as US economic strains worsen",
+  "link": "https://www.ft.com/content/40ae9cd3-fbc8-4a55-adaa-c24bc80481c9?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-24T06:35:35+00:00",
+  "desc": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
   "imp": "high"
  },
  {
@@ -87,53 +429,6 @@
    "SA"
   ],
   "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "US widens AI-driven investment gap with Europe",
-  "link": "https://www.ft.com/content/77b94c4a-4b4b-4983-9138-7db6926150f4?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-24T04:00:05+00:00",
-  "desc": "The bloc struggles to keep up with US spending on high-tech equipment and facilities",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Germany must ditch doubts over private capital, says investment tsar",
-  "link": "https://www.ft.com/content/7c88554e-8e08-4d9e-a696-daeb82817876?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-24T04:00:05+00:00",
-  "desc": "Martin Blessing says foreign investors face sceptical public authorities",
-  "ccs": [
-   "DE"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
-  "link": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-24T03:02:00+00:00",
-  "desc": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trading partners.",
-  "ccs": [
-   "US",
-   "CA"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Alibaba plunges after announcing $10.2 billion share placement to fund AI push",
-  "link": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
-  "source": "CNBC",
-  "date": "2026-08-24T02:55:22+00:00",
-  "desc": "Alibaba shares plunged 10% after the tech giant priced a $10.2 billion share placement to fund its growing AI investments.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
   "imp": "high"
  },
  {
@@ -179,310 +474,13 @@
   "imp": "low"
  },
  {
-  "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
-  "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T19:30:00+00:00",
-  "desc": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-  "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T19:00:00+00:00",
-  "desc": "“I’m curious whether there’s a downside.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
-  "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T18:00:00+00:00",
-  "desc": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Democratic House leader Jeffries meets with Jared Kushner as midterms loom",
-  "link": "https://www.cnbc.com/2026/08/23/democratic-leader-jeffries-meets-with-jared-kushner-as-midterms-loom.html",
-  "source": "CNBC",
-  "date": "2026-08-23T17:58:06+00:00",
-  "desc": "Democrats are currently favored to win a majority in the House of Representatives after November's elections.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "We’re in our 50s and have $1.5 million in traditional 401(k)s. Is it too early to start Roth conversions?",
-  "link": "https://www.marketwatch.com/story/were-in-our-50s-and-have-1-5-million-in-traditional-401-k-s-is-it-too-early-to-start-roth-conversions-2d0f9287?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T17:30:00+00:00",
-  "desc": "“The last adviser we worked with lost a significant portion of our portfolio.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump accused of risking more pain for Americans with Canada trade war",
-  "link": "https://www.ft.com/content/39baf33e-3238-4923-9fe9-f1db48bb54e4?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-23T17:28:11+00:00",
-  "desc": "Collapse of talks threatens to raise prices even higher months before midterm election",
-  "ccs": [
-   "CA"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-  "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T17:00:00+00:00",
-  "desc": "“You’ll have to trust me when I tell you that she had love, support and opportunities.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Here are the 2 big things we're watching in the stock market this week",
-  "link": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
-  "source": "CNBC",
-  "date": "2026-08-23T16:56:02+00:00",
-  "desc": "Nvidia reports earnings, and Fed Chairman Kevin Warsh is set to deliver his first Jackson Hole speech.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-  "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T16:45:00+00:00",
-  "desc": "“The cost is absolutely ridiculous.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
-  "link": "https://www.marketwatch.com/story/nvidia-is-the-beating-heart-of-the-ai-boom-and-the-stock-market-which-sets-up-a-big-test-bed36f98?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T13:00:00+00:00",
-  "desc": "Nvidia is due to report earnings on Wednesday, and “a very broad universe of companies” is tied to the themes that the chip giant represents.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
-  "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
+  "title": "United's next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+  "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
   "source": "CNBC",
   "date": "2026-08-23T12:00:01+00:00",
-  "desc": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
-  "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
-  "source": "CNBC",
-  "date": "2026-08-23T12:00:01+00:00",
-  "desc": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
-  "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T12:00:00+00:00",
-  "desc": "You can’t just sweep $40 trillion in U.S. national debt under a rug and forget about it — or so the bond market appears to be telling Treasury Secretary Scott Bessent.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
-  "link": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-23T12:00:00+00:00",
-  "desc": "Tweaking my finances, work and life as I go from the “go-go” years to the “slow-go” years.",
+  "desc": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Top Wall Street analysts believe in the growth potential of these 3 stocks",
-  "link": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
-  "source": "CNBC",
-  "date": "2026-08-23T11:29:05+00:00",
-  "desc": "Analysts are bullish on the prospects of several stocks due to their long-term growth potential and exposure to lucrative areas, such as artificial intelligence.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Hype for Moderna’s Cancer Vaccine Is Running Ahead of the Math",
-  "link": "https://www.wsj.com/health/pharma/hype-for-modernas-cancer-vaccine-is-running-ahead-of-the-math-b9b596f5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-23T09:30:00+00:00",
-  "desc": "Personalized mRNA shots may prove neither as wide-reaching nor as lucrative as hoped.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
-  "link": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
-  "source": "CNBC",
-  "date": "2026-08-23T06:39:00+00:00",
-  "desc": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
-  "ccs": [
-   "US",
-   "CA"
-  ],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "We Went to Wall Street’s Exclusive Wilderness Camp. Everyone Was Spooked by AI.",
-  "link": "https://www.wsj.com/finance/investing/we-went-to-wall-streets-exclusive-wilderness-camp-everyone-was-spooked-by-ai-e16dbe10?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-23T01:00:00+00:00",
-  "desc": "Between fishing outings and poker games, veteran finance pros shared their fears about the artificial intelligence trade.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Trump Discloses 1,000 Stock Trades in June",
-  "link": "https://www.wsj.com/finance/investing/trump-discloses-1-000-stock-trades-in-june-2e5b0773?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-23T00:41:00+00:00",
-  "desc": "The White House said the president’s accounts are invested in “computer-based model portfolios” to replicate stock indexes.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Las 'ballenas' del bitcoin retornan azuzadas por la caída de precios",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/08/22/6a89e026e5fdea6f488b458a.html",
-  "source": "Expansión",
-  "date": "2026-08-22T17:53:00+00:00",
-  "desc": "Los grandes tenedores aprovechan el descenso de la criptomoneda hasta niveles de 2024 para reactivar con fuerza las compras y acumulan 43.000 bitcoins en 60 días. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
-  "link": "https://www.cnbc.com/2026/08/22/coca-cola-innovation-labs-dirty-sodas-refreshers.html",
-  "source": "CNBC",
-  "date": "2026-08-22T12:00:01+00:00",
-  "desc": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Six investors reveal the biggest market risks — and one strategy they agree on",
-  "link": "https://www.cnbc.com/2026/08/22/investors-market-risks-diversification-stocks-kospi.html",
-  "source": "CNBC",
-  "date": "2026-08-22T05:00:01+00:00",
-  "desc": "Investors see different risks threatening markets, but broadly agree that traders should diversify beyond recent winners.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The Wild Week When Scott Bessent Was Schooled by the Bond Market",
-  "link": "https://www.wsj.com/finance/investing/the-wild-week-when-scott-bessent-was-schooled-by-the-bond-market-a244aca2?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-21T23:34:00+00:00",
-  "desc": "The Treasury Department’s announcement of a bond buyback stemmed a selloff—but not for long.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Las mejores ofertas para el ahorro conservador",
-  "link": "https://www.expansion.com/mercados/2026/08/21/6a88b220e5fdeab2388b45a7.html",
-  "source": "Expansión",
-  "date": "2026-08-21T21:57:03+00:00",
-  "desc": "El nuevo escenario de tipos de interés al alza dispara los rendimientos de depósitos, cuentas, Letras del Tesoro y fondos de inversión a corto plazo. Los mejores productos ya superan de largo el nivel del 3%. Leer",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Los consejeros y directivos de banca venden acciones en máximos",
-  "link": "https://www.expansion.com/mercados/2026/08/21/6a889a10e5fdeab4118b457c.html",
-  "source": "Expansión",
-  "date": "2026-08-21T21:55:15+00:00",
-  "desc": "El sector financiero es la gran estrella del año en Bolsa. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Valores tranquilos y con buenos dividendos para batir la inflación",
-  "link": "https://www.expansion.com/mercados/2026/08/21/6a88a791e5fdeadf1e8b45b9.html",
-  "source": "Expansión",
-  "date": "2026-08-21T21:54:42+00:00",
-  "desc": "Naturgy, Enagás, Colonial, Redeia, Aena, Telefónica, Iberdrola y Sacyr combinan una rentabilidad por dividendo de más del 3% y potencial de revalorización en Bolsa. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Changpeng Zhao, el magnate de las 'cripto' que reina en el caos",
-  "link": "https://www.expansion.com/mercados/2026/08/21/6a8868c1468aeba91e8b4571.html",
-  "source": "Expansión",
-  "date": "2026-08-21T21:53:24+00:00",
-  "desc": "Binance le ha convertido en una de las 20 personas más ricas del mundo. En 2013 vendió su apartamento para comprar bitcoins, cuya existencia descubrió jugando al póker con amigos. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Las claves bursátiles de la próxima semana",
-  "link": "https://videos.expansion.com/v/xazmgu2-las-claves-bursatiles-de-la-proxima-semana-21-08-2026?uetv_pl=0",
-  "source": "Expansión",
-  "date": "2026-08-21T20:56:45+00:00",
-  "desc": "Ramón Forcada, director de análisis financiero y de mercados de Bankinter, detalla las claves de inversión para los próximos días. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Kalshi traders think the bitcoin rally could end the year near current levels",
-  "link": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
-  "source": "CNBC Markets",
-  "date": "2026-08-21T17:43:25+00:00",
-  "desc": "Speculators on the prediction market platform think it's most likely that the cryptocurrency will end 2026 close to where it's now trading.",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
  }
 ]
