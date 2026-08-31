@@ -1,41 +1,436 @@
 [
  {
-  "title": "U.S., Iran exchange strikes for first time since July as Trump threatens strategic oil hub",
-  "link": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+  "title": "Supreme Court lets Trump build White House ballroom as lawsuit continues",
+  "link": "https://www.cnbc.com/2026/08/31/supreme-court-white-house-ballroom.html",
   "source": "CNBC",
-  "date": "2026-08-31T11:52:58+00:00",
-  "desc": "The last major U.S. strikes on Iran were carried out in late July.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
+  "date": "2026-08-31T21:23:41+00:00",
+  "desc": "Chief Justice John Roberts dissented with three liberal justices, saying, \"That construction is likely unlawful.\"",
+  "ccs": [],
+  "cat": "rg",
   "imp": "medium"
  },
  {
-  "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
-  "link": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+  "title": "Maybe the snowbirds are right? One state dominates this list of best places to retire.",
+  "link": "https://www.marketwatch.com/story/maybe-the-snowbirds-are-right-one-state-dominates-this-list-of-best-places-to-retire-ab506160?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-08-31T11:45:00+00:00",
-  "desc": "“I paid a significant amount into Social Security.”",
+  "date": "2026-08-31T21:23:00+00:00",
+  "desc": "Access to healthcare, recreation, and low taxes lure retirees, new research says",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Santoli: Why investors should be on high alert heading into September",
-  "link": "https://www.cnbc.com/2026/08/31/santoli-why-investors-should-be-on-high-alert-heading-into-september.html",
+  "title": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+  "link": "https://www.cnbc.com/2026/08/31/trump-venezuela-oil-gas-price.html",
   "source": "CNBC",
-  "date": "2026-08-31T11:40:29+00:00",
-  "desc": "Investors should be on high alert because various key market metrics are coiling near consequential thresholds.",
+  "date": "2026-08-31T21:22:08+00:00",
+  "desc": "President Donald Trump announced Friday that the U.S. secured majority control over 65 billion barrels of Venezuela's proven oil reserves.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "House Intelligence Committee warns of 'Black Swan' AI risks",
+  "link": "https://www.cnbc.com/2026/08/31/ai-warning-house-intelligence-committee.html",
+  "source": "CNBC",
+  "date": "2026-08-31T21:18:37+00:00",
+  "desc": "Bipartisan lawmakers cautioned that existing safeguards may not be enough to keep up with AI's advances.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "23 best-performing stocks of August, as the software industry continues its recovery",
+  "link": "https://www.marketwatch.com/story/22-best-performing-stocks-of-august-as-the-software-industry-continues-its-recovery-88e432bf?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T21:16:00+00:00",
+  "desc": "The energy and technology sectors did well in August, while Moderna’s stock was the best performer by a wide margin.",
   "ccs": [],
   "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Trump Account holders may receive $250 Dell grant starting Monday, Dell Foundation says",
+  "link": "https://www.cnbc.com/2026/08/31/trump-account-holders-to-start-receiving-250-dell-grant-spokesperson.html",
+  "source": "CNBC",
+  "date": "2026-08-31T21:10:05+00:00",
+  "desc": "Eligible children with Trump Accounts will start receiving the $250 Dell gift this week, according to the Dell Foundation.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stocks Decline to End August as War Fears Persist",
+  "link": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-31T21:02:00+00:00",
+  "desc": "Oil prices rise with new fighting reported in the Strait of Hormuz,",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
+  "link": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T21:01:00+00:00",
+  "desc": "The company is seemingly getting closer to rolling out a vehicle that comes without a steering wheel or pedals.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bessent pushes back on Druckenmiller critique of bond intervention",
+  "link": "https://www.cnbc.com/2026/08/31/bessent-druckenmiller-bond-treasury-g20.html",
+  "source": "CNBC",
+  "date": "2026-08-31T21:00:15+00:00",
+  "desc": "Bessent, at a G20 finance meeting, told CNBC he spoke with Stanley Druckenmiller after his critical op-ed was published and that their conversation went \"fine.\"",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
+  "link": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:56:00+00:00",
+  "desc": "Middle East oil producers are finding more ways to evade Iranian threats and push more of their product to market.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "With Warsh running the Fed, should bond investors be worried?",
+  "link": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:55:00+00:00",
+  "desc": "The usually drama-free investment vehicle, U.S. government debt, is now causing some concern.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "The S&P 500 usually falls in September. Why this year should be different.",
+  "link": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:55:00+00:00",
+  "desc": "As U.S. stocks head into September, a key trading level suggests the S&P 500 could dodge a big loss in what is historically a turbulent month.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Donald Trump Jr.’s Fund Boosts Polymarket Investment by Around $300 Million",
+  "link": "https://www.wsj.com/finance/investing/donald-trump-jr-s-fund-boosts-polymarket-investment-by-around-300-million-45270bba?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-31T20:52:00+00:00",
+  "desc": "An upcoming round led by 1789 Capital would value the prediction market at roughly $21 billion.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Elliott builds stake in French industrial gas group Air Liquide",
+  "link": "https://www.ft.com/content/3d30f551-53af-4fab-8271-3f7fd75d5cfd?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T20:50:27+00:00",
+  "desc": "Activist US hedge fund has targeted several European corporate giants in recent years",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+  "link": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+  "source": "CNBC",
+  "date": "2026-08-31T20:50:01+00:00",
+  "desc": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "How to profit from September stock-market weakness",
+  "link": "https://www.marketwatch.com/story/how-to-profit-from-september-stock-market-weakness-34f69ef4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:50:00+00:00",
+  "desc": "Some industries do well in September, despite overall market weakness.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability",
+  "link": "https://www.marketwatch.com/story/pg-e-other-utility-stocks-sink-as-california-leaves-investors-exposed-to-wildfire-liability-ac373b54?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:40:00+00:00",
+  "desc": "A California bill is “more focused on victim protections without any new investor protections,” according to analysts.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Flaring Middle East Tensions Push Oil Prices Up",
+  "link": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-31T20:39:00+00:00",
+  "desc": "Plus, stocks fall and long-dated bond yields rise, while Amazon faces a new legal challenge.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump says US will hit Iran ‘hard’ as conflict reignites",
+  "link": "https://www.ft.com/content/8b09b3fc-bb61-4d9f-aac6-bcef9883fa16?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T20:35:40+00:00",
+  "desc": "Oil prices rise after exchange of fire between warring countries ends weeks of relative quiet",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+  "link": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+  "source": "CNBC",
+  "date": "2026-08-31T20:34:45+00:00",
+  "desc": "The FTC sued Amazon, alleging the company misled advertisers through a deceptive auctioning system.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’",
+  "link": "https://www.marketwatch.com/story/the-10-year-treasury-yield-just-crossed-a-key-threshold-that-should-make-people-sit-up-and-take-notice-ffc0b5b5?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:26:00+00:00",
+  "desc": "Yield on 10-year Treasury touches its highest level of Trump 2.0 as oil climbs back about $90 a barrel",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX",
+  "link": "https://www.marketwatch.com/story/why-dells-stock-stands-to-gain-from-developments-at-nvidia-and-spacex-7978fcaf?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-08-31T20:25:00+00:00",
+  "desc": "Dell is expected to report sharp growth when it posts earnings on Tuesday, and analysts are upbeat about industry developments that could benefit financial results into next year.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "US regulator claims Amazon manipulated advertising prices",
+  "link": "https://www.ft.com/content/bafde798-4860-45bb-9226-633a211e8508?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T20:08:49+00:00",
+  "desc": "Federal Trade Commission sues ecommerce giant alleging it overcharged about 1.2mn businesses leading to higher prices for consumers",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+  "link": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+  "source": "CNBC",
+  "date": "2026-08-31T19:38:38+00:00",
+  "desc": "The path toward the move still looks cluttered.",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
+  "link": "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
+  "source": "CNBC",
+  "date": "2026-08-31T19:31:07+00:00",
+  "desc": "OpenAI's ChatGPT Work offering was down for some users on Monday, and Microsoft said it was having issues with Exchange Online.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "La línea roja del mercado ante la que Estados Unidos va a acudir al rescate",
+  "link": "https://www.expansion.com/mercados/2026/08/31/6a9593c1468aeb23528b45a1.html",
+  "source": "Expansión",
+  "date": "2026-08-31T18:47:23+00:00",
+  "desc": "La gran batalla del otoño tendrá como escenario  la deuda americana. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "FDIC Beats Investor Claim to $1.71 Billion Silicon Valley Bank Deposit",
+  "link": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-31T18:38:00+00:00",
+  "desc": "A federal judge ruled that creditors of SVB Financial aren’t entitled to the claim against the regulator, wiping out a bet by distressed-debt investors.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Westinghouse Electric Wants to Ride a Nuclear Power Revival to an IPO",
+  "link": "https://www.wsj.com/business/energy-oil/westinghouse-electric-wants-to-ride-a-nuclear-power-revival-to-an-ipo-9ad2b196?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-08-31T18:35:00+00:00",
+  "desc": "The company has a powerful ally with an incentive to see it grow: the U.S. government.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Kalshi partners with brokerage Alpaca as it tries to build its international audience",
+  "link": "https://www.cnbc.com/2026/08/31/kalshi-looks-international-partners-with-brokerage-alpaca.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-31T18:22:51+00:00",
+  "desc": "The prediction market platform and the financial infrastructure and brokerage startup are working to get Kalshi's event contracts to global investors.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Cómo la volatilidad del clima también afecta a los resultados de las empresas",
+  "link": "https://www.expansion.com/economia/financial-times/2026/08/31/6a95be01468aebdd378b4573.html",
+  "source": "Expansión",
+  "date": "2026-08-31T17:46:56+00:00",
+  "desc": "Las cadenas de suministro son vulnerables a las olas de calor y los ciclones. Leer",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump says data centre critics ‘want to end up backwards and poor’",
+  "link": "https://www.ft.com/content/744c448c-858e-4398-85dc-a66cecd02abb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T17:19:13+00:00",
+  "desc": "US president urges voters to ‘let Data Reign’ as unpopular building boom roils midterm campaigns",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Lionel Messi announces retirement from international football",
+  "link": "https://www.ft.com/content/4b2b79ad-f909-489b-a8d7-01a126f64bae?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T17:19:01+00:00",
+  "desc": "Superstar says he planned move two days after Argentina’s loss to Spain in July World Cup final",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+  "link": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+  "source": "CNBC",
+  "date": "2026-08-31T17:16:59+00:00",
+  "desc": "Mortgage rates aren't expected to get much cheaper for homebuyers in 2027, especially if inflation stays high.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "El Ibex pierde los 20.000 puntos, pero salda agosto con un alza del 1%",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/31/6a9514f2e5fdeaef458b4597.html",
+  "source": "Expansión",
+  "date": "2026-08-31T15:41:21+00:00",
+  "desc": "Las dudas se mantienen en las Bolsas europeas, que han despedido la sesión mayoritariamente con caídas ante una nueva escalada bélica en Irán, que acelera las subidas del petróleo y presiona sobre la inflación. El Ibex h",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan: Report",
+  "link": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+  "source": "CNBC",
+  "date": "2026-08-31T15:33:30+00:00",
+  "desc": "The latest attacks prompted oil prices to climb above $90 a barrel, as energy market participants monitored the prospect of renewed supply risks.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Crypto exchange Gemini not at fault for collapse of Earn lending program, arbitrator says",
+  "link": "https://www.cnbc.com/2026/08/31/gemini-not-at-fault-for-collapse-of-earn-lending-program-arbitrator-says.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-31T15:22:43+00:00",
+  "desc": "An arbitrator earlier this month said Gemini Space Station did not mislead users of its Earn program.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Aon CEO says insurance broker seeks to build 'premiere middle market platform' with purchase of rival USI",
+  "link": "https://www.cnbc.com/2026/08/31/aon-ceo-says-usi-deal-seeks-to-build-premiere-middle-market-insurance-platform.html",
+  "source": "CNBC Markets",
+  "date": "2026-08-31T15:15:22+00:00",
+  "desc": "The insurance broker said the merger will create the premiere U.S. middle-market platform.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Whose fiscal problems would you prefer?",
+  "link": "https://www.ft.com/content/0f74b589-3fdf-447d-aa44-9570496bf7c7?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-08-31T14:17:57+00:00",
+  "desc": "Lenders must choose between countries behaving like a bingeing entrepreneur, an elderly but reputable business owner and an indebted aristocrat",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Precio del Bitcoin hoy: El precio del Bitcoin se ha revalorizado en un 0,8615%",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/08/31/6a9549a5e5fdea77108b4597.html",
+  "source": "Expansión",
+  "date": "2026-08-31T13:26:08+00:00",
+  "desc": "La mayor de las criptomonedas se sitúa hoy en 78.083,52 dólares, al registrar una variación del 0,01 % Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Los mercados afrontan una nueva ola de subidas de tipos",
+  "link": "https://www.expansion.com/mercados/2026/08/31/6a953606e5fdea35598b4595.html",
+  "source": "Expansión",
+  "date": "2026-08-31T12:47:36+00:00",
+  "desc": "El optimismo bursátil se pondrá a prueba en las próximas semanas. Entre el 10 y el 18 de septiembre los mercados afrontan previsibles subidas de los tipos de interés por parte de tres de los principales bancos centrales",
+  "ccs": [],
+  "cat": "cb",
   "imp": "medium"
  },
  {
   "title": "La Fed pone freno al rally del bitcoin",
   "link": "https://www.expansion.com/mercados/criptomonedas/2026/08/31/6a956475e5fdea21358b4595.html",
   "source": "Expansión",
-  "date": "2026-08-31T11:39:56+00:00",
+  "date": "2026-08-31T12:46:50+00:00",
   "desc": "La cotización del bitcoin despide el mes de agosto con un balance muy positivo, pero inmerso ahora en un freno, activado por la Fed, que ha borrado el nivel de los 80.000 dólares. Leer",
   "ccs": [
    "US"
@@ -44,16 +439,16 @@
   "imp": "medium"
  },
  {
-  "title": "El Ibex choca con los 90 dólares del petróleo",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/08/31/6a9514f2e5fdeaef458b4597.html",
+  "title": "El euríbor sube en agosto al 2,95%, su nivel más alto desde hace dos años",
+  "link": "https://www.expansion.com/mercados/euribor/2026/08/31/6a956dcf468aeba21d8b4576.html",
   "source": "Expansión",
-  "date": "2026-08-31T11:32:54+00:00",
-  "desc": "El mes de agosto finaliza en los mercados con una nueva escalada bélica en Irán. El intercambio de ataques acelera las subidas del petróleo, y pone en guardia a unos inversores muy atentos a las presiones inflacionistas.",
+  "date": "2026-08-31T12:30:12+00:00",
+  "desc": "El Euríbor, la tasa de referencia del mercado interbancario al que están ligadas la mayoría de las hipotecas a tipo variable de España, ha cerrado el mes de agosto en el 2,95%, su nivel más alto desde ese mismo mes en 20",
   "ccs": [
    "ES"
   ],
-  "cat": "en_",
-  "imp": "medium"
+  "cat": "eq",
+  "imp": "low"
  },
  {
   "title": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed 'at odds' with Treasury",
@@ -78,410 +473,13 @@
   "imp": "high"
  },
  {
-  "title": "America is asking the wrong question about its $40 trillion in debt, this MIT expert warns",
-  "link": "https://www.marketwatch.com/story/america-is-asking-the-wrong-question-about-its-40-trillion-in-debt-this-mit-expert-warns-0fbda60e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T11:21:00+00:00",
-  "desc": "The federal debt may be sustainable, but rising burdens may still be troublesome to the U.S. economy, says one expert.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Crypto exchange Gemini not at fault for collapse of Earn lending program, arbitrator says",
-  "link": "https://www.cnbc.com/2026/08/31/gemini-not-at-fault-for-collapse-of-earn-lending-program-arbitrator-says.html",
-  "source": "CNBC",
-  "date": "2026-08-31T11:00:18+00:00",
-  "desc": "An arbitrator earlier this month said Gemini Space Station did not mislead users of its Earn program.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "The travel shoulder season is shrinking — and so are the savings",
-  "link": "https://www.cnbc.com/2026/08/31/travel-savings-shoulder-season.html",
-  "source": "CNBC",
-  "date": "2026-08-31T11:00:01+00:00",
-  "desc": "Traveling during the shoulder season has traditionally been a reliable way to save money in many destinations. But those savings are dwindling.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-  "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T11:00:00+00:00",
-  "desc": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Aon Strikes Roughly $17 Billion Deal for Insurance Brokerage USI",
-  "link": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-31T10:51:00+00:00",
-  "desc": "Private-equity giant KKR has owned USI Insurance since 2017.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Bank of England chief warns new AI models threaten global financial stability",
-  "link": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
-  "source": "CNBC",
-  "date": "2026-08-31T10:18:59+00:00",
-  "desc": "Bank of England Governor Andrew Bailey has warned that frontier AI could materially increase cyber risks to the global financial system.",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "The Index-Fund Strategy Quietly Beating Big Tech This Year",
-  "link": "https://www.wsj.com/finance/stocks/the-index-fund-strategy-quietly-beating-big-tech-this-year-c74bb58e?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-31T10:12:00+00:00",
-  "desc": "Plus, a whiskey glut and booming corporate profits",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Consultants head for a showdown — with their own clients",
-  "link": "https://www.ft.com/content/709d7e2d-0c2f-45bc-b559-e7328372cf9e?syn-25a6b1a6=1",
+  "title": "ChatGPT faces tougher rules under EU online safety regime",
+  "link": "https://www.ft.com/content/6af706a3-6e63-46c2-926b-85461a355e9b?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-08-31T10:01:01+00:00",
-  "desc": "Pressure is on Accenture, Capgemini and the Big Four as companies demand savings",
+  "date": "2026-08-31T11:06:25+00:00",
+  "desc": "Reddit and Roblox also face additional obligations under bloc’s Digital Services Act",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Coupang dispute fuels new U.S. tariff pressure on South Korea",
-  "link": "https://www.cnbc.com/2026/08/31/coupang-south-korea-us-tariffs.html",
-  "source": "CNBC",
-  "date": "2026-08-31T10:00:01+00:00",
-  "desc": "South Korea's dismissal of Congress' allegations that it discriminated against U.S.-based Coupang is straining the country's ties with the U.S., sources said.",
-  "ccs": [
-   "US",
-   "KR"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Don’t Count Shein Out Just Yet",
-  "link": "https://www.wsj.com/business/retail/dont-count-shein-out-just-yet-37acc559?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-31T09:30:00+00:00",
-  "desc": "Fierce competition and tariffs have left Shein’s growth story in tatters, but it still has moves to make.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Los mercados afrontan una nueva ola de subidas de tipos",
-  "link": "https://www.expansion.com/mercados/2026/08/31/6a953606e5fdea35598b4595.html",
-  "source": "Expansión",
-  "date": "2026-08-31T09:02:50+00:00",
-  "desc": "El optimismo bursátil se pondrá a prueba en las próximas semanas. Entre el 10 y el 18 de septiembre los mercados afrontan previsibles subidas de los tipos de interés por parte de tres de los principales bancos centrales",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Historic $7.5 million L.A. home restored by ‘Rocky Horror’ actor Tim Curry finds a buyer just hours after his death",
-  "link": "https://www.marketwatch.com/story/historic-7-5-million-l-a-home-restored-by-rocky-horror-actor-tim-curry-finds-a-buyer-just-hours-after-his-death-4934687a?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T09:02:00+00:00",
-  "desc": "The late actor’s former Los Feliz home was later owned by a host of other famous faces, including “Twilight” star Robert Pattinson, “The Pitt” actor Noah Wyle, and “The Big Bang Theory” comedian Jim Parsons.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Here’s what Prince Harry and Meghan Markle’s California mansion could really be worth, and how much it costs to keep it up",
-  "link": "https://www.marketwatch.com/story/heres-what-prince-harry-and-meghan-markles-california-mansion-could-really-be-worth-and-how-much-it-costs-to-keep-it-up-93a3c5fa?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T08:59:00+00:00",
-  "desc": "The couple’s decision to move back to the U.K. has raised a host of questions about what they plan to do with the opulent home in California, where they have been residing for the past six years.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Brent oil tops $90 after first U.S. and Iran fighting in a month",
-  "link": "https://www.marketwatch.com/story/brent-oil-tops-90-after-first-u-s-and-iran-fighting-in-a-month-3b818e19?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T08:55:00+00:00",
-  "desc": "Oil prices jumped on Monday after the U.S. and Iran exchanged fire for the first time in a month.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Los inversores apuestan por el transporte marítimo tras el alza de rentabilidad por el conflicto en Oriente Próximo",
-  "link": "https://www.expansion.com/economia/financial-times/2026/08/31/6a953324e5fdea216e8b458c.html",
-  "source": "Expansión",
-  "date": "2026-08-31T07:56:25+00:00",
-  "desc": "Gestores de activos informan del interés de inversores institucionales que buscan exposición a activos tangibles Leer",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Japan’s bonds and yen under pressure after Warsh’s Jackson Hole speech",
-  "link": "https://www.ft.com/content/1c4f488f-32bc-4b49-a0c8-c55d95f5422b?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-31T07:32:07+00:00",
-  "desc": "Currency weakens past ¥160 a dollar and yields rise to highest in three decades as investors raise bets on monetary tightening",
-  "ccs": [
-   "JP"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year",
-  "link": "https://www.cnbc.com/2026/08/31/russia-massive-strikes-ukraine-energy-infrastructure.html",
-  "source": "CNBC",
-  "date": "2026-08-31T07:29:27+00:00",
-  "desc": "Russia's Defense Ministry has announced preparations for \"massive strikes\" on Ukraine's energy infrastructure.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Stock Market Today: Oil Climbs on Fresh Mideast Flare-Up",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-31-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-31T07:14:21+00:00",
-  "desc": "Renewed fighting in the Strait of Hormuz sends Brent crude futures back to $90 a barrel. S&P 500 futures are ticking lower.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "France is becoming the ‘poster child’ of sovereign debt problems as government borrowing costs hit near 2008 highs",
-  "link": "https://www.cnbc.com/2026/08/31/france-debt-bond-yields-budget.html",
-  "source": "CNBC",
-  "date": "2026-08-31T05:08:47+00:00",
-  "desc": "France's debt burden and political gridlock are pushing borrowing costs toward levels not seen since 2008.",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit",
-  "link": "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
-  "source": "CNBC",
-  "date": "2026-08-31T04:57:24+00:00",
-  "desc": "Chinese President Xi Jinping is expected to make his first visit to India before traveling to the U.S. for a meeting with U.S. President Donald Trump.",
-  "ccs": [
-   "US",
-   "CN",
-   "IN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "LIV Golf prepares for imminent bankruptcy filing",
-  "link": "https://www.ft.com/content/5051e92f-371f-4a46-bdee-e8877b68caf8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-31T04:00:28+00:00",
-  "desc": "Challenger golf league is negotiating a funding package with BC Partners for a slimmed-down circuit",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Tim Cook’s Apple legacy by the numbers",
-  "link": "https://www.ft.com/content/886acdbf-7a9d-4af3-a2e7-3c4a2e446370?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-31T04:00:20+00:00",
-  "desc": "CEO hands over to John Ternus on Tuesday after 15 years",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Will financial innovation dethrone the dollar?",
-  "link": "https://www.ft.com/content/1481e787-77dc-4d54-8871-8ffb369e5dd3",
-  "source": "Financial Times",
-  "date": "2026-08-31T04:00:20+00:00",
-  "desc": "The evolution of a truly multi-polar currency market depends on governments’ willingness to embrace technology and fortify markets",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Banks and insurers brace for biggest German pension upheaval in 20 years",
-  "link": "https://www.ft.com/content/4090d0ca-8ec6-4d89-aacc-f0ca72aeb038?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-31T04:00:10+00:00",
-  "desc": "‘One of the sacred cows has been slaughtered’ with reforms to the system that will funnel billions of euros into capital markets",
-  "ccs": [
-   "DE"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
-  "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-31T03:03:00+00:00",
-  "desc": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and as new fighting between the U.S. and Iran threatens to reignite the conflict.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "The Sudden Unraveling of Wall Street’s Momentum Trade",
-  "link": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-31T01:00:00+00:00",
-  "desc": "The “self-fulfilling prophecy” of betting on rising winners has suddenly turned into a losing game for investors who banked on its success.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Alejandro Betancourt: the man who would be Trump’s ‘viceroy’ in Venezuela",
-  "link": "https://www.ft.com/content/9dbf9c9a-b3e2-4701-b584-dca72b349716?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-31T00:58:50+00:00",
-  "desc": "US has turned to wily and divisive insider to help it develop the country’s oil reserves",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
-  "link": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-30T22:31:00+00:00",
-  "desc": "“The property is very old and requires significant ongoing maintenance.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-  "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-30T22:15:00+00:00",
-  "desc": "“I also own my home and an SUV outright, with no outstanding debt.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Warsh traza un camino con visión de futuro para la Fed en Jackson Hole",
-  "link": "https://www.expansion.com/mercados/2026/08/31/6a94858ee5fdea233c8b4577.html",
-  "source": "Expansión",
-  "date": "2026-08-30T22:00:35+00:00",
-  "desc": "El nuevo presidente de la Reserva Federal defiende la importancia de ceñirse a los datos económicos y evitar proyecciones sobre la trayectoria futura de los tipos de interés. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "La Bolsa encara septiembre con fuerza para hacer récord",
-  "link": "https://www.expansion.com/mercados/2026/08/31/6a947ee9e5fdea216e8b4575.html",
-  "source": "Expansión",
-  "date": "2026-08-30T22:00:34+00:00",
-  "desc": "La economía eclipsará a la geopolítica esta semana, pero toca vigilar la volatilidad tras las vacaciones. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Ukraine’s ex-defence minister touts ‘new history’ in war against Russia with planned tech fund",
-  "link": "https://www.ft.com/content/c9d10aeb-163e-46a3-b7ca-376ce6be9f8e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-08-30T21:11:58+00:00",
-  "desc": "Mykhailo Fedorov seeks western capital to build and manage weapons development companies he says will help Kyiv resist Moscow",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Trump-promoted Freedom Fuel stations sold gas a distributor says went unpaid for",
-  "link": "https://www.cnbc.com/2026/08/30/trump-freedom-fuel-mansfield-lawsuit.html",
-  "source": "CNBC",
-  "date": "2026-08-30T18:06:41+00:00",
-  "desc": "A federal lawsuit claims that fuel distributor KRSM failed to pay for $4 million worth of fuel, some of which the company sold to the Freedom Fuel network.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-  "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-08-30T14:30:00+00:00",
-  "desc": "“These shares are the only assets in her estate without designated beneficiaries.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The World’s Drinks Order Is In. Distillers Were Expecting More.",
-  "link": "https://www.wsj.com/business/retail/the-worlds-drinks-order-is-in-distillers-were-expecting-more-8ad379b3?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-30T12:00:00+00:00",
-  "desc": "It’s the corporate equivalent of ordering too much alcohol for a party where half the guests turn out to be dry. Except with billions of dollars at stake.",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "A Texas Banking Billionaire and His Children Are Locked in a Bitter Succession Drama",
-  "link": "https://www.wsj.com/business/a-texas-banking-billionaire-and-his-children-are-locked-in-a-bitter-succession-drama-0b39ffaa?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-08-30T09:30:00+00:00",
-  "desc": "Billionaire Gerald J. Ford and his children are fighting over control of Hilltop Holdings, a $2 billion financial-services company.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El Tesoro subastará Letras a 6 y 12 meses este martes en la primera puja de septiembre",
-  "link": "https://www.expansion.com/mercados/2026/08/30/6a93f50be5fdea21358b4573.html",
-  "source": "Expansión",
-  "date": "2026-08-30T09:20:44+00:00",
-  "desc": "El Tesoro Público español volverá esta semana al mercado tras la pausa estival con dos subastas en las que ofrecerá letras a seis y doce meses, mientras la rentabilidad de la deuda en el mercado secundario se sitúa en el",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-  "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-  "source": "CNBC",
-  "date": "2026-08-29T19:06:22+00:00",
-  "desc": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
  }
 ]
