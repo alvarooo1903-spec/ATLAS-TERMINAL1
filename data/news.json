@@ -1,5 +1,444 @@
 [
  {
+  "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+  "link": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T10:00:00+00:00",
+  "desc": "“Her life was very challenging before we got custody.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘I didn’t know what I didn’t know’: I thought I’d have to depend on Social Security. Then I taught myself how to invest.",
+  "link": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T09:45:00+00:00",
+  "desc": "“It always baffled me how some people managed to retire with significant wealth.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The Cancer Vaccine Gold Rush Has Begun. So Has the Race for Picks and Shovels.",
+  "link": "https://www.wsj.com/health/pharma/the-cancer-vaccine-gold-rush-has-begun-so-has-the-race-for-picks-and-shovels-4b0b6d50?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-04T09:30:00+00:00",
+  "desc": "Tempus AI could capture a lucrative slice of Moderna and Merck’s personalized cancer therapy business, with Personalis at the center of the bet.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "El Ibex se juega los 20.000 puntos con el empleo de EEUU",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/04/6a9a5ba3e5fdeaf54e8b4582.html",
+  "source": "Expansión",
+  "date": "2026-09-04T09:26:48+00:00",
+  "desc": "La referencia macro más esperada de la semana, el informe oficial de empleo de EEUU, acapara los focos en la jornada de hoy. Hasta entonces, la posibilidad de que la Fed eluda una subida de tipos este mes mantiene la tre",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Volkswagen jumps 6% on plans to cut 50,000 jobs amid tariffs, China competition",
+  "link": "https://www.cnbc.com/2026/09/04/volkswagen-job-cuts-tariffs-china.html",
+  "source": "CNBC",
+  "date": "2026-09-04T09:05:07+00:00",
+  "desc": "Volkswagen shares jumped on Friday after it announced plans to slash a further 50,000 jobs as part of its transformation plan.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Volkswagen to slash up to 50,000 jobs in historic restructuring",
+  "link": "https://www.ft.com/content/77641f53-8dcb-4adf-9295-9ce44b8d49d6?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T09:03:21+00:00",
+  "desc": "German carmaker’s shares rise 6 per cent on overhaul that could also lead to plant closures",
+  "ccs": [
+   "DE"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘Don’t Say Good Luck’ star Melanie Lynskey dreams of buying a New Zealand home but can’t afford it",
+  "link": "https://www.marketwatch.com/story/dont-say-good-luck-star-melanie-lynskey-dreams-of-buying-a-new-zealand-home-but-cant-afford-it-9aa50cd5?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T09:01:00+00:00",
+  "desc": "The “Two and a Half Men” star, who is originally from New Zealand, says owning a piece of that paradise is still out of her reach, as property there is too expensive.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Morgan Stanley abre la puerta a la corrección en Repsol",
+  "link": "https://www.expansion.com/mercados/2026/09/04/6a9a68abe5fdeaaf608b45a2.html",
+  "source": "Expansión",
+  "date": "2026-09-04T08:51:30+00:00",
+  "desc": "El valor estrella del Ibex en lo que va de año recibe hoy la valoración más baja de las emitidas por los analistas en el último mes. A diferencia de otras firmas, Morgan Stanley no ve margen a medio plazo para que la ene",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Volkswagen celebra en Bolsa la reestructuración y los analistas aplauden su \"realismo\"",
+  "link": "https://www.expansion.com/mercados/2026/09/04/6a9a7c5c468aebd2028b4581.html",
+  "source": "Expansión",
+  "date": "2026-09-04T08:51:26+00:00",
+  "desc": "Los inversores se lanzan a la toma de posiciones en Volkswagen, disparado hoy en Bolsa, y los analistas felicitan al grupo por el \"realismo\" que traslada el ambicioso plan de transformación del grupo automovilístico alem",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stock Market Today: Nasdaq Futures Gain as Investors Await August Jobs Report",
+  "link": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-04T08:18:35+00:00",
+  "desc": "Report expected to show economy added 53,000 jobs; bond yields lower",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Argentina's Milei escalates Falklands dispute as Trump questions U.S. support for Britain",
+  "link": "https://www.cnbc.com/2026/09/04/argentina-milei-falklands-oil-uk-trump.html",
+  "source": "CNBC",
+  "date": "2026-09-04T07:50:49+00:00",
+  "desc": "Argentina's President Javier Milei has renewed the country's claim to the Falkland Islands and threatened sanctions on oil companies.",
+  "ccs": [
+   "US",
+   "GB"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
+  "link": "https://www.cnbc.com/2026/09/04/el-erian-government-bond-selloff.html",
+  "source": "CNBC",
+  "date": "2026-09-04T07:41:48+00:00",
+  "desc": "In a wide-ranging interview, the renowned economist also said the U.S. Treasury had taken \"a step too far\" with its market intervention.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Giorgia Meloni celebrates Italy’s longest-serving government since 1945",
+  "link": "https://www.ft.com/content/0c1d2ab0-3f3d-468e-92d5-218ddc23d885?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T07:09:02+00:00",
+  "desc": "Rightwing prime minister has so far defied critics with pragmatic policies and stable coalition",
+  "ccs": [
+   "IT"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+  "link": "https://www.cnbc.com/2026/09/04/worlds-biggest-sovereign-wealth-fund-plans-to-cut-treasury-holdings.html",
+  "source": "CNBC",
+  "date": "2026-09-04T06:46:35+00:00",
+  "desc": "Norway's $2.3 trillion investment fund says it can diversify into new areas with greater risk and returns.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "U.S. 'Economic Outcast’ operation gains momentum as EU joins sanctions; South Korea weighs military backing",
+  "link": "https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html",
+  "source": "CNBC",
+  "date": "2026-09-04T06:17:57+00:00",
+  "desc": "The EU formally joined the U.S.-led sanctions campaign against Iran, while South Korea said it's weighing a military role to help reopen the Strait of Hormuz.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "UK is failing to capitalise on Brexit, says top Trump trade official",
+  "link": "https://www.ft.com/content/0d2beac3-ef62-4cbf-959e-b5c6b9703081?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:27+00:00",
+  "desc": "Jamieson Greer says Britain’s alignment with EU is a ‘problem’ for a US trade deal",
+  "ccs": [
+   "GB"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "The university degree is losing its lustre",
+  "link": "https://www.ft.com/content/54cf40cd-149f-40db-b603-21aecd5f66ec?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:27+00:00",
+  "desc": "Technological and economic shifts are eroding the graduate premium",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Manager of Norway’s $2tn oil fund proposes slashing US Treasury holdings",
+  "link": "https://www.ft.com/content/ecc15aa6-6e7b-409d-8753-2fb6aadd0592?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:19+00:00",
+  "desc": "Overhaul of bond positions suggested to Ministry of Finance aims to boost returns",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "America must learn AI lessons from Astro Boy",
+  "link": "https://www.ft.com/content/68751904-522a-41cc-85e0-08015fe75059?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:18+00:00",
+  "desc": "Asian cultures harbour a very different attitude towards technologies that are regarded as threatening in the west",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Trump-linked companies race to secure deals for Venezuela’s oil",
+  "link": "https://www.ft.com/content/939e55ad-1d5c-45cf-995d-1db6754c8f6b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:18+00:00",
+  "desc": "Appointees, a donor and a recent administration official are among those capitalising on US control of beleaguered energy sector",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "The Texas experiment",
+  "link": "https://www.ft.com/content/fff531fc-988c-4016-9b5b-25f2274f4d47?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-04T04:00:10+00:00",
+  "desc": "For 30 years the state has profited from going the extra mile for business. Data centres are putting that to the test",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump-promoted Freedom Fuel expands to Detroit as lawsuit over supplier's unpaid fuel heats up",
+  "link": "https://www.cnbc.com/2026/09/03/freedom-fuel-trump-lawsuit-detroit.html",
+  "source": "CNBC",
+  "date": "2026-09-04T03:25:39+00:00",
+  "desc": "Freedom Fuel won free publicity when President Donald Trump urged other gas retailers to emulate its low prices in July.",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Cuatro alicientes para invertir ahora en la \"carrera de relevos\" de las materias primas",
+  "link": "https://www.expansion.com/mercados/2026/09/04/6a99542e468aeb79608b458a.html",
+  "source": "Expansión",
+  "date": "2026-09-04T00:39:40+00:00",
+  "desc": "Las dudas actuales en la renta variable y en la deuda invitan a desviar la mirada hacia las commodities, el mercado que más rentabilidad ha deparado a sus inversores en lo que va de año y protagonista en 2026 de una auté",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
+  "link": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T00:35:00+00:00",
+  "desc": "The company’s AI-powered coding assistant is driving major sales momentum.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
+  "link": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T00:31:00+00:00",
+  "desc": "“I’m desperately trying to plan ahead while I’m still able.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Adobe just announced its next CEO. Here’s why its stock is dropping.",
+  "link": "https://www.marketwatch.com/story/adobe-just-announced-its-next-ceo-heres-why-its-stock-is-dropping-bad9ed8a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T00:25:00+00:00",
+  "desc": "Incoming CEO Anil Chakravarthy is a company veteran. But another longtime business head will be departing Adobe, potentially foreshadowing further turnover in leadership.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Lululemon bets on ‘away from body’ pants as customers sour on form-fitting leggings",
+  "link": "https://www.marketwatch.com/story/lululemons-sales-drop-raises-deeper-concerns-about-the-companys-turnaround-ddf9256a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T00:24:00+00:00",
+  "desc": "Adobe’s stock is falling as analysts question the yoga-wear maker’s fashion assortment and digest its disappointing outlook.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything",
+  "link": "https://www.marketwatch.com/story/please-dont-let-this-happen-to-you-my-best-friend-died-without-a-will-her-neglectful-family-gets-everything-a4e6753e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-04T00:00:00+00:00",
+  "desc": "“She struggled with the thought of leaving everything to people who, in her eyes, had never made much time for her.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Tesla investors await updates on Cybercab robotaxi touted as the ‘future of transport’",
+  "link": "https://www.marketwatch.com/story/teslas-stock-is-rallying-as-investors-prepare-for-a-storm-of-cybercabs-c738ac98?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-03T23:45:00+00:00",
+  "desc": "Elon Musk’s electric-vehicle company is holding a launch event for the Cybercab autonomous vehicle on Thursday, but details have been sparse.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
+  "link": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-03T23:36:00+00:00",
+  "desc": "“We currently live in a relatively low-cost, lower-tax Northwest state.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El BCE vigila la avalancha de deuda en Europa de los gigantes tecnológicos",
+  "link": "https://www.expansion.com/empresas/banca/2026/09/04/6a99fe9ee5fdeab5118b459c.html",
+  "source": "Expansión",
+  "date": "2026-09-03T23:27:01+00:00",
+  "desc": "Las empresas europeas de todos los sectores económicos pueden sufrir los efectos secundarios y un encarecimiento de sus costes de financiación. Leer",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "CaixaBank y Bankinter, los mejor posicionados para tipos más altos",
+  "link": "https://www.expansion.com/empresas/banca/2026/09/04/6a99fb10e5fdeaa7378b459c.html",
+  "source": "Expansión",
+  "date": "2026-09-03T23:09:22+00:00",
+  "desc": "Citi prevé hasta un 3% extra en el beneficio medio esperado para la banca española en los próximos dos años. CaixaBank y Bankinter son las entidades más beneficiadas. Leer",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Revenge of the 'Magnificent Seven' — Jim Cramer says it’s time to buy",
+  "link": "https://www.cnbc.com/2026/09/03/magnificent-seven-jim-cramer-says-time-to-buy.html",
+  "source": "CNBC",
+  "date": "2026-09-03T22:31:01+00:00",
+  "desc": "CNBC's Jim Cramer sees catalysts across Amazon, Alphabet, Meta, Microsoft, Nvidia and Tesla.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Oura’s IPO Reveals High Growth for Smart-Ring Maker",
+  "link": "https://www.wsj.com/finance/stocks/ouras-ipo-reveals-high-growth-for-smart-ring-maker-9ce3e4c9?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-03T22:09:00+00:00",
+  "desc": "The fitness tracker recently turned profitable and posted 74% revenue growth in the nine months ended in June.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
+  "link": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
+  "source": "CNBC",
+  "date": "2026-09-03T21:59:29+00:00",
+  "desc": "Adobe announced Anil Chakravarthy as its next CEO, replacing Shantanu Narayen, who announced his departure last March.",
+  "ccs": [
+   "JP"
+  ],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Stocks, Bonds Rally After Dovish Fed Comments",
+  "link": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-03T21:03:00+00:00",
+  "desc": "The Dow added more than 600 points after Federal Reserve governor Christopher Waller said he could support holding rates steady.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations",
+  "link": "https://www.cnbc.com/2026/09/03/treasury-irs-proposal-tax-exempt-schools-charitable-donations.html",
+  "source": "CNBC",
+  "date": "2026-09-03T21:00:21+00:00",
+  "desc": "The Treasury has proposed regulations that would strip thousands of private schools of their tax-exempt status and threaten a valuable tax break for donations.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Lululemon stock plunges 15% on disappointing earnings and outlook",
+  "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html",
+  "source": "CNBC",
+  "date": "2026-09-03T20:52:03+00:00",
+  "desc": "Lululemon posted another quarter of disappointing results and a sales slowdown as the company struggles to turn its business around.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Stocks Climb As Rate Hike Fears Ebb",
+  "link": "https://www.wsj.com/finance/investing/stocks-climb-as-rate-hike-fears-ebb-9be555f7?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-03T20:19:00+00:00",
+  "desc": "Plus, Treasury yields fell, and Nvidia agreed to buy Hugging Face",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+  "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+  "source": "CNBC",
+  "date": "2026-09-03T19:38:09+00:00",
+  "desc": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
   "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
   "link": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
   "source": "CNBC",
@@ -10,73 +449,6 @@
   ],
   "cat": "cb",
   "imp": "medium"
- },
- {
-  "title": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'",
-  "link": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html",
-  "source": "CNBC",
-  "date": "2026-09-03T19:16:10+00:00",
-  "desc": "Canada has retaliated against President Donald Trump's 50% tariffs with \"dollar for dollar\" duties on U.S. goods, which are set to take effect next week.",
-  "ccs": [
-   "US",
-   "CA"
-  ],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
-  "link": "https://www.marketwatch.com/story/wall-street-is-betting-on-fed-chair-kevin-warsh-to-keep-a-manic-bond-market-from-unraveling-03bbd093?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T19:09:00+00:00",
-  "desc": "The market “needs stability and trust” as a deluge of corporate bond supply is expected in the coming months.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "SpaceX is back in the $2 trillion club after nearly two months",
-  "link": "https://www.marketwatch.com/story/spacex-is-back-in-the-2-trillion-club-after-nearly-two-months-25632255?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T19:05:00+00:00",
-  "desc": "Elon Musk’s company has won praise from analysts and benefited from a general bounce in the tech sector.",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
-  "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html",
-  "source": "CNBC",
-  "date": "2026-09-03T19:03:56+00:00",
-  "desc": "Xbox Game Pass subscribers will have cloud gaming capped starting in November.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Piper Sandler expects Robinhood to kickstart football season with a win",
-  "link": "https://www.cnbc.com/2026/09/03/piper-sandler-expects-robinhood-to-start-football-season-with-a-win.html",
-  "source": "CNBC",
-  "date": "2026-09-03T19:01:36+00:00",
-  "desc": "With less than a week until the start of football season, Piper Sandler expects Rothera's prediction market activity to jump.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
-  "link": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T19:01:00+00:00",
-  "desc": "“I paid a significant amount into Social Security.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  },
  {
   "title": "Así es Man Group, la mayor gestora europea de 'hedge funds'",
@@ -91,16 +463,6 @@
   "imp": "low"
  },
  {
-  "title": "Goldfish crackers are getting a makeover as new health trends reshape the snack aisle",
-  "link": "https://www.marketwatch.com/story/goldfish-crackers-are-getting-a-makeover-as-new-health-trends-reshape-the-snack-aisle-32e89644?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T18:48:00+00:00",
-  "desc": "Campbell’s plans to introduce gluten-free, whole-grain and protein-packed versions of Goldfish to meet growing demand for healthy alternatives and combat rising competition.",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
   "title": "La resurrección del software en Bolsa deja descolocados a los inversores",
   "link": "https://www.expansion.com/mercados/2026/09/03/6a999880468aeb524c8b4588.html",
   "source": "Expansión",
@@ -113,108 +475,6 @@
   "imp": "high"
  },
  {
-  "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
-  "link": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T18:30:00+00:00",
-  "desc": "“Her life was very challenging before we got custody.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Is the stock market open on Labor Day? Does the post office deliver mail?",
-  "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T18:30:00+00:00",
-  "desc": "Here’s how trading hours and other services are affected by the Labor Day holiday on Monday, Sept. 7.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
-  "link": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T18:30:00+00:00",
-  "desc": "“We currently live in a relatively low-cost, lower-tax Northwest state.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "New doubts emerge about whether Fed will raise interest rates this month",
-  "link": "https://www.marketwatch.com/story/new-doubts-emerge-about-whether-fed-will-raise-interest-rates-this-month-1d23cc12?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T18:24:00+00:00",
-  "desc": "Fed governor Christopher Waller made a strong case for the Fed to hold rates steady.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI says it has overtaken Anthropic with its latest AI model",
-  "link": "https://www.ft.com/content/55ab40c0-59e2-4c0b-97c9-4f4f5a71a8bb?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T18:00:11+00:00",
-  "desc": "ChatGPT maker claims its ‘Astra’ could be considered ‘artificial general intelligence’",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
-  "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-  "source": "CNBC",
-  "date": "2026-09-03T18:00:02+00:00",
-  "desc": "OpenAI said companies participating in its application-based cybersecurity program will be first to get access to Astra.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
-  "link": "https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html",
-  "source": "CNBC",
-  "date": "2026-09-03T17:56:53+00:00",
-  "desc": "Options traders are kicking off the historically worst month for stocks by piling on bullish bets on a handful of retail trading favorites.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "This presidential-election bet offers ‘free money’",
-  "link": "https://www.marketwatch.com/story/this-presidential-bet-offers-free-money-f0038409?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T17:54:00+00:00",
-  "desc": "Quick arbitrage opportunity shows prediction markets are still inefficient.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Star Citadel energy trader to step down amid tumult in energy markets",
-  "link": "https://www.ft.com/content/b4c17a07-f684-44c7-b334-8b7bcb1a21d6?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T17:29:32+00:00",
-  "desc": "Chris Foster to leave role at Ken Griffin’s hedge fund after making billions of dollars trading natural gas in Europe",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Medicare Advantage patients who get diagnosed with Alzheimer’s or other serious diseases are ditching their plans — and it can cost them",
-  "link": "https://www.marketwatch.com/story/medicare-advantage-patients-who-get-diagnosed-with-alzheimers-or-other-serious-diseases-are-ditching-their-plans-and-it-can-cost-them-b5c42717?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-03T17:23:00+00:00",
-  "desc": "The annual Medicare open-enrollment period runs from Oct. 15 to Dec. 7.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "El bitcoin supera los 81.000 dólares al subir casi un 5%",
   "link": "https://www.expansion.com/mercados/bitcoin/2026/09/03/6a99ab05468aeb2c7a8b457f.html",
   "source": "Expansión",
@@ -225,48 +485,6 @@
   "imp": "medium"
  },
  {
-  "title": "Nvidia’s $13bn deal cements its $5.5tn advantage",
-  "link": "https://www.ft.com/content/89d4575d-c0ca-4ac9-ba2c-5e6016244055?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T17:09:39+00:00",
-  "desc": "It’s an investor, backer, supplier and guarantor for companies its Hugging Face acquisition potentially disrupts",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'",
-  "link": "https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html",
-  "source": "CNBC",
-  "date": "2026-09-03T17:05:08+00:00",
-  "desc": "The infrastructure company is toward the end of a three-year business plan that has boosted revenue and significantly cut the company's losses.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Hugging Face attack is a wake-up call about the risks of AI",
-  "link": "https://www.ft.com/content/1a1f6c54-8dbc-4446-a6dc-45a060b7cdc8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T16:54:46+00:00",
-  "desc": "Agents involved in hack exhibited some alarming behaviours including suppressing ethical qualms",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
-  "link": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
-  "source": "CNBC",
-  "date": "2026-09-03T16:51:13+00:00",
-  "desc": "Major automakers in the U.S. are urging Congress to ban the domestic sale, import and manufacturing of Chinese connected vehicles, hardware and software.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
   "title": "BP nombra al presidente que quiere, no al que necesita",
   "link": "https://www.expansion.com/economia/financial-times/2026/09/03/6a99a35fe5fdea5a3a8b456f.html",
   "source": "Expansión",
@@ -274,215 +492,6 @@
   "desc": "Lo que Ian Tyler puede hacer es reforzar el resto del consejo, buscando consejeros con las cualidades y competencias de las que carece. Leer",
   "ccs": [],
   "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
-  "link": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
-  "source": "CNBC",
-  "date": "2026-09-03T16:43:22+00:00",
-  "desc": "Nvidia CEO Jensen Huang said that with Hugging Face, the chipmaker will \"expand access to AI for developers and institutions worldwide.\"",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex rompe su racha de caídas y recupera los 20.000 puntos",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/03/6a9909b7468aeba34a8b458a.html",
-  "source": "Expansión",
-  "date": "2026-09-03T15:39:36+00:00",
-  "desc": "La tregua otorgada hoy por los intereses de la deuda ha permitido la toma de posiciones por parte de los inversores. El Ibex ha cortado su racha de tres sesiones de caídas y ha sumado un 1,12% hasta los 20.000,20 puntos.",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "NFL set for first-ever game in Melbourne, Australia, in international expansion",
-  "link": "https://www.cnbc.com/2026/09/03/nfl-rams-49ers-australia-international-expansion.html",
-  "source": "CNBC",
-  "date": "2026-09-03T15:38:01+00:00",
-  "desc": "The San Francisco 49ers and the L.A. Rams are playing the NFL's first-ever game in Australia, marking an expanded push to grow the game internationally.",
-  "ccs": [
-   "AU"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Leon Black sues US Congress over Epstein probe",
-  "link": "https://www.ft.com/content/c99a833b-337a-4cb9-913b-ef1e43a96c5c?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T14:56:10+00:00",
-  "desc": "Private-equity titan is among Wall Street figures targeted by House committee for their ties to late sex offender",
-  "ccs": [
-   "US"
-  ],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "UBS reduce su participación en Indra hasta el 2,6%",
-  "link": "https://www.expansion.com/empresas/2026/09/03/6a9979a1468aeb684e8b458a.html",
-  "source": "Expansión",
-  "date": "2026-09-03T13:55:07+00:00",
-  "desc": "La entidad suiza llegó a tener una participación del 8,2% en el grupo español. Leer",
-  "ccs": [
-   "CH"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Euríbor hoy, 2 de septiembre: El Euríbor diario se sitúa hoy en 3,068%, lo que confirma la tendencia al alza respecto a la media mensual",
-  "link": "https://www.expansion.com/mercados/euribor/2026/09/03/6a98064a468aebab738b457a.html",
-  "source": "Expansión",
-  "date": "2026-09-03T13:32:01+00:00",
-  "desc": "La media mensual del Euríbor se sitúa en el 3,049% en septiembre. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El precio del Bitcoin hoy, 3 de septiembre: el Bitcoin desciende hasta los 77.797,99 dólares",
-  "link": "https://www.expansion.com/mercados/bitcoin/2026/09/03/6a993e22468aebe7698b4574.html",
-  "source": "Expansión",
-  "date": "2026-09-03T13:28:54+00:00",
-  "desc": "La mayor de las criptomonedas se sitúa hoy en 77.797,99 dólares, al registrar una variación del 0,37 % Leer",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Yen surges as traders bet on Japan interest rate rises",
-  "link": "https://www.ft.com/content/22abbb77-1344-4871-9692-97a779b1ba77?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T12:57:45+00:00",
-  "desc": "Currency moves past ¥156 to the dollar after sudden jump overnight",
-  "ccs": [
-   "JP"
-  ],
-  "cat": "fx",
-  "imp": "high"
- },
- {
-  "title": "El banco central de Países Bajos retira lingotes de oro de Nueva York por la 'inestabilidad geopolítica'",
-  "link": "https://www.expansion.com/economia/financial-times/2026/09/03/6a996d9fe5fdea064f8b4586.html",
-  "source": "Expansión",
-  "date": "2026-09-03T12:52:55+00:00",
-  "desc": "El DNB se decanta por Londres frente a la ciudad estadounidense, alegando una mayor 'negociabilidad' del metal precioso. Leer",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "BME incorpora a Alicia Reyes a su consejo como independiente",
-  "link": "https://www.expansion.com/inversion/2026/09/03/6a995cffe5fdeae3478b45a6.html",
-  "source": "Expansión",
-  "date": "2026-09-03T12:45:03+00:00",
-  "desc": "El consejo de administración de BME ha incorporado a Alicia Reyes Revuelta como nueva consejera independiente, después de recibir la autorización de la Comisión Nacional del Mercado de Valores (CNMV). Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Treasury yields fall after top Fed official signals support for rate hold",
-  "link": "https://www.ft.com/content/0a332e3c-e596-4f64-976a-d7746f91a9a9?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T12:30:23+00:00",
-  "desc": "Governor Chris Waller says he is ‘inclined’ not to lift borrowing costs at central bank’s September meeting",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Feminist icon Gloria Steinem dies at 92",
-  "link": "https://www.ft.com/content/34813f31-aaa0-4bd2-9c87-b1b258dab872?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T12:20:52+00:00",
-  "desc": "Journalist and activist spent a lifetime advocating for women’s rights",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia to buy open-source AI platform Hugging Face for $13bn",
-  "link": "https://www.ft.com/content/776dcb01-75cd-44df-bc52-63ca76d5718d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T12:00:01+00:00",
-  "desc": "Model and data repository turned down big investment from Jensen Huang’s chip group last year to preserve independence",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
-  "link": "https://www.cnbc.com/2026/09/03/china-g20-exports-trade.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-03T11:12:54+00:00",
-  "desc": "China rejected G20 pressure over export-driven growth while also challenging U.S. Iran sanctions and European trade measures.",
-  "ccs": [
-   "US",
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Looking to Diversify Your U.S.-Heavy Portfolio? Don’t Let the Fund Name Fool You",
-  "link": "https://www.wsj.com/finance/investing/international-overseas-etf-usa-index-stocks-9d4487d5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-03T11:00:00+00:00",
-  "desc": "Overseas ETFs may include heavy concentrations of American stocks if you don’t know where to look.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Why We’ll Have to Get Used to ‘Meh’ Job Reports",
-  "link": "https://www.wsj.com/finance/investing/why-well-have-to-get-used-to-meh-job-reports-e903a625?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-03T10:21:00+00:00",
-  "desc": "Plus, yen rallies and bonds stabilize.",
-  "ccs": [
-   "JP"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "‘People are going to get screwed’: Pennsylvania voters unite against data centres",
-  "link": "https://www.ft.com/content/8252d574-ae2a-4403-9cf9-031295ba67f5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-03T10:00:02+00:00",
-  "desc": "Politicians compete to reflect growing opposition to new facilities in the swing state",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El bitcoin cambia de referente en su última sacudida",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/09/03/6a992f29e5fdead4308b459c.html",
-  "source": "Expansión",
-  "date": "2026-09-03T09:34:43+00:00",
-  "desc": "El brusco salto protagonizado por el bitcoin, desde el entorno de los 60.000 hasta los 80.000 dólares, ha aflorado un nuevo referente \"principal\" para la mayor de las criptomonedas, según ponen de relieve los analistas d",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Boeing’s $8.4 Billion Deal Is Bleeding Red Ink",
-  "link": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-03T09:30:00+00:00",
-  "desc": "The jet maker bought Spirit AeroSystems in December, and has since uncovered large liabilities it initially hadn’t identified.",
-  "ccs": [],
-  "cat": "ma",
   "imp": "medium"
  }
 ]
