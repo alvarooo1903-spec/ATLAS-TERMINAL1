@@ -1,43 +1,350 @@
 [
  {
-  "title": "Warren Buffett stepping down as chairman of Berkshire Hathaway: 'Father Time always wins'",
-  "link": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+  "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
+  "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T19:00:00+00:00",
+  "desc": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nike parts ways with Kylian Mbappé; soccer superstar signs with On",
+  "link": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html",
   "source": "CNBC",
-  "date": "2026-09-18T10:09:35+00:00",
-  "desc": "Buffett's son, Howard, will replace him as chairman as dictated by a long-standing succession plan, Berkshire said.",
+  "date": "2026-09-18T18:56:13+00:00",
+  "desc": "Mbappe had been signed with Nike for roughly two decades, and his agreement with On is the first it has made with a soccer player.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
+  "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T18:46:00+00:00",
+  "desc": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
+  "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T18:30:00+00:00",
+  "desc": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+  "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+  "source": "CNBC",
+  "date": "2026-09-18T18:28:31+00:00",
+  "desc": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "‘There might be a silver lining’: My friend’s wife died at 60 after a high-earning career. Can he claim her Social Security?",
+  "link": "https://www.marketwatch.com/story/there-might-be-a-silver-lining-my-friends-wife-died-at-60-after-a-high-earning-career-can-he-claim-her-social-security-eb95210a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T18:26:00+00:00",
+  "desc": "“They had been married for over 30 years when she passed.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "McDonald's is the new 'Value Meal,' says trader Mike Khouw",
+  "link": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html",
+  "source": "CNBC",
+  "date": "2026-09-18T18:11:47+00:00",
+  "desc": "McDonald's announced this week that it is revising its U.S. value strategy after recording its slowest sales growth in more than a year.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "SpaceX scores another $950 million from NASA for 3 more crewed flights to ISS",
+  "link": "https://www.cnbc.com/2026/09/18/spacex-scores-950-million-from-nasa-for-3-more-crewed-flights-to-iss-.html",
+  "source": "CNBC",
+  "date": "2026-09-18T17:41:45+00:00",
+  "desc": "SpaceX is getting an extension to an existing contract that will allow three additional crewed Dragon flights to the International Space Station.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "As Warren Buffett’s reign ends, fans should sell Berkshire — and buy these stocks instead",
+  "link": "https://www.marketwatch.com/story/as-warren-buffetts-reign-ends-fans-should-sell-berkshire-and-buy-these-stocks-instead-bff5ba32?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T17:41:00+00:00",
+  "desc": "Shocking to say, but Berkshire Hathaway’s stock has actually not outperformed the S&P 500 in about 30 years.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "JPMorgan, Citigroup CEOs attending Trump's state dinner for China's Xi: Sources",
+  "link": "https://www.cnbc.com/2026/09/18/trump-xi-state-dinner-jpmorgan-jamie-dimon.html",
+  "source": "CNBC",
+  "date": "2026-09-18T17:34:49+00:00",
+  "desc": "Dimon and Fraser join OpenAI CEO Sam Altman, Nvidia chief Jensen Huang and others who are reportedly planning to attend the Trump-Xi state dinner.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Auto industry urges Trump to bar Chinese automakers in U.S. ahead of Xi visit",
+  "link": "https://www.cnbc.com/2026/09/18/xi-visit-automakers-urge-trump-to-bar-chinese-automakers-in-us.html",
+  "source": "CNBC",
+  "date": "2026-09-18T17:11:39+00:00",
+  "desc": "Leaders of six major auto trade groups joined to sign a letter to the president.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+  "link": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+  "source": "CNBC",
+  "date": "2026-09-18T17:02:32+00:00",
+  "desc": "A coalition of over 100 AI experts are urging independence and transparency from Anthropic, OpenAI and other foundation model labs to conduct evaluations.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Two signs investors don’t have to fear an AI slowdown",
+  "link": "https://www.marketwatch.com/story/two-signs-investors-dont-have-to-fear-an-ai-slowdown-5ec40948?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T17:02:00+00:00",
+  "desc": "Neocloud companies CoreWeave and Nebius are signaling strong demand and rising prices for AI chips.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "What’s really driving inflation and rising interest rates",
+  "link": "https://www.marketwatch.com/story/whats-really-driving-inflation-and-rising-interest-rates-59a9cd51?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T16:50:00+00:00",
+  "desc": "Also in Weekend Reads: The housing market, retirement planning with an age gap, and a combination of warnings and opportunities in the stock market.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "Trump's $403 million war chest is finally being spent on the midterms. Now comes the hard part",
+  "link": "https://www.cnbc.com/2026/09/18/trump-election-ad-spend-maga-inc.html",
+  "source": "CNBC",
+  "date": "2026-09-18T16:49:03+00:00",
+  "desc": "Democratic Senate candidates entered summer with a cash edge, while Trump-linked groups now pour money into increasingly crowded and costly ad markets.",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.",
-  "link": "https://www.marketwatch.com/story/the-feds-never-been-so-confident-on-economic-growth-what-investors-should-do-now-according-to-kkr-b2eef2ee?mod=mw_rss_topstories",
+  "title": "Ex-Apollo executive admits to improperly using company documents",
+  "link": "https://www.ft.com/content/c57e73d1-547d-4f69-addb-6516845fbe6d?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T16:41:40+00:00",
+  "desc": "Imran Siddiqui had been sued by buyout group’s Athene unit over his rival start-up",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all",
+  "link": "https://www.marketwatch.com/story/why-investors-best-move-in-reaction-to-feds-rate-hike-is-doing-nothing-at-all-6ff56b4c?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-09-18T10:08:00+00:00",
-  "desc": "Members of the Federal Open Market Committee showed their lowest level of worry about gross domestic product growth since it first started releasing its outlook.",
+  "date": "2026-09-18T16:39:00+00:00",
+  "desc": "Even when rates are higher, stocks should still beat bonds",
   "ccs": [
    "US"
   ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough",
+  "link": "https://www.cnbc.com/2026/09/18/at-dreamforce-business-leaders-say-older-ai-models-are-enough.html",
+  "source": "CNBC",
+  "date": "2026-09-18T16:31:03+00:00",
+  "desc": "At Salesforce's annual mega-conference in San Francisco, attendees said they get enough value from older AI models.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Yen sinks after BoJ raises rates to highest level since 1995",
+  "link": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T16:28:24+00:00",
+  "desc": "Authorities warn of further potential currency intervention after central bank move fails to buoy currency",
+  "ccs": [
+   "JP"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Netflix is too focused on podcasts and not enough on good shows, analysts say",
+  "link": "https://www.marketwatch.com/story/netflix-is-too-focused-on-podcasts-and-not-enough-on-good-shows-analysts-say-be758c93?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-18T16:23:00+00:00",
+  "desc": "“We see breakout hits as a must for the stock to work again,” Wells Fargo analysts said as they cut their rating on shares of the streaming platform.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Lagarde deja abierta su salida anticipada del BCE: \"Ya veremos\"",
+  "link": "https://www.expansion.com/mercados/2026/09/18/6aad64efe5fdea7b5f8b4571.html",
+  "source": "Expansión",
+  "date": "2026-09-18T16:21:05+00:00",
+  "desc": "Leer",
+  "ccs": [],
   "cat": "cb",
   "imp": "medium"
  },
  {
-  "title": "The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.",
-  "link": "https://www.marketwatch.com/story/the-fed-hasnt-been-this-terse-since-2007-what-a-130-word-statement-signals-for-market-stability-0fd31292?mod=mw_rss_topstories",
+  "title": "Warren Buffett’s son to succeed his father as Berkshire Hathaway chair",
+  "link": "https://www.ft.com/content/e26d8335-426a-4405-ae4c-433bd2696994?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T16:18:54+00:00",
+  "desc": "Conglomerate says the elder Buffett will take on role of chair emeritus",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Telefónica, víctima del correctivo bursátil a las telecos",
+  "link": "https://www.expansion.com/mercados/2026/09/18/6aad24d7e5fdeafd1f8b458f.html",
+  "source": "Expansión",
+  "date": "2026-09-18T16:14:26+00:00",
+  "desc": "Las empresas de telecomunicaciones se convierten hoy en el peor sector de toda la renta variable europea. El correctivo es generalizado, y la cotización de Telefónica no es una excepción. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "These fast-growing ETFs aim for yields as high as 17.5%. But here’s the catch.",
+  "link": "https://www.marketwatch.com/story/these-fast-growing-etfs-aim-for-yields-as-high-as-17-5-but-heres-the-catch-6f0a3d43?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-09-18T10:08:00+00:00",
-  "desc": "Bank of America calculates this week’s Federal Open Market Committee statement explaining the decision to lift interest rates by a quarter-point as its most terse, at just 130 words, since 2007.",
+  "date": "2026-09-18T16:11:00+00:00",
+  "desc": "So-called autocallable ETFs pay coupons like bonds but are linked to equity risk.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic and the golden rules of business",
+  "link": "https://www.ft.com/content/e2d2b86f-4f22-477f-9578-75c72683f1e9",
+  "source": "Financial Times",
+  "date": "2026-09-18T15:40:47+00:00",
+  "desc": "Shifts in technology and geopolitics mean the ideal of the perfect company is changing",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "El Ibex cae hasta los 19.500 puntos y pierde en la semana un 1,6%",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/18/6aacd28c468aebb3298b4599.html",
+  "source": "Expansión",
+  "date": "2026-09-18T15:38:48+00:00",
+  "desc": "Jornada de fuertes caídas en las Bolsas europeas en una sesión marcada por la cuádruple hora bruja. El Ibex se ha dejado un 1,60% hasta los 19.513,80 puntos. En el conjunto de la semana, el selectivo español ha perdido u",
   "ccs": [
-   "US"
+   "ES"
   ],
-  "cat": "cb",
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
+  "link": "https://www.wsj.com/finance/warren-buffett-to-step-down-as-berkshire-hathaway-chairman-de0e003f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-18T15:31:00+00:00",
+  "desc": "The legendary investor, whose son Howard succeeds him as chairman, will remain on the board and become chairman emeritus.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+  "link": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+  "source": "CNBC",
+  "date": "2026-09-18T14:36:55+00:00",
+  "desc": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Former Wells Fargo asset manager Allspring explores $4bn sale",
+  "link": "https://www.ft.com/content/1270032d-25e9-4be0-aa2f-5205b9bedd08?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T14:12:56+00:00",
+  "desc": "Deal by private equity owners would follow a string of transactions that have reshaped the industry",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Swiss sports brand On signs Kylian Mbappé in blow to Nike",
+  "link": "https://www.ft.com/content/3e72dc10-5733-4623-9c4d-1beaab3dd5cf?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T13:57:38+00:00",
+  "desc": "Group targets long-term partnership with French star, similar to relationship with tennis great Roger Federer",
+  "ccs": [
+   "FR",
+   "CH"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Social Security reform plans could sway voters in battleground Senate races, survey finds",
+  "link": "https://www.cnbc.com/2026/09/18/social-security-senate-races-battleground-voters-survey.html",
+  "source": "CNBC",
+  "date": "2026-09-18T13:15:01+00:00",
+  "desc": "Senators elected this November will be in office when Social Security's retirement trust fund is projected to run dry.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Xi’s edge over Trump on AI",
+  "link": "https://www.ft.com/content/a528adc7-3a8c-4a00-826f-1fdde748efb5?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-18T13:00:02+00:00",
+  "desc": "The US president’s anti-regulatory stance fails to take into account that China is catching up",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "rg",
   "imp": "medium"
  },
  {
   "title": "Las criptomonedas más favorecidas por la SEC vuelan hasta un 30%",
   "link": "https://www.expansion.com/mercados/criptomonedas/2026/09/18/6aad070c468aebfe708b457e.html",
   "source": "Expansión",
-  "date": "2026-09-18T10:04:09+00:00",
+  "date": "2026-09-18T12:32:20+00:00",
   "desc": "Tras una semana frenética, el mercado cripto se sobrepone a la Fed y al revés del Senado de EEUU con la luz verde que ha otorgado la SEC a las acciones tokenizadas. Las criptomonedas más beneficiadas por la medida se dis",
   "ccs": [
    "US"
@@ -46,37 +353,87 @@
   "imp": "medium"
  },
  {
-  "title": "El Ibex duda con la cuádruple hora bruja",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/18/6aacd28c468aebb3298b4599.html",
+  "title": "La SEC dispara a la 'española' Securitize en Wall Street",
+  "link": "https://www.expansion.com/mercados/2026/09/18/6aad1d21e5fdea387e8b4583.html",
   "source": "Expansión",
-  "date": "2026-09-18T09:54:01+00:00",
-  "desc": "La última jornada de la semana, marcada por el vencimiento trimestral de futuros, apacigua los ánimos después del rebrote de optimismo de ayer. El freno en el precio del petróleo neutraliza otra subida de tipos, la aprob",
+  "date": "2026-09-18T12:32:19+00:00",
+  "desc": "Los efectos múltiples de la decisión de la SEC de dar luz verde a la negociación de acciones tokenizadas impulsa a las empresas cotizadas más vinculadas con el sector cripto. Al frente de este rally sobresale la compañía",
   "ccs": [
-   "ES"
+   "US"
   ],
-  "cat": "en_",
+  "cat": "rg",
   "imp": "medium"
  },
  {
-  "title": "Yen sinks after BoJ raises rates to highest level since 1995",
-  "link": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T09:46:57+00:00",
-  "desc": "Hawkish comments by BoJ governor fail to arrest renewed slide in currency after borrowing costs lifted to 1.25%",
+  "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'",
+  "link": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+  "source": "CNBC",
+  "date": "2026-09-18T12:04:02+00:00",
+  "desc": "Buffett's son Howard will replace him as chairman, as dictated by a long-standing succession plan, Berkshire said.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Conociendo al Sr. Warsh",
+  "link": "https://www.expansion.com/economia/financial-times/2026/09/18/6aad270c468aeb341d8b4588.html",
+  "source": "Expansión",
+  "date": "2026-09-18T11:57:08+00:00",
+  "desc": "El presidente de la Reserva Federal se está consolidando como comunicador. Leer",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Euríbor hoy, 18 de septiembre: Euríbor diario cierra la semana en  3,343%",
+  "link": "https://www.expansion.com/mercados/euribor/2026/09/18/6aad2113468aebfe708b4591.html",
+  "source": "Expansión",
+  "date": "2026-09-18T11:35:34+00:00",
+  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 3,192% en septiembre, lo que supone un aumento de 0,238 puntos respecto al día anterior. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El precio del Bitcoin hoy, 18 de septiembre: el Bitcoin asciende de los 78.000 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/09/18/6aad04a1468aebfe708b4576.html",
+  "source": "Expansión",
+  "date": "2026-09-18T11:32:31+00:00",
+  "desc": "La mayor de las criptomonedas se sitúa hoy en 77.527,38 dólares, al registrar una variación del 1,54 % Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Daily Briefing: Higher Rates Deepen Private Equity’s Zombie-Fund Problem",
+  "link": "https://www.wsj.com/pro/bankruptcy/daily-briefing-higher-rates-deepen-private-equitys-zombie-fund-problem-26ac6796?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-18T10:55:00+00:00",
+  "desc": "Plus: A-CAP insurers sue South Carolina regulator over takeover attempt.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Warren Buffett deja la presidencia de Berkshire Hathaway y pasa el testigo a su hijo Howard",
+  "link": "https://www.expansion.com/mercados/2026/09/18/6aad157be5fdea17108b456d.html",
+  "source": "Expansión",
+  "date": "2026-09-18T10:45:27+00:00",
+  "desc": "El llamado oráculo de Omaha, de 96 años, ya dejó la dirección ejecutiva del grupo en 2025. Leer",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "How to Tell Whether a Plunging Stock Will Keep Plunging",
+  "link": "https://www.wsj.com/finance/stocks/how-to-tell-whether-a-plunging-stock-will-keep-plunging-bf0be3ed?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-18T10:26:00+00:00",
+  "desc": "Plus, the yen slides again",
   "ccs": [
    "JP"
   ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic and OpenAI hunt for smaller data center deals, sources tell CNBC, in race to deploy AI capacity",
-  "link": "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
-  "source": "CNBC",
-  "date": "2026-09-18T09:38:17+00:00",
-  "desc": "Anthropic and OpenAI have announced a flurry of AI infrastructure deals over the past year as demand booms.",
-  "ccs": [],
-  "cat": "tc",
+  "cat": "fx",
   "imp": "medium"
  },
  {
@@ -90,26 +447,16 @@
   "imp": "high"
  },
  {
-  "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term insurance?",
-  "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-18T09:15:00+00:00",
-  "desc": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stock Market Today: Nasdaq Heads for Weekly Gain as AI Stocks Surge",
+  "title": "Stock Market Today: Stocks Fall as Treasury Yields Rise",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-09-18T08:48:16+00:00",
-  "desc": "Oil prices and Treasury yields are falling back",
+  "desc": "The Dow Jones Industrial Average is headed for its third straight weekly loss",
   "ccs": [
    "US"
   ],
   "cat": "bd",
-  "imp": "high"
+  "imp": "medium"
  },
  {
   "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
@@ -124,31 +471,6 @@
   "imp": "medium"
  },
  {
-  "title": "Oil prices fall for third day on Saudi Arabia supply hopes; U.S. crude briefly dips below $100",
-  "link": "https://www.cnbc.com/2026/09/18/oil-prices-today-brent-wti-saudi-arabia-houthi.html",
-  "source": "CNBC",
-  "date": "2026-09-18T08:29:35+00:00",
-  "desc": "Oil prices fell on Friday as additional Saudi crude supplies help ease disruption fears.",
-  "ccs": [
-   "US",
-   "SA"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Trump administration advances $24.3 billion fighter jet deal to Saudi Arabia as Houthis escalate attacks",
-  "link": "https://www.cnbc.com/2026/09/18/trump-saudi-arabia-f-35-houthis-iran-war.html",
-  "source": "CNBC",
-  "date": "2026-09-18T08:02:20+00:00",
-  "desc": "The deal comes as Iran-backed Houthis escalate attacks on Saudi Arabia and seek control of the strategically important Bab el-Mandeb Strait.",
-  "ccs": [
-   "SA"
-  ],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
   "title": "Qué implica la cuádruple hora bruja en Bolsa",
   "link": "https://www.expansion.com/mercados/2024/12/20/67651f85e5fdea80468b4570.html",
   "source": "Expansión",
@@ -156,342 +478,6 @@
   "desc": "Cuatro veces al año los inversores afrontan la cuádruple hora bruja, o también denominada en EEUU Freaky Friday, debido a los movimientos bursátiles extraños que puede llegar a provocar el habitual incremento de la negoc",
   "ccs": [
    "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Joining the dots between big AI",
-  "link": "https://www.ft.com/content/8475dc9b-b2d4-4e10-a6b6-12796b11758a",
-  "source": "Financial Times",
-  "date": "2026-09-18T05:00:09+00:00",
-  "desc": "In the loop?",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Venezuela nears deal to tap disputed $4bn gold reserve",
-  "link": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T04:00:29+00:00",
-  "desc": "Agreement would shift gold from London to New York and enable interim government of Delcy Rodríguez to access funding",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Democrats vow to pursue ‘Trump crime family’ after midterm elections",
-  "link": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T04:00:19+00:00",
-  "desc": "Lawmaker on oversight committee says he will probe Donald Trump’s sons and Elon Musk if his party takes control of the House",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Iran activates land routes to bypass US blockade",
-  "link": "https://www.ft.com/content/f69943f7-b173-444c-a79e-c9396a0380bd?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T04:00:19+00:00",
-  "desc": "Donald Trump’s naval campaign deepens Tehran’s trade reliance on land neighbours such as Turkey",
-  "ccs": [
-   "TR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Liechtenstein royals threaten lawsuit over dynasty reforms",
-  "link": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T04:00:18+00:00",
-  "desc": "Feud in Europe’s wealthiest monarchy deepens after Prince Alois tightens control over family members",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Medical AI has a proof problem",
-  "link": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T04:00:10+00:00",
-  "desc": "The technology’s advances have not yet translated into big improvements in real-life care",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
-  "link": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
-  "source": "CNBC",
-  "date": "2026-09-18T03:31:45+00:00",
-  "desc": "The decision was split 7-2, with board members Toichiro Asada and Ayano Sato dissenting from the hike.",
-  "ccs": [
-   "JP"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI breached by researchers using Anthropic models",
-  "link": "https://www.ft.com/content/c4aa118e-a258-48bc-b50e-28e453a95db8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T03:31:31+00:00",
-  "desc": "Security company hacked into AI lab using tools from its rival",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "UN mission finds evidence signaling U.S. war crimes in Iran; Washington rejects report",
-  "link": "https://www.cnbc.com/2026/09/18/us-iran-war-trump-hormuz.html",
-  "source": "CNBC",
-  "date": "2026-09-18T03:09:22+00:00",
-  "desc": "The UN mission pointed out the missile strike on a primary school that killed over 150 people, as well as another airstrike which killed 22 civilians.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "OpenAI’s listing delay raises stakes for SoftBank’s $50bn data centre IPO",
-  "link": "https://www.ft.com/content/6c467774-9d91-425e-a901-26db055e37ad?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-18T03:04:36+00:00",
-  "desc": "Initial public offering of SB Energy set to test investor appetite for Masayoshi Son’s AI gamble",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
-  "link": "https://www.cnbc.com/2026/09/17/diesel-gas-prices-oil-us-economy.html",
-  "source": "CNBC",
-  "date": "2026-09-18T01:04:06+00:00",
-  "desc": "Record diesel prices are already walloping the transportation sector, and if energy prices stay high, the economic impact will spread.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Christine Lagarde Helped Block Binance’s Foothold in Europe",
-  "link": "https://www.wsj.com/finance/currencies/christine-lagarde-helped-block-binances-foothold-in-europe-d905c86d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-18T00:00:00+00:00",
-  "desc": "The ECB chief intervened to keep crypto’s biggest player, which pleaded guilty to financial-crime violations in the U.S., from operating in the EU.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "La Bolsa fía su atractivo frente a los bonos a la fortaleza de las cotizadas",
-  "link": "https://www.expansion.com/mercados/2026/09/18/6aac6fd6e5fdea88468b458a.html",
-  "source": "Expansión",
-  "date": "2026-09-17T23:01:01+00:00",
-  "desc": "El mercado confía en que los resultados y perspectivas de las cotizadas contrarresten la presión que ejerce sobre la renta variable el mayor rendimiento de la deuda. Leer",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Jim Cramer says history offers a playbook for navigating a Fed rate-hiking cycle",
-  "link": "https://www.cnbc.com/2026/09/17/jim-cramer-fed-rate-hike-investing.html",
-  "source": "CNBC",
-  "date": "2026-09-17T22:58:28+00:00",
-  "desc": "CNBC's Jim Cramer said investors shouldn’t assume stocks will struggle for the entire period.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic shares 3 metrics to help AI companies monitor pace of development",
-  "link": "https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html",
-  "source": "CNBC",
-  "date": "2026-09-17T22:22:53+00:00",
-  "desc": "Anthropic said it measured AI-led research and development, oversight of AI agents and compute allocation within the company.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nueve valores a punto de saltar al Stoxx 600 tras 13 años de odisea",
-  "link": "https://www.expansion.com/mercados/2026/09/18/6aabdff2e5fdea3d678b457f.html",
-  "source": "Expansión",
-  "date": "2026-09-17T22:08:11+00:00",
-  "desc": "La jornada de hoy representa la última oportunidad de tomar posiciones en las empresas que, a partir del lunes, se convertirán de lleno en nuevos integrantes de unos de los índices europeos de referencia, el Stoxx 600. L",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The S&P 500 and Nasdaq Post Biggest Gains in Six Weeks",
-  "link": "https://www.wsj.com/finance/investing/the-s-p-500-and-nasdaq-post-biggest-gains-in-six-weeks-d3ccd84e?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-17T21:34:00+00:00",
-  "desc": "Traders turned their attention away from inflation and interest rates toward tech stocks. And record donations are flowing into state attorneys general races.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
-  "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T21:22:00+00:00",
-  "desc": "“The higher that yields go — for at least new money — it becomes more enticing to think about putting money into bonds,” one strategist notes.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
-  "link": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T21:22:00+00:00",
-  "desc": "Investor fears about an AI spending slowdown and the impact of interest-rate hikes are subsiding.",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Investors Come Back to AI Stocks, Snapping Market Out of Inflation Gloom",
-  "link": "https://www.wsj.com/finance/stocks/investors-come-back-to-ai-stocks-snapping-market-out-of-inflation-gloom-a7690ce5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-17T21:18:00+00:00",
-  "desc": "The S&P 500 and Nasdaq composite posted their biggest one-day gains in six weeks.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
-  "link": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T21:09:00+00:00",
-  "desc": "For six months, investors had a playbook: when Trump threatens Iran, buy the dip, because he always backs down. But in September, the playbook stopped working.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
-  "link": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
-  "source": "CNBC",
-  "date": "2026-09-17T21:00:47+00:00",
-  "desc": "Huang's comment is the latest forecast from Nvidia and points to continuing massive growth for the next six quarters.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Bill to curb AI data center utility costs hits snag in Senate",
-  "link": "https://www.cnbc.com/2026/09/17/ai-data-center-utility-cost-senate.html",
-  "source": "CNBC",
-  "date": "2026-09-17T20:56:41+00:00",
-  "desc": "Sen. Martin Heinrich, D-N.M., blocked bipartisan legislation aimed at reining in data center-related utility cost increases, calling the bill a half-measure.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Stocks Rally, Shaking Off Fed’s Rate Hike",
-  "link": "https://www.wsj.com/finance/stocks/stocks-rally-shaking-off-feds-rate-hike-aebb2c0b?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-17T20:36:00+00:00",
-  "desc": "Plus, chip shares soar on Intel comments and SEC clears path for trading tokenized stocks",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
-  "link": "https://www.cnbc.com/2026/09/17/tax-breaks-trump-big-beautiful-bill.html",
-  "source": "CNBC",
-  "date": "2026-09-17T20:32:07+00:00",
-  "desc": "As the midterm elections approach, Republicans are touting President Donald Trump's \"big beautiful bill\" to voters. Here's who benefited from the tax cuts.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Tesla’s upcoming product frenzy could leave investors disappointed",
-  "link": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T20:23:00+00:00",
-  "desc": "Slower-than-expected robotaxi progress is still a chief concern, according to experts.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Pet insurance or savings account: What’s the best way to plan for a big vet bill?",
-  "link": "https://www.marketwatch.com/story/pet-insurance-or-savings-account-whats-the-best-way-to-plan-for-a-big-vet-bill-f9f22f33?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T20:19:00+00:00",
-  "desc": "You want to make sure your pet can receive the care they need when an emergency happens — but is pet insurance the best way to prepare for that?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Pokémon has turned 30, and Target is set to cash in on the anniversary craze",
-  "link": "https://www.marketwatch.com/story/pokemon-has-turned-30-and-target-is-set-to-cash-in-on-the-anniversary-craze-f5eb2af1?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T20:13:00+00:00",
-  "desc": "As people clamored for Pokemon’s 30th-anniversary card set, Mizuho analysts noted long lines and sold-out items at Target stores.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
-  "link": "https://www.marketwatch.com/story/saudi-arabia-is-now-pushing-to-export-more-oil-through-the-strait-of-hormuz-bcce044b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-17T19:52:00+00:00",
-  "desc": "With its East-West pipeline shut down, the Straight of Hormuz is the best avenue available and its spigot has recently opened up. Will it last?",
-  "ccs": [
-   "SA"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Así es Merus Capital, el capital riesgo que busca activos fuera del radar del mercado",
-  "link": "https://www.expansion.com/mercados/fondos/2026/09/17/6aabaca3468aeb157b8b459e.html",
-  "source": "Expansión",
-  "date": "2026-09-17T18:46:32+00:00",
-  "desc": "La firma, que nació en 2019 como Intermoney Capital y se independizó en 2025, gestiona dos fondos especializados en infraestructuras energéticas con 130 millones de euros en activos y uno de empresas tecnológicas de alto",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Cuáles son los valores favoritos en el Ibex del fondo soberano más rentable del mundo",
-  "link": "https://www.expansion.com/mercados/2026/09/17/6aac0469468aeb92438b458e.html",
-  "source": "Expansión",
-  "date": "2026-09-17T18:44:55+00:00",
-  "desc": "Nueva Zelanda mantiene 13 posiciones en la Bolsa española valoradas en más de  350 millones de euros, pero le 'pillaron' dos quiebras sonadas. Leer",
-  "ccs": [
-   "ES"
   ],
   "cat": "eq",
   "imp": "low"
