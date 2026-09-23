@@ -1,21 +1,447 @@
 [
  {
-  "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
-  "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T10:16:00+00:00",
-  "desc": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+  "title": "Court hearing on Trump media ban begins; MS NOW, CNN, Politico seek White House reinstatement",
+  "link": "https://www.cnbc.com/2026/09/23/trump-media-ban-court-hearing.html",
+  "source": "CNBC",
+  "date": "2026-09-23T19:41:03+00:00",
+  "desc": "The DOJ on Tuesday night cited national security concerns in justifying President Trump's ban of MS NOW, CNN and Politico from the White House.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "‘I don’t begrudge them their money’: My husband and I have friends who spend, spend, spend. How do we keep up?",
-  "link": "https://www.marketwatch.com/story/i-dont-begrudge-them-their-money-my-husband-and-i-have-friends-who-spend-spend-spend-how-do-we-keep-up-e10164dc?mod=mw_rss_topstories",
+  "title": "McDonald’s is making a historic bet on chicken — and AI — to bring back customers",
+  "link": "https://www.marketwatch.com/story/mcdonalds-is-making-a-historic-bet-on-chicken-and-ai-to-bring-back-customers-43468a53?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-09-23T10:15:00+00:00",
-  "desc": "“A weekend away isn’t a weekend away. It’s a luxury hotel, expensive meals and a last-minute upgrade.”",
+  "date": "2026-09-23T19:40:00+00:00",
+  "desc": "Investors aren’t sold on plans to introduce new McNugget flavors, and an analyst recently noted that McDonald’s has struggled to break through on chicken-related innovation.",
   "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Micron’s stock has become a ‘battleground’ as the AI narrative shifts",
+  "link": "https://www.marketwatch.com/story/microns-stock-has-become-a-battleground-as-the-ai-narrative-shifts-d61a3408?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T19:38:00+00:00",
+  "desc": "Investors have become more focused on the durability of memory-chip demand, but there are reasons to be optimistic on that front, a UBS analyst said.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "The AI ‘scare trade’ is finally hitting banks. Bargain hunters should take note.",
+  "link": "https://www.marketwatch.com/story/the-ai-scare-trade-is-finally-hitting-banks-bargain-hunters-should-take-note-b2fc7410?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T19:35:00+00:00",
+  "desc": "In an era of higher interest rates, banks have reaped big profits due to consumers’ reluctance to move money out of low-interest checking accounts that offer convenience and ready access to money.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
+  "link": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
+  "source": "CNBC",
+  "date": "2026-09-23T19:31:08+00:00",
+  "desc": "Higher interest rates will significantly affect consumer borrowing costs and savings returns, but the impact will not be felt equally across all households.",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+  "link": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+  "source": "CNBC",
+  "date": "2026-09-23T19:30:54+00:00",
+  "desc": "A diesel export ban would provide only brief relief before prices start to rise again as refiners cut production, experts say.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets",
+  "link": "https://www.ft.com/content/5b11b598-7c77-4bdf-82bf-a763adf71a72?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T19:26:55+00:00",
+  "desc": "Traders crank up bets on Federal Reserve rate rises after new data fuels worries economy is overheating",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Florida Railroad Brightline Plans Imminent Chapter 11 in New Jersey",
+  "link": "https://www.wsj.com/pro/bankruptcy/florida-railroad-brightline-plans-imminent-chapter-11-in-new-jersey-92faff39?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-23T19:23:00+00:00",
+  "desc": "The Fortress Investment Group-backed railroad plans a bankruptcy filing after struggling under $5.5 billion of debt and slow ridership growth.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+  "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+  "source": "CNBC",
+  "date": "2026-09-23T19:20:36+00:00",
+  "desc": "Treasury yields traded higher on Wednesday as new services and manufacturing sector data increased worry of further Federal Reserve rate hikes.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Israeli election committee bars main Arab parties from next month’s poll",
+  "link": "https://www.ft.com/content/05ffcb10-869e-4857-bed7-fcb025f8e02f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T19:00:05+00:00",
+  "desc": "Members of Prime Minister Benjamin Netanyahu’s far-right coalition lead campaign to exclude Ra’am and Joint List",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+  "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T19:00:00+00:00",
+  "desc": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps",
+  "link": "https://www.marketwatch.com/story/10-places-where-thousands-of-homeowners-face-higher-insurance-bills-after-fema-updated-its-flood-maps-ff779184?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:55:00+00:00",
+  "desc": "The federal government redrew flood maps across America this summer — and it could mean bigger housing bills for homeowners who now live in newly designated flood zones.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Tesla Roadster reveal is creating a unique options opportunity, says Mike Khouw",
+  "link": "https://www.cnbc.com/2026/09/23/tesla-roadster-reveal-is-creating-a-unique-options-opportunity-says-mike-khouw.html",
+  "source": "CNBC",
+  "date": "2026-09-23T18:52:11+00:00",
+  "desc": "Teslas are expensive cars, and the Roadster, which the company will reveal on October 1st, will likely be the its most expensive.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "As Trump and Xi meet, Chinese automakers could be a Pandora's box for U.S. auto industry",
+  "link": "https://www.cnbc.com/2026/09/23/trump-xi-chinese-automakers-us-access.html",
+  "source": "CNBC",
+  "date": "2026-09-23T18:47:29+00:00",
+  "desc": "Trump’s meeting with Xi comes as U.S. automakers and lawmakers push to keep restrictions on Chinese vehicles and manufacturers.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Por qué puede sufrir un susto la Bolsa de Wall Street hasta final de año",
+  "link": "https://www.expansion.com/mercados/2026/09/23/6ab3fa97e5fdea5d368b457f.html",
+  "source": "Expansión",
+  "date": "2026-09-23T18:46:47+00:00",
+  "desc": "Trump 2.0 empata en el parqué con Trump 1.0. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
+  "link": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html",
+  "source": "CNBC",
+  "date": "2026-09-23T18:41:23+00:00",
+  "desc": "A group that advocates for Epstein victims applauded the news that Richard Kahn and Darren Indyke are facing an investigation. No charges have been been filed.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Why McDonald's is following Walmart and Amazon into the advertising business",
+  "link": "https://www.cnbc.com/2026/09/23/why-mcdonalds-is-building-an-advertising-business.html",
+  "source": "CNBC",
+  "date": "2026-09-23T18:39:44+00:00",
+  "desc": "McDonald's is following the lead of Amazon and Walmart as it starts its own media network.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Palantir’s stock is heading for its highest close of the year, in a dramatic comeback",
+  "link": "https://www.marketwatch.com/story/palantirs-stock-is-heading-for-its-highest-close-of-the-year-in-a-dramatic-comeback-a5fd451d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:31:00+00:00",
+  "desc": "Palantir’s last earnings report reignited investor enthusiasm, and now the company is basking in the glow of a real-world AI boom.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "The ingredients for a financial reckoning are all in place",
+  "link": "https://www.marketwatch.com/story/the-ingredients-for-a-financial-reckoning-are-all-in-place-07520a5d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:24:00+00:00",
+  "desc": "A witch’s brew of rising debt levels, higher costs of capital and contagion risks is bubbling.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
+  "link": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:15:00+00:00",
+  "desc": "Grail’s Galleri test looks for 50 cancers from a blood draw, but a major study failed to prove it could detect later-stage cancers.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Businesses are growing at the fastest pace in over four years. Why war and inflation aren’t stopping the U.S. economy.",
+  "link": "https://www.marketwatch.com/story/businesses-are-growing-at-the-fastest-pace-in-over-four-years-why-war-and-inflation-isnt-slowing-the-u-s-economy-down-2e39e7c7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:06:00+00:00",
+  "desc": "Expensive gas, higher inflation, a stalemate with Iran and rising interest rates — no matter. The U.S. economy appears to have sped up in the early fall.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+  "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-23T18:00:00+00:00",
+  "desc": "“On each of these weekends away, she’s probably spending $500.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "New Social Security bill would lower retirement age to 60 for some workers",
+  "link": "https://www.cnbc.com/2026/09/23/social-security-retirement-age-physical-jobs.html",
+  "source": "CNBC",
+  "date": "2026-09-23T17:58:47+00:00",
+  "desc": "Rep. Haley Stevens introduced a bill that would let some workers in physically demanding jobs claim full Social Security retirement benefits at age 60.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
+  "link": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+  "source": "CNBC",
+  "date": "2026-09-23T17:38:47+00:00",
+  "desc": "Pezeshkian began his address to the U.N. General Assembly in New York City by holding up photos of children he said were killed by U.S. and Israeli bombs.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El capital riesgo tiene un nuevo tipo de SaaS: la sumersión como servicio",
+  "link": "https://www.expansion.com/economia/financial-times/2026/09/23/6ab40c4fe5fdea57048b4588.html",
+  "source": "Expansión",
+  "date": "2026-09-23T17:29:41+00:00",
+  "desc": "Hay más de 10 millones de piscinas instaladas en Estados Unidos, y todas ellas necesitan limpieza y reparaciones regulares. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "McDonald's CEO expects high inflation, fewer diner visits are here to stay",
+  "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html",
+  "source": "CNBC",
+  "date": "2026-09-23T17:25:26+00:00",
+  "desc": "McDonald's CEO Chris Kempczinski said that he expects that high inflation and flat traffic will continue to weigh on the restaurant industry.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
+  "link": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
+  "source": "CNBC",
+  "date": "2026-09-23T16:47:21+00:00",
+  "desc": "As Trump prepares to meet Xi, strains with U.S. allies are complicating Washington’s efforts to marshal pressure against an increasingly resilient China.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Zuckerberg to unveil new AI products as Meta’s Muse app tops charts",
+  "link": "https://www.ft.com/content/f4770cdf-626e-41e3-9db0-3dc0b64b8c00?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T16:35:21+00:00",
+  "desc": "Social media group’s personal AI ‘agent’ that can shop and schedule has become most downloaded app in US",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Countries cancel Iran flights after US threatens to ‘shut down’ airlines",
+  "link": "https://www.ft.com/content/7a98e756-92a3-45e4-9630-187d20685e79?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T16:27:08+00:00",
+  "desc": "Iraq, Oman and Azerbaijan join growing list of nations suspending air travel after Scott Bessent warns of further sanctions",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "European diesel prices climb over prospect of US export ban",
+  "link": "https://www.ft.com/content/a8614065-b38b-426d-b176-192c6cd75f56?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T16:15:32+00:00",
+  "desc": "Any move by Washington to suspend foreign sales would be ‘catastrophic’ for global supplies, analysts warn",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Grenergy se desploma un 13,5% y Solaria un 5,9% por el plan del Gobierno para contener los precios de la energía",
+  "link": "https://www.expansion.com/mercados/2026/09/23/6ab3e82ee5fdea57048b4579.html",
+  "source": "Expansión",
+  "date": "2026-09-23T15:58:27+00:00",
+  "desc": "El Gobierno aprobará el próximo martes en Consejo de Ministros un nuevo paquete de medidas para contener la inflación generada por la guerra en Oriente Medio y apoyar a las familias y sectores profesionales más afectados",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "McDonald’s bets on chicken to win back diners as beef prices soar",
+  "link": "https://www.ft.com/content/1d7daa8f-e8bb-436c-ad8b-b6d097e4107f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T15:44:55+00:00",
+  "desc": "Fast-food chain aims to grow share in booming chicken market in bid to kick-start sluggish US sales",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "El petróleo y la deuda vuelven a llevarse los 19.700 puntos del Ibex",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/23/6ab36749e5fdeab3108b4583.html",
+  "source": "Expansión",
+  "date": "2026-09-23T15:37:29+00:00",
+  "desc": "Las Bolsas europeas han despedido la sesión con caídas presionadas una jornada más por el petróleo, de nuevo por encima de los 100 dólares, y el fuerte incremento de los rendimientos de los bonos tras los datos de activi",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "How Trump’s diesel export ban will backfire",
+  "link": "https://www.ft.com/content/3e480031-4ee7-4ded-9893-75c060aeef1a?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T15:37:23+00:00",
+  "desc": "Suspending foreign sales of the vital fuel may look good in the short term but the US would soon suffer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Nasdaq 100 marca un nuevo máximo por el regreso del 'FOMO en la IA'",
+  "link": "https://www.expansion.com/economia/financial-times/2026/09/23/6ab3e8f8e5fdeae6728b4598.html",
+  "source": "Expansión",
+  "date": "2026-09-23T14:58:19+00:00",
+  "desc": "El índice de amplio contenido tecnológico se recupera de las fuertes ventas registradas este verano. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
+  "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
+  "source": "CNBC Markets",
+  "date": "2026-09-23T13:29:08+00:00",
+  "desc": "Persistent growth of Chinese exports to the U.S. is helping the world's second-largest economy ride out ongoing domestic challenges.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "AI industry is at a ‘crossroads’, OpenAI’s Sam Altman tells the UN",
+  "link": "https://www.ft.com/content/31a27312-8032-4957-be69-ba32561e8db3",
+  "source": "Financial Times",
+  "date": "2026-09-23T13:13:03+00:00",
+  "desc": "Head of one of America’s top artificial intelligence companies says governments must play bigger role in regulating technology",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "What to do when your Waymo holds up a Secret Service motorcade",
+  "link": "https://www.ft.com/content/9cc479a6-8206-4af3-a6e5-77176b8d43c4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T13:08:58+00:00",
+  "desc": "Stranded in six-lane traffic, surrounded by agents, my autonomous vehicle refused to budge",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Euríbor hoy, 23 de septiembre: El Euríbor diario da un ligero respiro a los hipotecados",
+  "link": "https://www.expansion.com/mercados/euribor/2026/09/23/6ab3bd91e5fdeaa13d8b456e.html",
+  "source": "Expansión",
+  "date": "2026-09-23T11:52:54+00:00",
+  "desc": "La la media mensual del Euríbor se sitúa en el es de 3,206% en septiembre, lo que supone un aumento de 0,252 puntos respecto al dato del día anterior. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El precio del Bitcoin hoy, 23 de septiembre: el Bitcoin asciende hasta los 86.456,52 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/09/23/6ab39c23e5fdea01238b458c.html",
+  "source": "Expansión",
+  "date": "2026-09-23T10:35:58+00:00",
+  "desc": "Asciende el precio del bitcoin hoy 23 de septiembre y se queda en 93.185,79 dólares. Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "The west does not have a leadership problem",
+  "link": "https://www.ft.com/content/67f10dca-63f3-4cf8-951b-22d0c87f6be2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-23T10:33:40+00:00",
+  "desc": "If Friedrich Merz and almost everyone else is unpopular, perhaps governments aren’t the issue",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Add France to Your List of Investing Worries",
+  "link": "https://www.wsj.com/finance/investing/add-france-to-your-list-of-investing-worries-00b3d9f5?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-23T10:25:00+00:00",
+  "desc": "Plus, Mr. Xi Goes to Washington",
+  "ccs": [
+   "FR"
+  ],
   "cat": "eq",
   "imp": "low"
  },
@@ -30,26 +456,6 @@
   "imp": "medium"
  },
  {
-  "title": "Texas turning blue may hinge on Democrats harnessing data center opposition",
-  "link": "https://www.cnbc.com/2026/09/23/texas-data-centers-election.html",
-  "source": "CNBC",
-  "date": "2026-09-23T10:00:01+00:00",
-  "desc": "Data center opposition is reshaping Texas' 2026 governor and Senate races as voters raise concerns over power, water and utility costs.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "AI drone maker hits $6.4 billion valuation as Ukraine war spurs defense tech",
-  "link": "https://www.cnbc.com/2026/09/23/ai-drone-maker-ukraine-war-defense-tech.html",
-  "source": "CNBC",
-  "date": "2026-09-23T09:47:31+00:00",
-  "desc": "Tekever is one of a number of European defense tech startups raising sizable rounds amid a rearmament campaign from countries in the region.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
   "title": "Gadgets Are Going Premium—and Manufacturers Are Raking It In",
   "link": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main",
   "source": "WSJ Markets",
@@ -60,429 +466,15 @@
   "imp": "low"
  },
  {
-  "title": "Why analysts say a diesel export ban could backfire",
-  "link": "https://www.marketwatch.com/story/why-analysts-say-a-diesel-export-ban-could-backfire-8b13cd51?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T09:29:00+00:00",
-  "desc": "A ban on U.S. diesel exports could reduce supplies and simultaneously lead to prices rising further, according to analysts.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Here are the hidden flaws in Warsh’s new way of tracking inflation",
-  "link": "https://www.marketwatch.com/story/here-are-the-hidden-flaws-in-warshs-new-way-of-tracking-inflation-fb7939de?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T09:28:00+00:00",
-  "desc": "Economists at Nomura say the new way Kevin Warsh is tracking inflation doesn’t have better predictive power than core readings.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "South Korea pushes for Trump summit with renegade North Korea, seeing opportunity for peace",
-  "link": "https://www.cnbc.com/2026/09/23/lee-jae-myung-trump-kim-summit-north-korea.html",
-  "source": "CNBC",
-  "date": "2026-09-23T09:22:51+00:00",
-  "desc": "South Korea pushes for Trump summit with renegade North Korea, seeing opportunity for peace",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-  "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T09:15:00+00:00",
-  "desc": "“She currently has about 15 sitters, all independent contractors.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-  "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
-  "source": "CNBC",
-  "date": "2026-09-23T09:14:32+00:00",
-  "desc": "Recent weeks have seen AI safety fears reach new heights. That will be a key focus for the U.S. and Chinese premiers, analysts told CNBC.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-  "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-23T09:13:39+00:00",
-  "desc": "Persistent growth of Chinese exports to the U.S. is helping the world's second-largest economy ride out ongoing domestic challenges.",
-  "ccs": [
-   "US",
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Iran says Trump’s threats a sign of ‘strategic desperation,’ floats conditions for Hormuz reopening",
-  "link": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
-  "source": "CNBC",
-  "date": "2026-09-23T09:05:23+00:00",
-  "desc": "Tehran's proposal could pave the way for restoring traffic through the Strait of Hormuz, reviving fragile hopes for a diplomatic off-ramp.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The real estate portfolio of Zendaya and Tom Holland, plus her plans for a room just for her wedding dress",
-  "link": "https://www.marketwatch.com/story/the-real-estate-portfolio-of-zendaya-and-tom-holland-plus-her-plans-for-a-room-just-for-her-wedding-dress-daa9cc93?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T09:01:00+00:00",
-  "desc": "Tom Holland and Zendaya are reportedly planning to install a climate-controlled room in one of their several properties to preserve her $269,000 wedding gown.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "TV host Maria Menounos lists a beautifully renovated Encino mansion for $7 million",
-  "link": "https://www.marketwatch.com/story/tv-host-maria-menounos-lists-a-beautifully-renovated-encino-mansion-for-7-million-2af120a2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T08:58:00+00:00",
-  "desc": "TV personality Maria Menounos has listed her longtime Encino mansion for $6.995 million, two decades after she and husband made the sprawling California estate their home.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Softbank’s mega junk-bond deal shows capital for the AI race is getting more expensive",
-  "link": "https://www.marketwatch.com/story/softbanks-mega-junk-bond-deal-shows-capital-for-the-ai-race-is-getting-more-expensive-9eb3fa28?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T08:56:00+00:00",
-  "desc": "The artificial intelligence build-out is officially crossing over to the world of junk bonds, where investors expect to be paid more for taking bigger risks.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Stock Market Today: Dollar Climbs, European Diesel Futures Jump on Possible U.S. Export Ban",
+  "title": "Stock Market Today: Treasury Selloff Deepens, Sending 10-Year Yield Above 5.1%",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-09-23T08:54:54+00:00",
-  "desc": "Brent crude oil holds just below $100 a barrel",
+  "desc": "Sharp yield rise comes as oil prices climb and inflation concerns build; Nasdaq falls",
   "ccs": [
    "US"
   ],
-  "cat": "en_",
+  "cat": "inf",
   "imp": "medium"
- },
- {
-  "title": "This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.",
-  "link": "https://www.marketwatch.com/story/this-oil-giant-has-lagged-its-leading-rivals-through-two-energy-crises-now-one-wall-street-giant-says-its-time-to-buy-987838c3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T08:24:00+00:00",
-  "desc": "Integrated oil giant BP has lagged its closest rivals over the last three to five years, but now one leading Wall Street firm says it’s time to buy the beleaguered company.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Zelenskyy says Ukraine ready for ‘energy ceasefire’, calls for trilateral meeting with Putin, Trump",
-  "link": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
-  "source": "CNBC",
-  "date": "2026-09-23T08:06:50+00:00",
-  "desc": "Zelenskyy said Ukraine is ready for an “energy ceasefire” with Russia, provided Moscow stops attacks on critical infrastructure.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Fed's Collins warns inflation could be 'notably' higher after backing rate hike",
-  "link": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
-  "source": "CNBC",
-  "date": "2026-09-23T07:33:14+00:00",
-  "desc": "There is \"an increased likelihood\" of inflation staying \"notably\" above the Federal Reserve's 2% target, Boston Federal Reserve President Susan Collins said.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "¿En qué activos, sectores y geografías ve mejores oportunidades de inversión?",
-  "link": "https://www.expansion.com/encuentros/alejandro-vidal/2026/09/23/index.html",
-  "source": "Expansión",
-  "date": "2026-09-23T06:57:54+00:00",
-  "desc": "¿Cuándo es mejor invertir por nuestra cuenta o delegar la gestión de nuestra cartera? ¿Dónde invierto en el contexto actual de los mercados? Alejandro Vidal, Head Investment Manager de Deutsche Bank, responde a sus dudas",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "La cautela se impone en el Ibex, atento a Trump y el crudo",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/23/6ab36749e5fdeab3108b4583.html",
-  "source": "Expansión",
-  "date": "2026-09-23T05:57:22+00:00",
-  "desc": "El selectivo español cotiza sin grandes cambios, por encima de los 19.700 puntos, a la espera de la reunión entre Donald Trump y  Xi Jinping y con el barril de Brent a 98 dólares por un posible aumento de la oferta saudí",
-  "ccs": [
-   "ES",
-   "SA"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "DOJ defends Trump ban of 3 news outlets, says White House access is a 'privilege — not a right'",
-  "link": "https://www.cnbc.com/2026/09/23/trump-white-house-ban-media-doj-cnn-msnow-politico.html",
-  "source": "CNBC",
-  "date": "2026-09-23T05:49:57+00:00",
-  "desc": "The Department of Justice also argued President Trump was motivated by national security concerns in banning MS NOW, CNN and Politico from the White House.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "BlackRock,Vanguard y Capital Group disparan su inversión en el Ibex",
-  "link": "https://www.expansion.com/inversion/2026/09/23/6ab35c44468aeb2f168b459c.html",
-  "source": "Expansión",
-  "date": "2026-09-23T05:29:23+00:00",
-  "desc": "Los tres gigantes de la inversión tienen un 43% más invertido en las empresas del Ibex que en 2025. En conjunto, poseen acciones por valor de 100.083 millones, lo que supone el 8,4% del índice selectivo. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Has Trump caged his China hawks?",
-  "link": "https://www.ft.com/content/5b7decf1-08fd-43fc-b9f3-9870ffa5716f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:10:54+00:00",
-  "desc": "Xi Jinping will arrive in Washington this week to find a US president wary of jeopardising their détente",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "The battle between the Fed and Trump",
-  "link": "https://www.ft.com/content/d2e5ed9c-a123-4275-afc7-14b75b9337a0?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:29+00:00",
-  "desc": "What happens when a fundamentally strong economy faces an irresponsible government?",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Global banks warn UK windfall tax will trigger shift away from London",
-  "link": "https://www.ft.com/content/ab694096-0acf-4e13-9726-ec339a082a99?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:29+00:00",
-  "desc": "Chancellor John Healey is looking for revenues in next month’s Budget to compensate for hit from higher borrowing costs due to Iran war",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Oil tanker costs hit record $1.2mn a day as Iran war disrupts shipping",
-  "link": "https://www.ft.com/content/f95db340-8c8f-435f-957d-4623255ac29e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:29+00:00",
-  "desc": "Shortage of biggest supertankers has more than doubled rates on key Middle East-China routes since late August",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Diesel surge costs European drivers €203mn per day",
-  "link": "https://www.ft.com/content/76b51a19-0387-4eed-a343-980b1135de2c?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:29+00:00",
-  "desc": "Motorists are spending 40% more each time they refill their tank, compared with the start of the year",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "UK data centre group left biggest customer ByteDance unnamed in $35bn IPO push",
-  "link": "https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:19+00:00",
-  "desc": "Chinese tech giant was AI cloud provider’s largest customer last year but is not prominently named in pitch to stock market investors",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "How private equity ended up in limbo",
-  "link": "https://www.ft.com/content/2b307c1e-cd98-4666-91d5-000b1dc7bbd1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T04:00:09+00:00",
-  "desc": "The sector’s growth was built on a clear bargain with investors. That has now broken down",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "In photos: Key takeaways from day one of the UN General Assembly",
-  "link": "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html",
-  "source": "CNBC",
-  "date": "2026-09-23T03:13:02+00:00",
-  "desc": "World leaders descended on New York for the annual United Nations General Assembly, where the agenda covers topics from wars to the risks posed by AI.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-  "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-23T02:15:00+00:00",
-  "desc": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
-  "link": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-23T02:04:20+00:00",
-  "desc": "Oil prices flat as president says Steve Witkoff and Jared Kushner had ‘good meeting’ with Iranian delegation on the sidelines of the UN gathering",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
-  "link": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html",
-  "source": "CNBC",
-  "date": "2026-09-23T00:58:16+00:00",
-  "desc": "The announcement comes after reports in August that the agency was conducting an internal review into the event contract type.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Private-Credit Firms Are Buzzing About Getting In on JPMorgan’s Card Empire",
-  "link": "https://www.wsj.com/finance/banking/private-credit-firms-are-buzzing-about-getting-in-on-jpmorgans-card-empire-a738f517?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-23T00:00:00+00:00",
-  "desc": "The bank has recently explored finding partners to underwrite rejected applications for its co-branded credit cards.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
-  "link": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
-  "source": "CNBC",
-  "date": "2026-09-22T23:43:48+00:00",
-  "desc": "Republican lawmakers have called for an export ban as high diesel prices hit farmers and truckers ahead of the November midterm elections.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Here's who we know is going to the Trump-Xi dinner so far",
-  "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-22T23:43:43+00:00",
-  "desc": "Very little is known about which Chinese business executives, if any, are expected to attend.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Qantas to start selling tickets next year for its New York to Sydney nonstop flight",
-  "link": "https://www.cnbc.com/2026/09/22/qantas-flight-new-york-sydney-nonstop.html",
-  "source": "CNBC",
-  "date": "2026-09-22T23:00:01+00:00",
-  "desc": "Qantas plans to start selling tickets for its first New York to Sydney nonstop flight.",
-  "ccs": [
-   "AU"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "$5 Billion Flurry of Nearly Identical Kalshi Trades Draws Scrutiny",
-  "link": "https://www.wsj.com/finance/currencies/5-billion-flurry-of-nearly-identical-kalshi-trades-draws-scrutiny-fa53289d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-22T22:51:00+00:00",
-  "desc": "The rapid trades—all at nearly $5,500—occurred in a single Kalshi market. The prediction market says the trades represent normal activity.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "De destruir la humanidad con la IA al récord del Nasdaq en 10 días; ¿cómo explicarlo?",
-  "link": "https://www.expansion.com/mercados/2026/09/22/6ab29974468aeb7e3e8b4577.html",
-  "source": "Expansión",
-  "date": "2026-09-22T22:00:39+00:00",
-  "desc": "La \"burbuja de beneficios\" en el sector tecnológico quita el miedo a los robots, de momento. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "La filial lusa de CaixaBank apuesta por hipotecas crecientes",
-  "link": "https://www.expansion.com/mercados/2026/09/23/6ab2df9de5fdea452c8b45a8.html",
-  "source": "Expansión",
-  "date": "2026-09-22T22:00:35+00:00",
-  "desc": "Ofrece una cuota que aumenta un 1% cada año en un mercado muy competitivo para atraer clientes de hasta 35 años. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los próximos ganadores europeos de la segunda ola de la IA",
-  "link": "https://www.expansion.com/mercados/2026/09/23/6ab27483e5fdea950c8b45bd.html",
-  "source": "Expansión",
-  "date": "2026-09-22T22:00:25+00:00",
-  "desc": "Los inversores han reactivado el rally bursátil más vinculado con el boom de la inteligencia artificial. Los analistas de UBS adoptan sin embargo un enfoque menos cortoplacista, y destacan nueve valores europeos que pued",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Los chips predominan en el club más prestigioso de la Bolsa",
-  "link": "https://www.expansion.com/mercados/2026/09/23/6ab272b7468aebab4b8b4572.html",
-  "source": "Expansión",
-  "date": "2026-09-22T22:00:19+00:00",
-  "desc": "Las compañías de semiconductores, también conocidas como 'chiperas', vuelan en Bolsa. Se codean y hablan de tú a tú a las compañías más valiosas del mundo, con Nvidia como su referente. Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "La tecnología relanza el interés por la inversión sostenible",
-  "link": "https://www.expansion.com/mercados/2026/09/22/6ab2b8d3e5fdeaea038b4580.html",
-  "source": "Expansión",
-  "date": "2026-09-22T21:42:44+00:00",
-  "desc": "Según la gestora noruega Nordea AM, las fuentes renovables son ahora más competitivas, en plena crisis de Ormuz y ante el cambio climático. Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
  }
 ]
