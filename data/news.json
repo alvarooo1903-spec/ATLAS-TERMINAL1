@@ -1,20 +1,62 @@
 [
  {
-  "title": "Nvidia’s historic buyback announcement underscores a sharp divide in Big Tech",
-  "link": "https://www.marketwatch.com/story/nvidias-historic-buyback-announcement-underscores-a-sharp-divide-in-big-tech-ac04a001?mod=mw_rss_topstories",
+  "title": "El bitcoin firma su mejor trimestre desde 2024",
+  "link": "https://www.expansion.com/mercados/criptomonedas/2026/09/30/6abcdf4de5fdea8f628b4574.html",
+  "source": "Expansión",
+  "date": "2026-09-30T11:22:48+00:00",
+  "desc": "El tercer trimestre ha dado un vuelco a la cotización del bitcoin. Finalizó junio en mínimos del año, y hoy cierra septiembre en zona de máximos desde enero, todo ello fruto de su trimestre más alcista desde 2024. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘I’m afraid of human stupidity.’ Why this top economist prefers U.S. tech and gold over bonds.",
+  "link": "https://www.marketwatch.com/story/im-afraid-of-human-stupidity-why-this-top-economist-prefers-u-s-tech-and-gold-over-bonds-30299219?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-09-29T20:52:00+00:00",
-  "desc": "Nvidia is expanding its buyback program to $235 billion while Alphabet and Meta halt repurchases and reallocate money to their AI initiatives.",
+  "date": "2026-09-30T11:20:00+00:00",
+  "desc": "A prominent economist doesn’t fear artificial intelligence, but fully embraces it in portfolios. He feels far differently about government debt.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Citi tells investors it’s time to sell Moderna after 600%-plus stock gains",
+  "link": "https://www.marketwatch.com/story/citi-tells-investors-its-time-to-sell-moderna-after-600-plus-stock-gains-84cb9b62?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T11:12:00+00:00",
+  "desc": "Revenue and profit forecasts fail to justify the hype baked into Moderna’s share price, according to Citi’s analysts.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+  "link": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+  "source": "CNBC",
+  "date": "2026-09-30T11:09:16+00:00",
+  "desc": "Following Trump's lunch with AI leaders at the White House, the industry remains largely unchanged on AI safety.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-  "link": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
+  "title": "Mortgage rates jump for the sixth straight week, hitting both refinance and homebuyer demand hard",
+  "link": "https://www.cnbc.com/2026/09/30/mortgage-rates-jump-to-near-3-year-high-causing-demand-to-drop-.html",
   "source": "CNBC",
-  "date": "2026-09-29T20:51:43+00:00",
-  "desc": "Data is expected to show ongoing price pressures and consumers who nevertheless continue to spend.",
+  "date": "2026-09-30T11:00:01+00:00",
+  "desc": "Mortgage demand dropped for the 7th straight week, as rates surged well over 7% on the 30-year fixed.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+  "link": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
+  "source": "CNBC",
+  "date": "2026-09-30T10:55:49+00:00",
+  "desc": "A CNBC investigation shows how former Fed advisor John Rogers became entangled with a man U.S. officials identify as a Chinese intelligence operative.",
   "ccs": [
    "US"
   ],
@@ -22,31 +64,23 @@
   "imp": "medium"
  },
  {
-  "title": "Goldman Sachs CEO succession planning faces one big problem",
-  "link": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
-  "source": "CNBC",
-  "date": "2026-09-29T20:50:10+00:00",
-  "desc": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
+  "title": "UAE-Israel flight diverted after distress signal and 20,000ft drop",
+  "link": "https://www.ft.com/content/7ed6ed48-79e4-46c2-968f-f2a69d263d35?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T10:45:48+00:00",
+  "desc": "Flydubai plane landed in Saudi Arabia after ‘incident’ onboard and Israel scrambled fighter jets",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
-  "link": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
-  "source": "CNBC",
-  "date": "2026-09-29T20:49:29+00:00",
-  "desc": "The artificial intelligence luncheon comes as calls for a slowdown and regulation reach a fever pitch",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
-  "link": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
-  "source": "CNBC",
-  "date": "2026-09-29T20:33:08+00:00",
-  "desc": "The higher-than-consensus expectations are a bet that the U.S. had another strong month of job growth.",
+  "title": "Boeing was at risk of losing all fighter-jet production altogether. Now the stock is up on a new Navy contract.",
+  "link": "https://www.marketwatch.com/story/boeing-was-at-risk-of-losing-all-fighter-jet-production-altogether-now-the-stock-is-up-on-a-new-navy-contract-ffb625b2?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T10:38:00+00:00",
+  "desc": "Shares in the aerospace company rose close to 3% in premarket trading on Wednesday after the U.S. Navy selected it to develop its next-generation fighter jet.",
   "ccs": [
    "US"
   ],
@@ -54,438 +88,406 @@
   "imp": "low"
  },
  {
-  "title": "IPO postponements are accelerating in third quarter, even beyond Oura",
-  "link": "https://www.cnbc.com/2026/09/29/ipo-postponements-are-accelerating-in-third-quarter-even-beyond-oura.html",
+  "title": "El Ibex restaura la confianza",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/30/6abca3cce5fdeae2348b4595.html",
+  "source": "Expansión",
+  "date": "2026-09-30T10:31:50+00:00",
+  "desc": "La tregua en el petróleo y en la deuda permite afrontar con mayor confianza uno de los datos clave de la semana, el indicador preferido de inflación de la Fed. El Ibex apunta al rebote después de cerrar en negativo cuatr",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Bonds Slammed Your Retirement Fund. Time for a Second Chance?",
+  "link": "https://www.wsj.com/finance/investing/bonds-slammed-your-retirement-fund-time-for-a-second-chance-9d89fb04?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-30T10:31:00+00:00",
+  "desc": "Plus, all eyes on Micron and inflation.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Dan Ives prepares to debut fund offering access to private companies fueling AI boom",
+  "link": "https://www.cnbc.com/2026/09/30/dan-ives-ai-private-companies-ivai.html",
   "source": "CNBC",
-  "date": "2026-09-29T20:33:01+00:00",
-  "desc": "It's been a strong year for IPOs. But now, more companies are deciding to stay on the sidelines.",
+  "date": "2026-09-30T10:21:38+00:00",
+  "desc": "Yorkville Ives priced a fund aiming to give investors access to the private companies helping develop artificial intelligence.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Why Tuesday was one of the most disturbing days for markets in recent memory, according to a Goldman Sachs pro",
+  "link": "https://www.marketwatch.com/story/tuesdays-market-moves-was-one-of-the-more-disturbing-days-of-late-says-goldman-sachs-pro-22abf406?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T10:15:00+00:00",
+  "desc": "Beneath the languished moves in the main stock-market indexes, there were some disturbing features.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
+  "link": "https://www.cnbc.com/2026/09/30/us-iran-war-trump-hormuz.html",
+  "source": "CNBC",
+  "date": "2026-09-30T09:45:54+00:00",
+  "desc": "U.S. President Donald Trump has denied reports that he had offered sanctions relief to Iran in exchange for concessions from Tehran on its nuclear program.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "People switching to Novo's Wegovy pill from obesity injections kept losing weight in real-world study",
+  "link": "https://www.cnbc.com/2026/09/30/novo-wegovy-pill-weight-loss-injections.html",
+  "source": "CNBC",
+  "date": "2026-09-30T09:45:01+00:00",
+  "desc": "The data on Novo's Wegovy pill suggests that patients may not need to take weekly injections forever, but can instead opt for more convenient treatments.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
+  "title": "He’s been badmouthing Treasury bonds since 2020, but now ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish",
+  "link": "https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T09:32:00+00:00",
+  "desc": "Investors have become accustomed to returns distorted by artificially low interest rates.  5% on bonds and 6% on stocks are more realistic and Bianco finds value in U.S. Treasury notes now.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "China Has the Power to Bail Out the Diesel Market. Will It Use It?",
+  "link": "https://www.wsj.com/business/energy-oil/china-has-the-power-to-bail-out-the-diesel-market-will-it-use-it-5950c34a?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-30T09:30:00+00:00",
+  "desc": "Chinese oil refineries are only using 75% of their capacity at the moment.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "One group of funds is holding up the stock market. Barclays says oil prices have to fall to drive a year-end rally.",
+  "link": "https://www.marketwatch.com/story/one-group-of-funds-is-holding-up-the-stock-market-barclays-says-oil-prices-have-to-fall-to-drive-a-year-end-rally-c6d551f9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T09:20:00+00:00",
+  "desc": "Strategists at the bank said a rally at the end of the year would likely depend on oil prices lowering or stabilizing even as the historically best-performing quarter approaches.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "There’s a new Wall Street ‘TACO’ index — and this one is saying it’s time for Trump to strike a deal",
+  "link": "https://www.marketwatch.com/story/theres-a-new-wall-street-taco-index-and-this-one-is-saying-its-time-for-trump-to-strike-a-deal-c9ccb3fc?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T09:16:00+00:00",
+  "desc": "JPMorgan has devised a “TACO” barometer, referring to the expression Trump Always Chickens Out, as a way to predict the behavior of the mercurial world leader.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+  "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T09:15:00+00:00",
+  "desc": "“I have $152,000 in my IRA and Roth accounts.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "¿En qué valores de renta variable merece la pena invertir?",
+  "link": "https://www.expansion.com/encuentros/jorge-del-canto/2026/09/30/index.html",
+  "source": "Expansión",
+  "date": "2026-09-30T09:09:06+00:00",
+  "desc": "¿Es un momento idóneo para comprar renta variable? ¿Qué valores me ofrecerán un mayor retorno en los próximos años? Jorge del Canto, responsable de inversiones en delcanto.es, responde a sus dudas ahora, en directo. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Netflix stars Nick and Vanessa Lachey list $8.1 million L.A. home they bought from Naomi Osaka",
+  "link": "https://www.marketwatch.com/story/netflix-stars-nick-and-vanessa-lachey-list-8-1-million-l-a-home-they-bought-from-naomi-osaka-0cdb873b?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-09-30T09:02:00+00:00",
+  "desc": "TV stars Nick and Vanessa Lachey are bidding farewell to their longtime “dream home,” listing the Tarzana property for $8.1 million as they prepare to leave California altogether.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Ken Griffin pledges $3 billion to Carnegie Mellon University in 'historic' gift",
+  "link": "https://www.cnbc.com/2026/09/30/ken-griffin-pledges-3-billion-to-carnegie-mellon-university.html",
+  "source": "CNBC",
+  "date": "2026-09-30T09:00:01+00:00",
+  "desc": "Citadel CEO Ken Griffin is committing $3 billion to Carnegie Mellon University, a \"historic\" gift that includes $2 billion to establish a new Miami campus.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Boeing rises 3% after securing U.S. navy deal to develop next-generation fighter jet",
+  "link": "https://www.cnbc.com/2026/09/29/boeing-fighter-contract-pentagon.html",
+  "source": "CNBC",
+  "date": "2026-09-30T08:51:44+00:00",
+  "desc": "The Department of War and the U.S. Navy said Tuesday that it's chosen aircraft manufacturer Boeing to develop its next generation of fighter jets.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "Singapore's Temasek to expand Middle East presence, open Abu Dhabi, Riyadh offices",
+  "link": "https://www.cnbc.com/2026/09/30/singapores-temasek-expands-in-mideast-with-abu-dhabi-riyadh-offices-.html",
+  "source": "CNBC Markets",
+  "date": "2026-09-30T08:45:42+00:00",
+  "desc": "Singapore state investor Temasek plans to open offices in Riyadh and Abu Dhabi by the first half of 2027, its most significant Mideast expansion to date.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Russia targets data centers in Kyiv as NATO condemns Moscow’s ‘irresponsible nuclear rhetoric’",
+  "link": "https://www.cnbc.com/2026/09/30/ukraine-war-russia-nato-nuclear-kyiv.html",
+  "source": "CNBC",
+  "date": "2026-09-30T08:33:09+00:00",
+  "desc": "Russia intensifies attacks on Ukraine’s data centers and communications infrastructure, targeting facilities in Kyiv.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Ken Griffin donates $3bn to Carnegie Mellon as university plots Miami campus",
+  "link": "https://www.ft.com/content/3b5b46d7-2dcf-40f0-82f3-65ab6e4be76b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T08:30:05+00:00",
+  "desc": "Record contribution comes as the billionaire seeks to reshape the Florida city to rival the likes of New York and London",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stock Market Today: Treasury Yields Slip, Giving Investors Some Reprieve",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-30-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-30T08:25:01+00:00",
+  "desc": "Stock futures point to more positive mood",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Burnham says rejoining EU an option for the UK",
+  "link": "https://www.ft.com/content/d740f13d-38bc-4460-bcd5-2922472fc209?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T07:17:24+00:00",
+  "desc": "Prime minister says ‘going all the way’ is an option as government reviews relations with 27-country bloc",
+  "ccs": [
+   "GB"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "White House holds crunch talks on diesel export ban as midterms near",
+  "link": "https://www.ft.com/content/562f2988-0c04-4669-b0b7-2c16d3821926?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T04:00:25+00:00",
+  "desc": "Trump at centre of lobbying fight between Big Oil and top Republicans warning of voter anger at high fuel prices",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Is the world really drowning in debt?",
+  "link": "https://www.ft.com/content/a1202ae1-0324-4383-a082-4cc522a8fdbc?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T04:00:25+00:00",
+  "desc": "We may not be on the eve of disaster but room for manoeuvre is shrinking for major economies",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The crucial things Anthropic’s jumbo ‘risk factors’ won’t tell you",
+  "link": "https://www.ft.com/content/ef6c9b07-0a02-4cb2-aa91-e486846e6ce0?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T04:00:25+00:00",
+  "desc": "The real question for those considering buying stock is whether it will make money",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "HSBC turns east",
+  "link": "https://www.ft.com/content/bd049e24-ac4e-4315-b67c-7e3d18d541c2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T04:00:06+00:00",
+  "desc": "Doubling down on Hong Kong offers a way to capitalise on wealth flowing out of China, but increases the risks of confrontation with Beijing",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Luxury watches must win back wrist space",
+  "link": "https://www.ft.com/content/838a6480-9888-4f4a-9d2f-8e02cb3889c9?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-09-30T04:00:05+00:00",
+  "desc": "The rise of health-tracking rings creates an opportunity for Cartier, Rolex and the like",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Beijing warns of retaliation if Europe imposes curbs on Chinese businesses",
+  "link": "https://www.cnbc.com/2026/09/30/china-warns-europe-increases-trade-pressure.html",
+  "source": "CNBC Markets",
+  "date": "2026-09-30T03:39:08+00:00",
+  "desc": "China must \"respond firmly\" if the EU introduces restrictions on Chinese businesses or products, the Commerce Ministry said, according to a CNBC translation.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+  "link": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
+  "source": "CNBC Markets",
+  "date": "2026-09-30T02:50:35+00:00",
+  "desc": "China's securities regulator is raising the bar for public listings of humanoid robot startups with three specific criteria, according to three sources.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
   "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
   "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-09-29T20:30:00+00:00",
+  "date": "2026-09-30T01:00:00+00:00",
   "desc": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Trump says US tech bosses agreed to ‘self-regulation’ of AI risks",
+  "title": "Wall Street’s Hopes for a Blockbuster IPO Season Are Fading",
+  "link": "https://www.wsj.com/finance/stocks/wall-streets-hopes-for-a-blockbuster-ipo-season-are-starting-to-fade-1bb8f8db?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-30T01:00:00+00:00",
+  "desc": "Market choppiness and AI safety fears are spooking investors and throwing into disarray what was expected to be a string of major IPOs this fall.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Hedge funds hold a record share of the $30 trillion Treasury market. What could go wrong?",
+  "link": "https://www.cnbc.com/2026/09/30/us-treasury-market-is-relying-more-on-hedge-funds.html",
+  "source": "CNBC",
+  "date": "2026-09-30T00:19:09+00:00",
+  "desc": "Hedge funds can boost Treasury market liquidity, but their growing role also risks creating financial instability.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Robinhood’s Next Big Bet: AI Bots That Trade While You Sleep",
+  "link": "https://www.wsj.com/finance/investing/robinhoods-next-big-bet-ai-bots-that-trade-while-you-sleep-f9d40f62?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-29T23:15:00+00:00",
+  "desc": "The brokerage’s app made it easy to trade stocks on a smartphone. Now Robinhood sees AI agents in individual investors’ future.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump praises tech bosses’ ‘tremendous self-regulation’ of AI",
   "link": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-09-29T20:27:57+00:00",
-  "desc": "President says chief executives have signed a ‘morally binding’ accord following White House lunch",
+  "date": "2026-09-29T23:13:44+00:00",
+  "desc": "President says chief executives have signed a ‘morally binding’ accord after lunch with industry leaders",
   "ccs": [],
   "cat": "rg",
   "imp": "medium"
+ },
+ {
+  "title": "He Was Rejected by Goldman Out of College. Now He’s Poised to Run the Bank.",
+  "link": "https://www.wsj.com/finance/investing/he-was-rejected-by-goldman-out-of-college-now-hes-poised-to-run-the-bank-c675e836?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-09-29T23:00:00+00:00",
+  "desc": "John Waldron has said he didn’t do well on the firm’s financial modeling test when he applied for a job decades ago.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Tres pequeños valores españoles con un potencial superior al 100%",
+  "link": "https://www.expansion.com/inversion/2026/09/30/6abc1194e5fdeab70e8b4583.html",
+  "source": "Expansión",
+  "date": "2026-09-29T22:10:46+00:00",
+  "desc": "Tres valores de la Bolsa española tienen un potencial de revalorización superior al 100%, según el precio objetivo de la media de analistas que recoge Bloomberg. Las firmas que siguen estas compañías consideran que el de",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Qué esperar del último trimestre del año en Bolsa",
+  "link": "https://www.expansion.com/mercados/2026/09/30/6abba6e1468aeb4b048b459e.html",
+  "source": "Expansión",
+  "date": "2026-09-29T22:07:10+00:00",
+  "desc": "Los inversores realizan hoy sus últimos ajustes de carteras antes del inicio del último trimestre del año. Seis catalizadores emergen como referencias clave en un periodo que arranca con \"una combinación poco habitual\",",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Cómo superar octubre, el mes de los grandes 'crash' de la Bolsa",
+  "link": "https://www.expansion.com/mercados/2026/09/30/6abbe2af468aeb050c8b4573.html",
+  "source": "Expansión",
+  "date": "2026-09-29T22:06:29+00:00",
+  "desc": "El recuerdo de 1929, 1987 y 2008 planea entre los analistas. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
  },
  {
   "title": "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
   "link": "https://www.cnbc.com/2026/09/29/trump-accounts-auto-enroll.html",
   "source": "CNBC",
-  "date": "2026-09-29T20:26:59+00:00",
+  "date": "2026-09-29T21:43:50+00:00",
   "desc": "The Treasury Department announced that Trump Accounts will begin auto-enrolling eligible children. Here's what families need to know.",
   "ccs": [
    "US"
   ],
   "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices",
-  "link": "https://www.wsj.com/finance/investing/long-term-treasury-yields-push-higher-despite-decline-in-oil-prices-7f69c1b7?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T20:20:00+00:00",
-  "desc": "Plus, two-year Treasury yield falls as Fed official signals patience.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "US 30-year Treasury yield hits highest since 2002",
-  "link": "https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-29T20:13:07+00:00",
-  "desc": "Government debt extends decline as inflation and surging oil prices weigh on market",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves",
-  "link": "https://www.marketwatch.com/story/traders-expecting-a-back-to-back-rate-hike-from-the-fed-in-october-may-have-gotten-ahead-of-themselves-e2cc5193?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T20:13:00+00:00",
-  "desc": "New York Fed’s John Williams says “there is no need for urgency” after the central bank’s September hike.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Trump administration can deport non-citizens to third countries for now",
-  "link": "https://www.ft.com/content/264c7d6f-9f84-43b9-89de-f8e9523a41a5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-29T20:06:20+00:00",
-  "desc": "Supreme Court issues temporary decision allowing US to send immigrants to nations where they have no ties",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "30-year Treasury bond yield scales to highest level since 2002",
-  "link": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
-  "source": "CNBC",
-  "date": "2026-09-29T20:03:39+00:00",
-  "desc": "U.S. Treasury yields largely rose Tuesday, adding to the gains that catapulted them to multi-year highs amid central bank monetary policy concerns.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-  "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T20:00:00+00:00",
-  "desc": "“When my paycheck lands, it takes a detour through bitcoin.”",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "The real prize in AMD’s $8 billion World Labs acquisition isn’t what you’d think",
-  "link": "https://www.marketwatch.com/story/the-real-prize-in-amds-8-billion-world-labs-acquisition-isnt-what-youd-think-6f609d0f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T19:34:00+00:00",
-  "desc": "AMD is getting cutting-edge spatial-intelligence models, but more importantly, a leader who can help recruit top talent and bring real-world AI applications into focus.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not U.S.",
-  "link": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
-  "source": "CNBC",
-  "date": "2026-09-29T19:28:53+00:00",
-  "desc": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Homeowners are sitting on record equity – and not using it",
-  "link": "https://www.cnbc.com/2026/09/29/homeowners-are-sitting-on-record-equity-and-not-using-it.html",
-  "source": "CNBC",
-  "date": "2026-09-29T19:23:06+00:00",
-  "desc": "U.S. homeowners have more housing wealth than ever before, thanks to fast-rising home prices over the last several years. But they aren't spending much of it.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump government ads were funded by Homeland Security, WSJ reports",
-  "link": "https://www.cnbc.com/2026/09/29/trump-ads-cbp-dhs-taxpayer-funding-election.html",
-  "source": "CNBC",
-  "date": "2026-09-29T19:16:35+00:00",
-  "desc": "CBP funded government-paid Trump TV ads as Democratic appropriators say DHS dedicated $20 million to the campaign ahead of the midterm election.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My kids don’t want my decades’ worth of stuff. Here’s how I’m learning to let go of it.",
-  "link": "https://www.marketwatch.com/story/my-kids-dont-want-my-decades-worth-of-stuff-heres-how-im-learning-to-let-go-of-it-74f91da6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T19:02:00+00:00",
-  "desc": "Maybe pictures can be worth a thousand words.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
-  "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T18:55:00+00:00",
-  "desc": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Lazy Customers Are Great for Banks. Could AI Change that?",
-  "link": "https://www.wsj.com/finance/banking/lazy-customers-are-great-for-banks-could-ai-change-that-220b4dc9?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T18:44:00+00:00",
-  "desc": "AI agents could move cash to accounts with higher interest rates, potentially threatening banks’ cheap deposits.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Man City found to have artificially boosted finances by more than £900mn",
-  "link": "https://www.ft.com/content/8d7f90d6-8d3a-4b11-8b51-090265278a31?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-29T18:42:11+00:00",
-  "desc": "Independent commission said Premier League football club arranged ‘sham’ commercial deals to disguise sources of funding",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "OpenAI launches a rival to Meta’s Muse, as the battle for AI agents kicks into high gear",
-  "link": "https://www.marketwatch.com/story/openai-launches-a-rival-to-metas-muse-as-the-battle-for-ai-agents-kicks-into-high-gear-0f0de9b3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T18:34:00+00:00",
-  "desc": "Personal AI assistants are shaping up to be the new frontier for tech companies.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Mediators push to break US-Iran deadlock",
-  "link": "https://www.ft.com/content/2e2c868b-9510-4f0c-bbeb-ca17e7a18cc1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-29T18:30:00+00:00",
-  "desc": "Negotiators have shuttled between the American and Iranian officials in an effort to renew talks to end the seven-month war",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Good news for OpenAI is great news for Oracle’s stock — here’s why",
-  "link": "https://www.marketwatch.com/story/good-news-for-openai-is-great-news-for-oracles-stock-heres-why-993b6a5f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T18:28:00+00:00",
-  "desc": "Wall Street is cheering AI stocks as OpenAI gets closer to a revenue milestone.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Medicare Advantage plans will be cheaper next year. Here’s the new cost.",
-  "link": "https://www.marketwatch.com/story/medicare-advantage-plans-will-be-cheaper-next-year-heres-the-new-cost-2f7ab55b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-09-29T17:45:00+00:00",
-  "desc": "Medicare beneficiaries can change their coverage during open enrollment, which begins Oct. 15.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El bono de EEUU a 30 años alcanza máximos desde 2002",
-  "link": "https://www.expansion.com/mercados/renta-fija/2026/09/29/6abbf499468aeb89538b4580.html",
-  "source": "Expansión",
-  "date": "2026-09-29T17:32:42+00:00",
-  "desc": "La venta de deuda continúa en EEUU ante los temores de una Fed más restrictiva y los inversores llevan el título a largo plazo al 5,60% de rentabilidad. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Goldman Sachs debate un plan sucesorio para nombrar CEO a John Waldron",
-  "link": "https://www.expansion.com/mercados/2026/09/29/6abbeb6f468aebae5a8b4572.html",
-  "source": "Expansión",
-  "date": "2026-09-29T16:55:14+00:00",
-  "desc": "El gigante de la banca de inversión discute internamente un plan para relevar el próximo año a David Solomon por el actual presidente y director de operaciones del grupo. Leer",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "Por qué una compra de Monzo podría ser buena para Reino Unido",
-  "link": "https://www.expansion.com/economia/financial-times/2026/09/29/6abbe63ae5fdeae2348b4577.html",
-  "source": "Expansión",
-  "date": "2026-09-29T16:34:03+00:00",
-  "desc": "El grupo brasileño Nubank ya había considerado con anterioridad la posibilidad de trasladar su domicilio social a la City. Leer",
-  "ccs": [
-   "GB",
-   "BR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her",
-  "link": "https://www.cnbc.com/2026/09/29/ai-job-losses-layoffs.html",
-  "source": "CNBC",
-  "date": "2026-09-29T15:46:04+00:00",
-  "desc": "No one knows what AI will mean for jobs long-term, but the layoffs are likely to hit first without proper planning, says former US Commerce Sec. Gina Raimondo.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex pierde los 19.600 puntos pendiente de Irán y la inflación",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/09/29/6abb516e468aeb08278b457f.html",
-  "source": "Expansión",
-  "date": "2026-09-29T15:39:12+00:00",
-  "desc": "Las dudas siguen sin despejarse en las Bolsas europeas, que han cerrado con signo mixto a la espera de novedades sobre Irán y de las próximas referencias macro. Hasta entonces, la presión de los intereses de la deuda y e",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "October: A Time for Investors to Reap…and Sow",
-  "link": "https://www.wsj.com/finance/investing/october-a-time-for-investors-to-reapand-sow-4452d2a6?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T14:55:00+00:00",
-  "desc": "Plus, more thoughts on bond funds and leveraged ETFs.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "El precio del petróleo y los bonos del Tesoro de EEUU mantienen su relación más estrecha desde 1990",
-  "link": "https://www.expansion.com/economia/financial-times/2026/09/29/6abbc5c1468aeb21788b45a6.html",
-  "source": "Expansión",
-  "date": "2026-09-29T14:52:48+00:00",
-  "desc": "Los inversores en bonos vigilan el conflicto de Irán y los precios del crudo en busca de indicios sobre la evolución de los costes de financiación gubernamentales. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
-  "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-29T14:37:07+00:00",
-  "desc": "President Donald Trump disclosed municipal bond holdings worth $300 million to $1 billion, including debt tied to issuers affected by federal policy.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Piper Sandler Holds Talks to Buy Perella Weinberg",
-  "link": "https://www.wsj.com/business/deals/piper-sandler-holds-talks-to-buy-perella-weinberg-633bae65?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T13:50:00+00:00",
-  "desc": "The deal would join the two Wall Street advisory firms.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
-  "link": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
-  "source": "CNBC",
-  "date": "2026-09-29T13:37:49+00:00",
-  "desc": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
-  "link": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-29T12:00:33+00:00",
-  "desc": "Lisa Mantil, after a nearly three-decade run at Goldman, will join the prediction market's team to attract institutional traders.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "Euríbor hoy, 29 de septiembre: El Euríbor se retoma la senda alcista y plantea cerrar el mes en máximos",
-  "link": "https://www.expansion.com/mercados/euribor/2026/09/29/6abb9c93468aeb775b8b4586.html",
-  "source": "Expansión",
-  "date": "2026-09-29T11:18:22+00:00",
-  "desc": "Con el último dato del Euríbor, la media mensual actualmente se sitúa en 3,233% en septiembre, lo que supone un aumento de más de un punto sobre la métrica del mismo mes el año pasado. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "A Republican midterm defeat will not be an earthquake",
-  "link": "https://www.ft.com/content/7b9df85a-59ed-4863-9682-1c5b868fd3af?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-09-29T11:16:39+00:00",
-  "desc": "Democrats are likely to make gains in Congress but divided government is unlikely to derail Trump’s agenda",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How Nvidia’s Buyback Created Phantom Value",
-  "link": "https://www.wsj.com/finance/stocks/how-nvidias-buyback-created-phantom-value-d3cfa712?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T10:36:00+00:00",
-  "desc": "Plus, an ‘existential risk to humanity’",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "A Simple Way to Take Advantage of Higher Yields",
-  "link": "https://www.wsj.com/finance/investing/a-simple-way-to-take-advantage-of-higher-yields-91ac3a05?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T09:30:00+00:00",
-  "desc": "2-year Treasury notes are attractively priced at the moment.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "La empresa cripto Blockchain.com ultima su salida a Bolsa",
-  "link": "https://www.expansion.com/mercados/2026/09/29/6abb7c8ce5fdea90178b4590.html",
-  "source": "Expansión",
-  "date": "2026-09-29T09:25:51+00:00",
-  "desc": "La reciente escalada protagonizada por el mercado cripto anima a una de las empresas pioneras del sector, Blockchain.com, a activar el proceso para debutar en Bolsa. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stock Market Today: 10-Year Treasury Yield Pushes Higher Despite Oil-Price Decline",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-29-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-09-29T08:19:57+00:00",
-  "desc": "30-year yield hits highest level since 2002; Dow slips",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
-  "link": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
-  "source": "CNBC Markets",
-  "date": "2026-09-29T07:19:38+00:00",
-  "desc": "China's securities regulator is raising the bar for public listings of humanoid robot startups with three specific criteria, according to three sources.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "rg",
   "imp": "medium"
  }
 ]
