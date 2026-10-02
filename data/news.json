@@ -1,25 +1,408 @@
 [
  {
-  "title": "Big Pharma turns to China for new drugs as patent cliff drives multibillion-dollar deals",
-  "link": "https://www.cnbc.com/2026/10/02/novartis-abogen-china-biotech-deal.html",
-  "source": "CNBC",
-  "date": "2026-10-02T11:18:16+00:00",
-  "desc": "Western biopharma companies are increasingly turning to China to source innovation, as pharma's dreaded \"patent cliff\" draws closer.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "fx",
+  "title": "Why mixing politics with your stock portfolio might be costing you money",
+  "link": "https://www.marketwatch.com/story/why-mixing-politics-with-your-stock-portfolio-might-be-costing-you-money-5b4aabfb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:43:00+00:00",
+  "desc": "Data shows that partisan ETFs result in higher fees and lower market returns",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Does AI have a soul? Pope Leo and Anthropic clash.",
+  "link": "https://www.marketwatch.com/story/does-ai-have-a-soul-pope-leo-and-anthropic-clash-0c1669fb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:40:00+00:00",
+  "desc": "The Vatican has laid a moral blueprint for the technology, with Pope Leo maintaining that “algorithms lack the spark of humanity.”",
+  "ccs": [],
+  "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "Why Have Diesel Prices Been Soaring and What Can Be Done to Bring Them Down?",
+  "title": "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+  "link": "https://www.cnbc.com/2026/10/02/doj-says-it-will-not-reopen-criminal-probe-into-former-fed-chair-powell.html",
+  "source": "CNBC",
+  "date": "2026-10-02T20:32:54+00:00",
+  "desc": "The confirmation comes after the Fed's inspector general report that said there were no grounds for a criminal referral over the mismanaged headquarters renovation.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
+  "link": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T20:31:49+00:00",
+  "desc": "Donald Trump calls decision by European nations to release diesel from strategic reserves a ‘great thing’",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+  "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:30:00+00:00",
+  "desc": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nasdaq Leads Stocks Higher as Hiring Softens",
+  "link": "https://www.wsj.com/finance/investing/nasdaq-leads-stocks-higher-as-hiring-softens-9a254192?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-02T20:30:00+00:00",
+  "desc": "Plus, bond yields turn higher and oil falls as G-7 agrees to release diesel and crude.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
+  "link": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:26:00+00:00",
+  "desc": "Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by as much as 5%.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers",
+  "link": "https://www.marketwatch.com/story/this-city-saw-1-in-3-home-sellers-slash-their-asking-price-in-september-to-attract-reluctant-buyers-7f16a0c3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:26:00+00:00",
+  "desc": "As hesitant buyers drive home prices down, these are the places with the most price cuts and the biggest markdowns.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Saving your retirement could come down to this simple writing exercise",
+  "link": "https://www.marketwatch.com/story/saving-your-retirement-could-come-down-to-this-simple-writing-exercise-c25734a9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:24:00+00:00",
+  "desc": "A “retirement policy statement” lays out instructions that you can stick to.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Switching jobs to get higher pay works best in these industries",
+  "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:24:00+00:00",
+  "desc": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "TV dinner overload? The frozen-food aisle may be too crowded for its own good.",
+  "link": "https://www.marketwatch.com/story/tv-dinner-overload-the-frozen-food-aisle-may-be-too-crowded-for-its-own-good-55bfed39?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:16:00+00:00",
+  "desc": "Industry giant Conagra Brands has so many frozen-food items that they’re competing against each other, an analyst says.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Why bond investors quickly lost their enthusiasm for weak jobs figures",
+  "link": "https://www.marketwatch.com/story/why-bond-investors-quickly-lost-their-enthusiasm-for-weak-labor-figures-7a9727da?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:12:00+00:00",
+  "desc": "A weak U.S. jobs report did what bad news hadn’t done in a while: It made U.S. debt look attractive again — albeit briefly.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+  "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-02T20:10:00+00:00",
+  "desc": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "US economy adds just 29,000 jobs in September as hiring slows sharply",
+  "link": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T20:05:51+00:00",
+  "desc": "Figure renews market debate about outlook for further Fed rate rises",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+  "link": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
+  "source": "CNBC",
+  "date": "2026-10-02T20:03:56+00:00",
+  "desc": "U.S. Treasury yields rose despite a September jobs report came in much weaker than expected.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Arctic sea routes boom as Gulf war and global warming divert shipping",
+  "link": "https://www.ft.com/content/2e0eb698-d4d3-4bcc-927a-2997df7709be?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T20:00:05+00:00",
+  "desc": "Transits via Northern Sea Route quadruple as melting ice makes journey more passable and vessels avoid the Middle East",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+  "link": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+  "source": "CNBC",
+  "date": "2026-10-02T19:25:36+00:00",
+  "desc": "EU countries are set for crisis talks on soaring diesel prices, with officials warning a U.S. export ban could hurt Europe’s economic outlook.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
+  "link": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html",
+  "source": "CNBC",
+  "date": "2026-10-02T19:19:15+00:00",
+  "desc": "The FAA on Monday said it was reviewing the software glitch, which could affect procedures during certain landings.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+  "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+  "source": "CNBC Markets",
+  "date": "2026-10-02T18:49:03+00:00",
+  "desc": "Banks are fueling a hiring surge for AI engineers who are good at \"agent orchestration\" — the ability to coordinate teams of specialized agents.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
+  "link": "https://www.cnbc.com/2026/10/02/paramount-warner-bros-discovery-skydance.html",
+  "source": "CNBC",
+  "date": "2026-10-02T18:31:49+00:00",
+  "desc": "It's a full-circle moment for a company that has undergone two major acquisitions within the last 18 months.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "Low-profile hedge fund smashes record for New York office rent",
+  "link": "https://www.ft.com/content/17762862-bdb7-44d0-a0d0-d2285bedbd2d?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T18:31:10+00:00",
+  "desc": "Castle Hook will pay up to $21.2mn a year for 53,000 sq ft of penthouse space at developer Related’s new Madison Avenue tower",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Why Lilly and Novo are betting on amylin to power a new wave of obesity drugs after GLP-1s",
+  "link": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html",
+  "source": "CNBC",
+  "date": "2026-10-02T17:55:26+00:00",
+  "desc": "Eli Lilly and Novo are developing new amylin drugs that serve as another biological lever to pull in treating obesity and diabetes.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Why Have Diesel Prices Soared, and What Can Be Done to Bring Them Down?",
   "link": "https://www.wsj.com/finance/commodities-futures/why-are-diesel-prices-soaring-and-what-would-a-u-s-export-ban-do-e453fd47?mod=rss_markets_main",
   "source": "WSJ Markets",
-  "date": "2026-10-02T11:16:00+00:00",
+  "date": "2026-10-02T17:54:00+00:00",
   "desc": "Wars in the Middle East and Ukraine have blocked shipments from regions that normally supply almost a third of the world’s diesel exports.",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
+ },
+ {
+  "title": "Men are losing ground in the labor market. Here's why",
+  "link": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
+  "source": "CNBC",
+  "date": "2026-10-02T17:38:59+00:00",
+  "desc": "Women outnumbered men in the workforce for eight straight months as of September, according to one analysis.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
+  "link": "https://www.cnbc.com/2026/10/02/ford-q3-sales.html",
+  "source": "CNBC",
+  "date": "2026-10-02T17:20:33+00:00",
+  "desc": "Ford on Friday reported a year-over-year sales decline of 6.6% during the third quarter to 507,395 light-duty vehicles.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "American starts letting customers mix cash and miles for tickets",
+  "link": "https://www.cnbc.com/2026/10/02/american-airlines-tickets-cash-miles.html",
+  "source": "CNBC",
+  "date": "2026-10-02T16:49:55+00:00",
+  "desc": "American is joining other carriers that allow customers to book with a combination of points and miles.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Your health insurance premiums may take a big jump in 2027 — here's why",
+  "link": "https://www.cnbc.com/2026/10/02/health-insurance-premiums-2027-inflation-aca-obamacare.html",
+  "source": "CNBC",
+  "date": "2026-10-02T16:26:57+00:00",
+  "desc": "Many consumers are likely on the hook for an increase of about 10% or more in 2027, experts said.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Eurozone inflation hits three-year high of 3.8%",
+  "link": "https://www.ft.com/content/6394fdc7-5fa5-4ec3-8bde-52633acd2b57?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T15:45:53+00:00",
+  "desc": "Consumer prices rose at higher rate than expected in September",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "‘A Fabulous Debt’ Review: In the Name of Good Credit",
+  "link": "https://www.wsj.com/arts-culture/books/a-fabulous-debt-review-in-the-name-of-good-credit-6e1ff1aa?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-02T15:38:00+00:00",
+  "desc": "In the 17th century, the Dutch invented perpetual bonds. Some are still yielding returns today.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Why does Anthropic’s IPO feel so weird?",
+  "link": "https://www.ft.com/content/69d2d0ec-c0d4-444f-84c5-4ca4f64b7899?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T15:21:03+00:00",
+  "desc": "Compared to other blockbuster share sales, the build-up to the AI company’s stock market debut has felt discordant, even creepy",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Quant hedge funds reap big gains from global bond sell-off",
+  "link": "https://www.ft.com/content/75b0ab84-a252-4ea1-9058-c9ee7ca07f4f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T15:13:59+00:00",
+  "desc": "Trend-following portfolios have latched on to sharp rise in yields this year as Iran war and strong US economic data fuel inflation fears",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "Private Equity Has a Problem. Uncle Sam Says Your Wallet Can Fix It.",
+  "link": "https://www.wsj.com/finance/investing/private-equity-has-a-problem-uncle-sam-says-your-wallet-can-fix-it-726a6749?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-02T15:00:00+00:00",
+  "desc": "A government proposal would help fund managers sell alternative investments to a wider audience.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Israel’s top court overturns ban of Arab parties in upcoming election",
+  "link": "https://www.ft.com/content/9bbcd715-1417-49b6-bc56-1745f17cd674?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-02T14:32:29+00:00",
+  "desc": "Supreme Court’s unanimous ruling clears way for Ra’am and Joint List to run and potentially swing balance in event of hung parliament",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
+  "link": "https://www.cnbc.com/2026/10/02/treasury-irs-capital-gains-income-tax-section-351-warning.html",
+  "source": "CNBC",
+  "date": "2026-10-02T13:48:40+00:00",
+  "desc": "The IRS and Treasury issued a warning this week on an ETF strategy wealthy investors have been using to shield capital gains income from taxes.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+  "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+  "source": "CNBC",
+  "date": "2026-10-02T13:45:58+00:00",
+  "desc": "Nonfarm payrolls rose by just 29,000 in September, well below the 84,000 forecast, and the unemployment rate rose to 4.2%, the Bureau of Labor Statistics said.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+  "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+  "source": "CNBC Markets",
+  "date": "2026-10-02T13:29:27+00:00",
+  "desc": "Odds tumbled after a jobs report showed a soft labor market, leading more traders to lower the the chances of a fed funds rate increase this month.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Euríbor hoy, 02 de octubre: El Euríbor cierra la semana con una fuerte subida",
+  "link": "https://www.expansion.com/mercados/euribor/2026/10/02/6abf9a29e5fdead02b8b45a7.html",
+  "source": "Expansión",
+  "date": "2026-10-02T11:55:46+00:00",
+  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 3,313% en octubre, lo que supone un aumento de 0,066 puntos con respecto al mes anterior Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Ibex se juega los 19.000 puntos con el empleo de EEUU",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/02/6abf46e5e5fdea744a8b457f.html",
+  "source": "Expansión",
+  "date": "2026-10-02T11:26:39+00:00",
+  "desc": "La agenda macro del día apenas de margen para el respiro. El IPC de la eurozona ha sorprendido al alza, y dará paso al informe oficial de empleo de EEUU, clave para la reunión de este mes de la Fed. La minitregua de la d",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "cb",
+  "imp": "medium"
  },
  {
   "title": "My mortgage is a problem for the Fed, and for America",
@@ -46,50 +429,6 @@
   "imp": "high"
  },
  {
-  "title": "Burger King is betting on local franchisees to fuel its U.S. comeback",
-  "link": "https://www.cnbc.com/2026/10/02/burger-king-refranchising-turnaround.html",
-  "source": "CNBC",
-  "date": "2026-10-02T11:00:01+00:00",
-  "desc": "Burger King is refranchising hundreds of its company-owned restaurants as part of its turnaround, while prioritizing local operators.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "TV dinner overload? The frozen-food aisle may be too crowded for its own good.",
-  "link": "https://www.marketwatch.com/story/tv-dinner-overload-the-frozen-food-aisle-may-be-too-crowded-for-its-own-good-55bfed39?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T11:00:00+00:00",
-  "desc": "Industry giant Conagra Brands has so many frozen-food items that they’re competing against each other, an analyst says.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Diesel falls sharply as EU considers releasing 50mn barrels under pressure from Trump",
-  "link": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T10:59:36+00:00",
-  "desc": "US president has threatened to ban US exports of the fuel if the continent does not unlock reserves",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Three reasons why this Wall Street market-making powerhouse says investors should reload on stocks now",
-  "link": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T10:48:00+00:00",
-  "desc": "September provided a reset for stocks, pointing to a good end to the year, says Scott Rubner",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "The Amazing Stat That’s a Red Flag for Investors",
   "link": "https://www.wsj.com/finance/stocks/the-amazing-stat-thats-a-red-flag-for-investors-342b70b7?mod=rss_markets_main",
   "source": "WSJ Markets",
@@ -98,95 +437,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "The secret signs the bond sell-off might be ending",
-  "link": "https://www.cnbc.com/2026/10/02/the-secret-signs-the-bond-sell-off-might-be-ending.html",
-  "source": "CNBC",
-  "date": "2026-10-02T10:37:26+00:00",
-  "desc": "A big options bet involving the utility sector could indicate a top in yields.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate",
-  "link": "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T10:25:00+00:00",
-  "desc": "Christopher Wood, of Jefferies, said Group of Seven bonds have entered a ‘structural bear market’ since March 2020.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager",
-  "link": "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T10:22:00+00:00",
-  "desc": "Were Flavio Bolsonaro to outperform current polling Sunday, an emerging-market fund manager see the opportunity for a sharp rally in stocks",
-  "ccs": [
-   "BR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El Ibex se juega los 19.000 puntos con el empleo de EEUU",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/02/6abf46e5e5fdea744a8b457f.html",
-  "source": "Expansión",
-  "date": "2026-10-02T10:16:46+00:00",
-  "desc": "La agenda macro del día apenas de margen para el respiro. El IPC de la eurozona ha sorprendido al alza, y dará paso al informe oficial de empleo de EEUU, clave para la reunión de este mes de la Fed. La minitregua de la d",
-  "ccs": [
-   "US",
-   "ES"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-  "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T10:15:00+00:00",
-  "desc": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nike shares plummet 10% after weak revenue outlook and layoff plans underway",
-  "link": "https://www.cnbc.com/2026/10/02/nike-nke-stock-q1-earnings-layoffs.html",
-  "source": "CNBC",
-  "date": "2026-10-02T10:11:09+00:00",
-  "desc": "Nike's shares plummeted in premarket trading, continuing a second straight day of declines after it reported falling revenue and plans to lay off staff.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-  "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-  "source": "CNBC",
-  "date": "2026-10-02T10:00:01+00:00",
-  "desc": "Banks are fueling a hiring surge for AI engineers who are good at \"agent orchestration\" — the ability to coordinate teams of specialized agents.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Democratic Texas AG candidate vows to probe Deloitte's role in voter registration delay",
-  "link": "https://www.cnbc.com/2026/10/02/texas-ag-deloitte-voter-registration.html",
-  "source": "CNBC",
-  "date": "2026-10-02T10:00:01+00:00",
-  "desc": "Texas is working through a backlog of nearly 200,000 unprocessed voter registration applications, thanks to a software error involving state contractor Deloitte.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
  },
  {
   "title": "Cuatro posibles aspectos positivos del aumento de los rendimientos de los bonos",
@@ -209,16 +459,6 @@
   "imp": "low"
  },
  {
-  "title": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
-  "link": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
-  "source": "CNBC",
-  "date": "2026-10-02T09:34:33+00:00",
-  "desc": "It comes after Reuters reported that EU nations were discussing a proposal to release diesel reserves following pressure from the Trump administration.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
   "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
   "link": "https://www.wsj.com/finance/investing/high-government-debt-is-adding-fuel-to-the-global-bond-market-selloff-a93fa0fe?mod=rss_markets_main",
   "source": "WSJ Markets",
@@ -229,256 +469,15 @@
   "imp": "medium"
  },
  {
-  "title": "Another viral AI-doomsday report claims ‘it’s over.’ Why home prices could take a hit as screen-based jobs disappear.",
-  "link": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T09:25:00+00:00",
-  "desc": "Egan-Jones has become the latest to issue a viral AI-doomsday report, zeroing in on difficulties facing screen-based workers and the housing market.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-  "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T09:15:00+00:00",
-  "desc": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Jobs Report Today: Bond Market Steadies as Investors Await Employment Numbers",
+  "title": "Stock Market Today: Stocks Jump as Hiring Softens",
   "link": "https://www.wsj.com/livecoverage/jobs-report-september-stock-market-10-02-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-10-02T09:07:29+00:00",
-  "desc": "Economists expect U.S. to have added 84,000 jobs last month, enough to keep Fed focused on inflation",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Amazon is hiking chip-rental prices and reportedly moving Nvidia processors off the balance sheet",
-  "link": "https://www.marketwatch.com/story/amazon-is-hiking-chip-rental-prices-and-reportedly-moving-nvidia-processors-off-the-balance-sheet-b205a0b0?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T09:07:00+00:00",
-  "desc": "In a sign of the financing crunch facing the hyperscalers financing the AI revolution, Amazon has announced it is raising prices on how much it charges to rent high-performance microchips as it reportedly is going to sel",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Famed former Boston Celtics commentator lists sunny Boston penthouse for $1.5 million",
-  "link": "https://www.marketwatch.com/story/famed-former-boston-celtics-commentator-lists-sunny-boston-penthouse-for-1-5-million-dedfb48a?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T08:59:00+00:00",
-  "desc": "A piece of sports history has officially hit the market, with former Boston Celtics commentator Mike Gorman listing his Boston penthouse for $1.495 million.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Así es MdF Family Partners, el 'family office' al que quieren parecerse los bancos",
-  "link": "https://www.expansion.com/mercados/fondos/2026/10/02/6abe6289e5fdea962e8b4577.html",
-  "source": "Expansión",
-  "date": "2026-10-02T08:51:52+00:00",
-  "desc": "La firma liderada por José María Michavila y Daniel de Fernando, basada en un modelo de absoluta independencia, asesora a unas 70 familias en España y a otras 25 en Reino Unido, a través de su participada Wren. Leer",
-  "ccs": [
-   "ES",
-   "GB"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Goldman bought Shein shares worth $220mn after dismal IPO",
-  "link": "https://www.ft.com/content/3f5483d1-31d7-4756-95a0-ce4a2c600519?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T08:32:27+00:00",
-  "desc": "Shares in fast-fashion retailer have tumbled 38% since listing in Hong Kong last month",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "high"
- },
- {
-  "title": "Deutsche Bank rebate a los bajistas sobre Cellnex",
-  "link": "https://www.expansion.com/mercados/2026/10/02/6abf5466468aeb42508b457e.html",
-  "source": "Expansión",
-  "date": "2026-10-02T08:25:21+00:00",
-  "desc": "El segundo peor valor del año en el Ibex recibe referencias muy dispares. La firma bajista D. E. Shaw & Co eleva a máximos su apuesta contra Cellnex, al mismo tiempo que los analistas de Deutsche Bank otorgan al valor un",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Putin has told military leaders to abandon rules of war, Zelenskyy says",
-  "link": "https://www.ft.com/content/c2ad4cd1-a08a-4f55-8d57-fa83dbfa98af?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T06:58:26+00:00",
-  "desc": "Ukrainian leader tells FT his Russian counterpart has given the order that ‘there are no rules now’",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "U.S. to send third carrier group to Mideast as Trump warns of new Iran strikes",
-  "link": "https://www.cnbc.com/2026/10/02/us-iran-war-trump-hormuz-.html",
-  "source": "CNBC",
-  "date": "2026-10-02T06:51:41+00:00",
-  "desc": "The U.S. is reportedly sending a third aircraft carrier strike group to the Middle East,  as Trump weighs resuming bombing Iran after the midterms.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Jewelry giant Pandora is getting in on lab-grown diamonds and hoping a new Vietnam plant helps growth in Asia",
-  "link": "https://www.cnbc.com/2026/10/02/-jewelry-giant-pandora-vietnam-asia-growth-.html",
-  "source": "CNBC",
-  "date": "2026-10-02T06:27:58+00:00",
-  "desc": "Pandora is expanding its manufacturing footprint beyond Thailand with a new $150 million Vietnam facility as the Danish jeweler eyes further growth across Asia.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Bitget 'not expecting to recover a lot' from $388 million hack, CEO tells CNBC",
-  "link": "https://www.cnbc.com/2026/10/02/bitget-crypto-stolen-hack-recovery.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-02T06:03:23+00:00",
-  "desc": "Bitget has frozen a tiny fraction of the $387.5 million stolen in last week’s hack, and restored much of its protection fund.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "¿Qué nos depararán los mercados en 2027?",
-  "link": "https://www.expansion.com/encuentros/rui-mota-guedes/2026/10/02/index.html",
-  "source": "Expansión",
-  "date": "2026-10-02T05:55:56+00:00",
-  "desc": "¿En qué tipos de activos y sectores ve un mayor potencial? ¿Qué tendencias tomarán las Bolsas en los próximos meses? Rui Mota Guedes, director general de Loreto Inversiones, responde a sus dudas hoy 2 de octubre a partir",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "A Brexit reversal is on the table 10 years on from the vote that changed Britain. Here’s what’s at stake",
-  "link": "https://www.cnbc.com/2026/10/02/brexit-uk-rejoin-eu-referendum.html",
-  "source": "CNBC",
-  "date": "2026-10-02T05:00:01+00:00",
-  "desc": "Britain voted to leave the European Union in 2016.",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Amazon seeks to offload $8bn of Nvidia chips to investors",
-  "link": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T04:00:33+00:00",
-  "desc": "The move aims to improve the tech group’s balance sheet health as AI spending soars",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Trump’s short-sighted diesel gamble",
-  "link": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T04:00:23+00:00",
-  "desc": "Yes, Nixon’s export ban did briefly suppress domestic prices but it had a huge long-term cost",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Quant hedge funds reap big gains from global bond sell-off",
-  "link": "https://www.ft.com/content/75b0ab84-a252-4ea1-9058-c9ee7ca07f4f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T04:00:23+00:00",
-  "desc": "Trend-following portfolios have latched on to sharp rise in yields this year as Iran war and strong US economic data fuel inflation fears",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "AI got smarter. The bills got harder to control",
-  "link": "https://ig.ft.com/ai-tokens/?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-02T04:00:05+00:00",
-  "desc": "Powerful AI tools are burning through budgets, prompting a rethink of how the technology is priced ahead of frontier lab IPOs",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-  "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-02T01:00:00+00:00",
-  "desc": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The Bond Rout Is Deepening Even as Oil Tankers Return to the Strait of Hormuz",
-  "link": "https://www.wsj.com/finance/commodities-futures/the-bond-rout-is-deepening-even-as-oil-tankers-return-to-the-strait-of-hormuz-30d8189d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-02T01:00:00+00:00",
-  "desc": "Supply chains that transform crude into fuel are still under siege, and that is keeping prices high—helping drive a brutal bond selloff.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "La UE lanza la carrera para renovar la cúpula del BCE",
-  "link": "https://www.expansion.com/economia/2026/10/02/6abec3fce5fdea37048b458e.html",
-  "source": "Expansión",
-  "date": "2026-10-02T00:41:43+00:00",
-  "desc": "El Eurogrupo dará el pistoletazo de salida al proceso el próximo jueves, después de que Lagarde solicitara por carta un reemplazo para Schnabel, que deja el banco central en enero. Leer",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Curso de Finanzas Personales, gratis con Expansión",
-  "link": "https://www.expansion.com/inversion/2026/10/02/6abebd1a468aeb65478b4591.html",
-  "source": "Expansión",
-  "date": "2026-10-01T22:48:43+00:00",
-  "desc": "Tres entregas, a partir de este fin de semana, en las que se analiza cómo sacar la máxima rentabilidad al ahorro. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los cuatro mercados con más riesgo si afloran las caídas",
-  "link": "https://www.expansion.com/mercados/2026/10/02/6abe5b27468aeb82438b45d4.html",
-  "source": "Expansión",
-  "date": "2026-10-01T22:01:16+00:00",
-  "desc": "Los últimos amagos de turbulencias en los mercados mantienen en guardia a los inversores. Firmas como Capital Economics van un paso más allá, al señalar que las tres claves actuales están cerca de sus puntos de inflexión",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The Global Bond Rout Is Getting Messy",
-  "link": "https://www.wsj.com/finance/investing/the-global-bond-rout-is-getting-messy-1c120a5b?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-01T21:18:00+00:00",
-  "desc": "Unwinding popular hedge fund trades helped drive U.S. Treasury yields lower, but there is also “a faint smell of a crisis in the making.”",
+  "desc": "Nasdaq hits new intraday record; bond yields turn higher",
   "ccs": [
    "US"
   ],
   "cat": "bd",
-  "imp": "high"
+  "imp": "medium"
  }
 ]
