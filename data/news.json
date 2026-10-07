@@ -1,9 +1,466 @@
 [
  {
+  "title": "El Ibex agrava su caída con la deuda",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/07/6ac5ded0468aebbf758b4594.html",
+  "source": "Expansión",
+  "date": "2026-10-07T12:05:24+00:00",
+  "desc": "Las presiones se reactivan. El petróleo vuelve a superar los 100 dólares y los intereses de la deuda rozan sus máximos, un escenario que abre la puerta a nuevas subidas de tipos, como la adoptada hoy en India. El Ibex co",
+  "ccs": [
+   "ES",
+   "IN"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
+  "link": "https://www.cnbc.com/2026/10/07/us-iran-war-trump-hormuz.html",
+  "source": "CNBC",
+  "date": "2026-10-07T12:02:50+00:00",
+  "desc": "Iran has failed to take advantage of \"multiple opportunities\" to reach a deal on its nuclear program, Secretary of State Marco Rubio said Wednesday.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "ICE came to town and left behind weakened economies",
+  "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
+  "source": "CNBC",
+  "date": "2026-10-07T12:02:44+00:00",
+  "desc": "Research links ICE enforcement surges to lasting declines in local spending, foot traffic and jobs. In Minneapolis, businesses are still recovering.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Mortgage rates sit at nearly 3-year high, and demand continues to shrink",
+  "link": "https://www.cnbc.com/2026/10/07/mortgage-rates-sit-at-nearly-3-year-high-and-demand-continues-to-shrink.html",
+  "source": "CNBC",
+  "date": "2026-10-07T12:00:21+00:00",
+  "desc": "Mortgage rates rose to the highest level in nearly three years, causing demand for both refinancing and homebuying to decline even further.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El mercado, a punto de volverse neutral sobre el bitcoin",
+  "link": "https://www.expansion.com/mercados/criptomonedas/2026/10/07/6ac62d28e5fdeaab488b459a.html",
+  "source": "Expansión",
+  "date": "2026-10-07T11:53:10+00:00",
+  "desc": "La cotización del bitcoin choca de nuevo con sus máximos de enero. En su repliegue, el índice cripto de miedo y codicia está a punto de entrar en niveles de neutralidad por primera vez en cerca de dos meses. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Intel investors get some reassurance from Elon Musk over a major chip endeavor",
+  "link": "https://www.marketwatch.com/story/elon-musk-and-intel-ceo-shore-up-chipmakers-role-in-terafab-project-and-heres-what-the-news-is-doing-to-the-stock-315d0974?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T11:44:00+00:00",
+  "desc": "Elon Musk and Intel’s CEO have said the company’s involvement in the Terafab chip plant will continue, boosting shares.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Global bond sell-off resumes as 30-year Treasury yield hits highest since 2002",
+  "link": "https://www.ft.com/content/33c67aa0-bfdb-457b-84bb-960b4fed94b6?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T11:42:07+00:00",
+  "desc": "French, Italian and UK government bonds also come under pressure in volatile trading",
+  "ccs": [
+   "US",
+   "FR",
+   "GB",
+   "IT"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "These two hard-hit stocks are poised for a comeback, says fund manager",
+  "link": "https://www.marketwatch.com/story/these-two-hard-hit-stocks-are-poised-for-a-comeback-says-fund-manager-cccc0c4e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T11:40:00+00:00",
+  "desc": "CoStar and Duolingo are two stocks that have faced investor pessimism, but present potential, according to Baillie Gifford.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Meta stock scores a rare ‘golden cross’ buy signal as investors swarm to its top-charting AI agent",
+  "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T11:18:00+00:00",
+  "desc": "Meta Platforms, whose stock has thrived after the introduction of an artificial-intelligence assistant, just got another piece of good news.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "high"
+ },
+ {
+  "title": "SpaceX reportedly is looking to borrow as much money as the company generates in revenue to buy Nvidia chips",
+  "link": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T11:11:00+00:00",
+  "desc": "Elon Musk’s SpaceX is in talks with banks and investors to borrow $40 billion to fund a purchase of Nvidia chips, according to a Financial Times report.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+  "link": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
+  "source": "CNBC",
+  "date": "2026-10-07T11:09:30+00:00",
+  "desc": "France is facing a fresh political crisis, as its debt levels and borrowing costs continue to rise.",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Trading platform Webull's China ties create national security risk, congressional panel finds",
+  "link": "https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html",
+  "source": "CNBC",
+  "date": "2026-10-07T11:08:55+00:00",
+  "desc": "A congressional committee says trading platform Webull is not the ordinary U.S. company it claims, but exposes customer data to Chinese surveillance risk.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Meta's Muse assistant tops app charts. Now it needs to become a habit",
+  "link": "https://www.cnbc.com/2026/10/07/meta-muse-personal-ai-agents-dazzle.html",
+  "source": "CNBC",
+  "date": "2026-10-07T11:00:01+00:00",
+  "desc": "Meta’s Muse is free for now as the company searches for a business surrounding its personal AI agent.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "U.S. Investors Have an ‘Exorbitant Privilege’",
+  "link": "https://www.wsj.com/finance/investing/u-s-investors-have-an-exorbitant-privilege-16201ed3?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-07T10:27:00+00:00",
+  "desc": "Plus, AI stocks do the heavy lifting",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields",
+  "link": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c",
+  "source": "Financial Times",
+  "date": "2026-10-07T10:20:56+00:00",
+  "desc": "One little cog in the bond market’s feedback machine",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+  "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T10:15:00+00:00",
+  "desc": "“Both properties will be solely in his name.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Citi ve opciones de ganar un 20% con la Bolsa de Brasil",
+  "link": "https://www.expansion.com/mercados/2026/10/07/6ac61479468aeb91128b4592.html",
+  "source": "Expansión",
+  "date": "2026-10-07T10:07:32+00:00",
+  "desc": "El mercado brasileño se convierte en una de las apuestas activas más destacadas de Citi. El último 'trade' abierto por el banco se marca como objetivo una revalorización del 20% en la renta variable de Brasil. Leer",
+  "ccs": [
+   "BR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "AMD’s chief executive is planning to invest ‘tens of billions’ as Asian tour addresses supply-chain chokepoints",
+  "link": "https://www.marketwatch.com/story/amds-chief-executive-is-planning-to-invest-tens-of-billions-as-asian-tour-addresses-supply-chain-chokepoints-c6485919?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T09:37:00+00:00",
+  "desc": "AMD’s CEO has been meeting executives in Taiwan and South Korea.",
+  "ccs": [
+   "CN",
+   "KR"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Longtime tech bull Dan Ives says these are his top tech plays going into 2027",
+  "link": "https://www.marketwatch.com/story/longtime-tech-bull-dan-ives-says-these-are-his-top-tech-plays-going-into-2027-3796cb9f?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T09:33:00+00:00",
+  "desc": "Investors are “underestimating the scale and scope” of the AI spending wave, said Dan Ives as he laid out five stocks to own.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How to Handle Red-Hot Copper Prices With Care",
+  "link": "https://www.wsj.com/finance/commodities-futures/how-to-handle-red-hot-copper-prices-with-care-3968906d?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-07T09:30:00+00:00",
+  "desc": "U.S. tariff threats have created copper market distortions that create risks.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+  "link": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+  "source": "CNBC",
+  "date": "2026-10-07T09:26:02+00:00",
+  "desc": "Finland has emerged as a key location for data centers amid the AI boom.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Jaguar unveils $130,000 electric vehicle two years after controversial rebrand",
+  "link": "https://www.cnbc.com/2026/10/07/jaguar-electric-vehicle-autos-type-01.html",
+  "source": "CNBC",
+  "date": "2026-10-07T09:18:30+00:00",
+  "desc": "The launch comes as luxury rivals Ferrari and Bentley also push into EVs, seeking to test wealthy buyer's appetite for going electric.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Chevron CEO warns against 'unwise' diesel export ban, saying it could make things worse",
+  "link": "https://www.cnbc.com/2026/10/07/chevron-ceo-diesel-export-ban-trump-supply.html",
+  "source": "CNBC",
+  "date": "2026-10-07T09:16:19+00:00",
+  "desc": "His comments come as rising Middle East crude exports and an emergency G7 stockpile release appear to have helped to ease supply fears.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement.",
+  "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T09:15:00+00:00",
+  "desc": "“I keep thinking about giving each child $750,000 toward a house.”",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Josh Brolin sells Atlanta-area mansion for $4 million after slashing price",
+  "link": "https://www.marketwatch.com/story/josh-brolin-sells-atlanta-area-mansion-for-4-million-after-slashing-price-52561a89?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T09:05:00+00:00",
+  "desc": "Actor Josh Brolin has sold his lavish Sandy Springs, Ga., estate for $4 million—a final sale price falling just under $1 million less than the original asking price of $4.999 million.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "A Laguna Beach gem renovated by Diane Keaton is up for grabs for $10.3 million",
+  "link": "https://www.marketwatch.com/story/a-laguna-beach-gem-renovated-by-diane-keaton-is-up-for-grabs-for-10-3-million-8e6e1927?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-07T09:01:00+00:00",
+  "desc": "Boasting breathtaking views of the Pacific Ocean, the charming 4-bedroom home is located on a triangular 0.4-acre oceanfront lot with direct access to a sandy beach via a wooden staircase.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Venture Firm Behind Chip Startup Groq Targets $10 Billion Megafund",
+  "link": "https://www.wsj.com/finance/venture-firm-behind-chip-startup-groq-targets-10-billion-megafund-030ce4a0?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-07T09:00:00+00:00",
+  "desc": "Winning bets on hot AI startups are vaulting a little-known Dallas firm into a small group of firms raising gigantic funds.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "AI agents could cost banks $500bn — by winning savers better rates",
+  "link": "https://www.ft.com/content/a21ec190-edcd-454e-886a-302b0a16ea82?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T08:51:55+00:00",
+  "desc": "Banks will gain from AI as well as lose",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Stock Market Today: S&P 500, Nasdaq Futures Retreat After Record Highs",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-07T08:34:56+00:00",
+  "desc": "Treasury yields inch higher; oil rises",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Mina El Moto obvia la incertidumbre electoral y salta a la Bolsa de Londres",
+  "link": "https://www.expansion.com/empresas/2026/10/07/6ac5f5f2e5fdea6a028b456e.html",
+  "source": "Expansión",
+  "date": "2026-10-07T07:36:32+00:00",
+  "desc": "Abenójar Tungsten activa su colocación para financiar su proyecto de 211 millones de euros y ficha como consejero a José Luis de Mora, directivo de Santander y presidente de Merlin Properties. Leer",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Los bajistas elevan la presión contra HBX",
+  "link": "https://www.expansion.com/mercados/2026/10/07/6ac5ec37468aeb97598b4589.html",
+  "source": "Expansión",
+  "date": "2026-10-07T07:16:06+00:00",
+  "desc": "La cotización del grupo de tecnología aplicada al turismo sigue lejos del precio fijado para su salida a Bolsa. La firma bajista más activa en el valor, Arrowstreet Capital, apuesta por nuevos baches, y eleva a máximos s",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
+  "link": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
+  "source": "CNBC Markets",
+  "date": "2026-10-07T06:16:39+00:00",
+  "desc": "Kristalina Georgieva warns that the technology lifting growth hopes is also pushing up inflation and yields, just as public debt levels rose.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "high"
+ },
+ {
+  "title": "Singapore's Temasek warns of the ‘biggest risk’ facing markets right now",
+  "link": "https://www.cnbc.com/2026/10/07/singapore-temasek-warns-of-the-biggest-risk-facing-markets.html",
+  "source": "CNBC",
+  "date": "2026-10-07T05:25:29+00:00",
+  "desc": "Unwinding of the artificial intelligence trade poses the biggest risk to markets, according to  Singapore state-owned investment giant Temasek.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Blue Owl to launch ‘big push’ into insurance",
+  "link": "https://www.ft.com/content/47c82e53-aa63-4b0d-95fd-ecc04d81e6ab?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T04:00:22+00:00",
+  "desc": "Group at centre of recent private credit turmoil says it is ‘not managing enough capital’",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Robust AI spending sets investors up for another bumper US earnings season",
+  "link": "https://www.ft.com/content/7c38e8e3-8035-4036-8bc0-5fba2fbf77cb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T04:00:22+00:00",
+  "desc": "S&P 500 earnings are forecast to rise 27% against a backdrop of stock market highs and elevated longer-term borrowing costs",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Brussels looks to capture Big Tech through tax on large corporations",
+  "link": "https://www.ft.com/content/ad06ed89-f600-4694-8c95-7d53b6d3315b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T04:00:13+00:00",
+  "desc": "European Commission considers a broad levy on all large companies to avoid singling out US digital services groups",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How much longer can the world absorb the Iran shock?",
+  "link": "https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T04:00:12+00:00",
+  "desc": "The disruption to oil supply, oil prices and the world economy has been surprisingly manageable so far",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "The taxman comes for China’s offshore riches",
+  "link": "https://www.ft.com/content/f31baf40-a753-4cca-86e1-1373f08d99e2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-07T02:27:55+00:00",
+  "desc": "The crackdown has rattled the country’s wealthiest people and the businesses in Hong Kong, Singapore and Tokyo that manage their money",
+  "ccs": [
+   "JP",
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
+  "link": "https://www.cnbc.com/2026/10/07/flop-ai-boom-arthur-hayes-bitcoin-bitmex-coinferencex-.html",
+  "source": "CNBC",
+  "date": "2026-10-07T00:49:34+00:00",
+  "desc": "Former BitMEX CEO Arthur Hayes says the AI infrastructure boom is being overbuilt and is betting an eventual crash and bailout will send crypto higher.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Morgan Stanley apuesta por comprar en las caídas de la deuda española",
+  "link": "https://www.expansion.com/mercados/2026/10/07/6ac4f0a0468aeb170f8b4578.html",
+  "source": "Expansión",
+  "date": "2026-10-07T00:26:12+00:00",
+  "desc": "La deuda española no debería contagiarse de la escalada en la prima de riesgo de Francia, incluso a pesar de la incertidumbre política derivada del adelanto electoral, según los analistas de Morgan Stanley. Leer",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "PSOE y PP se disputarán 50.000 millones del Ibex",
+  "link": "https://www.expansion.com/empresas/2026/10/07/6ac55df6e5fdea47018b4581.html",
+  "source": "Expansión",
+  "date": "2026-10-07T00:24:02+00:00",
+  "desc": "El Estado está presente en compañías del Ibex 35 como Aena, CaixaBank, Indra, Telefónica, IAG, Redeia y Enagás, pero también del Continuo, como Ebro Foods, Talgo y Airbus. Leer",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "SpaceX looks to raise $40bn to buy Nvidia chips",
+  "link": "https://www.ft.com/content/d3f5928d-f38c-4666-8f7a-8737f9c45f51?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-06T22:28:55+00:00",
+  "desc": "Blockbuster debt deal is the latest sign of the vast spending on chips and other infrastructure underpinning AI",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
   "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
   "link": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-  "source": "CNBC",
-  "date": "2026-10-06T20:50:54+00:00",
+  "source": "CNBC Markets",
+  "date": "2026-10-06T22:23:01+00:00",
   "desc": "The S&P 500 returned to an intraday record Tuesday as tech gains, easing oil prices and Treasury yields helped stocks overcome months of market shocks.",
   "ccs": [
    "US"
@@ -12,476 +469,25 @@
   "imp": "medium"
  },
  {
-  "title": "Whatever Happens to Bonds, Stocks Win",
-  "link": "https://www.wsj.com/finance/investing/whatever-happens-to-bonds-stocks-win-d1c95f6f?mod=rss_markets_main",
+  "title": "The S&P 500 Hits a New Record High, Powered by Tech—and Not Much Else",
+  "link": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main",
   "source": "WSJ Markets",
-  "date": "2026-10-06T20:42:00+00:00",
-  "desc": "Plus, Brent crude climbs and chip stocks are mixed",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
-  "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T20:37:00+00:00",
-  "desc": "Not just one, but two, major market turning points since 2000 have occurred on that day.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Anduril plans shipyard to manufacture parts for US Navy’s top submarines",
-  "link": "https://www.ft.com/content/a6339e0c-4114-413a-a23c-916ed4392ce0?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T20:36:08+00:00",
-  "desc": "Palmer Luckey’s defence tech start-up to invest $3.7bn as Trump attempts to reduce dependence on leading ‘prime’ contractors",
-  "ccs": [],
+  "date": "2026-10-06T21:33:00+00:00",
+  "desc": "Most U.S. stocks are down, but the market’s AI engine is firing on all cylinders.",
+  "ccs": [
+   "US"
+  ],
   "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
-  "link": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T20:24:00+00:00",
-  "desc": "Constellation’s stock is rising sharply following a deal that equates to as much power as would be supplied by a new nuclear reactor.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Marvell just impressed Wall Street with ‘good numbers plus a better story’",
-  "link": "https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T20:21:00+00:00",
-  "desc": "Marvell’s stock is popping after the company not only delivered with its financial forecasts but also demonstrated its diversified mix of customers and products.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
-  "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T20:15:00+00:00",
-  "desc": "“People in the U.S. need to wake up.”",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
+  "imp": "high"
  },
  {
   "title": "Trump hedges on paying back government for ads that already aired",
   "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
   "source": "CNBC",
-  "date": "2026-10-06T20:09:17+00:00",
+  "date": "2026-10-06T21:32:32+00:00",
   "desc": "The New York Times reported \"Trump personally instructed his budget director to use taxpayer money for TV ads praising him and his presidency.\"",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Ships’ captains paid $100,000 a month to transit Strait of Hormuz",
-  "link": "https://www.ft.com/content/0d665e5b-d8c8-4f1e-acf5-bba7193b4e6e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T20:00:08+00:00",
-  "desc": "Salaries and bonuses spiral for seafarers willing to risk perilous trip through waterway in face of Iranian attacks",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
-  "link": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T19:58:00+00:00",
-  "desc": "Parental controls aren’t just for kids anymore.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-  "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T19:54:00+00:00",
-  "desc": "After trading sideways for much of the past year, the “Magnificent Seven” have been staging a comeback, helping to re-energize a bull market threatened by rising bond yields and stubbornly high crude-oil prices.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Emmy Awards leave broadcast TV for Prime Video in 2027 under six-year deal",
-  "link": "https://www.cnbc.com/2026/10/06/emmy-awards-prime-video.html",
-  "source": "CNBC",
-  "date": "2026-10-06T19:35:04+00:00",
-  "desc": "The Emmy Awards will stream exclusively and free on Prime Video worldwide starting in 2027 under a six-year deal.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "Jim Clyburn urges Democrats to woo Black voters with affordability pitch",
-  "link": "https://www.ft.com/content/793d9121-1dae-498b-bae1-db8c69e67e2d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T19:26:13+00:00",
-  "desc": "Congress member says Trump is ushering in ‘Jim Crow 2.0’ and says Republicans will ‘reap the reaction’ for redistricting",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Goldman Sachs and Man Group exposed in EY data breach",
-  "link": "https://www.ft.com/content/2ad1ff25-f08e-4e78-83c9-90e7ea3844ee?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T19:24:22+00:00",
-  "desc": "Disclosures widen the circle of victims of a hacking incident earlier this year",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "Trump waives rules on red-dyed diesel, but local tax and other concerns remain",
-  "link": "https://www.marketwatch.com/story/trump-waives-rules-on-red-dyed-diesel-but-local-tax-and-other-concerns-remain-f6b448c8?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T19:14:00+00:00",
-  "desc": "Highway drivers will be allowed to use a red-dyed farm fuel that’s tax-exempt through the end of 2026.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots",
-  "link": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html",
-  "source": "CNBC",
-  "date": "2026-10-06T18:48:36+00:00",
-  "desc": "Meta and OpenAI Chairman Bret Taylor’s startup Sierra are building a set of tech standards to make it easier to do business with AI bots.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "How event contract bundles are boosting volume on prediction markets",
-  "link": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
-  "source": "CNBC",
-  "date": "2026-10-06T18:46:16+00:00",
-  "desc": "Combo contracts are driving volume growth even as they make up a small, albeit consistent, share of transactions.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘Trump accounts’ could force MAGA children to own New York Times stock",
-  "link": "https://www.marketwatch.com/story/trump-accounts-could-force-maga-children-to-own-new-york-times-stock-46177c96?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T18:39:00+00:00",
-  "desc": "This is going to bring a lot of problems that almost anyone could have predicted",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Kalshi launches transparency features on its election contracts ahead of midterms",
-  "link": "https://www.cnbc.com/2026/10/06/kalshi-launches-transparency-features-on-its-election-contracts-ahead-of-midterms-.html",
-  "source": "CNBC",
-  "date": "2026-10-06T18:34:49+00:00",
-  "desc": "The platform will now provide tags that indicate which election markets have low volumes.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Cómo puede estallar en Bolsa la gran 'burbuja de los beneficios'",
-  "link": "https://www.expansion.com/mercados/2026/10/06/6ac5197e468aeb82268b456d.html",
-  "source": "Expansión",
-  "date": "2026-10-06T18:31:49+00:00",
-  "desc": "El S&P 500 y el Nasdaq baten récords históricos pese a la crisis de los bonos. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "Francia: entre el mercado de bonos y las barricadas",
-  "link": "https://www.expansion.com/economia/financial-times/2026/10/06/6ac5296ae5fdeada498b4577.html",
-  "source": "Expansión",
-  "date": "2026-10-06T18:31:37+00:00",
-  "desc": "El país sufre una oleada de ventas de deuda antes de las elecciones del próximo año, y muchos temen que esto pueda sacudir la eurozona. Leer",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-  "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T18:30:00+00:00",
-  "desc": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street",
-  "link": "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-06T18:20:00+00:00",
-  "desc": "A Wells Fargo analyst warns of a near-term profit hit from AI infrastructure spending and legal costs — but thinks that will set up massive gains by 2028.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Young voters struggle to afford housing. But they don't expect help from political candidates",
-  "link": "https://www.cnbc.com/2026/10/06/housing-affordability-election.html",
-  "source": "CNBC",
-  "date": "2026-10-06T18:11:51+00:00",
-  "desc": "Pennsylvania's competitive U.S. House districts showcase how housing affordability challenges for young voters may play into control of the next Congress.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "German far right secures first regional parliament president",
-  "link": "https://www.ft.com/content/76db879a-2c53-4aee-8354-b30185f1d3a4?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T18:10:25+00:00",
-  "desc": "Tobias Rausch wins secret support from four mystery backers from established parties",
-  "ccs": [
-   "DE"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies",
-  "link": "https://www.cnbc.com/2026/10/06/anthropic-claude-startups-program.html",
-  "source": "CNBC",
-  "date": "2026-10-06T18:06:40+00:00",
-  "desc": "The expansion marks the AI company's latest push to deepen its ties to founders and fast-growing companies.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
-  "link": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
-  "source": "CNBC",
-  "date": "2026-10-06T17:22:20+00:00",
-  "desc": "If ever there was a stock that personified the promise and peril of the AI trade, it's Salesforce.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "S&P 500 hits record high as AI stocks shrug off bond market slump",
-  "link": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T16:59:33+00:00",
-  "desc": "Wall Street’s benchmark index touches fresh peak but rally increasingly reliant on handful of tech stocks",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "Neinor vive su mejor sesión desde junio de 2025",
-  "link": "https://www.expansion.com/inversion/2026/10/06/6ac4ee2ee5fdea3d2a8b45a4.html",
-  "source": "Expansión",
-  "date": "2026-10-06T16:42:36+00:00",
-  "desc": "Suma y sigue de Neinor en Bolsa. Hoy la compañía ha registrado un alza del 5,13%, hasta situarse en los 17,41 euros, en la que es su mejor sesión desde junio de 2025, según los registros de Bloomberg. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-  "link": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
-  "source": "CNBC",
-  "date": "2026-10-06T16:19:10+00:00",
-  "desc": "Nearly 20 commercial ships, mostly tankers, have come under attack over the past month while sailing through the Hormuz choke point.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex supera los 19.400 puntos en su tercera sesión al alza",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/06/6ac48e93e5fdea62798b4589.html",
-  "source": "Expansión",
-  "date": "2026-10-06T15:40:26+00:00",
-  "desc": "Sesión de predominio de las compras en las Bolsas europeas con el alivio combinado de la deuda y del petróleo, por debajo de los 100 dólares, y con los máximos de Wall Street. El Ibex ha sumado un 0,75% hasta los 19.444,",
-  "ccs": [
-   "US",
-   "ES"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch",
-  "link": "https://www.ft.com/content/42b6fa88-f730-4f8a-a194-8f53d0759aaf?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T15:32:51+00:00",
-  "desc": "Start-up bank for technology industry seeks to fill the void left by the collapse of Silicon Valley Bank",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Russian lab worker's suspected plague death leaves experts puzzled",
-  "link": "https://www.cnbc.com/2026/10/06/plague-russia-person-died-lab-infection-pneumonic.html",
-  "source": "CNBC",
-  "date": "2026-10-06T15:23:41+00:00",
-  "desc": "Russian authorities say the situation is stable and there are no reports of secondary cases.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Wall Street Bonuses Are Expected to Hit Another High This Year",
-  "link": "https://www.wsj.com/finance/wall-street-bonuses-are-expected-to-hit-another-high-this-year-d7dd453f?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-06T14:07:00+00:00",
-  "desc": "New York reports that the industry is now on pace for $90 billion in profits this year, leading to higher compensation.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "California’s oligarch tax would change America",
-  "link": "https://www.ft.com/content/9a46af48-9c69-48bd-a648-2e496486c504?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T11:01:53+00:00",
-  "desc": "The goal of its framers is political rather than budgetary",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "La Bolsa de Nueva York avanza hacia la negociación 'tokenizada' 24/7",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/10/06/6ac4ce72468aeb696d8b4583.html",
-  "source": "Expansión",
-  "date": "2026-10-06T10:45:04+00:00",
-  "desc": "La empresa conjunta entre el exchange cripto OKX y el gestor de la Bolsa de Nueva York, Intercontinental Exchange, ha presentado una solicitud ante al SEC para lanzar una plataforma de valores tokenizados que permita neg",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Former German spy chief arrested for treason",
-  "link": "https://www.ft.com/content/4c565931-6ac7-4b4c-be72-d86e8e3a8aec?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-06T10:34:25+00:00",
-  "desc": "Ex-intelligence head August Hanning suspected of selling state secrets to foreign power",
-  "ccs": [
-   "DE"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "These Company Insiders Are Selling. Should You?",
-  "link": "https://www.wsj.com/finance/stocks/these-company-insiders-are-selling-should-you-6f9ce22a?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-06T10:25:00+00:00",
-  "desc": "Plus, got diesel?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Student riots engulf France as far-right presidential frontrunner Le Pen vows fiscal turnaround",
-  "link": "https://www.cnbc.com/2026/10/06/france-student-protests-budget.html",
-  "source": "CNBC",
-  "date": "2026-10-06T09:46:34+00:00",
-  "desc": "A teenager reportedly lost a hand in the protests, which have seen over 5,000 people arrested.",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "JPMorgan amplía el bache de Ferrovial con una rebaja del 23%",
-  "link": "https://www.expansion.com/mercados/2026/10/06/6ac4ae82e5fdeace708b45be.html",
-  "source": "Expansión",
-  "date": "2026-10-06T09:33:03+00:00",
-  "desc": "La empresa de construcción y concesiones vuelve a quedarse rezagada en el Ibex, más cerca ya de liderar las caídas del índice en 2026. Ferrovial acusa la rebaja del 23% emitida hoy por los analistas de JPMorgan, escéptic",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "What Oura’s Stalled IPO Tells Us About One-Hit Wonders",
-  "link": "https://www.wsj.com/finance/stocks/what-ouras-stalled-ipo-tells-us-about-one-hit-wonders-31921bf5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-06T09:30:00+00:00",
-  "desc": "Oura pitched itself as a tech platform, but investors saw through that.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Goldman: Diesel prices set to stay high through 2027 as refineries struggle to meet demand",
-  "link": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-06T08:47:30+00:00",
-  "desc": "Goldman Sachs says tight refinery capacity could keep diesel prices elevated through 2027, with high margins needed to curb demand and rebuild inventories.",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "Stock Market Today: S&P 500 Hits New Record High",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-06-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-06T08:45:19+00:00",
-  "desc": "U.S. 10-year Treasury yield eases after relentless rise",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "KKR Strikes Deal to Buy Private-Capital Fund Administrator Gen II",
-  "link": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-06T08:09:00+00:00",
-  "desc": "Private-capital funds have proliferated in recent years as investors seek to reduce reliance on public markets.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Francia, un nuevo \"talón de Aquiles\" para los mercados",
-  "link": "https://www.expansion.com/mercados/2026/10/06/6ac39e08e5fdea693f8b459c.html",
-  "source": "Expansión",
-  "date": "2026-10-06T06:54:54+00:00",
-  "desc": "La deuda pública, y en particular la de Francia, se convierten en el \"talón de Aquiles\" para la renta fija europea, el euro y hasta para la renta variable, según advierten los analistas. Leer",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "bd",
-  "imp": "medium"
  }
 ]
