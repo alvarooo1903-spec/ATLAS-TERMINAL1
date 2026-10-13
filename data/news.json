@@ -1,42 +1,42 @@
 [
  {
-  "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
-  "link": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+  "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+  "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
   "source": "CNBC",
-  "date": "2026-10-13T13:03:56+00:00",
-  "desc": "The billionaire investor said that corporate buybacks, along with mergers and acquisitions, that have been a tailwind for the bull market is about to turn.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
+  "date": "2026-10-13T21:20:45+00:00",
+  "desc": "The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "Six Flags shares decline following report of deadly roller coaster incident",
+  "title": "Six Flags shares decline following deadly roller coaster incident",
   "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
   "source": "CNBC",
-  "date": "2026-10-13T12:54:14+00:00",
+  "date": "2026-10-13T21:18:03+00:00",
   "desc": "One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads",
-  "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+  "title": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
+  "link": "https://www.cnbc.com/2026/10/13/judge-says-elon-musk-engaged-intimidation-of-ex-fema-cfo-mary-comans.html",
   "source": "CNBC",
-  "date": "2026-10-13T12:50:01+00:00",
-  "desc": "Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "high"
+  "date": "2026-10-13T21:15:32+00:00",
+  "desc": "Ex-FEMA CFO Mary Comans' name was cleared by a federal judge after Elon Musk and other government officials falsely accused her of criminal actions in 2025.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.",
-  "link": "https://www.marketwatch.com/story/u-s-wealth-has-shifted-to-stocks-from-homes-there-are-big-reasons-to-worry-aa05864d?mod=mw_rss_topstories",
+  "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+  "link": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-10-13T12:44:00+00:00",
-  "desc": "The four-year bull market in stocks is riding high because of the AI boom. But it’s also increasing  the cost of money.",
+  "date": "2026-10-13T21:02:00+00:00",
+  "desc": "Anticipation is building for Anthropic’s investor day, as Wall Street grows less patient with heavy AI spending.",
   "ccs": [
    "US"
   ],
@@ -44,11 +44,173 @@
   "imp": "medium"
  },
  {
-  "title": "Why this little known Chinese chipmaker has caused a global stock rout",
-  "link": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+  "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+  "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T21:01:00+00:00",
+  "desc": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Financial Services Roundup: Market Talk",
+  "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-13T20:57:00+00:00",
+  "desc": "Find insight on major Gulf stocks, JP Morgan Chase, Goldman Sachs and more in the latest Market Talks covering financial services.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "US indicts Saudi employee of OpenAI for allegedly bugging its offices",
+  "link": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T20:54:58+00:00",
+  "desc": "AI lab discovered recording device and reported it to the FBI",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+  "link": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
   "source": "CNBC",
-  "date": "2026-10-13T12:41:56+00:00",
-  "desc": "China's leading memory chipmaker CXMT has reportedly made progress on new designs.",
+  "date": "2026-10-13T20:52:22+00:00",
+  "desc": "TIPS are looking attractive but they aren't the only way to get inflation protection.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+  "link": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+  "source": "CNBC",
+  "date": "2026-10-13T20:48:37+00:00",
+  "desc": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Bank of America fined $1.2 billion over money-laundering violations",
+  "link": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+  "source": "CNBC",
+  "date": "2026-10-13T20:45:01+00:00",
+  "desc": "The action by the Treasury Department was announced less than a day before Bank of America reports quarterly earnings.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+  "link": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:42:00+00:00",
+  "desc": "Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Rising Interest Rates Threaten to Spoil the Party for Big Banks",
+  "link": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-13T20:42:00+00:00",
+  "desc": "Goldman Sachs and JPMorgan post higher profit, but the mood on Wall Street is becoming more cautious.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Six Flags’ stock slumps near 17-year low after fatal incident",
+  "link": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:41:00+00:00",
+  "desc": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+  "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T20:36:12+00:00",
+  "desc": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
+  "link": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:32:00+00:00",
+  "desc": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+  "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:30:00+00:00",
+  "desc": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+  "ccs": [
+   "IT"
+  ],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
+  "link": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:29:00+00:00",
+  "desc": "The health-insurance giant said its medical-cost ratio was 88.4% in the third quarter of this year, as the company tries to rein in spending on medical care.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing",
+  "link": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T20:28:15+00:00",
+  "desc": "Declines for Samsung and SK Hynix drag Korea’s Kospi sharply lower as investors fret over the scale of AI investment",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm.",
+  "link": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:27:00+00:00",
+  "desc": "The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps on both Monday and Tuesday.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Micron’s stock extends declines as China competition heats up",
+  "link": "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:25:00+00:00",
+  "desc": "Even Elon Musk says Chinese memory-chip makers are catching up.",
   "ccs": [
    "CN"
   ],
@@ -56,11 +218,131 @@
   "imp": "medium"
  },
  {
-  "title": "El Ibex busca esquivar el revés a la IA",
+  "title": "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?",
+  "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-13T20:16:00+00:00",
+  "desc": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bank Earnings Look Strong, But Markets Shrug",
+  "link": "https://www.wsj.com/finance/stocks/bank-earnings-look-strong-but-markets-shrug-26533199?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-13T20:15:00+00:00",
+  "desc": "Plus, memory stocks fall, and private equity is facing a reckoning.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Bank of America fined $1.2bn over money laundering failures",
+  "link": "https://www.ft.com/content/c08dd4a1-74a4-49f2-90f7-0857c6e87868?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T20:00:06+00:00",
+  "desc": "US bank failed to flag $5bn in suspicious transactions linked to suspected illicit finance from China and southern US border",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+  "link": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+  "source": "CNBC",
+  "date": "2026-10-13T19:46:12+00:00",
+  "desc": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Cómo sacar partido en el Ibex 35 a la gran paradoja de la Bolsa y el euro",
+  "link": "https://www.expansion.com/mercados/2026/10/13/6ace6020e5fdeab23f8b4597.html",
+  "source": "Expansión",
+  "date": "2026-10-13T18:44:47+00:00",
+  "desc": "Los índices europeos bajan con la divisa desde agosto. Leer",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+  "link": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+  "source": "CNBC",
+  "date": "2026-10-13T18:33:42+00:00",
+  "desc": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "More Republicans come out against Trump's diesel deal with Putin",
+  "link": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+  "source": "CNBC",
+  "date": "2026-10-13T18:19:42+00:00",
+  "desc": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "The latest inflation data is expected to show price increases are accelerating",
+  "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+  "source": "CNBC",
+  "date": "2026-10-13T18:05:57+00:00",
+  "desc": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Higher Rates Are Coming for Private Equity—and Smaller Firms Are Already Hurting",
+  "link": "https://www.wsj.com/finance/investing/higher-rates-are-coming-for-private-equityand-smaller-firms-are-already-hurting-754ada6c?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-13T17:30:00+00:00",
+  "desc": "Firms are facing employee turnover as hopes for payouts dim amid sluggish exits.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "White House asks US envoy to Greece Kimberly Guilfoyle to resign",
+  "link": "https://www.ft.com/content/87a1a5a1-4942-47dd-856a-d9a694f7d2fd?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T16:16:58+00:00",
+  "desc": "Donald Trump had said he was considering firing the ambassador after reports claiming she accepted improper gifts",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "In charts: How one of the world's biggest economies got trapped by debt",
+  "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+  "source": "CNBC",
+  "date": "2026-10-13T15:52:24+00:00",
+  "desc": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Ibex salva los 19.200 puntos, atento a los resultados empresariales y a la IA",
   "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/13/6acdc73b468aebdf418b456f.html",
   "source": "Expansión",
-  "date": "2026-10-13T12:41:14+00:00",
-  "desc": "El varapalo bursátil a los valores más ligados a la IA pasa de puntillas por la renta variable europea, pero no sucede lo mismo en Asia y EEUU. El freno de las tecnológicas empaña los primeros resultados de la temporada",
+  "date": "2026-10-13T15:42:12+00:00",
+  "desc": "Jornada volátil en las Bolsas europeas, que finalmente han despedido la sesión muy planas, pendientes de la evolución de los valores vinculados a la IA y de los primeros resultados empresariales en Wall Street. El Ibex,",
   "ccs": [
    "US",
    "ES"
@@ -69,17 +351,57 @@
   "imp": "medium"
  },
  {
-  "title": "Fund managers retain surprising optimism in the face of stagnant stock market and tumultuous bond market",
-  "link": "https://www.marketwatch.com/story/fund-managers-retain-surprising-optimism-in-the-face-of-stagnant-stock-market-and-tumultuous-bond-market-3d9763dd?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T12:40:00+00:00",
-  "desc": "Many asset allocators are waiting for bond yields to hit 6% before they flip the switch from equities to fixed income, but a significant portion are already making the transition.",
+  "title": "How not to revive Europe’s auto industry",
+  "link": "https://www.ft.com/content/52a1bbdd-2171-4fcb-9efe-99ed4283def5?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-13T15:03:49+00:00",
+  "desc": "The electric vehicle market shows how legacy EU companies continue to fail when it comes to countering Chinese competition",
   "ccs": [],
-  "cat": "bd",
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "For Stocks, the Future Ain’t What It Used to Be",
+  "link": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-13T14:55:00+00:00",
+  "desc": "",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Goldman Sachs dispara un 40% su beneficio hasta septiembre con 17.500 millones de dólares",
+  "link": "https://www.expansion.com/empresas/banca/2026/10/13/6ace389b468aeb057a8b4590.html",
+  "source": "Expansión",
+  "date": "2026-10-13T13:58:17+00:00",
+  "desc": "La entidad que dirige Solomon ha cerrado en el último trimestre los segundos mejores resultados de su historia en negociación con acciones. Leer",
+  "ccs": [],
+  "cat": "er",
   "imp": "medium"
  },
  {
-  "title": "JPMorgan gana 53.000 millones hasta septiembre, un 20% más",
+  "title": "Wells Fargo gana 17.600 millones de dólares hasta septiembre, un 10% más",
+  "link": "https://www.expansion.com/empresas/banca/2026/10/13/6ace311ce5fdea51748b4583.html",
+  "source": "Expansión",
+  "date": "2026-10-13T13:35:41+00:00",
+  "desc": "El consejero delegado de la compañía asegura que el buen tono de la economía y las inversiones en IA compensan el alza de tipos, la inflación general y el encarcimiento de los carburantes. Leer",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Citi acumula un beneficio de 16.900 millones de dólares en nueve meses, un 42% más",
+  "link": "https://www.expansion.com/empresas/banca/2026/10/13/6ace2bfae5fdea4a4e8b45ab.html",
+  "source": "Expansión",
+  "date": "2026-10-13T13:12:10+00:00",
+  "desc": "La entidad que dirige Fraser sella su mejor trimestre en una década y supera las expectativas de los analistas. Leer",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "JPMorgan gana 53.000 millones de dólares hasta septiembre, un 20% más",
   "link": "https://www.expansion.com/empresas/banca/2026/10/13/6ace2340468aebec108b457c.html",
   "source": "Expansión",
   "date": "2026-10-13T12:37:38+00:00",
@@ -87,16 +409,6 @@
   "ccs": [],
   "cat": "er",
   "imp": "medium"
- },
- {
-  "title": "Here’s how much extra money could be in your monthly Social Security check next year",
-  "link": "https://www.marketwatch.com/story/heres-how-much-extra-money-could-be-in-your-monthly-social-security-check-next-year-2e0c4eb8?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T12:37:00+00:00",
-  "desc": "Social Security’s cost-of-living adjustment will boost retirees’ monthly budgets. But will it be enough?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  },
  {
   "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
@@ -111,81 +423,14 @@
   "imp": "medium"
  },
  {
-  "title": "Bulgaria suggests Russia behind ship attack that left 11 sailors missing",
-  "link": "https://www.ft.com/content/c6bd25b8-ef9e-41a3-90d2-29c132e10ec2?syn-25a6b1a6=1",
+  "title": "Ships in Hormuz strait hit by worst spate of attacks since start of war",
+  "link": "https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-10-13T12:21:30+00:00",
-  "desc": "Strike on cargo ship marks latest escalation in Russia-Ukraine war in the Black Sea",
+  "date": "2026-10-13T12:04:22+00:00",
+  "desc": "Twenty-four tankers and other vessels targeted by Iran in two weeks, including six on Sunday alone",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
- },
- {
-  "title": "BlackRock and Baillie Gifford bet big on Icon 3D printed homes",
-  "link": "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
-  "source": "CNBC",
-  "date": "2026-10-13T12:18:44+00:00",
-  "desc": "Icon, one of the biggest players in 3D printed real estate, is announcing its $200 million Series D financing co-led by Baillie Gifford and funds managed by BlackRock, among others.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Zelenskyy says Kyiv’s partners failed to warn of ballistic missile attack",
-  "link": "https://www.ft.com/content/da00e3ff-4392-46d8-bab5-13b4ccc49995?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T12:06:15+00:00",
-  "desc": "The Ukrainian leader stops short of linking intelligence gap to Trump administration’s threats to withdraw US support",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Why the world’s No. 1 fund manager has just changed its mind on bonds for the first time in six years",
-  "link": "https://www.marketwatch.com/story/why-the-worlds-number-one-fund-manager-has-just-changed-its-mind-on-bonds-for-the-first-time-in-six-years-4b1b5490?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T12:04:00+00:00",
-  "desc": "After six years, BlackRock finds opportunities in government bonds.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
-  "link": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
-  "source": "CNBC",
-  "date": "2026-10-13T11:53:45+00:00",
-  "desc": "A Saudi-led coalition fighting the Houthis – a Yemeni militant group backed by Tehran – said it had intercepted another attack on Riyadh.",
-  "ccs": [
-   "US",
-   "SA"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Cyber attack on French supermarket fridges raises alarm over food security",
-  "link": "https://www.ft.com/content/6908a0ce-ffdd-4ea9-b376-d35d362639f3?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T11:50:21+00:00",
-  "desc": "Some stores reported fridge temperatures as high as 80°C, melting equipment and destroying food",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
-  "link": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T11:50:09+00:00",
-  "desc": "Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investment",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "tc",
-  "imp": "medium"
  },
  {
   "title": "Las criptomonedas alternativas sufren un correctivo de hasta el 10%",
@@ -193,28 +438,6 @@
   "source": "Expansión",
   "date": "2026-10-13T11:48:16+00:00",
   "desc": "La menor euforia en el mercado cripto hace mella, sobre todo, en las altcoins. Las criptomonedas alternativas registran un revés que en las últimas 24 horas alcanza incluso el 10%, y el 15% en la última semana. Zcash, mo",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The South Korean stock market is in free fall, and these are the reasons",
-  "link": "https://www.marketwatch.com/story/the-korean-stock-markets-in-freefall-and-these-are-the-reasons-why-9615ac8d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T11:44:00+00:00",
-  "desc": "The Korean market rises on falls on expectations for profitability of the semiconductor industry and how long it can be sustained. Sentiment is cyclical, and right now the skepticism is rising.",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Six Flags’ stock slumps near 52-week lows after fatal incident",
-  "link": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T11:31:00+00:00",
-  "desc": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator near the lowest level of the year.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
@@ -232,122 +455,14 @@
   "imp": "medium"
  },
  {
-  "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
-  "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T11:15:00+00:00",
-  "desc": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "A SpaceX launch shortage is fueling a $100 billion investing spree",
-  "link": "https://www.marketwatch.com/story/a-spacex-launch-shortage-is-fueling-a-100-billion-investing-spree-25b7d043?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T11:06:00+00:00",
-  "desc": "A commercial-launch bottleneck has spurred an unprecedented wave of investment in space infrastructure and applications",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Options traders expect wild stock-market swings beginning later this month. Here are 4 things to watch.",
-  "link": "https://www.marketwatch.com/story/options-traders-expect-wild-stock-market-swings-beginning-later-this-month-here-are-4-things-to-watch-e4931b02?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T11:00:00+00:00",
-  "desc": "After an eventful summer, U.S. stocks appear to have hit a pocket of calm. Over the past few sessions, trading volume has dwindled, while major indexes have mostly drifted sideways.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
-  "link": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
-  "source": "CNBC",
-  "date": "2026-10-13T10:59:35+00:00",
-  "desc": "There's an extraordinary split between the headline S&P 500 pinned just under a record high and the median stock in the index struggling in a 16% drawdown.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
-  "link": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-13T10:45:00+00:00",
-  "desc": "The health-insurance giant said its medical-cost ratio was 88.4% in the third quarter of this year as the company tries to rein in spending on medical care.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "This Investing Strategy Is So Good You Can’t Handle It",
-  "link": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-13T10:35:00+00:00",
-  "desc": "Plus, it’s bank earnings-palooza.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic warns rogue AI agents may ‘self-replicate’ to hijack ovens",
-  "link": "https://www.ft.com/content/64aaa8d5-f26a-4b96-b8cf-0ef0c6fbe69e?syn-25a6b1a6=1",
+  "title": "How America’s dying coal industry found a lifeline in Trump’s White House",
+  "link": "https://www.ft.com/content/03e29a9f-1f03-46d0-9855-3b9d5081c29d?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-10-13T10:11:23+00:00",
-  "desc": "Claude maker suggests models could act as ‘worms’ to spread across smart home appliances such as lawnmowers and TVs in future cyber security threat",
+  "date": "2026-10-13T10:00:10+00:00",
+  "desc": "A CEO plays golf with Trump’s son as an industry once shut out of Washington turns access into policy",
   "ccs": [],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
-  "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
-  "source": "CNBC",
-  "date": "2026-10-13T10:01:37+00:00",
-  "desc": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
-  "link": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
-  "source": "CNBC",
-  "date": "2026-10-13T10:00:01+00:00",
-  "desc": "The Trump administration's proposal to exclude some noncitizens from the 2030 census prompts alarm for voting rights groups.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "In charts: How one of the world's biggest economies got trapped by debt",
-  "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
-  "source": "CNBC",
-  "date": "2026-10-13T09:49:15+00:00",
-  "desc": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
-  "ccs": [
-   "FR"
-  ],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Bumper equities trading helps Goldman overcome Wall Street’s fixed income woes",
-  "link": "https://www.ft.com/content/56f4a46e-3ae5-4aea-8cf3-71506b286091",
-  "source": "Financial Times",
-  "date": "2026-10-13T09:42:00+00:00",
-  "desc": "Performance of stock traders helps Goldman report 30 per cent rise in third-quarter net income",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cm",
-  "imp": "medium"
  },
  {
   "title": "Gulf Hurricane Not Big Enough to Reset Insurance Market",
@@ -360,136 +475,15 @@
   "imp": "low"
  },
  {
-  "title": "Anthropic warns AI models could soon copy themselves across home devices",
-  "link": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
-  "source": "CNBC",
-  "date": "2026-10-13T08:27:20+00:00",
-  "desc": "Anthropic's latest research adds to the growing safety concerns around AI from the ability for models to carry out cyberattacks to the technology going rogue.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Wall Street Revenues Keep Goldman and JPMorgan Profits Rising — Live Updates",
+  "title": "Stock Market Today: Stocks Slip Despite Solid Wall Street Results",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-10-13T08:14:38+00:00",
-  "desc": "Wells Fargo revenue disappoints while Citi's beats expectations",
+  "desc": "AI jitters hit chip shares, with Micron falling 3.6%",
   "ccs": [
    "US"
   ],
   "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Tres valores del Ibex para superar la travesía electoral",
-  "link": "https://www.expansion.com/podcasts/en-accion/2026/10/13/6acd6958468aeb585f8b458d.html",
-  "source": "Expansión",
-  "date": "2026-10-13T08:09:28+00:00",
-  "desc": "Antonio Castelo, analista de iBroker, asegura que lo más importante para el mercado es que de los comicios del 29-N salga un Gobierno fuerte. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Las empresas chinas de chips amenazan el rally bursátil de la IA",
-  "link": "https://www.expansion.com/mercados/2026/10/13/6acdd2d5e5fdea3b588b458d.html",
-  "source": "Expansión",
-  "date": "2026-10-13T07:48:05+00:00",
-  "desc": "Las turbulencias regresan a los valores y a los índices más ligados a la IA. Los avances de las empresas chinas de chips emergen como nuevo factor de presión. Su creciente competencia desata un correctivo que desinfla ha",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
-  "link": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-13T06:20:55+00:00",
-  "desc": "The incremental approval comes as the U.S. and Chinese presidents are due to meet for a third time this year next month.",
-  "ccs": [
-   "US",
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Investors brave US Treasury rout to lock in highest yields in decades",
-  "link": "https://www.ft.com/content/6fa735a2-a590-4461-b092-920ba489e7a8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T04:00:28+00:00",
-  "desc": "Government bond funds are attracting record inflows as borrowing costs hit their highest level in decades",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "The elections that could remake Europe",
-  "link": "https://www.ft.com/content/ec433e1f-bdb4-4a1c-868e-e1c7c4121f45?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T04:00:19+00:00",
-  "desc": "In the space of 12 months, four of the five biggest EU member states will go to the ballot box. The bloc may never be the same",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Why Trump is going for Zelenskyy’s jugular",
-  "link": "https://www.ft.com/content/1724a30e-cf50-4a4e-ade8-bca72ea4b9a1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T04:00:19+00:00",
-  "desc": "No matter how much America’s allies urge the president to back Ukraine, he cannot forgive its leader for showing up his dealmaking impotence",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "HR doesn’t need to be the CIA",
-  "link": "https://www.ft.com/content/16e1d29b-3680-4712-b8e7-ed4a4125041a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-13T04:00:19+00:00",
-  "desc": "Fraudulent use of AI in the jobs process is forcing the warm and fuzzy realms of the former to work with the suspicious minds of the latter",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-  "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-13T02:58:11+00:00",
-  "desc": "The Cleveland Fed president said that tighter monetary policy would be needed to bring down inflation.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
-  "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-13T01:26:41+00:00",
-  "desc": "Singapore is a bastion of safety amid global turmoil, according to the CEO of DBS.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "La banca es atractiva en Bolsa, pese a la tensión en los bonos",
-  "link": "https://www.expansion.com/mercados/2026/10/13/6acd6acb468aeb0c548b4585.html",
-  "source": "Expansión",
-  "date": "2026-10-12T23:27:58+00:00",
-  "desc": "La banca europea mantiene su atractivo en Bolsa, pese a la presión que ha ejercido sobre el sector la tensión en el mercado de bonos, aseguran los analistas. Leer",
-  "ccs": [],
-  "cat": "bd",
   "imp": "medium"
  }
 ]
