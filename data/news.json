@@ -1,485 +1,478 @@
 [
  {
-  "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-  "link": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
-  "source": "CNBC",
-  "date": "2026-10-14T20:12:14+00:00",
-  "desc": "Shares of CoreWeave sank 15%, while yields in its bonds blew out further.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'",
-  "link": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
-  "source": "CNBC",
-  "date": "2026-10-14T20:06:38+00:00",
-  "desc": "Barclays downgraded Dell, HPE, and NetApp on concerns that enterprise AI adoption is lagging.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
-  "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
-  "source": "CNBC",
-  "date": "2026-10-14T20:06:28+00:00",
-  "desc": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic’s Mythos, offering a rare look at costs involved in defending against AI.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "US inflation jumps to 3.7% as Iran war drives up prices",
-  "link": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T20:06:12+00:00",
-  "desc": "Rebound in fuel costs has piled pressure on voters ahead of midterm elections",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "Anduril employee tender offer would value the defense tech startup at $90 billion",
-  "link": "https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html",
-  "source": "CNBC",
-  "date": "2026-10-14T20:02:08+00:00",
-  "desc": "Anduril has been a major winner of the growing U.S. defense tech boom and President Donald Trump's plans to reindustrialize the U.S. military",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "US chip stocks slide as inflation and AI debt fears unsettle investors",
-  "link": "https://www.ft.com/content/fb258413-e88d-47fe-98c8-f645adaea1e1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T20:01:43+00:00",
-  "desc": "Nvidia, Oracle and CoreWeave fall as fervour around the technology cools",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-  "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T20:01:00+00:00",
-  "desc": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Perella Weinberg and Piper Sandler abandon merger talks",
-  "link": "https://www.ft.com/content/dadac221-a4dd-4935-897e-7f7faebe8f17?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T19:35:53+00:00",
-  "desc": "A deal would have created an independent investment bank with market value of $6bn",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-  "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T19:30:00+00:00",
-  "desc": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-  "ccs": [
-   "IT"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
-  "link": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
-  "source": "CNBC",
-  "date": "2026-10-14T19:22:00+00:00",
-  "desc": "Iran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
   "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
   "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-10-14T19:15:00+00:00",
+  "date": "2026-10-15T10:15:00+00:00",
   "desc": "”I earn $110,000 a year.”",
   "ccs": [],
   "cat": "eq",
   "imp": "high"
  },
  {
-  "title": "What to expect at the next Fed meeting now that rate-hike odds are rising",
-  "link": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T19:04:00+00:00",
-  "desc": "Market participants and economists are split on the question of whether or not the Federal Reserve will raise interest rates by another quarter-point in two weeks.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico",
-  "link": "https://www.cnbc.com/2026/10/14/trump-appeals-white-house-ban-judge.html",
+  "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire'",
+  "link": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
   "source": "CNBC",
-  "date": "2026-10-14T19:01:39+00:00",
-  "desc": "U.S. District Judge Timothy Kelly had ruled that the three outlets targeted by President Donald Trump can keep their access to the White House complex.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
-  "link": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T18:53:00+00:00",
-  "desc": "The cost-of-living adjustment for 2027 will be 3.6%, which will give Social Security recipients an average of $75 more per month.",
+  "date": "2026-10-15T10:13:25+00:00",
+  "desc": "Ukraine will now resume attacks on Russian energy targets after Moscow hasn't held up its end of the proposed deal brokered by Trump.",
   "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Treasury says largest U.S. banks let politics influence who received banking services",
-  "link": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
-  "source": "CNBC",
-  "date": "2026-10-14T18:51:42+00:00",
-  "desc": "New Treasury Department findings may lend weight to President Donald Trump’s long-running grievance that major banks have discriminated against conservatives.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Barclays avisa del 'riesgo Vox' para el coste de la deuda de España",
-  "link": "https://www.expansion.com/mercados/2026/10/14/6acf966be5fdead9198b45b2.html",
-  "source": "Expansión",
-  "date": "2026-10-14T18:50:30+00:00",
-  "desc": "Algunos analistas trazan la 'línea de puntos' entre Marine Le Pen y Santiago Abascal. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
-  "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T18:27:00+00:00",
-  "desc": "‘I don’t think you should jack up rates into this environment right now,’ says head of fixed-income at Aptus Capital Advisors",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most.",
-  "link": "https://www.marketwatch.com/story/taxing-stocks-estates-and-employee-benefits-could-keep-social-security-from-running-out-of-money-heres-who-could-pay-the-most-616be82c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T18:06:00+00:00",
-  "desc": "Social Security is projected to become insolvent in six years. These are some of the creative solutions that are on the table, beyond raising payroll taxes.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Will mortgage rates stay above 7% in 2027?",
-  "link": "https://www.marketwatch.com/story/will-mortgage-rates-stay-above-7-in-2027-437873bd?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T18:01:00+00:00",
-  "desc": "Two new forecasts spell bad news for home buyers and sellers",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Berkshire Hathaway adds $330mn to stake in tech group Bending Spoons",
-  "link": "https://www.ft.com/content/3f821be4-f137-4cc9-b0b0-b2014f2607c2?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T17:58:39+00:00",
-  "desc": "Shares of conglomerate that owns AOL and Vimeo jumped more than 40% on news of expanded investment before dropping back",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
-  "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T17:54:00+00:00",
-  "desc": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy",
-  "link": "https://www.ft.com/content/16ceb1fb-662c-4379-8187-0a51a7f4106f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T17:23:04+00:00",
-  "desc": "UK prime minister holds talks with Ukraine’s president in Downing Street following US diesel deal with Russia",
-  "ccs": [
-   "GB"
-  ],
   "cat": "ma",
   "imp": "medium"
  },
  {
-  "title": "How high inflation became a 'fact of life' in the U.S.",
-  "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-  "source": "CNBC",
-  "date": "2026-10-14T17:20:23+00:00",
-  "desc": "U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-  "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-14T17:08:23+00:00",
-  "desc": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
-  "link": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
-  "source": "CNBC",
-  "date": "2026-10-14T17:08:07+00:00",
-  "desc": "Fannie Mae just put out its latest forecast for mortgage rates, and they are much higher than previous estimates.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Wall Street Worries Bank of America’s Problems Will Linger",
-  "link": "https://www.wsj.com/finance/banking/wall-street-worries-bank-of-americas-problems-will-linger-a564492f?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-14T17:05:00+00:00",
-  "desc": "Weak earnings coupled with a fine has analysts pressing executives about whether there is more pain to come.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Las acciones del sector de defensa europeo emiten una señal de alarma geopolítica",
-  "link": "https://www.expansion.com/economia/financial-times/2026/10/14/acciones-sector-defensa-europeo-emiten-senal-alarma-geopolitica.html",
-  "source": "Expansión",
-  "date": "2026-10-14T16:58:18+00:00",
-  "desc": "Incluso cuando los Gobiernos comprometen grandes sumas, los contratistas de defensa tardan un tiempo en aumentar su producción. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "3 things that are driving inflation higher",
-  "link": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-14T16:50:00+00:00",
-  "desc": "Struggling with elevated prices? You don’t have to look much further than your local gas station.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
-  "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-14T16:49:11+00:00",
-  "desc": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Trump's diesel dilemma — by the numbers",
-  "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
-  "source": "CNBC",
-  "date": "2026-10-14T16:45:26+00:00",
-  "desc": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "The AI Boom Is Supercharging Wall Street’s Profits",
-  "link": "https://www.wsj.com/finance/banking/the-ai-boom-is-supercharging-wall-streets-profits-2a2d9747?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-14T16:14:00+00:00",
-  "desc": "Investment banking revenues are up, and wealth-management divisions are winning new AI millionaires as clients.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Freshfields partners explore carve-out of AI unit worth ‘billions’, leaked emails reveal",
-  "link": "https://www.ft.com/content/64f058ff-c8c2-4e63-bf7f-57c08ce685cb?syn-25a6b1a6=1",
+  "title": "EU leaders to urge Zelenskyy to rein in criticism of Trump",
+  "link": "https://www.ft.com/content/fb2110b4-50d2-4ff9-9886-f7b42c5b4579?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-10-14T15:48:09+00:00",
-  "desc": "Exchange discussed putting legal tech unit into separate entity before valuations fall",
+  "date": "2026-10-15T10:05:55+00:00",
+  "desc": "Ukrainian leader’s comments about US president alarm European capitals",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
+  "link": "https://www.cnbc.com/2026/10/15/france-budget-deficit-moulin-protests.html",
+  "source": "CNBC",
+  "date": "2026-10-15T10:05:53+00:00",
+  "desc": "France is able to slash its huge budget deficit troubling investors across the globe, according to the head of the country's central bank.",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "A New Private-Equity Firm Specializes in Giving Companies AI Glow-Ups",
+  "link": "https://www.wsj.com/finance/investing/a-new-private-equity-firm-specializes-in-giving-companies-ai-glow-ups-86fcb48e?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-15T10:00:00+00:00",
+  "desc": "Aldaron, with co-founders coming from Palantir and Carlyle, recently closed its debut fund and made its first investment.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "El Ibex modera las ganancias al 0,1% lastrado por el dato de inflación en EEUU",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/14/6acf1b16468aeb6b438b456d.html",
-  "source": "Expansión",
-  "date": "2026-10-14T15:40:54+00:00",
-  "desc": "La inflación se resiste a diluir su protagonismo en los mercados. El IPC de EEUU ha subido más de lo esperado, también en su tasa subyacente, lo que ha moderado las ganancias de las Bolsas europeas. El Ibex ha despedido",
-  "ccs": [
-   "US",
-   "ES"
-  ],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
-  "link": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+  "title": "What to know about Starshield, SpaceX's military-focused Starlink service",
+  "link": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
   "source": "CNBC",
-  "date": "2026-10-14T15:03:59+00:00",
-  "desc": "Netflix will lay off roughly 6% of its workforce, according to a memo obtained by CNBC.",
+  "date": "2026-10-15T09:58:40+00:00",
+  "desc": "Elon Musk distinguished Starshield from Starlink, which he said could not be used for offensive military operations.",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Here's the inflation breakdown for September 2026 — in one chart",
-  "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
-  "source": "CNBC",
-  "date": "2026-10-14T14:56:25+00:00",
-  "desc": "The consumer price index rose by 3.7% in September, on the back of higher gasoline and energy prices largely due to the Iran war.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
-  "link": "https://www.ft.com/content/b71e0dc4-b190-49ec-b000-bd585054ddc8?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T14:40:47+00:00",
-  "desc": "Arrest of computer engineer Abdulrahman Alfozan has shocked tech figures in Saudi Arabia, where he is deeply connected",
-  "ccs": [
-   "SA"
-  ],
-  "cat": "en_",
+  "cat": "gp",
   "imp": "medium"
  },
  {
-  "title": "Euríbor hoy, 14 de octubre: El Euríbor sobrepasa el 3,2%",
-  "link": "https://www.expansion.com/mercados/euribor/2026/10/14/6acf8fcce5fdea507d8b45a4.html",
+  "title": "El precio del Bitcoin hoy, 15 de octubre: el Bitcoin asciende de los 81.000 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/10/15/6ad09d24e5fdea36398b4594.html",
   "source": "Expansión",
-  "date": "2026-10-14T14:21:03+00:00",
-  "desc": "El Euríbor paso a paso sigue incrementando su tasa, lo que deja la media mensual en el 3,216% en octubre Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Morgan Stanley gana 16.000 millones a septiembre, un 29% más",
-  "link": "https://www.expansion.com/empresas/banca/2026/10/14/6acf89bde5fdea546b8b45b3.html",
-  "source": "Expansión",
-  "date": "2026-10-14T13:56:14+00:00",
-  "desc": "La operativa con acciones impulsa con fuerza los resultados del banco de inversión. Leer",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Debanking Probe Finds JPMorgan, Banks Cut Off MAGA Sellers and Democrat Groups",
-  "link": "https://www.wsj.com/finance/regulation/debanking-probe-finds-jpmorgan-banks-cut-off-maga-sellers-and-democrat-groups-c170d0a5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-14T13:43:00+00:00",
-  "desc": "An investigation by a Trump regulator detailed examples of businesses and individuals getting shut out by the nation’s biggest banks.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "BlackRock gana 5.800 millones de dólares en nueve meses, un 30% más",
-  "link": "https://www.expansion.com/empresas/banca/2026/10/14/6acf83ee468aebb80c8b4588.html",
-  "source": "Expansión",
-  "date": "2026-10-14T13:37:59+00:00",
-  "desc": "La mayor gestora de fondos del mundo supera las previsiones del mercado y eleva un 15% sus activos bajo gestión Leer",
+  "date": "2026-10-15T09:36:25+00:00",
+  "desc": "Asciende el precio del bitcoin hoy 15 de octubre y se queda en 82.431,25 dólares. Leer",
   "ccs": [],
   "cat": "fx",
   "imp": "medium"
  },
  {
-  "title": "Una multa antiblanqueo de más de 1.000 millones lastra los resultados de Bank of America",
-  "link": "https://www.expansion.com/empresas/banca/2026/10/14/6acf71f6468aeb27338b457d.html",
-  "source": "Expansión",
-  "date": "2026-10-14T12:20:36+00:00",
-  "desc": "Una sanción de 1.200 millones de dólares por deficiencias de control contribuye a reducir un 17% el beneficio trimestral del segundo gran banco de EEUU, que limita su ganancia en lo que va de año a 24.600 millones, un 7,",
+  "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+  "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+  "source": "CNBC",
+  "date": "2026-10-15T09:30:06+00:00",
+  "desc": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
   "ccs": [
    "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Rising Rates Threaten Wall Street’s Golden Goose in Trading",
+  "link": "https://www.wsj.com/finance/banking/rising-rates-threaten-wall-streets-golden-goose-in-trading-db7fc8cb?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-15T09:30:00+00:00",
+  "desc": "Weak bond markets undermine what had been a strength for big banks.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Global stocks sell-off deepens as chipmakers tumble",
+  "link": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T09:23:29+00:00",
+  "desc": "European and Asian equities slide as investors question durability of AI boom",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "El Ibex sortea la tensión en los mercados",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/15/6ad06b43e5fdea926a8b459b.html",
+  "source": "Expansión",
+  "date": "2026-10-15T09:22:02+00:00",
+  "desc": "Una nueva oleada de ventas sacude a las tecnológicas. El revés se agrava en Asia. Europa vuelve a pasar de puntillas debido a su menor exposición a las temáticas de la IA. El Ibex también sortea la mayor tensión en los m",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "US floats unfreezing some Russian assets to restart Ukraine peace talks",
+  "link": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T09:19:26+00:00",
+  "desc": "European officials balked at proposal made by Donald Trump’s negotiators during meeting in Miami",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "El sector históricamente más beneficiado con cada pinchazo tecnológico",
+  "link": "https://www.expansion.com/mercados/2026/10/15/6ad075a6468aeb91288b45a8.html",
+  "source": "Expansión",
+  "date": "2026-10-15T09:18:38+00:00",
+  "desc": "Las tecnológicas se abonan a las turbulencias. El sector protagoniza hoy su segundo correctivo generalizado en lo que va de semana. Esta volatilidad lleva a firmas como RBC a reducir su exposición a la tecnología y a bus",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "I’m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+  "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T09:15:00+00:00",
+  "desc": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
+  "link": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T09:10:19+00:00",
+  "desc": "Ukrainian president expresses anger in FT interview at ‘dangerous’ withdrawal of US intelligence sharing and weakening of Starlink satellite internet service",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+  "link": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+  "source": "CNBC Markets",
+  "date": "2026-10-15T09:02:31+00:00",
+  "desc": "European trade commissioner Maroš Sefčovič met with Chinese Commerce Minister Wang Wentao in Beijing last week.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "‘New Girl’ star Jake Johnson lists lush and private Pasadena estate for $3.3 million",
+  "link": "https://www.marketwatch.com/story/new-girl-star-jake-johnson-lists-lush-and-private-pasadena-estate-for-3-3-million-b6788838?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T09:01:00+00:00",
+  "desc": "Jake Johnson is looking to sell his four-bedroom, four-bathroom Southern California property, which offers approximately 3,153 square feet of living space.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Chipmaker TSMC profits surge amid relentless AI demand",
+  "link": "https://www.ft.com/content/bf6808c6-ce2d-444f-86c9-a9b557b36a47?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T08:54:15+00:00",
+  "desc": "Taiwanese manufacturer beats estimates in third quarter with earnings of $23.6bn",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Why the AI trade is not set up for a rebound like July’s, according to JPMorgan",
+  "link": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T08:53:00+00:00",
+  "desc": "Fewer shorts, buybacks ending,  no inflows and too many longs imply no recovery is imminent, says a JPMorgan strategist.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "TSMC CEO sees no sign of a slowdown as chip foundry reports record profit",
+  "link": "https://www.marketwatch.com/story/tsmc-ceo-sees-no-sign-of-a-slowdown-as-chip-foundry-reports-record-profit-17a065d3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T08:42:00+00:00",
+  "desc": "The semiconductor foundry announced third-quarter net profits of 763.34 Taiwanese new dollars, marking a record.",
+  "ccs": [
+   "CN"
   ],
   "cat": "er",
   "imp": "medium"
  },
  {
-  "title": "Panza Capital destina la mitad de su cartera a la construcción",
-  "link": "https://www.expansion.com/inversion/2026/10/14/6acf69e5e5fdea5f678b457c.html",
-  "source": "Expansión",
-  "date": "2026-10-14T12:09:28+00:00",
-  "desc": "Beltrán de la Lastra, presidente de la gestora, ha asegurado en la presentación de esta mañana que no es una posición considerada de riesgo, ya que está muy diversificada tanto por tipo de negocios ligados a la construcc",
+  "title": "Nvidia, AMD, Micron fall as AI stock sell-off deepens",
+  "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+  "source": "CNBC",
+  "date": "2026-10-15T08:18:14+00:00",
+  "desc": "A sell-off in global technology hardware stocks deepened Thursday.",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
+  "cat": "gp",
+  "imp": "high"
  },
  {
-  "title": "El mayor acaparador de ethereum roza ya el 5% de todos los tokens",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/10/14/6acf52fe468aeb6f558b456d.html",
-  "source": "Expansión",
-  "date": "2026-10-14T11:48:57+00:00",
-  "desc": "Los mayores referentes de la tesorería cripto han relanzado sus compras durante las últimas semanas. Entre sus protagonistas destaca Bitmine, el mayor acaparador de ethereum del mundo. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Ukraine blindsided by Starlink restrictions and intelligence gaps",
-  "link": "https://www.ft.com/content/37085602-726a-44dc-a859-51caab38eb75?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-14T11:09:54+00:00",
-  "desc": "Moscow ignores Donald Trump’s ‘energy ceasefire’ while Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network",
-  "ccs": [],
-  "cat": "en_",
+  "title": "Stock Market Today: Tech Selloff to Extend Into Second Day",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-15-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-15T08:17:42+00:00",
+  "desc": "Asian stocks slump and Nasdaq futures slide; Treasury yields ease",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
   "imp": "medium"
  },
  {
-  "title": "Marine Le Pen: ‘All the warning signs are flashing red’",
-  "link": "https://www.ft.com/content/73cfaf41-d3ea-4202-bd9b-f355c9e5b504?syn-25a6b1a6=1",
+  "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+  "link": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+  "source": "CNBC",
+  "date": "2026-10-15T08:09:37+00:00",
+  "desc": "TSMC reported its third-quarter earnings on Thursday.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
+  "link": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
+  "source": "CNBC",
+  "date": "2026-10-15T07:51:22+00:00",
+  "desc": "\"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "From 'Dune' to 'Wicker,' how this ‘tiny’ European country became a hub for Hollywood",
+  "link": "https://www.cnbc.com/2026/10/15/hungary-film-industry-hollywood-movies.html",
+  "source": "CNBC",
+  "date": "2026-10-15T06:09:01+00:00",
+  "desc": "Hungary, a small country in central Europe, has played a major part in the movie business since the late 19th century.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "London’s gold market enjoys the Trump effect",
+  "link": "https://www.ft.com/content/bbb1d399-e91c-4600-9882-ea93e1f96ac9?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-10-14T11:02:02+00:00",
-  "desc": "In a wide-ranging interview with the FT, the far-right leader declares that France is ready to close the chapter on mainstream politics",
+  "date": "2026-10-15T04:00:39+00:00",
+  "desc": "The City’s dominance of physical trading in the metal is being reinforced by global instability",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Marsh to pay biggest share of $800mn settlement with Credit Suisse over Greensill collapse",
+  "link": "https://www.ft.com/content/43c9d38a-652a-45df-b3be-c3dead3390f1?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T04:00:39+00:00",
+  "desc": "Deal is rare example of broker bearing largest share of a settlement rather than insurers who wrote policies",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "The man who would lead McKinsey",
+  "link": "https://www.ft.com/content/ff917929-c68e-4bf6-b77f-ee1f7d675934?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T04:00:29+00:00",
+  "desc": "North America boss Eric Kutcher is the candidate to beat in the consultancy’s byzantine election",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Is the K-shaped economy really more of an E?",
+  "link": "https://www.ft.com/content/2feb3013-c01a-4fa6-aa11-67354fb71cc8?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T04:00:29+00:00",
+  "desc": "America remains a very unequal place, but on many metrics inequality is not increasing",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "French debt worries spill into stocks, driving biggest underperformance since 2010",
+  "link": "https://www.ft.com/content/69bfdf93-cbba-477c-9fb0-5978d1d4f506?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T04:00:29+00:00",
+  "desc": "Investors demand big discounts against regional peers to reflect troubled public finances and looming presidential election",
   "ccs": [
    "FR"
   ],
-  "cat": "gp",
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Farmed salmon now being raised on chicken",
+  "link": "https://www.ft.com/content/8f1e2cc9-4e2a-48f0-9750-251585e345d3?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T04:00:29+00:00",
+  "desc": "Fears of consumer backlash pushed aside as producers respond to surge in fishmeal prices",
+  "ccs": [],
+  "cat": "eq",
   "imp": "high"
+ },
+ {
+  "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+  "link": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+  "source": "CNBC",
+  "date": "2026-10-15T03:48:58+00:00",
+  "desc": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "A Swiss Banking Giant Thinks the Unthinkable: Moving Out of Switzerland",
+  "link": "https://www.wsj.com/finance/banking/a-swiss-banking-giant-thinks-the-unthinkable-moving-out-of-switzerland-ecc82d50?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-15T02:00:00+00:00",
+  "desc": "The bank has received approaches from potential U.S. deal partners as it publicly spars with Swiss politicians over substantially higher capital requirements.",
+  "ccs": [
+   "US",
+   "CH"
+  ],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic’s slowing growth could be the AI trade’s latest red flag",
+  "link": "https://www.marketwatch.com/story/anthropics-slowing-growth-could-be-the-ai-trades-latest-red-flag-292d0169?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T01:07:00+00:00",
+  "desc": "Anthropic’s revenue growth appears to be cooling as the company prepares for its public debut, further stoking investors’ AI jitters",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic tells investors its quarterly revenue jumped 50%",
+  "link": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-15T00:59:36+00:00",
+  "desc": "Rapid growth is slower than some anticipated as fears about AI trade rattle markets",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic’s Quarterly Revenue Jumped 45% to Nearly $17 Billion",
+  "link": "https://www.wsj.com/tech/ai/anthropics-quarterly-revenue-jumped-45-to-nearly-17-billion-1c7e28b8?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-15T00:17:00+00:00",
+  "desc": "The artificial-intelligence giant met with public-market investors Wednesday ahead of its planned IPO next month.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
+  "link": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-15T00:02:00+00:00",
+  "desc": "Neutron, a medium-lift rocket meant to rival SpaceX’s Falcon 9, will no longer launch this year.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+  "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-14T23:36:00+00:00",
+  "desc": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "La otra inversión en ladrillo: acciones y plataformas",
+  "link": "https://www.expansion.com/mercados/2026/10/15/6ad005c0e5fdea40778b459f.html",
+  "source": "Expansión",
+  "date": "2026-10-14T23:34:11+00:00",
+  "desc": "La escalada del precio de la vivienda dificulta a muchas familias comprar una para invertir, pero existe un amplio abanico de posibilidades para tomar posiciones en todos sus segmentos. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+  "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-14T22:45:00+00:00",
+  "desc": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Los 19 de 19 precedentes alcistas que auguran nuevas subidas en Bolsa",
+  "link": "https://www.expansion.com/mercados/2026/10/15/6acf745d468aebaf058b458c.html",
+  "source": "Expansión",
+  "date": "2026-10-14T22:25:03+00:00",
+  "desc": "La agenda financiera se adentra en un periodo especialmente frenético por la acumulación de referencias clave. Pero también pone fecha a una variable que arroja un sesgo claramente alcista en Bolsa, al arrojar \"una tasa",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+  "link": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-14T22:25:00+00:00",
+  "desc": "For most of U.S. history, an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "La deuda soberana hace sufrir a la banca en Bolsa: ¿Irá la corrección a más?",
+  "link": "https://www.expansion.com/mercados/2026/10/15/6acfc657468aeb98458b45a8.html",
+  "source": "Expansión",
+  "date": "2026-10-14T22:24:05+00:00",
+  "desc": "La banca española pelea para evitar la tercera semana consecutiva de pérdidas en Bolsa, en la que sería la peor racha desde el pasado mes de marzo. Leer",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+  "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
+  "source": "CNBC",
+  "date": "2026-10-14T21:18:13+00:00",
+  "desc": "\"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July",
+  "link": "https://www.wsj.com/finance/stocks/ai-jitters-and-rate-hike-fears-combine-for-worst-day-for-stocks-since-july-6abd3a0f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-14T21:13:00+00:00",
+  "desc": "A hot inflation report reset expectations for an October rate increase. Then wavering confidence in the AI trade took center stage.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
  }
 ]
