@@ -1,26 +1,355 @@
 [
  {
-  "title": "Trump says he won't use nuclear weapons or send ground troops to Iran",
-  "link": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
+  "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+  "link": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
   "source": "CNBC",
-  "date": "2026-10-16T09:46:54+00:00",
-  "desc": "Trump said he would not use nuclear weapons against Iran or send ground troops as the U.S. reportedly weighs new strike options.",
+  "date": "2026-10-16T19:33:21+00:00",
+  "desc": "U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.",
   "ccs": [
-   "US",
-   "KR"
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
+  "link": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+  "source": "CNBC",
+  "date": "2026-10-16T19:28:46+00:00",
+  "desc": "Ukrainian officials complained this week that SpaceX had limited internet connectivity without advance notice.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+  "link": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
+  "source": "CNBC",
+  "date": "2026-10-16T19:28:10+00:00",
+  "desc": "The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
+  "link": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+  "source": "CNBC",
+  "date": "2026-10-16T19:00:24+00:00",
+  "desc": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+  "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T19:00:00+00:00",
+  "desc": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Big Tech stocks head for biggest weekly drop since ‘liberation day’",
+  "link": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T18:58:24+00:00",
+  "desc": "AI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Katie Zacharia out as Trump's White House press secretary",
+  "link": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+  "source": "CNBC",
+  "date": "2026-10-16T18:55:24+00:00",
+  "desc": "Zacharia was on shaky ground from her first White House press conference, and over questions about her claims of being a lawyer despite not passing a bar exam.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+  "link": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+  "source": "CNBC",
+  "date": "2026-10-16T18:55:17+00:00",
+  "desc": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "AI investors have woken up to the bond market’s warning signs",
+  "link": "https://www.marketwatch.com/story/ai-investors-have-woken-up-to-the-bond-markets-warning-signs-6f604c61?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:52:00+00:00",
+  "desc": "Also in Weekend Reads: Robotic housekeeping, how to save on a wedding, and advice from The Moneyist.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
+  "link": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:37:00+00:00",
+  "desc": "Anthropic and New York City’s comptroller have opened a line of communication to discuss “existential risks” posed by AI and what that could mean for the company’s future stock.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "US illegal border crossings from Mexico near 60-year low",
+  "link": "https://www.ft.com/content/e98c5079-0c9a-4747-afa7-7bc9725795cd?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T18:30:55+00:00",
+  "desc": "About 98,708 apprehensions were recorded this year, down from peaks of  more than 2mn people under Biden",
+  "ccs": [
+   "MX"
   ],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Tesla reveals next-generation Roadster after almost a decade of delays",
-  "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
-  "source": "CNBC",
-  "date": "2026-10-16T09:42:24+00:00",
-  "desc": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
+  "title": "‘I like the idea of a big return’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+  "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:30:00+00:00",
+  "desc": "“I know you’re not supposed to put money you can’t afford to lose into speculative stuff.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
+ },
+ {
+  "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+  "link": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+  "source": "CNBC",
+  "date": "2026-10-16T18:24:35+00:00",
+  "desc": "After a 27.5% drop from last Friday's close to this Thursday morning's 52-week lows, followed by a 17% rebound, equity traders holding CoreWeave are dazed.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Trump’s press secretary Katie Zacharia fired after five days",
+  "link": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T18:23:09+00:00",
+  "desc": "Exit comes amid deepening turmoil for White House as midterm elections loom",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "From Verizon to UnitedHealth, Corporate America Is Balking at ‘Tokenized’ Stocks",
+  "link": "https://www.wsj.com/finance/stocks/from-verizon-to-unitedhealth-corporate-america-is-balking-at-tokenized-stocks-6dbbeada?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-16T18:18:00+00:00",
+  "desc": "Broadcom and other companies have objected to tokenizing their shares under a new regulatory framework.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+  "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+  "source": "CNBC",
+  "date": "2026-10-16T18:04:20+00:00",
+  "desc": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+  "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:01:00+00:00",
+  "desc": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Welcome to the ‘AI burnout trade’ — as investors grow tired of debating tech’s promises",
+  "link": "https://www.marketwatch.com/story/welcome-to-the-ai-burnout-trade-as-investors-grow-tired-of-debating-techs-promises-6ae7836e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:01:00+00:00",
+  "desc": "AI is likely to pay off eventually, but investors are getting sick of all the hand-wringing over near-term returns, analysts say.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "The U.S. budget deficit just hit almost $2 trillion — and Washington isn’t doing much about it",
+  "link": "https://www.marketwatch.com/story/the-u-s-budget-deficit-just-hit-almost-2-trillion-and-washington-isnt-doing-much-about-it-a1b5c4ea?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T18:00:00+00:00",
+  "desc": "The deficit figure is the largest since 2021 and amounts to an estimated 6.2% of U.S. gross domestic product.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+  "link": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+  "source": "CNBC",
+  "date": "2026-10-16T17:55:05+00:00",
+  "desc": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "high"
+ },
+ {
+  "title": "I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+  "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T17:35:00+00:00",
+  "desc": "“My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Here’s how the Fed should reveal its outlook for the economy",
+  "link": "https://www.marketwatch.com/story/heres-how-the-fed-should-reveal-its-outlook-for-the-economy-79629f25?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T17:07:00+00:00",
+  "desc": "As Chairman Kevin Warsh looks to revamp the central bank’s communication strategy, the dot plot is ripe for change.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+  "link": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+  "source": "CNBC",
+  "date": "2026-10-16T17:02:40+00:00",
+  "desc": "Kalshi odds for a Tesla-SpaceX merger rose above 50% for early 2027 as Barclays outlined how a deal could work.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+  "link": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+  "source": "CNBC",
+  "date": "2026-10-16T16:46:18+00:00",
+  "desc": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.",
+  "link": "https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-16T16:39:00+00:00",
+  "desc": "Spending all your cash first can make your income surge in later years.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Alexandr Wang, Meta’s AI wunderkind",
+  "link": "https://www.ft.com/content/7477e462-c899-4841-a5cf-c01706e23982?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T16:31:25+00:00",
+  "desc": "The 29-year-old in charge of the company’s Superintelligence Labs is being touted as a potential successor to Mark Zuckerberg",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+  "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+  "source": "CNBC",
+  "date": "2026-10-16T15:52:41+00:00",
+  "desc": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "El Ibex supera los 19.300 puntos y aumenta la ganancia semanal al 1,5%",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/16/6ad1bca4e5fdead6768b456d.html",
+  "source": "Expansión",
+  "date": "2026-10-16T15:37:27+00:00",
+  "desc": "La tregua en las tecnológicas y en la deuda han animado a las compras en las Bolsas europeas, que han despedido la última sesión de la semana en positivo. El Ibex ha sumado un 0,77% hasta los 19.326,30 puntos y ha saldad",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
+  "link": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T14:58:54+00:00",
+  "desc": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Your ‘Cheap’ ETF Costs More Than You Think",
+  "link": "https://www.wsj.com/finance/investing/your-cheap-etf-costs-more-than-you-think-e7e34eea?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-16T13:00:00+00:00",
+  "desc": "The costs of many popular funds have barely budged even though assets have soared.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Qué hacer en Ferrovial tras su bache en el Ibex",
+  "link": "https://www.expansion.com/mercados/2026/10/16/6ad1f86f468aebe7128b4577.html",
+  "source": "Expansión",
+  "date": "2026-10-16T11:49:04+00:00",
+  "desc": "Ferrovial está a punto de liderar las caídas del Ibex en 2026. La nueva concesión adjudicada en EEUU desató ayer caídas adicionales del 4% en sus acciones. Los analistas se hacen eco de las dudas sobre los últimos proyec",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The Radical Plan That Could Torch Your Portfolio",
+  "link": "https://www.wsj.com/finance/stocks/the-radical-plan-that-could-torch-your-portfolio-5baa09b3?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-16T10:39:00+00:00",
+  "desc": "Plus, rate bets ease.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Republicans turn on Trump’s tariffs in battle for ‘political survival’",
+  "link": "https://www.ft.com/content/e2acd655-0a6a-4de6-9404-c838f6e7b8cb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T10:00:09+00:00",
+  "desc": "US president’s trade war has become an albatross for his party in crucial midterm election races",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
  },
  {
   "title": "AI Agents Bring New Headaches to Online Sellers",
@@ -30,70 +359,6 @@
   "desc": "AI agents inserting themselves between businesses and customers pose challenges for e-commerce players caught in the middle.",
   "ccs": [],
   "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "EU vows to maintain Russia sanctions after US pivot",
-  "link": "https://www.ft.com/content/ee6dfd48-fa31-4bde-9962-2f9f09c36798?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T09:26:37+00:00",
-  "desc": "European leaders close ranks around Volodymyr Zelenskyy following Donald Trump’s fuel deal with Moscow",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
-  "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-16T09:16:00+00:00",
-  "desc": "Federal Reserve Chair Kevin Warsh had an opportunity Thursday night to shape expectations heading into the central bank’s interest-rate-setting meeting in two week’s time — and in keeping with his practice of leaving mar",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "‘It’s a wait-and-see situation’: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
-  "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-16T09:15:00+00:00",
-  "desc": "“My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The pull of Nashville: A dozen celebrities who have moved to Tennessee, and why",
-  "link": "https://www.marketwatch.com/story/the-pull-of-nashville-a-dozen-celebrities-who-have-moved-to-tennessee-and-why-68446959?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-16T09:05:00+00:00",
-  "desc": "Nashville has long been home to many big names in R&B and country music, but over the last few years, celebrities from a variety of industries have flocked to the Music City.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Zelenskyy praises 'real leaders' in Europe, as his strained relationship with Trump overshadows EU summit",
-  "link": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
-  "source": "CNBC",
-  "date": "2026-10-16T08:52:54+00:00",
-  "desc": "Zelenskyy's strained relationship with Trump is clouding the EU summit focused on securing further support for Ukraine.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex apunta al alza para asegurar la semana",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/16/6ad1bca4e5fdead6768b456d.html",
-  "source": "Expansión",
-  "date": "2026-10-16T08:52:26+00:00",
-  "desc": "La mayor tregua en las tecnológicas y la brusca reacción alcista en la deuda, con la consiguiente caída en los intereses exigidos, apaciguan los ánimos en los mercados. El Ibex busca asegurar el balance positivo de la se",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "bd",
   "imp": "medium"
  },
  {
@@ -107,14 +372,16 @@
   "imp": "high"
  },
  {
-  "title": "Stock Market Today: Investors Pare Rate-Hike Bets After Warsh Declines to Guide on Next Move",
+  "title": "Stock Market Today: Nasdaq Close to Biggest Weekly Loss in More Than a Year",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-10-16T08:08:29+00:00",
-  "desc": "Markets steady and oveseas stocks regain some ground, but AI anxieties remain",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
+  "desc": "Tech-stock benchmark down 4.5% this week as AI anxieties deepen",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
  },
  {
   "title": "High Rates Have Upturned How Moody’s Looks at Credit Risk, Chief Credit Officer Says",
@@ -137,70 +404,12 @@
   "imp": "medium"
  },
  {
-  "title": "Fed's Warsh withholds rate signal, praises recent global tightening with 'no free riders'",
-  "link": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-  "source": "CNBC",
-  "date": "2026-10-16T07:11:22+00:00",
-  "desc": "Warsh refrained from signaling another interest rate hike this month, pointed to a \"synchronous tightening\" by central banks in the fight against inflation.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Healey signals tax raid on banks in Budget",
-  "link": "https://www.ft.com/content/09e07278-8479-49bb-a145-51e5d93828a2?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T07:08:49+00:00",
-  "desc": "Chancellor points to looming ‘decisions’ as financial services sector braces for higher levies",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
-  "link": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html",
-  "source": "CNBC",
-  "date": "2026-10-16T06:45:02+00:00",
-  "desc": "Not only is Ambani's Reliance investing in a U.S. refinery and buying Venezuelan oil, but its strong ability to supply diesel has put Jamnagar on the map during Rubio's visit.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Bets on Fed rate hold in October strengthen after Warsh comments",
-  "link": "https://www.ft.com/content/95a8e05d-fc20-441d-b271-64e87fe41f76?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T06:37:09+00:00",
-  "desc": "US central bank chair says economy has ‘broadly conformed with our expectations’ since rate increase in September",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
   "title": "¿Qué estrategias de inversión me aconseja por activos, sectores y países?",
   "link": "https://www.expansion.com/encuentros/victor-alvargonzalez/2026/06/03/index.html",
   "source": "Expansión",
   "date": "2026-10-16T06:14:54+00:00",
   "desc": "Está adaptada mi cartera de fondos a las nuevas circunstancias del mercado? ¿Dónde considera que están las mejores oportunidades de inversión? Víctor Alvargonzález, socio fundador de Nextep, responde a sus dudas hoy a pa",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Russia returns to G20 table in Bangkok on U.S. invitation that angers Europe",
-  "link": "https://www.cnbc.com/2026/10/16/g20-russia-ukraine-trump-diesel-europe-.html",
-  "source": "CNBC",
-  "date": "2026-10-16T06:11:35+00:00",
-  "desc": "Russia’s return to the G20 table has tested how far Washington’s outreach to Moscow will strain ties with European allies.",
-  "ccs": [
-   "US"
-  ],
   "cat": "eq",
   "imp": "low"
  },
@@ -217,14 +426,26 @@
   "imp": "medium"
  },
  {
-  "title": "Fight night for Trump’s America",
-  "link": "https://www.ft.com/content/56d14d34-955a-41e9-90da-5eda7d179509?syn-25a6b1a6=1",
+  "title": "The data centre IPO debacle that sparked a market meltdown",
+  "link": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-10-16T04:00:17+00:00",
-  "desc": "For politicians, celebrities and tycoons, the brutal Ultimate Fighting Championship has become a vote-winner and money-spinner like no other",
+  "date": "2026-10-16T04:54:52+00:00",
+  "desc": "Decisions by Australian groups Firmus and AirTrunk have added to concerns about the AI borrowing frenzy",
+  "ccs": [
+   "AU"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic assigned highest junk credit rating in June",
+  "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-16T04:00:18+00:00",
+  "desc": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
+  "cat": "bd",
+  "imp": "medium"
  },
  {
   "title": "US business leaders are waking up to the perils of plutopopulism",
@@ -247,49 +468,6 @@
   "imp": "low"
  },
  {
-  "title": "UK tried to persuade UBS to move to London",
-  "link": "https://www.ft.com/content/1bd1cdc2-9dc1-4538-8820-129e9bd9117b?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T04:00:17+00:00",
-  "desc": "Rachel Reeves pitched City as alternative home for Swiss bank, which is weighing its options amid new capital proposals",
-  "ccs": [
-   "GB",
-   "CH"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "World’s worst-performing stock market hit by fresh MSCI warning",
-  "link": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T03:35:18+00:00",
-  "desc": "Warning from global index provider fuels concerns about investability in south-east Asia’s biggest economy",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Tesla finally delivers on its promise to create a flying car",
-  "link": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-16T02:42:00+00:00",
-  "desc": "Tesla’s demonstration of a levitating Roadster sports car was “an engineering flex with no commercial value beyond embarrassing traditional car makers.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Tesla unveils ‘flying’ sports car with SpaceX rocket thrusters",
-  "link": "https://www.ft.com/content/a43a24b7-2127-400e-8b75-fe970931df51?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-16T02:41:40+00:00",
-  "desc": "Roadster makes debut after decade in development as EV maker tries to revive image as brash innovator",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "Los rascacielos de Nueva York arrojan rentabilidades del 6%",
   "link": "https://www.expansion.com/inversion/2026/10/16/6ac90040468aeb591e8b4570.html",
   "source": "Expansión",
@@ -297,182 +475,6 @@
   "desc": "El precio del alquiler marca récord y la ocupación de oficinas se dispara, pero el alza de tipos pasa factura. Leer",
   "ccs": [],
   "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
-  "link": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T23:29:00+00:00",
-  "desc": "As more people switch to Coke, some analysts are getting more worried about the state of archrival Pepsi.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Bestinver reduce su inversión en banca y compra Digi y Meliá",
-  "link": "https://www.expansion.com/mercados/2026/10/16/6ad15d77e5fdea357e8b45ab.html",
-  "source": "Expansión",
-  "date": "2026-10-15T23:18:01+00:00",
-  "desc": "Los bancos comienzan a ceder protagonismo en las carteras de los grandes inversores. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Netflix Chief Content Officer Bela Bajaria is leaving, will be replaced by Peter Rice",
-  "link": "https://www.cnbc.com/2026/10/15/netflix-bela-bajaria-peter-rice.html",
-  "source": "CNBC",
-  "date": "2026-10-15T23:08:05+00:00",
-  "desc": "Netflix announced Bela Bajaria will be replaced by former Disney exec Peter Rice as the company's chief content officer.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Así es Robeco, la gestora europea que lleva un siglo invirtiendo en emergentes",
-  "link": "https://www.expansion.com/mercados/fondos/2026/10/16/6acf8b6ae5fdea85168b45aa.html",
-  "source": "Expansión",
-  "date": "2026-10-15T23:07:22+00:00",
-  "desc": "La oficina de Madrid, liderada por Laura Román, cuenta con unos activos bajo gestión de 12.000 millones de euros. Robeco destaca por su enfoque cuantitativo, la inversión temática y la sostenibilidad. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "People in China are spending nearly as much of their income as Americans on healthcare",
-  "link": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html",
-  "source": "CNBC Markets",
-  "date": "2026-10-15T23:00:01+00:00",
-  "desc": "Increasing government spending on healthcare could help boost consumption in China, the International Monetary Fund said.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-  "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T22:31:00+00:00",
-  "desc": "”I earn $110,000 a year.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
-  "link": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
-  "source": "CNBC",
-  "date": "2026-10-15T22:16:13+00:00",
-  "desc": "CNBC’s Jim Cramer said Thursday’s AI sell-off underscores the importance of owning stocks outside the market’s hottest trade.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
-  "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T22:15:00+00:00",
-  "desc": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
-  "link": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T21:56:00+00:00",
-  "desc": "Popular AI names are under pressure again this week — but the pain could worsen after the Nov. 3 election.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Trump says 'if Ken Paxton loses' Texas Senate race, blame Cornyn and Karl Rove",
-  "link": "https://www.cnbc.com/2026/10/15/trump-paxton-texas-talarico.html",
-  "source": "CNBC",
-  "date": "2026-10-15T21:42:14+00:00",
-  "desc": "Polls show GOP Attorney General Ken Paxton trailing Democratic Rep. James Talarico in the Texas Senate race.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
-  "link": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T21:23:00+00:00",
-  "desc": "Reported details about Anthropic’s financial progress are adding to concerns about the health of the AI ecosystem.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
-  "link": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-15T21:21:00+00:00",
-  "desc": "Investors have a ‘love-hate relationship’ with tech stocks now — and experts recommend selectively hunting for bargains while also betting on the major cloud companies.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Trump weighs easing restrictions on Russian and Iranian ‘shadow fleet’",
-  "link": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-15T21:10:51+00:00",
-  "desc": "A White House desperate to lower fuel costs ahead of US midterm elections could allow such vessels back into global trade",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
-  "link": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
-  "source": "CNBC",
-  "date": "2026-10-15T21:03:50+00:00",
-  "desc": "KFC is switching from PepsiCo to Coca-Cola as its beverage supplier for U.S. restaurants.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The Riskiest Corner of the AI Trade Is Crashing Into Higher Rates",
-  "link": "https://www.wsj.com/finance/stocks/the-riskiest-corner-of-the-ai-trade-is-crashing-into-higher-rates-fcdaad37?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-15T21:00:00+00:00",
-  "desc": "The CoreWeave selloff shows a pressure point from climbing borrowing costs.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Porsche reveals Mission S concept car that previews new design identity",
-  "link": "https://www.cnbc.com/2026/10/15/porsche-mission-s-concept-car.html",
-  "source": "CNBC",
-  "date": "2026-10-15T20:30:01+00:00",
-  "desc": "Porsche revealed a concept car called Mission S as part of a turnaround plan that includes efforts to boost profits through higher-end products and lower sales.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Investors Seek Safety in a Rocky Market",
-  "link": "https://www.wsj.com/finance/stocks/investors-seek-safety-in-a-rocky-market-4d1e17e5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-15T20:28:00+00:00",
-  "desc": "Plus, CoreWeave stock turns upward, and a tax-saving strategy is supercharging margin loans.",
-  "ccs": [],
-  "cat": "gp",
   "imp": "high"
  }
 ]
