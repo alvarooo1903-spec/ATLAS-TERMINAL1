@@ -1,10 +1,218 @@
 [
  {
-  "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
-  "link": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+  "title": "Tesla beats on earnings and sales even as auto revenue declines",
+  "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
   "source": "CNBC",
-  "date": "2026-10-21T10:40:01+00:00",
-  "desc": "France is grappling with intense pressure to slash spending, while trying to quell violent protests demanding the government spends more.",
+  "date": "2026-10-21T20:14:46+00:00",
+  "desc": "Tesla reported better-than-expected third-quarter results.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "GM aims to develop vehicles in as little as two years with AI, software push",
+  "link": "https://www.cnbc.com/2026/10/21/gm-vehicle-development-ai-software.html",
+  "source": "CNBC",
+  "date": "2026-10-21T20:14:36+00:00",
+  "desc": "General Motors is targeting a roughly two-year vehicle development cycle as it expands its use of artificial intelligence, simulation and vehicle software.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Tesla’s profits slip on weaker vehicle sales",
+  "link": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T20:09:34+00:00",
+  "desc": "Elon Musk’s carmaker reported flat revenue as it considers merger with SpaceX",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Meta to create new non-voting share class",
+  "link": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T20:07:01+00:00",
+  "desc": "Change would enable the social media group to sell shares to fund AI investment without reducing Mark Zuckerberg’s control",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
+  "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+  "source": "CNBC",
+  "date": "2026-10-21T20:04:07+00:00",
+  "desc": "Meta to pay $25 billion in penalties related to Cambridge Analytica scandal in New Mexico.",
+  "ccs": [
+   "MX"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+  "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T20:01:00+00:00",
+  "desc": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+  "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+  "source": "CNBC",
+  "date": "2026-10-21T19:54:16+00:00",
+  "desc": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "New Mexico Sues Jeffrey Epstein’s Lawyer and Accountant",
+  "link": "https://www.wsj.com/us-news/law/new-mexico-sues-jeffrey-epsteins-lawyer-and-accountant-063ad092?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-21T19:34:00+00:00",
+  "desc": "The lawsuit accuses the pair of helping to finance and conceal sex trafficking at Epstein’s Zorro Ranch.",
+  "ccs": [
+   "MX"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Want to Short the AI Boom? She Wants to Give You a Way to Bet on ‘Compute’ Prices",
+  "link": "https://www.wsj.com/finance/investing/want-to-short-the-ai-boom-she-wants-to-give-you-a-way-to-bet-on-compute-prices-bcdafd3e?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-10-21T19:32:00+00:00",
+  "desc": "Silicon Data founder Carmen Li is joining with CME Group to launch compute derivatives.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "‘Super’ El Niño may soon make your coffee super expensive",
+  "link": "https://www.marketwatch.com/story/super-el-nino-risks-driving-up-the-price-of-your-caffeine-fix-bb1d58b1?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T19:24:00+00:00",
+  "desc": "Agricultural markets around the world are already dealing with record-high diesel prices and high fertilizer costs. A “super” El Niño is almost guaranteed to make matters worse for farmers and consumers.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference",
+  "link": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T18:46:59+00:00",
+  "desc": "Treasury secretary spoke to financiers at charity event where tickets cost $7,500",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "NSA warns on ‘critical’ cyber vulnerabilities detected using AI",
+  "link": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T18:46:43+00:00",
+  "desc": "Researchers used OpenAI and Google models to find severe faults in software used on majority of websites around the world",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
+  "link": "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
+  "source": "CNBC",
+  "date": "2026-10-21T18:43:56+00:00",
+  "desc": "Darren Indyke and Richard Kahn allegedly helped finance and conceal Epstein's sex trafficking, which included abuse at his Zorro Ranch, a lawsuit says.",
+  "ccs": [
+   "MX"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
+  "link": "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
+  "source": "CNBC",
+  "date": "2026-10-21T18:32:12+00:00",
+  "desc": "Co-CEO Ted Sarandos has said the streamer needs new avenues for growth and to improve execution around its content strategy.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
+  "link": "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html",
+  "source": "CNBC",
+  "date": "2026-10-21T17:51:21+00:00",
+  "desc": "Trump-aligned PACs are pouring hundreds of millions into House and Senate races as Republicans defend an expanding midterm election battleground map.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
+  "link": "https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html",
+  "source": "CNBC",
+  "date": "2026-10-21T17:27:34+00:00",
+  "desc": "President Donald Trump has blamed Ukraine for surging diesel prices that are hurting Republicans' election chances with the midterms just two weeks away.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "What Elon Musk stands to gain from a Tesla-SpaceX merger",
+  "link": "https://www.ft.com/content/7f8e97b4-bd2e-4414-858a-bc746cb515f6?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T17:25:53+00:00",
+  "desc": "A merger of Elon Musk’s listed companies has some logic, but other shareholders might end up with less influence than they have today",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Para reemplazar a Starlink, Europa tendrá que volver a despertar sus instintos animales",
+  "link": "https://www.expansion.com/economia/financial-times/2026/10/21/reemplazar-starlink-europa-tendra-volver-despertar-instintos-animales.html",
+  "source": "Expansión",
+  "date": "2026-10-21T17:03:11+00:00",
+  "desc": "Ni siquiera una inversión masiva en las opciones locales solucionará, por sí sola, el problema en un plazo de tiempo razonable. Leer",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+  "link": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+  "source": "CNBC",
+  "date": "2026-10-21T16:35:48+00:00",
+  "desc": "A big rally in SpaceX after earnings is giving hope to Meta and Tesla bulls ahead of their reports due Wednesday afternoon.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Medicare is a bargain. What America can’t afford is private health insurance.",
+  "link": "https://www.marketwatch.com/story/medicare-is-a-bargain-what-america-cant-afford-is-private-health-insurance-8a834023?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T16:34:00+00:00",
+  "desc": "Private insurance costs way more for the same results — or worse.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "France’s borrowing costs hit 5% for first time since 2002",
+  "link": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T16:33:36+00:00",
+  "desc": "Concerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February",
   "ccs": [
    "FR"
   ],
@@ -12,24 +220,194 @@
   "imp": "medium"
  },
  {
-  "title": "'MAKE DEALS': Trump says data centers should pay communities a 'dividend' to win support",
-  "link": "https://www.cnbc.com/2026/10/21/trump-data-centers-community-dividend.html",
+  "title": "Macron hits out at ‘stupid’ Trump remarks about riots in France",
+  "link": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T16:12:37+00:00",
+  "desc": "French president expresses anger after US and other rightwing leaders blame migrants for violence and looting",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+  "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
   "source": "CNBC",
-  "date": "2026-10-21T10:34:20+00:00",
-  "desc": "Trump says data centers should consider community \"dividends\" as AI financing worries grow.",
+  "date": "2026-10-21T16:08:50+00:00",
+  "desc": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Polymarket traders see a 10% chance the AI bubble bursts before New Year’s Day",
+  "link": "https://www.marketwatch.com/story/polymarket-traders-see-a-10-chance-the-ai-bubble-bursts-before-new-years-day-ad33258b?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T15:59:00+00:00",
+  "desc": "For investors worried that the runaway artificial-intelligence trade might be about to hit the skids, prediction markets are already starting to reflect that anxiety.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "Witkoff heads to Russia for Putin talks as Zelenskyy insists 'nothing about Ukraine without Ukraine'",
-  "link": "https://www.cnbc.com/2026/10/21/witkoff-russia-putin-ukraine-zelenskyy.html",
-  "source": "CNBC",
-  "date": "2026-10-21T10:32:40+00:00",
-  "desc": "Speaking in Oslo on Tuesday, Zelenskyy said Washington had reaffirmed its commitment to providing Ukraine with security guarantees.",
+  "title": "Could Michigan elect America’s first Muslim senator?",
+  "link": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T15:52:15+00:00",
+  "desc": "Democrat Abdul El-Sayed could make history — or scupper his party’s hopes of taking control of the Senate in midterm elections",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+  "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T15:50:00+00:00",
+  "desc": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "La banca aúpa el Ibex por encima de los 19.300 puntos",
+  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/21/6ad854efe5fdea57578b458a.html",
+  "source": "Expansión",
+  "date": "2026-10-21T15:39:57+00:00",
+  "desc": "Las Bolsas europeas han cerrado con sólidos avances animadas por los resultados empresariales, sobre todo, en el sector tecnológico, y pese a que el bono francés se sitúa en máximos de 2002. El Ibex se ha anotado un alza",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+  "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+  "source": "CNBC Markets",
+  "date": "2026-10-21T15:30:50+00:00",
+  "desc": "Wall Street’s Big Three have generated $52 billion in equity trading revenue this year, capturing about 80% of the market on rising margin lending to hedge funds.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin",
+  "link": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T15:27:00+00:00",
+  "desc": "Investors are for sure facing “bubbles,” but Ken Griffin isn’t telling investors to dump those stocks.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
+  "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T15:15:00+00:00",
+  "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
   "ccs": [],
   "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Reglas de oro para invertir  bien en los activos con riesgo",
+  "link": "https://www.expansion.com/mercados/2026/10/21/6ad2503b468aeb857b8b457d.html",
+  "source": "Expansión",
+  "date": "2026-10-21T15:02:02+00:00",
+  "desc": "Invertir en activos conlleva una serie de riesgos y conocimientos que el inversor debe entender antes de depositar su capital. Estas son algunas de las principales reglas para iniciarse en el mundo de la inversión. Leer",
+  "ccs": [],
+  "cat": "cm",
   "imp": "medium"
+ },
+ {
+  "title": "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
+  "link": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T15:00:00+00:00",
+  "desc": "Moderna is one of the hottest stocks of the year because of its custom cancer treatment. Full Phase 3 data are set to be revealed this weekend.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Money-saving habits to cope with higher prices — from our readers",
+  "link": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T14:49:00+00:00",
+  "desc": "I asked people what they’re doing to make life more affordable today. I’ll definitely be trying some of these.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Colleges raced to build massive computer-science departments. Now the boom is turning to bust.",
+  "link": "https://www.marketwatch.com/story/colleges-raced-to-build-massive-computer-science-departments-now-the-boom-is-turning-to-bust-692cfe37?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-10-21T14:46:00+00:00",
+  "desc": "“Computer science isn’t the ticket to the American dream like people thought it was.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX",
+  "link": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T13:38:40+00:00",
+  "desc": "The world’s richest man attempts his most audacious deal yet. But shareholders and global regulators will need convincing",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+  "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
+  "source": "CNBC",
+  "date": "2026-10-21T13:13:48+00:00",
+  "desc": "Mortgage rates finally came down a little, but borrowers are still having trouble getting into the housing market.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The ‘adults in the room’ won’t save you",
+  "link": "https://www.ft.com/content/2773c5ab-1bb6-4110-b6a7-c467b7b89717?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T11:32:56+00:00",
+  "desc": "The hope that wise subordinates would curb the likes of Donald Trump was always a misunderstanding of politics",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+  "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+  "source": "CNBC",
+  "date": "2026-10-21T11:20:58+00:00",
+  "desc": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "Musk’s SpaceX ambitions may be ‘dangerous’ for Europe, warns EU lawmaker",
+  "link": "https://www.ft.com/content/f9e4ddf8-5fd4-43e6-bca2-62d1067c4c48?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-10-21T10:45:04+00:00",
+  "desc": "EU must protect sector from foreign rivals, says parliament’s lead negotiator on telecoms reform",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
  },
  {
   "title": "Housing Looks Awful. These Housing-Related Stocks Don’t.",
@@ -42,7 +420,7 @@
   "imp": "low"
  },
  {
-  "title": "Iran FM: We are ready for diplomacy, but will defend ourselves",
+  "title": "Iran’s foreign minister: The false assumptions about us are dangerous",
   "link": "https://www.ft.com/content/61bf9676-ea46-4956-b87f-6ab096accafa",
   "source": "Financial Times",
   "date": "2026-10-21T10:22:06+00:00",
@@ -50,85 +428,6 @@
   "ccs": [],
   "cat": "gp",
   "imp": "high"
- },
- {
-  "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
-  "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T10:15:00+00:00",
-  "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "In the battle for AI supremacy, China is only six months behind the U.S — but that means it’s winning, says former Google CEO",
-  "link": "https://www.marketwatch.com/story/in-the-battle-for-ai-supremacy-china-is-only-six-months-behind-the-u-s-but-that-means-theyre-winning-says-former-google-ceo-82d71e7a?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T10:12:00+00:00",
-  "desc": "AI is not a bubble, says Google’s former CEO. It’s real growth, real money, real customers paying for something useful.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "The far-right contender refusing to bow to Israel’s Netanyahu",
-  "link": "https://www.ft.com/content/21160606-97fe-4db7-b374-647a728ff361?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T10:00:06+00:00",
-  "desc": "Proliferation of rightwing parties leads to infighting ahead of vote",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Iran war sparks heating crisis in US north-east as winter approaches",
-  "link": "https://www.ft.com/content/162c6dd8-5501-46f4-8f7c-b456a4e29539?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T10:00:06+00:00",
-  "desc": "Record heating oil prices are forcing the region to rethink prior opposition to natural gas pipelines",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "House committee says Webull messages point to China access to U.S. customer data",
-  "link": "https://www.cnbc.com/2026/10/21/webull-us-customer-data-china-access.html",
-  "source": "CNBC",
-  "date": "2026-10-21T10:00:01+00:00",
-  "desc": "The House Select Committee on China earlier this month said online investing platform Webull is quietly \"tied in structural ways\" to China's government.",
-  "ccs": [
-   "US",
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX",
-  "link": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T09:50:07+00:00",
-  "desc": "The world’s richest man attempts his most audacious deal yet. But shareholders and global regulators will need convincing",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "El Ibex busca una tregua por encima de los 19.000 puntos",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/10/21/6ad854efe5fdea57578b458a.html",
-  "source": "Expansión",
-  "date": "2026-10-21T09:37:33+00:00",
-  "desc": "Las referencias adquieren hoy un sesgo más alentador, sobre todo, en el sector tecnológico, donde los resultados diluyen la presión de jornadas anteriores. Menos tregua ofrece la deuda de Francia, en máximos de 2002. El",
-  "ccs": [
-   "ES",
-   "FR",
-   "JP"
-  ],
-  "cat": "bd",
-  "imp": "medium"
  },
  {
   "title": "Healthcare Stocks Are Rallying, and Flashing a Warning for the Rest of the Market",
@@ -141,16 +440,6 @@
   "imp": "high"
  },
  {
-  "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-  "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T09:15:00+00:00",
-  "desc": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "BlackRock apuesta por la gestión activa en renta fija en la recta final de 2026",
   "link": "https://www.expansion.com/mercados/renta-fija/2026/10/21/6ad880d3e5fdea56378b457f.html",
   "source": "Expansión",
@@ -161,102 +450,16 @@
   "imp": "medium"
  },
  {
-  "title": "France’s borrowing costs hit 5% for first time since 2002",
-  "link": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T09:07:37+00:00",
-  "desc": "Concerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "George Foreman’s lavish Texas estate with 50-car garage is listed for $6 million",
-  "link": "https://www.marketwatch.com/story/george-foremans-lavish-texas-estate-with-50-car-garage-is-listed-for-6-million-d464b764?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T09:04:00+00:00",
-  "desc": "The sprawling Texas estate where boxing legend George Foreman spent the final decades of his life has hit the market for $6 million—offering a rare glimpse inside the private world of the heavyweight champion.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stock Market Today: SpaceX Shares Surge on Tesla Deal Talks",
+  "title": "Tesla Earnings Today: Tesla Shares Rise Afterhours Following Earnings",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-10-21T09:01:41+00:00",
-  "desc": "Nasdaq futures rose after a strong earnings report from SpaceX and news that the company has launched preliminary talks to merge with Tesla",
+  "desc": "Nasdaq gains as rocket-and-AI maker's earnings boost AI sentiment",
   "ccs": [
    "US"
   ],
   "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
-  "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T09:00:00+00:00",
-  "desc": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-  "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T08:55:00+00:00",
-  "desc": "SpaceX just gave Wall Street a big reason to believe in the artificial-intelligence boom as demand for its computing power is off the charts.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
   "imp": "medium"
- },
- {
-  "title": "SpaceX up 10% in premarket after earnings beat and Musk hints at Tesla tie-up",
-  "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-  "source": "CNBC",
-  "date": "2026-10-21T08:52:33+00:00",
-  "desc": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin",
-  "link": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T08:50:00+00:00",
-  "desc": "Investors are for sure facing “bubbles,” but Ken Griffin isn’t telling investors to dump those stocks/",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI's most powerful AI models disabled their own safety monitoring — and one lied about it",
-  "link": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
-  "source": "CNBC",
-  "date": "2026-10-21T07:49:48+00:00",
-  "desc": "Warnings about the risks of developing increasingly advanced AI systems have ramped up in recent months, amid cyberattacks from rogue AI models.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Australian data centre group falls 44% on profit warning",
-  "link": "https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T06:33:49+00:00",
-  "desc": "NextDC plunge adds to sector woes as Nvidia holds talks over injecting capital into Firmus after failed IPO",
-  "ccs": [
-   "AU"
-  ],
-  "cat": "er",
-  "imp": "high"
  },
  {
   "title": "¿Aguantará el Ibex en los 19.000 puntos?",
@@ -269,225 +472,5 @@
   ],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant",
-  "link": "https://www.cnbc.com/2026/10/21/rubio-reliance-venezuela-oil-diesel.html",
-  "source": "CNBC",
-  "date": "2026-10-21T04:47:43+00:00",
-  "desc": "Rubio said the \"extraordinary\" refining capacity of Reliance could help India diversify its energy supplies, hinting at greater offtake of Venezuelan crude.",
-  "ccs": [
-   "US",
-   "IN"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "To replace Starlink, Europe will have to reawaken its animal spirits",
-  "link": "https://www.ft.com/content/dcf3d157-de7d-4b3a-ab6a-115558d6a47b?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T04:00:23+00:00",
-  "desc": "Even splurging on homegrown options won’t, by itself, solve the problem in a reasonable length of time",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Netanyahu made plans to restart Iran strikes earlier this month",
-  "link": "https://www.ft.com/content/eb4d1101-45ed-4d03-9beb-42f7c87a58ea",
-  "source": "Financial Times",
-  "date": "2026-10-21T04:00:13+00:00",
-  "desc": "Israeli prime minister has pushed to resume conflict but Donald Trump rules out attack before US midterm elections",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "China’s nightmare: becoming the next Japan",
-  "link": "https://www.ft.com/content/512ef255-89c2-4128-becc-914885c3a2a5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T03:00:04+00:00",
-  "desc": "Tokyo lost decades when a property bust led to an economic slump. Could the same phenomenon undo Xi Jinping’s ambitions?",
-  "ccs": [
-   "JP",
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "NYSE Is Getting Trounced in the Battle for Wall Street’s Biggest IPOs",
-  "link": "https://www.wsj.com/finance/stocks/nyse-is-getting-trounced-in-the-battle-for-wall-streets-biggest-ipos-048e3b94?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-21T02:00:00+00:00",
-  "desc": "Anthropic is expected to bring the Nasdaq another blockbuster listing, following SpaceX. And the Texas Stock Exchange is also emerging as a threat.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "OpenAI ‘agents’ disabled their own monitoring systems",
-  "link": "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-21T01:56:00+00:00",
-  "desc": "AI lab investigating whether incident shows ‘propensity to evade’ controls",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-  "link": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T00:24:00+00:00",
-  "desc": "Unlike bear-market bottoms, which typically end with a spasm of despair as traders throw in the towel, bull-market tops are far more gradual and less dramatic.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-  "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T00:15:00+00:00",
-  "desc": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-  "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-10-21T00:14:00+00:00",
-  "desc": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Larry Ellison Went on Borrowing Spree to Bankroll His Son’s Warner Bros. Bid",
-  "link": "https://www.wsj.com/finance/larry-ellison-warner-bros-loans-49918714?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-20T23:00:00+00:00",
-  "desc": "The billionaire put up shares in Tesla, SpaceX and Paramount Skydance this year to borrow more from banks.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "La CNMV anima a las gestoras a crear fondos para la nueva cuenta del Gobierno",
-  "link": "https://www.expansion.com/mercados/2026/10/21/6ad7c55be5fdea4a608b4587.html",
-  "source": "Expansión",
-  "date": "2026-10-20T22:54:21+00:00",
-  "desc": "La iniciativa deja fuera al 90% de los fondos españoles y el supervisor insta a las gestoras a \"que desarrollen más productos que encajen\" con los requisitos de Economía. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Centros de datos: ¿es excesivo el castigo a ACS, Merlin y Solaria?",
-  "link": "https://www.expansion.com/mercados/2026/10/21/6ad7aad6468aeb3f5f8b456d.html",
-  "source": "Expansión",
-  "date": "2026-10-20T22:45:09+00:00",
-  "desc": "Acumulan caídas entre el 25% y el 30% desde el 30 de junio Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Tres \"activos reales\" recomendados para 2027",
-  "link": "https://www.expansion.com/mercados/2026/10/21/6ad75edd468aeb67678b4597.html",
-  "source": "Expansión",
-  "date": "2026-10-20T22:31:13+00:00",
-  "desc": "La mayor volatilidad en los activos tecnológicos o incluso financieros otorgan un atractivo extra a los denominados \"activos reales\". UBS cita tres tendencias de inversión a largo plazo para explicar \"por qué podrían ten",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster",
-  "link": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
-  "source": "CNBC",
-  "date": "2026-10-20T22:01:11+00:00",
-  "desc": "The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "As homeownership gets harder, more buyers are getting down payment help. What parents should know",
-  "link": "https://www.cnbc.com/2026/10/20/giving-money-kids-buying-home.html",
-  "source": "CNBC",
-  "date": "2026-10-20T21:35:48+00:00",
-  "desc": "As home prices rise, parents want to give money to their kids. Here's how to save on taxes when doing it, financial experts say.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stocks Make a U-Turn on Hopes of U.S.-Iran Diplomacy",
-  "link": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-10-20T20:18:00+00:00",
-  "desc": "Plus, oil prices slip and General Motors’ shares fall after company warns of a rocky 2027",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-  "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-  "source": "CNBC",
-  "date": "2026-10-20T19:28:43+00:00",
-  "desc": "Housing data deteriorated further in September, according to separate reports Tuesday.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Who are the Black Bloc?",
-  "link": "https://www.ft.com/content/f97755f2-8b07-47bf-9c14-7963a701c9c3?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-10-20T18:15:43+00:00",
-  "desc": "French government says agitators from the far left helped transform peaceful protests into riots",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
-  "link": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
-  "source": "CNBC",
-  "date": "2026-10-20T18:06:13+00:00",
-  "desc": "A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.",
-  "ccs": [
-   "CA"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Microsoft ofrece un baño de realidad a los grupos emergentes en los centros de datos antes de su OPV",
-  "link": "https://www.expansion.com/economia/financial-times/2026/10/20/microsoft-ofrece-bano-realidad-grupos-emergentes-centros-datos-opv.html",
-  "source": "Expansión",
-  "date": "2026-10-20T17:05:03+00:00",
-  "desc": "La decisión del gigante tecnológico estadounidense de poner fin a su acuerdo con Nscale expone las debilidades estructurales de este segmento en rápida expansión del sector de la IA. Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
  }
 ]
