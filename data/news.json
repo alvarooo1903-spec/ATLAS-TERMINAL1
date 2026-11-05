@@ -1,82 +1,411 @@
 [
  {
-  "title": "Wendy's rejects $1.4 billion takeover proposal from Nelson Peltz’s Trian",
-  "link": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html",
-  "source": "CNBC",
-  "date": "2026-11-05T13:26:28+00:00",
-  "desc": "Wendy's said the $1.4 billion takeover proposal does not reflect potential gains from the burger chain's turnaround strategy.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke",
-  "link": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
-  "source": "CNBC",
-  "date": "2026-11-05T13:22:39+00:00",
-  "desc": "OpenAI pledged to solicit community input around AI data centers, publish construction plans and protect ratepayers.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-  "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+  "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+  "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-05T13:15:00+00:00",
-  "desc": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
-  "link": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T13:07:00+00:00",
-  "desc": "Alicia Levine, of BNY’s wealth management business, said markets have not priced in the possibility of the war in Iran lasting for a long time.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
-  "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T13:01:00+00:00",
-  "desc": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
-  "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
-  "source": "CNBC",
-  "date": "2026-11-05T13:00:01+00:00",
-  "desc": "AI data centers are facing national outcry for draining local water and power supply. The truth about how they use water to stay cool is far more complicated.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-  "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
-  "source": "CNBC",
-  "date": "2026-11-05T12:57:10+00:00",
-  "desc": "Analysts note the growing risks around U.S. President Donald Trump's ability to maintain a fragile trade truce.",
+  "date": "2026-11-05T22:00:00+00:00",
+  "desc": "The S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
   "ccs": [
-   "US",
-   "CN"
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+  "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+  "source": "CNBC",
+  "date": "2026-11-05T21:57:33+00:00",
+  "desc": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
+  "ccs": [
+   "US"
   ],
   "cat": "eq",
   "imp": "low"
  },
  {
+  "title": "IRS unveils higher capital gains tax brackets for 2027",
+  "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html",
+  "source": "CNBC",
+  "date": "2026-11-05T21:46:23+00:00",
+  "desc": "The IRS has announced higher long-term capital gains brackets for 2027. Here's what investors need to know.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+  "link": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:44:00+00:00",
+  "desc": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+  "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+  "source": "CNBC",
+  "date": "2026-11-05T21:43:33+00:00",
+  "desc": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+  "link": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:43:00+00:00",
+  "desc": "Investors worry a divided Washington could derail “Elon, Inc.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks",
+  "link": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T21:41:00+00:00",
+  "desc": "The Nasdaq composite closes in correction territory in the stock market’s worst day since last April’s tariff turmoil.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
+  "link": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:39:00+00:00",
+  "desc": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
+  "link": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:37:00+00:00",
+  "desc": "A punishing selloff in the tech space caused carnage in the stock market Thursday, one day after equities saw a big bounce after the Democrats swept Tuesday’s midterm elections.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "The October jobs report is out Friday. Here's everything to expect",
+  "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+  "source": "CNBC",
+  "date": "2026-11-05T21:32:52+00:00",
+  "desc": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Micron, Sandisk and other AI stocks see steep drops: ‘Investors don’t like uncertainty’",
+  "link": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:32:00+00:00",
+  "desc": "Wall Street is digesting the prospect of a slower AI buildout in the wake of the midterm election results.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "As Nvidia’s stock enters a bear market, bargain hunters see a golden buying opportunity",
+  "link": "https://www.marketwatch.com/story/as-nvidias-stock-heads-for-a-bear-market-bargain-hunters-see-a-golden-buying-opportunity-1a5917e6?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:31:00+00:00",
+  "desc": "Portfolio managers say chip demand should be resilient even in a period of political uncertainty.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "5 of this year’s biggest stock losers that are good bets in 2027",
+  "link": "https://www.marketwatch.com/story/5-of-this-years-biggest-stock-losers-that-are-good-bets-in-2027-bb861d4c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:29:00+00:00",
+  "desc": "One year’s worst performers often beat the market the next",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+  "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:26:00+00:00",
+  "desc": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Traders flock to Treasury market for safety as tech-led stock selloff deepens",
+  "link": "https://www.marketwatch.com/story/traders-flock-to-treasury-market-for-safety-as-tech-led-stock-selloff-deepens-cf548c8b?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-05T21:19:00+00:00",
+  "desc": "A record $8 trillion in cash is now also on the sidelines in U.S. money-market funds, according to the Investment Company Institute.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "AI Panic Grips Stocks",
+  "link": "https://www.wsj.com/finance/investing/ai-panic-grips-stocks-60a59518?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T21:17:00+00:00",
+  "desc": "Plus, bonds rally and General Mills considers a divestiture",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Los Angeles elects democratic socialist Nithya Raman as mayor",
+  "link": "https://www.ft.com/content/888315a5-9fff-43df-83d9-eb066799a9d7?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T21:15:09+00:00",
+  "desc": "Win follows Zohran Mamdani’s rise in New York and resounding victories by other progressives in Washington and Providence",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+  "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+  "source": "CNBC",
+  "date": "2026-11-05T21:09:56+00:00",
+  "desc": "President Donald Trump was briefed about a year ago about those intelligence findings, the Times reported.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Wall Street sheds $3.2tn as Democratic midterm sweep triggers brutal AI rout",
+  "link": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T21:07:55+00:00",
+  "desc": "Tech-heavy Nasdaq 100 tumbles 6.4% in day of chaotic trading",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "IRS announces bigger estate and gift tax exemption for 2027",
+  "link": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html",
+  "source": "CNBC",
+  "date": "2026-11-05T20:51:57+00:00",
+  "desc": "The IRS has announced a bigger estate and gift tax exemption for 2027. Here's what investors need to know.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Paraguay’s President Resigns as Collapse of Bank With Close Ties to Him Sparks Crisis",
+  "link": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T20:46:00+00:00",
+  "desc": "Santiago Peña’s downfall rattled a fast-growing South American economy that has attracted investors and forged close ties with the U.S.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "IRS announces new federal income tax brackets for 2027",
+  "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html",
+  "source": "CNBC",
+  "date": "2026-11-05T20:37:22+00:00",
+  "desc": "The IRS has announced higher federal income tax brackets and standard deductions for 2027. Here's what taxpayers need to know.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Will Democrats stall the AI boom?",
+  "link": "https://www.ft.com/content/5dedb9bf-bd12-4956-b2b7-ce968e1e1371?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T20:28:44+00:00",
+  "desc": "Newly elected officials have pledged to curb data centre construction, rattling the trade that has powered US stock markets",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+  "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+  "source": "CNBC",
+  "date": "2026-11-05T20:17:16+00:00",
+  "desc": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Your House vs. the Stock Market: Which Has Been a Better Investment?",
+  "link": "https://www.wsj.com/finance/investing/home-vs-stock-market-investment-6783607f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T20:00:00+00:00",
+  "desc": "The S&P 500’s annualized returns over the past 40 years top housing-price returns in every state and local market, research finds.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Wall Street mega-donors clobbered by Democratic sweep",
+  "link": "https://www.ft.com/content/1338f6b6-81b1-478b-9807-5cfe1fc39113?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T19:48:28+00:00",
+  "desc": "Top hedge fund managers and private equity executives spent more than $300mn on Republican campaigns to little or no effect",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+  "link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
+  "source": "CNBC",
+  "date": "2026-11-05T19:20:21+00:00",
+  "desc": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+  "link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html",
+  "source": "CNBC",
+  "date": "2026-11-05T19:13:06+00:00",
+  "desc": "Democrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Tech leaders need an urgent rethink of their political strategy",
+  "link": "https://www.ft.com/content/6b64ea5b-48c3-474f-944b-845163db9b40?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T19:04:55+00:00",
+  "desc": "America’s data centre backlash is emblematic of AI anxiety and a scepticism of the industry’s power and wealth",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Goldman’s Exclusive Club of Partners Welcomes Its Biggest Class Since 2010",
+  "link": "https://www.wsj.com/finance/banking/goldmans-exclusive-club-of-partners-welcomes-an-influx-from-wealth-management-ebe2e32a?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T18:54:00+00:00",
+  "desc": "In a shift from previous years, the bank didn’t provide a gender or racial breakdown of the class.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Insurer Sues Autism-Therapy Provider Over $160 Million in Allegedly Misleading Claims",
+  "link": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-05T18:13:00+00:00",
+  "desc": "Elevance Health claims the Perfect Child used LLCs to charge out-of-network rates.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Democrats to probe JPMorgan's relationship with Jeffrey Epstein when they take Senate control",
+  "link": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html",
+  "source": "CNBC",
+  "date": "2026-11-05T17:42:29+00:00",
+  "desc": "JPMorgan kept Jeffrey Epstein as a client for years after top executive Mary Erdoes hearing claims he paid to have underage girls brought to his home.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "European stocks overtake Wall Street following Democratic sweep",
+  "link": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T17:41:41+00:00",
+  "desc": "Stoxx Europe 600 index ahead of S&P 500 for this year as US stocks tumble",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Euronext gana un 32% más y anuncia una recompra de acciones de 350 millones",
+  "link": "https://www.expansion.com/inversion/2026/11/05/euronext-gana-32-anuncia-recompra-acciones-350-millones.html",
+  "source": "Expansión",
+  "date": "2026-11-05T17:29:20+00:00",
+  "desc": "El conglomerado europeo de bolsas obtuvo un beneficio neto de 223,2 millones de euros en el tercer trimestre, lo que representa un incremento del 32% interanual, según ha informado la empresa hoy al cierre del mercado. L",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Nasdaq drops the most since pandemic as Democratic ‘blue wave’ upends AI bets",
+  "link": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T16:59:34+00:00",
+  "desc": "Investors fear newly elected politicians up and down the US will seek to slow data centre development in blow to tech stocks",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+  "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-05T16:34:33+00:00",
+  "desc": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "AI backlash threatens trillion-dollar data centre boom, say tech leaders",
+  "link": "https://www.ft.com/content/32fd4450-5880-437d-9bd9-df13289ada24?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-05T15:35:47+00:00",
+  "desc": "Executives at FT’s Future of AI summit admit tech industry has fuelled hostility towards its own expansion",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "high"
+ },
+ {
   "title": "Here's what the Democratic election rout could mean for the U.S. economy",
   "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
   "source": "CNBC",
-  "date": "2026-11-05T12:53:14+00:00",
+  "date": "2026-11-05T14:33:32+00:00",
   "desc": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
   "ccs": [
    "US"
@@ -85,14 +414,17 @@
   "imp": "low"
  },
  {
-  "title": "Robot maker Agility starts trading today — but its steep losses are raising red flags",
-  "link": "https://www.marketwatch.com/story/robot-maker-agility-starts-trading-today-but-its-steep-losses-are-raising-red-flags-f97c2cee?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T12:43:00+00:00",
-  "desc": "Agility is going public via a SPAC merger that one executive says will give it a “first-mover advantage.”",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
+  "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+  "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-05T12:57:10+00:00",
+  "desc": "Analysts note the growing risks around U.S. President Donald Trump's ability to maintain a fragile trade truce.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
  },
  {
   "title": "Cómo afecta al bitcoin el cambio político en EEUU",
@@ -107,61 +439,6 @@
   "imp": "medium"
  },
  {
-  "title": "European stocks approach all-time high on Democratic sweep",
-  "link": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T12:33:06+00:00",
-  "desc": "Investors bet scale of Republican defeat in US midterms will restrain White House policymaking that has weighed on markets",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
-  "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T12:33:00+00:00",
-  "desc": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
-  "ccs": [
-   "US",
-   "DE"
-  ],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "The real test for the artificial-intelligence buildout is what happens in 2028, analysts say",
-  "link": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T12:23:00+00:00",
-  "desc": "JPMorgan’s Michael Cembalest is worried about data center build-outs following midterm elections, and he’s looking two years ahead.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
-  "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T12:16:00+00:00",
-  "desc": "Wall Street takes a harder look at AI costs after historic midterm results. Plus, the upside to Apple’s lack of artificial-intelligence spending.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "I constantly attend free meals hosted by people promoting annuities. Am I flirting with disaster?",
-  "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T12:15:00+00:00",
-  "desc": "“Salespeople typically push annuities, Medicare plans and estate-planning services.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "¿Qué oportunidades podemos encontrar en la Bolsa española?",
   "link": "https://www.expansion.com/mercados/2026/11/05/oportunidades-encontrar-bolsa-espanola.html",
   "source": "Expansión",
@@ -172,95 +449,11 @@
   "imp": "low"
  },
  {
-  "title": "A strategist draws a 1980s parallel to argue bipartisanship could power a ‘bull stampede’",
-  "link": "https://www.marketwatch.com/story/a-strategist-draws-a-1980s-parallel-to-argue-bipartisanship-could-power-a-bull-stampede-609ddc9b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T11:56:00+00:00",
-  "desc": "In the 1980s, a Republican president, a Democrat Speaker of the House and an inflation-fighting Federal Reserve chairman powered a stock-market rally.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "Daily Briefing: Mass-Tort Delays Pit Law Firms Against Lenders",
-  "link": "https://www.wsj.com/pro/bankruptcy/daily-briefing-mass-tort-delays-pit-law-firms-against-lenders-3f3df400?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-05T11:55:00+00:00",
-  "desc": "Plus, BC Partners’ retreat from funding LIV Golf clouds the league’s path forward.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
-  "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-05T11:45:00+00:00",
-  "desc": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "World's largest olive oil company plummets 18% after rivals agree to takeover deal",
-  "link": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
-  "source": "CNBC",
-  "date": "2026-11-05T11:42:28+00:00",
-  "desc": "The world's largest olive oil company, Deoleo, plummeted in early trading after two of its rivals announced plans to acquire the firm.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Will AI Throttle the Retirement Money Machine?",
-  "link": "https://www.wsj.com/finance/investing/will-ai-throttle-the-retirement-money-machine-81d5b52d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-05T11:24:00+00:00",
-  "desc": "Plus, Big Tech’s election silver lining.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
   "title": "Euríbor hoy, 5 de noviembre de 2026: El Euríbor desciende al 3,302% y alegra a los hipotecados",
   "link": "https://www.expansion.com/mercados/euribor/2026/11/05/euribor-hoy-5-noviembre-2026-euribor-desciende-3-302-alegra-hipotecados.html",
   "source": "Expansión",
   "date": "2026-11-05T11:08:58+00:00",
   "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 3,308% en noviembre, lo que supone un aumento de 0,069 puntos respecto al día anterior. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How the midterms could fuel the K-shaped AI trade",
-  "link": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
-  "source": "CNBC",
-  "date": "2026-11-05T11:01:39+00:00",
-  "desc": "U.S. midterm results could slow data center development, raising the value of existing AI capacity while increasing pressure on debt-funded neoclouds.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Wall Street bets Democratic sweep will empower moderates in Washington",
-  "link": "https://www.ft.com/content/18739027-d5cc-4e18-825e-d43ac7d1ef9f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T11:00:07+00:00",
-  "desc": "Investors expect midterm election to restrain sway of extremes in American politics",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Consumers are spending on physical gifts even as travel tops wish lists, Visa survey finds",
-  "link": "https://www.cnbc.com/2026/11/05/visa-holiday-shopping-physical-gifts-travel.html",
-  "source": "CNBC",
-  "date": "2026-11-05T11:00:01+00:00",
-  "desc": "Even as travel and experiences top the wish list, consumers are still prioritizing spending on physical gifts this holiday season.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
@@ -276,14 +469,16 @@
   "imp": "medium"
  },
  {
-  "title": "Stock Market Today: AI Stocks Under Pressure as Investors Pivot to Other Trades",
+  "title": "Stock Market Today: Nasdaq Plunges 5.5%; Investors Retreat From AI Trade After Election",
   "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026?mod=rss_markets_main",
   "source": "WSJ Markets",
   "date": "2026-11-05T09:25:53+00:00",
-  "desc": "Chipmaker Qualcomm's earnings disappoint",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
+  "desc": "Tech-heavy index enters correction; Dow drops more than 1,800 points",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "high"
  },
  {
   "title": "El precio del Bitcoin hoy, 5 de noviembre: el Bitcoin asciende hasta los 80.288,33 dólares",
@@ -294,187 +489,5 @@
   "ccs": [],
   "cat": "fx",
   "imp": "medium"
- },
- {
-  "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
-  "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
-  "source": "CNBC",
-  "date": "2026-11-05T07:30:58+00:00",
-  "desc": "Sales of Nintendo's flagship Switch 2 plunged in its fiscal second quarter after the Japanese gaming giant rolled out price hikes amid soaring memory costs.",
-  "ccs": [
-   "JP"
-  ],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "El rally de la IA afronta el cambio político en EEUU en plena rotación",
-  "link": "https://www.expansion.com/mercados/2026/11/05/rally-ia-afronta-cambio-politico-eeuu-plena-rotacion.html",
-  "source": "Expansión",
-  "date": "2026-11-05T07:06:14+00:00",
-  "desc": "El nuevo escenario político resultante en EEUU pone en el punto de mira a las temáticas de inversión más ligadas a la IA, y en especial a los centros de datos, inmersos ya durante las últimas semanas en plena rotación hi",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Democrats look to reshape America after historic midterm victories",
-  "link": "https://www.ft.com/content/9a4a7357-f783-462f-b5d3-9852daf0f328?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T05:00:25+00:00",
-  "desc": "Party promises dramatic change in the wake of its ‘blue wave’",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Morning in America, twilight in the markets",
-  "link": "https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007",
-  "source": "Financial Times",
-  "date": "2026-11-05T05:00:16+00:00",
-  "desc": "Astonishing midterm election results will not repeal the turn of business and financial cycles",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "The next US presidential race has begun",
-  "link": "https://www.ft.com/content/a7fe8e95-bd9a-4cd7-a308-f156073cd074?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T05:00:07+00:00",
-  "desc": "The Republicans and Democrats positioning themselves for a run at the Oval Office in 2028",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump’s economic agenda wasn’t Republican enough",
-  "link": "https://www.ft.com/content/800da770-639b-406c-a46a-a30552aa1128",
-  "source": "Financial Times",
-  "date": "2026-11-05T05:00:07+00:00",
-  "desc": "The president promised — but did not deliver — more manufacturing jobs and higher employment rates for native-born Americans",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
-  "link": "https://www.cnbc.com/2026/11/05/liv-golf-liquidation-bc-partners.html",
-  "source": "CNBC",
-  "date": "2026-11-05T03:11:58+00:00",
-  "desc": "LIV Golf faces liquidation after BC Partners dropped a proposed $300 million rescue plan amid insufficient player commitments.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US midterm results herald upheaval in Middle East policy",
-  "link": "https://www.ft.com/content/3dee82bf-3bbe-4075-8bfd-4001ddb689ae?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T01:33:29+00:00",
-  "desc": "American voters — including vice-president JD Vance — want an end to Trump’s Iran war and Washington’s proximity to Israel",
-  "ccs": [],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Democratic wave keeps US wealth taxes alive despite California loss",
-  "link": "https://www.ft.com/content/c701ac0d-0ef4-426f-a629-e38ed29d5260?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-05T00:52:16+00:00",
-  "desc": "Proposition 40 billionaire tax set to be defeated in a rare victory for mega-donors in the US midterms",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
-  "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
-  "source": "CNBC",
-  "date": "2026-11-04T23:17:56+00:00",
-  "desc": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Democrats take Congress in a blue wave. Here's what it means for your money",
-  "link": "https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html",
-  "source": "CNBC",
-  "date": "2026-11-04T23:11:48+00:00",
-  "desc": "Blue wave gives Democrats control of Congress. Here's how their agenda could affect your money, from healthcare and taxes to student loans and Social Security.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los bancos venden un récord de deuda con más riesgo por tercer año consecutivo",
-  "link": "https://www.expansion.com/empresas/banca/2026/11/05/bancos-venden-record-deuda-riesgo-tercer-ano-consecutivo.html",
-  "source": "Expansión",
-  "date": "2026-11-04T23:08:01+00:00",
-  "desc": "Ni siquiera la crisis de los bonos soberanos en Francia frena las emisiones de las entidades europeas. Santander, BBVA y Unicaja contribuyen con 2.650 millones en CoCos en 2026. Leer",
-  "ccs": [
-   "ES",
-   "FR",
-   "JP"
-  ],
-  "cat": "bd",
-  "imp": "high"
- },
- {
-  "title": "Las Bolsas cotizan al alza una tregua de la inflación tras las elecciones",
-  "link": "https://www.expansion.com/mercados/2026/11/04/bolsas-cotizan-alza-tregua-inflacion-elecciones.html",
-  "source": "Expansión",
-  "date": "2026-11-04T22:40:08+00:00",
-  "desc": "La primera lectura del mercado de la victoria demócrata es que una relajación de las tensiones en Oriente Próximo podría rebajar el precio del petróleo, que ayer se desplomó a 95 dólares. Leer",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
-  "link": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-04T22:38:45+00:00",
-  "desc": "Elon Musk rebuked as anger at AI and Silicon Valley fuels support for Democrats",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Stocks Surge, Oil Plummets on Democrat Victory",
-  "link": "https://www.wsj.com/finance/stocks/stocks-surge-oil-plummets-on-democrat-victory-d4f606b5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-04T21:32:00+00:00",
-  "desc": "Plus, CVS decides to break itself up.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-  "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-04T21:18:44+00:00",
-  "desc": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "‘Rupert does not want to be with a loser’: Murdoch’s media empire cools on Trump",
-  "link": "https://www.ft.com/content/ead0309f-537a-4cc1-9d65-a3b9de01e69d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-04T20:58:24+00:00",
-  "desc": "Fox News hosts question Iran war strategy while New York Post has ‘Blue Tsunami’ on front page after Republicans’ defeat",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
  }
 ]
