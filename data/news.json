@@ -1,74 +1,130 @@
 [
  {
-  "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-  "link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T21:37:00+00:00",
-  "desc": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-  "link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T21:24:00+00:00",
-  "desc": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
+  "title": "Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan",
+  "link": "https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html",
+  "source": "CNBC",
+  "date": "2026-11-09T14:31:07+00:00",
+  "desc": "Goodyear Tire & Rubber appointed board member Roger Wood interim CEO and president, replacing Mark Stewart as the tire maker continues its turnaround plan.",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "Tech Stocks Recover Some Losses",
-  "link": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-06T21:24:00+00:00",
-  "desc": "Plus, Anthropic may scale back its IPO, and the Cybertruck meets its end",
+  "title": "Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval",
+  "link": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html",
+  "source": "CNBC",
+  "date": "2026-11-09T14:30:01+00:00",
+  "desc": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "‘She can always change her mind’: Should a widow leave the family home to her stepchildren?",
+  "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T14:30:00+00:00",
+  "desc": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "As AI trade falters, Goldman Sachs says this lagging region is now positioned to outperform",
+  "link": "https://www.marketwatch.com/story/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform-589805c6?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T14:16:00+00:00",
+  "desc": "Precisely because it has long been hamstrung by rigid labor markets and overregulation, European stocks may paradoxically be bigger beneficiaries of the AI revolution in terms of enhanced productivity and cost-cutting th",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Why tech workers are flocking to NYC",
+  "link": "https://www.cnbc.com/make-it/2026/11/09/new-york-city-tech-workers-jobs.html",
+  "source": "CNBC",
+  "date": "2026-11-09T14:15:02+00:00",
+  "desc": "New York City now has more tech employees than the Bay Area. Here's why workers — and companies — are flocking to the city.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-  "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-  "source": "CNBC",
-  "date": "2026-11-06T21:15:47+00:00",
-  "desc": "Saudi national Abdulrahman Alfozan is charged with planting a recording device in a conference room at artificial intelligence giant OpenAI.",
+  "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+  "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T14:15:00+00:00",
+  "desc": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Germany issues ultimatum to secure Ukraine funding",
+  "link": "https://www.ft.com/content/ec66a5d6-70f1-47fc-b573-067dd96dc913?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T14:09:33+00:00",
+  "desc": "Chancellor Friedrich Merz threatens to withhold agreement on EU’s next budget unless bloc can unanimously agree on additional financial support for Kyiv",
   "ccs": [
-   "SA"
+   "DE"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+  "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T14:09:00+00:00",
+  "desc": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say",
+  "ccs": [
+   "US"
+  ],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Home listings pile up in October, but sellers won't slash prices",
+  "link": "https://www.cnbc.com/2026/11/09/home-listings-pile-up-in-october-but-sellers-wont-slash-prices.html",
+  "source": "CNBC",
+  "date": "2026-11-09T13:54:29+00:00",
+  "desc": "After a rough month in September, the housing market remained in a deep freeze in October as listings piled up. Sellers are still reluctant to cut prices.",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
+  "link": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T13:54:00+00:00",
+  "desc": "The full data from the closely watched clinical trial showed that the drug had no cardiovascular benefit even though it reduced Lp(a) levels.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chips deals to investors",
+  "link": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T13:50:36+00:00",
+  "desc": "Alice Huang boasted of having access to Nvidia GPUs and her connection to Alibaba in bid to secure investment for major data centre project",
+  "ccs": [
+   "CN"
   ],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-  "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T21:15:00+00:00",
-  "desc": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
-  "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T21:15:00+00:00",
-  "desc": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-  "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-  "source": "CNBC",
-  "date": "2026-11-06T21:07:07+00:00",
-  "desc": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.",
+  "title": "US stocks set for gains after AI rout",
+  "link": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T13:50:17+00:00",
+  "desc": "Declines last week pushed many indices into bear market territory",
   "ccs": [
    "US"
   ],
@@ -76,125 +132,315 @@
   "imp": "medium"
  },
  {
-  "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
-  "link": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T21:00:09+00:00",
-  "desc": "Claude-maker intends to list before Thanksgiving despite brutal tech rout",
+  "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+  "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+  "source": "CNBC",
+  "date": "2026-11-09T13:46:19+00:00",
+  "desc": "Nvidia said its board has launched an independent investigation following the reports that Huang was the target of a \"foreign intelligence effort.\"",
   "ccs": [],
-  "cat": "tc",
+  "cat": "rg",
   "imp": "medium"
  },
  {
-  "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-  "link": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
+  "title": "Corporate America’s profit numbers are just barely beating Wall Street’s expectations",
+  "link": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-06T20:58:00+00:00",
-  "desc": "Valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say Micron’s earnings power won’t hold up.",
+  "date": "2026-11-09T13:36:00+00:00",
+  "desc": "S&P 500 companies’ earnings are mostly topping analysts’ estimates — but by the narrowest margin in roughly four years.",
   "ccs": [
-   "KR"
+   "US"
   ],
   "cat": "er",
   "imp": "medium"
  },
  {
-  "title": "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
-  "link": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html",
-  "source": "CNBC",
-  "date": "2026-11-06T20:53:13+00:00",
-  "desc": "The Connecticut Democrat Murphy has been discussed as a possible candidate for the White House in 2028.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nasdaq drops into correction territory — here’s what typically happens next",
-  "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-06T20:42:28+00:00",
-  "desc": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-  "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-  "source": "CNBC",
-  "date": "2026-11-06T20:42:07+00:00",
-  "desc": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Trump taps immigration hardliner Stephen Miller as chief of staff",
-  "link": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T20:24:39+00:00",
-  "desc": "Decision to replace Susie Wiles comes days after Republican Party’s resounding midterm election defeat",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?",
   "link": "https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-06T20:15:00+00:00",
+  "date": "2026-11-09T13:30:00+00:00",
   "desc": "“My brother had no job and needed a place to live.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-  "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
-  "source": "CNBC",
-  "date": "2026-11-06T20:11:17+00:00",
-  "desc": "The average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.",
+  "title": "Retirement is now part of the affordability crisis. Politicians should pay attention.",
+  "link": "https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T13:30:00+00:00",
+  "desc": "Americans are more concerned about retirement than ever, and some of their biggest fears can’t be fixed by individual behavior alone.",
   "ccs": [],
   "cat": "eq",
-  "imp": "low"
+  "imp": "high"
  },
  {
-  "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-  "link": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
+  "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+  "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
   "source": "CNBC",
-  "date": "2026-11-06T19:44:33+00:00",
-  "desc": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who, like him, is Black.",
+  "date": "2026-11-09T13:13:52+00:00",
+  "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
   "ccs": [],
   "cat": "en_",
   "imp": "medium"
  },
  {
-  "title": "Top House Oversight Democrat warns Trump family to 'lawyer up'",
-  "link": "https://www.cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html",
+  "title": "These states are offering extra ACA premium subsidies in 2027",
+  "link": "https://www.cnbc.com/2026/11/09/aca-state-subsidies-2027.html",
   "source": "CNBC",
-  "date": "2026-11-06T19:42:36+00:00",
-  "desc": "With Democrats set to take control of the House in January, Rep. Robert Garcia is promising sweeping probes into Trump, his family and his administration.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Who is in the line of fire after the midterm drubbing?",
-  "link": "https://www.ft.com/content/580ab1bf-4e2e-46b8-9178-dbf765645754?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T19:29:18+00:00",
-  "desc": "The Trump administration reckons with the Democratic Party’s emphatic victory in the US midterms",
+  "date": "2026-11-09T13:00:01+00:00",
+  "desc": "Roughly a dozen states are offering some premium assistance for Obamacare enrollees, following the lapse of enhanced federal subsidies at the end of 2025.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-  "link": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-06T19:05:00+00:00",
-  "desc": "San Francisco Fed President Mary Daly called Friday's jobs report \"good news for American workers,\" but noted the pressure inflation is exerting on household finances",
+  "title": "The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks",
+  "link": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T12:27:00+00:00",
+  "desc": "The dismal performance of Geico is the biggest takeaway from Berkshire Hathaway’s third-quarter results.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia shares slide as it probes alleged Chinese spy scandal",
+  "link": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T12:26:07+00:00",
+  "desc": "Board of chipmaker opens investigation after chief executive Jensen Huang admits to affair",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with an alleged spy",
+  "link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-09T12:26:00+00:00",
+  "desc": "Jensen Huang will remain in his role and cooperate with the investigation, though analysts say the matter could cloud over Nvidia’s stock for some time.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump, Putin and the short war illusion",
+  "link": "https://www.ft.com/content/fa36233a-1ee0-4bd3-9521-c3defe10c173?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T12:24:59+00:00",
+  "desc": "The American and Russian leaders have both launched failed wars. Will Xi Jinping learn the right lesson?",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Merz nominates Germany’s first female president",
+  "link": "https://www.ft.com/content/b4be65b1-5d8a-470a-9be9-8a892c1c3276?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T12:17:38+00:00",
+  "desc": "Bavarian conservative Ilse Aigner expected to succeed Frank-Walter Steinmeier in March",
+  "ccs": [
+   "DE"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Restaurant chains refocus on food quality to bring back diners",
+  "link": "https://www.cnbc.com/2026/11/09/restaurant-chains-better-food-diners.html",
+  "source": "CNBC",
+  "date": "2026-11-09T12:00:01+00:00",
+  "desc": "Wendy's, Burger King, Chipotle and other chains are upgrading menu staples as restaurants look beyond discounts to win back diners.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth",
+  "link": "https://www.cnbc.com/2026/11/09/coreweave-debt-credit-risk-neoclouds.html",
+  "source": "CNBC",
+  "date": "2026-11-09T12:00:01+00:00",
+  "desc": "Leading neoclouds CoreWeave and Nebius have both lost about half their value in the past month as they get set for earnings reports this week.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Boeing’s Deal Losses Are Coming Into Sharper View",
+  "link": "https://www.wsj.com/finance/stocks/boeings-deal-losses-are-coming-into-sharper-view-256c7642?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-09T11:13:00+00:00",
+  "desc": "Plus, Nvidia in turmoil, and DoorDash competes with Amazon.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Rubio sees little hope of diplomatic breakthrough to Mideast deadlock amid 'outrageous' Iranian demands",
+  "link": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html",
+  "source": "CNBC",
+  "date": "2026-11-09T11:09:14+00:00",
+  "desc": "U.S. Secretary of State Marco Rubio told reporters that Iran negotiations remain unproductive.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Alberta leader faces backlash after winning referendum to remain in Canada",
+  "link": "https://www.ft.com/content/35a315a6-f3bb-4673-a65d-81a17114a208?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T11:00:06+00:00",
+  "desc": "Danielle Smith accused of ‘betrayal’ by rightwing separatists and of immigration fear-mongering by leftwing opposition",
+  "ccs": [
+   "CA"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Congress returns with government funding, Pete Hegseth and the debt limit on the agenda",
+  "link": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
+  "source": "CNBC",
+  "date": "2026-11-09T11:00:01+00:00",
+  "desc": "Republicans have less than two months left with majorities in both the Senate and the House — and a long list of legislation to take up in the coming weeks.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "For Big Bank Stocks, Capitol Hill’s Bark Is Worse Than Its Bite",
+  "link": "https://www.wsj.com/finance/regulation/for-big-bank-stocks-capitol-hills-bark-is-worse-than-its-bite-e436a99b?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-09T10:30:00+00:00",
+  "desc": "Democrats’ election victory will put Wall Street critics in key seats, but the Fed holds the real power.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Tech sell-off raises risks for SoftBank’s massive AI bet",
+  "link": "https://www.ft.com/content/e19c86dc-9437-4827-a5ae-14bd4033037b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T10:00:05+00:00",
+  "desc": "Founder Masayoshi Son grapples with falling values of holdings ahead of earnings report",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Crédit Agricole propone fusionar su filial en Italia con BPM",
+  "link": "https://www.expansion.com/empresas/banca/2026/11/09/credit-agricole-propone-fusionar-filial-italia-bpm.html",
+  "source": "Expansión",
+  "date": "2026-11-09T09:44:33+00:00",
+  "desc": "La entidad resultante sería el tercer mayor banco italiano. Leer",
+  "ccs": [
+   "IT"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stock Market Today: Nvidia Stock Slides After Chip Maker Opens Probe",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-09T09:04:21+00:00",
+  "desc": "Dow jumps at open, rebounding after last week",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Tech’s ‘vertical’ obsession doesn’t stack up",
+  "link": "https://www.ft.com/content/d3f706c8-a936-4395-bcf1-7f8bc2bed99a?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T05:00:25+00:00",
+  "desc": "The AI race is defined by vertical integration. Will it withstand a storm?",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "What Democrats must do now",
+  "link": "https://www.ft.com/content/ea60eed2-f307-425e-8d9a-7bd31d6ea81b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T05:00:25+00:00",
+  "desc": "To keep power and make real change, they need to tell the American people painful truths",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The great British sell-off",
+  "link": "https://www.ft.com/content/805f0c1d-795b-4ee0-8fbd-e08ab1be1193?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T05:00:08+00:00",
+  "desc": "Companies worth half a trillion pounds have been snapped up by foreign buyers over the past decade",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump says he was ‘too tough’ on immigrants as he floats amnesty deal",
+  "link": "https://www.ft.com/content/c82ac9a2-617e-400a-a5b7-e8d6674a80d4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-09T02:54:00+00:00",
+  "desc": "President concedes US voters were turned off by deportations, Iran war and ‘bad messaging’ on economy in midterm elections",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "Allianz GI cree que los bonos de EEUU vuelven a ser atractivos",
+  "link": "https://www.expansion.com/mercados/renta-fija/2026/11/09/allianz-gi-cree-bonos-eeuu-vuelven-atractivos.html",
+  "source": "Expansión",
+  "date": "2026-11-08T23:11:43+00:00",
+  "desc": "La gestora alemana cree que la deuda estadounidense ofrece cierto valor a esos precios. La demanda de estos bonos puede aumentar con la potencial recompra de deuda del Tesoro. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Román (Robeco): “La sostenibilidad, los mercados emergentes y los ETF activos apoyarán nuestro crecimiento”",
+  "link": "https://www.expansion.com/mercados/2026/11/09/roman-robeco-sostenibilidad-mercados-emergentes-etf-activos-apoyaran-nuestro-crecimiento.html",
+  "source": "Expansión",
+  "date": "2026-11-08T23:08:50+00:00",
+  "desc": "La gestora busca ganar cuota de mercado y cree que el mayor reto para los próximos años es fomentar el ahorro del cliente medio español. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Qué dice una oleada de ventas muy concentrada",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/09/dice-oleada-ventas-concentrada.html",
+  "source": "Expansión",
+  "date": "2026-11-08T23:01:27+00:00",
+  "desc": "Las caídas del jueves fueron suficientes como para hacernos pensar si es hora de huir. Pero los fundamentos que sostienen el mercado parecen sólidos. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Berkshire Hathaway intensifica la recompra de acciones",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/09/berkshire-hathaway-intensifica-recompra-acciones.html",
+  "source": "Expansión",
+  "date": "2026-11-08T23:00:36+00:00",
+  "desc": "Berkshire Hathaway ha intensificado la recompra de acciones en los últimos meses. La compañía pilotada por Greg Abel invirtió 9.600 millones de dólares en la adquisición de títulos propios en el tercer trimestre del ejer",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "A Popular New Bet Hailing From Cryptoland Sets Off a Wall Street Turf War",
+  "link": "https://www.wsj.com/finance/regulation/a-popular-new-bet-hailing-from-cryptoland-sets-off-a-wall-street-turf-war-70e37095?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-08T20:00:00+00:00",
+  "desc": "A group backed by Citadel Securities and Cboe is suing over the approval of single-stock perps.",
   "ccs": [
    "US"
   ],
@@ -202,274 +448,34 @@
   "imp": "high"
  },
  {
-  "title": "Data center double-down: Hassett says blue wave won't stop AI build-out",
-  "link": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
-  "source": "CNBC",
-  "date": "2026-11-06T18:54:22+00:00",
-  "desc": "Data centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which he continues despite the midterm results.",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
-  "link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T18:54:00+00:00",
-  "desc": "The Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My adviser recommended an annuity. Is it the right move in this market environment?",
-  "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T18:53:00+00:00",
-  "desc": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US economy outstrips forecasts to add 165,000 jobs in October",
-  "link": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T18:45:36+00:00",
-  "desc": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
-  "link": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-  "source": "CNBC",
-  "date": "2026-11-06T18:40:58+00:00",
-  "desc": "Microsoft is winding down the number of neoclouds it counts as partners, picking key suppliers and focusing on its own data centers.",
+  "title": "After a Tech Rout, Stock Funds Hold a 9.9% Gain for 2026",
+  "link": "https://www.wsj.com/finance/investing/after-tech-rout-stock-funds-hold-9-9-gain-2026-9d6d9773?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-08T15:00:00+00:00",
+  "desc": "Fund investors in October felt the downdraft in artificial-intelligence shares. Plus: A Financial Flashback to 40 years ago, the Boesky insider-trading bombshell.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
-  "link": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
-  "source": "CNBC",
-  "date": "2026-11-06T18:35:08+00:00",
-  "desc": "Executives of major tech companies are largely projecting optimism about continued growth in the artificial intelligence sector despite a post-midterm sell-off.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "AI crush is powering one stock to sky-high valuations",
-  "link": "https://www.cnbc.com/2026/11/06/ai-crush-is-powering-one-stock-to-sky-high-valuations.html",
-  "source": "CNBC",
-  "date": "2026-11-06T18:15:44+00:00",
-  "desc": "Despite sky-high valuations, Mike Khouw argues Costco shares could present a compelling buy.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "You’re fired! But you can keep the laptop and insurance. And here’s $10,000.",
-  "link": "https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T18:03:00+00:00",
-  "desc": "Some tech companies are giving more generous severance packages, but here’s what to keep in mind.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
-  "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-06T18:00:00+00:00",
-  "desc": "Math may be cold and unemotional — but finances are not.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US stocks rebound after tech rout",
-  "link": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T17:59:54+00:00",
-  "desc": "Tech-heavy Nasdaq 100 rises 1.4 per cent following day of turmoil",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Fazil Crypto consigue el pasaporte europeo para operar en 30 países del EEE",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/06/fazil-crypto-consigue-pasaporte-europeo-operar-30-paises-eee.html",
+  "title": "El Eurogrupo examina este lunes las candidaturas de Hernández de Cos y Knot para presidir el BCE",
+  "link": "https://www.expansion.com/mercados/2026/11/08/eurogrupo-examina-lunes-candidaturas-hernandez-cos-knot-presidir-bce.html",
   "source": "Expansión",
-  "date": "2026-11-06T17:47:35+00:00",
-  "desc": "Con este pasaporte, la compañía de origen vasco podrá operar en los 27 países de la Unión Europea, más Noruega, Islandia y Liechtenstein. En España, solo tres plataformas de intercambio de criptomonedas cuentan con este",
+  "date": "2026-11-08T14:01:03+00:00",
+  "desc": "Los ministros de Economía y Finanzas de la zona euro (Eurogrupo) examinarán este lunes en Bruselas las candidaturas del español Pablo Hernández de Cos y el neerlandés Klaas Knot para suceder a Christine Lagarde al frente",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Las empresas del Ibex 35 que más sufren los 'ataques' de los bajistas",
+  "link": "https://www.expansion.com/mercados/2026/11/08/empresas-ibex-35-sufren-ataques-bajistas.html",
+  "source": "Expansión",
+  "date": "2026-11-08T11:34:17+00:00",
+  "desc": "Solaria y Enagás son las compañías del Ibex 35 que más sufren los 'ataques' bajistas por parte de los 'hedge funds', por delante de otros 14 valores que también cuentan con posiciones cortas en su contra. Leer",
   "ccs": [
    "ES"
   ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-  "link": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
-  "source": "CNBC",
-  "date": "2026-11-06T17:24:48+00:00",
-  "desc": "Voters across the country on Tuesday voiced their support for candidates who have pledged to place restrictions on data center development.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "James Talarico: the Democrats’ rising star who turned Texas blue",
-  "link": "https://www.ft.com/content/7eb006c7-a430-40fd-bba6-48dcbb810ba2?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T17:23:03+00:00",
-  "desc": "The 37-year-old senator-elect combined Christian faith and anti-corruption messaging to give the left its first statewide win in decades",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
-  "link": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T17:20:21+00:00",
-  "desc": "Washington says Beijing is not fulfilling commitments to increase supply of rare earths and other critical products",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
-  "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-06T17:09:53+00:00",
-  "desc": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Low-profile Wall Street firm to double down on Anthropic despite tech rout",
-  "link": "https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T14:01:19+00:00",
-  "desc": "XN amassed $5.3bn stake in AI lab through private-round investments",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Alas, poor Elon",
-  "link": "https://www.ft.com/content/a0de0506-d647-4a8c-a94a-751f56925ed0?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T14:00:05+00:00",
-  "desc": "Victorious Democrats in effect ran against Musk in Texas",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My portfolio returns went from hero to zero (actually I’d take zero)",
-  "link": "https://www.ft.com/content/44211bf7-0f18-4e55-81b8-01e750ae785f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T13:34:06+00:00",
-  "desc": "One stock in my Asia fund made me look clever for months. Not so much now",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "ING ve en Digi un refugio en Bolsa con crecimiento y potencial",
-  "link": "https://www.expansion.com/mercados/2026/11/06/ing-ve-digi-refugio-bolsa-crecimiento-potencial.html",
-  "source": "Expansión",
-  "date": "2026-11-06T13:04:15+00:00",
-  "desc": "Un sector defensivo como el de las 'telecos' ofrece, en casos aislados como el de Digi, una oportunidad significativa de crecimiento y potencial, según ponen en valor los analistas de ING. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Euríbor hoy, 6 de noviembre: El Euríbor diario se sitúa hoy en 3,283%",
-  "link": "https://www.expansion.com/mercados/euribor/2026/11/06/euribor-hoy-6-noviembre-euribor-diario-situa-hoy-3-283.html",
-  "source": "Expansión",
-  "date": "2026-11-06T12:06:18+00:00",
-  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 3,302% en noviembre, lo que supone un aumento de 0,063 puntos respecto al dato del mes anterior. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Profits Are About as Good as They’ll Get",
-  "link": "https://www.wsj.com/finance/stocks/profits-are-about-as-good-as-theyll-get-72154bc8?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-06T11:44:00+00:00",
-  "desc": "Plus, tech investors are in shock.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "La caída se agrava: ¿es el momento de huir?",
-  "link": "https://www.expansion.com/economia/financial-times/2026/11/06/caida-agrava-momento-huir.html",
-  "source": "Expansión",
-  "date": "2026-11-06T11:29:16+00:00",
-  "desc": "La pregunta que todos se hacen —¿será este el gran terremoto?— es imposible de responder. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El 'índice del miedo' en Bolsa se dispara a máximos de marzo",
-  "link": "https://www.expansion.com/mercados/2026/11/06/indice-miedo-bolsa-dispara-maximos-marzo.html",
-  "source": "Expansión",
-  "date": "2026-11-06T11:25:45+00:00",
-  "desc": "La aversión al riesgo se disparó solo un día después de la inyección de optimismo que aportaron los resultados electorales en EEUU. La tensión y la volatilidad elevan la inestabilidad en el conjunto de los mercados, no s",
-  "ccs": [
-   "US"
-  ],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Implicaciones alarmantes de las correcciones de la IA en los mercados",
-  "link": "https://www.expansion.com/opinion/2026/11/06/implicaciones-alarmantes-correcciones-ia-mercados.html",
-  "source": "Expansión",
-  "date": "2026-11-06T11:01:01+00:00",
-  "desc": "Menores inversiones y emisiones de deuda limitarían los posibles daños sistémicos, pero también afectarían al crecimiento económico. Leer",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Trump has taught the world that tariffs are useless",
-  "link": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-06T11:00:09+00:00",
-  "desc": "The Republicans’ evisceration in the midterm elections shows the economic and political costs of mindless protectionism",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "What the Midterm Shake-Up Means for Markets and Investors",
-  "link": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-06T10:42:00+00:00",
-  "desc": "Plus, Israel’s most important alliance confronts its biggest test in decades, and what’s next for Texas after the Democratic sweep.",
-  "ccs": [],
   "cat": "eq",
   "imp": "low"
  }
