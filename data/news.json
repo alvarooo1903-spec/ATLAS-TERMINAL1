@@ -1,22 +1,393 @@
 [
  {
-  "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-  "link": "https://www.cnbc.com/investingclub/2026/11/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+  "title": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+  "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
   "source": "CNBC",
-  "date": "2026-11-12T14:00:19+00:00",
-  "desc": "Nvidia CEO Jensen Huang's future at the chipmaker hangs in the balance.",
+  "date": "2026-11-12T22:18:41+00:00",
+  "desc": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
+  "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+  "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+  "source": "CNBC",
+  "date": "2026-11-12T22:18:09+00:00",
+  "desc": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+  "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
+  "source": "CNBC",
+  "date": "2026-11-12T22:17:05+00:00",
+  "desc": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+  "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T22:16:00+00:00",
+  "desc": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
+  "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T22:00:00+00:00",
+  "desc": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+  "link": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T21:55:00+00:00",
+  "desc": "More people want to understand the fine print on plans this year, financial planners say.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "The 10 best stocks for a year-end momentum trade",
+  "link": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T21:50:00+00:00",
+  "desc": "Why December is the best month of the year for momentum strategies",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Jensen Huang’s Exit Will Test AI’s Stocks, and Great-Man Theory",
+  "link": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-12T21:41:00+00:00",
+  "desc": "Nvidia’s crisis divides the AI trade between companies dependent on Huang’s patronage, and those that didn’t need his chips or financing deals.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information",
+  "link": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-12T21:40:00+00:00",
+  "desc": "Prosecutors said the employee netted $70,000 in profits related to client matters including Paramount’s acquisition of Warner Bros.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+  "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+  "source": "CNBC",
+  "date": "2026-11-12T21:33:44+00:00",
+  "desc": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+  "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T21:30:00+00:00",
+  "desc": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+  "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+  "source": "CNBC",
+  "date": "2026-11-12T21:20:35+00:00",
+  "desc": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia Tumbles as its CEO Jensen Huang Departs Amid Multiplying Scandals",
+  "link": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-12T21:11:00+00:00",
+  "desc": "Plus, competitors AMD and Broadcom advance and yields rise.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.",
+  "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T21:08:00+00:00",
+  "desc": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
+  "ccs": [
+   "US",
+   "FR"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "The bond market now has an even bigger fear than AI fallout",
+  "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T20:44:00+00:00",
+  "desc": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
   "title": "Trump says ‘we don’t need a deal with Iran’",
   "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
   "source": "CNBC",
-  "date": "2026-11-12T13:54:31+00:00",
+  "date": "2026-11-12T20:34:31+00:00",
   "desc": "Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.",
   "ccs": [],
   "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump signals end to vice-president’s Iran peace deal push",
+  "link": "https://www.ft.com/content/3c1727bb-2966-4e5c-808b-873d14854fa2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T20:32:43+00:00",
+  "desc": "President says US does not need an agreement with Tehran as he directs JD Vance to focus on domestic concerns",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "European leaders reject Russian push to overhaul continent’s security",
+  "link": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T20:30:14+00:00",
+  "desc": "‘Europe needs to pay attention’, warns Zelenskyy after Abu Dhabi talks",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "I’m 17 and will be a first-generation college student. Is law school worth being $200,000 in debt?",
+  "link": "https://www.marketwatch.com/story/im-17-and-will-be-a-first-generation-college-student-is-law-school-worth-being-200-000-in-debt-df9b23c3?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T20:17:00+00:00",
+  "desc": "“I‘’m considering a pre-law track … I’m just a bit hesitant because of how expensive law school is.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+  "link": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+  "source": "CNBC",
+  "date": "2026-11-12T20:03:57+00:00",
+  "desc": "The president's son will no longer serve as an advisor at Kalshi.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+  "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+  "source": "CNBC",
+  "date": "2026-11-12T20:01:29+00:00",
+  "desc": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+  "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+  "source": "CNBC",
+  "date": "2026-11-12T19:58:11+00:00",
+  "desc": "The retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
+  "link": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T19:46:00+00:00",
+  "desc": "The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+  "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+  "source": "CNBC",
+  "date": "2026-11-12T19:42:41+00:00",
+  "desc": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia’s stock selloff may be just beginning, even after shedding 30% from its peak",
+  "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-12T19:15:00+00:00",
+  "desc": "While shares of Nvidia look cheap on paper and on the charts, Wall Street analysts see more volatility ahead.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+  "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+  "source": "CNBC",
+  "date": "2026-11-12T19:05:25+00:00",
+  "desc": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+  "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-12T19:04:21+00:00",
+  "desc": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "ma",
+  "imp": "high"
+ },
+ {
+  "title": "Another Winner From the Midterms: Crusaders Against Insurance Companies",
+  "link": "https://www.wsj.com/finance/another-winner-from-the-midterms-crusaders-against-insurance-companies-36adf244?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-12T18:52:00+00:00",
+  "desc": "California’s incoming insurance commissioner wants to impose profit caps on home and auto insurers.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia sends a painful message on how to value a CEO",
+  "link": "https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T18:40:46+00:00",
+  "desc": "More clarity about why founders matter — and how much — should help everyone",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "US home sales fall to lowest level since 2010 as mortgage rates soar",
+  "link": "https://www.ft.com/content/1e08661e-1db0-4ff7-8236-77254bb05790?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T18:03:44+00:00",
+  "desc": "Higher borrowing costs deepen housing market slump as interest rates weigh on transactions",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Nvidia Shareholders Won’t Miss Jensen Huang for Long",
+  "link": "https://www.wsj.com/finance/stocks/nvidia-shareholders-wont-miss-jensen-huang-for-long-13429e31?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-12T17:43:00+00:00",
+  "desc": "Steadier hands could be better suited to enriching shareholders as the AI chip company enters a new phase.",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Quantum Systems drones grounded by German military after cyber attack",
+  "link": "https://www.ft.com/content/783504cd-aa28-453a-a223-7a34eee86ce8?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T17:32:13+00:00",
+  "desc": "Start-up with €7bn valuation and operations in Ukraine is latest European arms group to be targeted",
+  "ccs": [
+   "DE"
+  ],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Meet the contenders to succeed Jensen Huang",
+  "link": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
+  "source": "Financial Times",
+  "date": "2026-11-12T17:24:08+00:00",
+  "desc": "From chief executives of rival companies to the former CEO’s own children, the race to lead Nvidia has begun",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+  "link": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
+  "source": "CNBC",
+  "date": "2026-11-12T17:23:14+00:00",
+  "desc": "The IRS has announced higher 401(k) contribution limits for 2027. Here’s what retirement savers need to know.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Jensen jeopardy will disrupt the AI industry",
+  "link": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T15:56:31+00:00",
+  "desc": "The Nvidia boss’s departure could deepen the technological rift between Washington and Beijing",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
+  "link": "https://www.ft.com/content/6cd890f1-2e4d-468a-807f-529f45e1678e?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T14:29:01+00:00",
+  "desc": "Army struggles to intercept Russian jet-powered drones, just as Steve Witkoff and Jared Kushner meet Vladimir Putin",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Jensen Huang is gone. Will the AI industry pay the price?",
+  "link": "https://www.ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-12T14:22:30+00:00",
+  "desc": "Nvidia chief’s fall could unravel the web of financial dependencies that helped fuel the AI boom",
+  "ccs": [],
+  "cat": "tc",
   "imp": "medium"
  },
  {
@@ -24,133 +395,7 @@
   "link": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
   "source": "Financial Times",
   "date": "2026-11-12T13:51:15+00:00",
-  "desc": "Shares in chipmaker extend losses after chipmaker says chief financial officer Colette Kress to take over as interim head",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Oil prices jump after Trump says no Iran deal needed: 'We've got their Strait'",
-  "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:49:46+00:00",
-  "desc": "Oil prices popped Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "It’s not ‘Medicare for All,’ but ‘Medicare for More.’ What this could mean for workers over 50.",
-  "link": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T13:38:00+00:00",
-  "desc": "A new bill would lower the Medicare age to 50, expanding coverage to an additional 60 million adults",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
-  "link": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:20:12+00:00",
-  "desc": "Sen. Tom Cotton is urging the Commerce secretary to add CXMT to its \"Entity List\" as the fast-growing Chinese memory maker expands in DRAM and pushes into HBM.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "As credit card balances hit a record high, medical bills can become 'shadow debt,' expert says",
-  "link": "https://www.cnbc.com/2026/11/12/medical-bills-credit-card-debt.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:15:02+00:00",
-  "desc": "Medical bills can move onto credit cards and other borrowing, making the debt harder to track. Here's what consumers can check before financing care.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Unions helped Democrats win big in 2026. Now they want action",
-  "link": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:09:33+00:00",
-  "desc": "Unions spent millions of dollars and mobilized thousands of members to get out the vote for Democrats in the midterm election. Now they want to see action.",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "‘A dark day for Nvidia’: Here’s what analysts are saying as markets brace for news on Huang's fate",
-  "link": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:08:28+00:00",
-  "desc": "The company's board convened Wednesday evening after reports emerged of Huang engaging in an affair with an employee.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook",
-  "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
-  "source": "CNBC",
-  "date": "2026-11-12T13:06:08+00:00",
-  "desc": "Nebius' earnings report comes after fellow neoclouds IREN and CoreWeave showed better-than-expected results in the past week.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Wendy’s rejects a takeover offer, scales back breakfast and still sees its stock surge",
-  "link": "https://www.marketwatch.com/story/wendys-rejects-a-takeover-offer-scales-back-breakfast-and-still-sees-its-stock-surge-4e398cde?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T13:05:00+00:00",
-  "desc": "Wendy’s plans to go it alone, and analysts say the company has “significant work ahead.”",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "high"
- },
- {
-  "title": "The world’s most sophisticated drug companies are putting billions into vaccines — despite the political environment",
-  "link": "https://www.marketwatch.com/story/the-worlds-most-sophisticated-drug-companies-are-putting-billions-into-vaccines-despite-the-political-environment-8dcbf276?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T13:00:00+00:00",
-  "desc": "Look at the promising data for Moderna and Merck’s experimental cancer vaccine and the research suggesting the shingles vaccine can delay dementia.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "How the U.S. government’s equity holdings have surged during Trump’s second term — in one chart",
-  "link": "https://www.marketwatch.com/story/how-the-u-s-governments-equity-holdings-have-surged-during-trumps-second-term-in-one-chart-b598c369?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T13:00:00+00:00",
-  "desc": "41 companies have made deals that grant stakes to the Trump administration, and some could face probes from the new Congress",
-  "ccs": [
-   "US"
-  ],
-  "cat": "rg",
-  "imp": "high"
- },
- {
-  "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
-  "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
-  "source": "CNBC",
-  "date": "2026-11-12T12:56:27+00:00",
-  "desc": "Scott Colom will be the first Democrat elected to the Senate from the state since 1982, and Mississippi's first Black senator since Reconstruction.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The ‘bank of Nvidia’ is in jeopardy, threatening the entire AI boom",
-  "link": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T12:55:00+00:00",
-  "desc": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
+  "desc": "Shares in chipmaker slide after group says chief financial officer Colette Kress to take over as interim head",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
@@ -166,16 +411,6 @@
   "imp": "medium"
  },
  {
-  "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
-  "link": "https://www.ft.com/content/6cd890f1-2e4d-468a-807f-529f45e1678e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T12:46:59+00:00",
-  "desc": "Army struggles to intercept Russian jet-powered drones, just as Steve Witkoff and Jared Kushner meet Vladimir Putin",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
   "title": "Euríbor hoy, 12 de enero de 2026: Euríbor sigue trabajando tras la huelga e incrementa su tasa diaria",
   "link": "https://www.expansion.com/mercados/euribor/2026/11/12/euribor-hoy-12-enero-2026-euribor-sigue-trabajando-huelga-e-incrementa-tasa-diaria.html",
   "source": "Expansión",
@@ -184,16 +419,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man",
-  "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T12:29:00+00:00",
-  "desc": "Huang’s exit could fray tight bonds among AI businesses. Plus, Oracle’s potential AI catalyst, a $1.5 trillion Social Security stock proposal and what the oil-yield split may mean for inflation.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
  },
  {
   "title": "Israel strikes Gaza hospital despite ceasefire",
@@ -216,38 +441,6 @@
   "imp": "low"
  },
  {
-  "title": "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait",
-  "link": "https://www.marketwatch.com/story/tech-stocks-may-soon-enjoy-a-violent-bounce-but-one-strategist-warns-investors-not-to-take-the-bait-1a41f9c4?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T11:34:00+00:00",
-  "desc": "Jim Thorne, Wellington-Altus Private Wealth’s chief market strategist, says investors should not get tempted too fast into a tech stock bounce.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
-  "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
-  "source": "CNBC",
-  "date": "2026-11-12T11:30:01+00:00",
-  "desc": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
-  "link": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
-  "source": "CNBC",
-  "date": "2026-11-12T11:23:04+00:00",
-  "desc": "Starshield is SpaceX's military-grade satellite network designed for government and national security use, building on the technology developed for Starlink.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
   "title": "Hoping to Sell Your Home in the Spring? It’s Not Looking Good",
   "link": "https://www.wsj.com/finance/stocks/hoping-to-sell-your-home-in-the-spring-its-not-looking-good-8dc94d1c?mod=rss_markets_main",
   "source": "WSJ Markets",
@@ -256,58 +449,6 @@
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
- },
- {
-  "title": "Maga architects blame Big Tech and AI data centres for midterms rout",
-  "link": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T11:00:04+00:00",
-  "desc": "Head of Heritage Foundation admits Republicans’ embrace of Silicon Valley and the effect of Donald Trump’s Iran war cost them votes",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Here’s what Megaspeed, the company at the forefront of the Nvidia scandal, is now saying",
-  "link": "https://www.marketwatch.com/story/heres-what-megaspeed-the-company-at-the-forefront-of-the-nvidia-scandal-is-now-saying-b73f8d0b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T10:57:00+00:00",
-  "desc": "The Singaporean company Megaspeed, at the center of the scandal engulfing Nvidia, on Thursday issued its first public statement since the scandal erupted.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "The Inflation Fight May Be About to Turn Painful",
-  "link": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-12T10:57:00+00:00",
-  "desc": "Plus, retirees’ investments, the affordability agenda and the downsides of a boring job market.",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "medium"
- },
- {
-  "title": "China warns US not to use Nvidia scandal as pretext for tech curbs",
-  "link": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T10:55:31+00:00",
-  "desc": "Beijing accuses US of fabricating ‘espionage narratives’ as chip company’s board considers future of chief executive Jensen Huang",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
-  "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T10:15:00+00:00",
-  "desc": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  },
  {
   "title": "El precio del Bitcoin hoy, 12 de noviembre: el Bitcoin desciende hasta los 73.557,65 dólares",
@@ -320,16 +461,6 @@
   "imp": "medium"
  },
  {
-  "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-  "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-12T10:07:00+00:00",
-  "desc": "Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
   "title": "Los analistas se mantienen en guardia con Telefónica",
   "link": "https://www.expansion.com/mercados/2026/11/12/analistas-mantienen-guardia-telefonica.html",
   "source": "Expansión",
@@ -337,133 +468,6 @@
   "desc": "La mejora de previsiones de ebitda y flujo de caja no evita las caídas en Telefónica. Los analistas valoran que los resultados, al menos, deberían dar soporte a su cotización. A cambio, se mantienen en guardia a la esper",
   "ccs": [],
   "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Dónde está el suelo de las acciones de Nvidia en Bolsa si Huang es despedido",
-  "link": "https://www.expansion.com/mercados/2026/11/12/suelo-acciones-nvidia-bolsa-huang-despedido.html",
-  "source": "Expansión",
-  "date": "2026-11-12T08:43:14+00:00",
-  "desc": "Los analistas rebajan un 30% sus precios objetivos de la empresa de chips y piden que la directora financiera tome las riendas de manera transitoria. Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Who could run Nvidia after Jensen Huang?",
-  "link": "https://www.ft.com/content/e47f7d4a-88d7-41e4-8c77-8ea8e0769353?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T07:54:52+00:00",
-  "desc": "Chip giant co-founder’s future as chief executive is uncertain following report of a second affair",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia Live Updates: Chip Giant's Stock Tumbles After Jensen Huang Exit",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-12T07:42:54+00:00",
-  "desc": "Nasdaq futures slide as investors size up how much Nvidia (and the AI trade) is worth without the CEO",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
-  "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-12T07:28:48+00:00",
-  "desc": "China's Ministry of State Security is getting attention after news of Nvidia CEO Jensen Huang's affair with an alleged MSS spy.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
-  "link": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T05:00:21+00:00",
-  "desc": "Boost in shipments expected to be shortlived after Ukraine resumes attacks on refineries",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "France signals support for Spain’s ECB presidential candidate",
-  "link": "https://www.ft.com/content/b0d03a62-a75d-41f9-bac3-1518cefe400a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T05:00:21+00:00",
-  "desc": "Pablo Hernández de Cos’s bid gains momentum as Paris and Berlin eye package deal on central bank leadership",
-  "ccs": [
-   "ES",
-   "FR"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Huang falls out of favour in Washington",
-  "link": "https://www.ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T04:19:48+00:00",
-  "desc": "AI kingmaker’s opponents see ‘blood in the water’ after affair with suspected Chinese spy",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia’s Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
-  "link": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-12T01:00:00+00:00",
-  "desc": "Last year, just as scrutiny of Megaspeed was rising, Nvidia stopped reporting Singapore revenue.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Las dos rotaciones que soplan a favor de Europa",
-  "link": "https://www.expansion.com/mercados/2026/11/12/dos-rotaciones-soplan-favor-europa.html",
-  "source": "Expansión",
-  "date": "2026-11-12T00:41:37+00:00",
-  "desc": "La renta variable europea vuelve a aventajar a la estadounidense en 2026, gracias a la combinación de dos rotaciones en los mercados que pueden seguir soplando a favor de Europa. Leer",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Scott Colom wins historic Senate race in Mississippi",
-  "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-12T00:24:56+00:00",
-  "desc": "Democrat becomes the first Black person to represent the state since Reconstruction era",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Portfolio Stock Exchange lanza la negociación de fondos alternativos tokenizados",
-  "link": "https://www.expansion.com/inversion/2026/11/12/portfolio-stock-exchange-lanza-negociacion-fondos-alternativos-tokenizados.html",
-  "source": "Expansión",
-  "date": "2026-11-12T00:22:42+00:00",
-  "desc": "El operador bursátil español Portfolio Stock Exchange, autorizado y supervisado por la CNMV, ha llegado a un acuerdo con Investre, el único agente con licencia de tokenización de fondos de Luxemburgo, para que se puedan",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los 'yankees' invaden el mercado europeo de bonos con una ola de papel",
-  "link": "https://www.expansion.com/mercados/2026/11/12/yankees-invaden-mercado-europeo-bonos-ola-papel.html",
-  "source": "Expansión",
-  "date": "2026-11-12T00:21:54+00:00",
-  "desc": "¿Hay riesgo de exclusión para los emisores españoles y europeos ante la ofensiva de firmas como Amazon, Goldman Sachs y Uber? Leer",
-  "ccs": [],
-  "cat": "bd",
   "imp": "medium"
  }
 ]
