@@ -1,201 +1,350 @@
 [
  {
-  "title": "United Airlines resolves system outage that affected departing flights",
-  "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+  "title": "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing",
+  "link": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html",
   "source": "CNBC",
-  "date": "2026-11-17T00:00:49+00:00",
-  "desc": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Cinco sectores europeos para 2027",
-  "link": "https://www.expansion.com/mercados/2026/11/17/cinco-sectores-europeos-2027.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:50:10+00:00",
-  "desc": "La recta final de 2026 augura aún emociones fuertes cuando las firmas de análisis comienzan a desvelar sus previsiones para 2027. Goldman Sachs identifica sus cinco sectores europeos más recomendados, tres por su perfil",
-  "ccs": [],
-  "cat": "cm",
+  "date": "2026-11-17T14:57:38+00:00",
+  "desc": "Cook's attorney sounded more hostile than ever in his first known letter to be sent in the matter since the GOP's drubbing in the Nov. 3 midterm elections.",
+  "ccs": [
+   "US",
+   "KR"
+  ],
+  "cat": "cb",
   "imp": "medium"
  },
  {
-  "title": "Por qué el mercado no se ha hundido por ahora con la crisis de la IA y Nvidia",
-  "link": "https://www.expansion.com/mercados/2026/11/17/mercado-hundido-crisis-ia-nvidia.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:49:32+00:00",
-  "desc": "Los analistas temen hoy una \"limpieza de armarios\" en los resultados de la empresa que hasta hace poco dirigía Jensen Huang. Leer",
-  "ccs": [],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Las gestoras internacionales captan el triple que las españolas en 2026",
-  "link": "https://www.expansion.com/mercados/fondos/2026/11/17/gestoras-internacionales-captan-triple-espanolas-2026.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:48:17+00:00",
-  "desc": "Los fondos extranjeros reciben 28.000 millones en suscripciones, frente a los 10.659 millones que captan las gestoras nacionales en el mismo periodo. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Morgan Stanley y Goldman Sachs, muy optimistas con las bolsas",
-  "link": "https://www.expansion.com/mercados/2026/11/17/morgan-stanley-goldman-sachs-optimistas-bolsas.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:47:53+00:00",
-  "desc": "Ambos bancos de inversión creen que la fiebre por el desarrollo de la IA seguirá apoyando las subidas de los principales índices el próximo año. Leer",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "United Airlines resolves system outage that delayed flights Monday",
-  "link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T23:42:00+00:00",
-  "desc": "The outage came just days after an FAA ground stop disrupted air travel nationally.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
-  "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T23:28:00+00:00",
-  "desc": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
+  "title": "Investor Steve Eisman says the AI neocloud stocks are in 'big trouble' from Nvidia fallout",
+  "link": "https://www.cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html",
+  "source": "CNBC",
+  "date": "2026-11-17T14:50:50+00:00",
+  "desc": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
  },
  {
-  "title": "Leverage Shares lanza el primer ETP apalancado sobre Anthropic",
-  "link": "https://www.expansion.com/inversion/2026/11/17/leverage-shares-lanza-primer-etp-apalancado-sobre-anthropic.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:25:51+00:00",
-  "desc": "Es el primer producto cotizado del mundo que ofrece una exposición apalancada 3 veces a Anthropic, Leer",
+  "title": "SpaceX got a vote of confidence from Nvidia ahead of Jensen Huang’s exit",
+  "link": "https://www.marketwatch.com/story/spacex-got-a-vote-of-confidence-from-nvidia-ahead-of-jensen-huangs-exit-6fe52365?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T14:46:00+00:00",
+  "desc": "Nvidia purchased millions of additional SpaceX shares during the third quarter.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "I tried TikTok’s viral ‘corporate slop lunch hacks’ — and finally escaped the $20 desk salad",
+  "link": "https://www.marketwatch.com/story/i-tried-tiktoks-viral-corporate-slop-lunch-hacks-and-finally-escaped-the-20-desk-salad-60daf133?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T14:41:00+00:00",
+  "desc": "I’m not telling you to start buying lunch if you don’t already. I’m showing you how to spend less when you do.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "El euro se debilita frente al dólar y ya pierde más de un 6% anual",
-  "link": "https://www.expansion.com/mercados/divisas/2026/11/17/euro-debilita-frente-dolar-pierde-6-anual.html",
-  "source": "Expansión",
-  "date": "2026-11-16T23:24:20+00:00",
-  "desc": "La divisa europea sufre por la reciente fortaleza del dólar, al calor de la previsión de nuevas subidas de tipos en EEUU. Leer",
+  "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+  "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+  "source": "CNBC",
+  "date": "2026-11-17T14:34:48+00:00",
+  "desc": "Anthropic is slated to list on the Nasdaq under the ticker symbol \"ANT\" and start trading on Nov. 19.",
   "ccs": [
    "US"
   ],
-  "cat": "fx",
-  "imp": "medium"
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-  "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
-  "source": "CNBC",
-  "date": "2026-11-16T23:23:47+00:00",
-  "desc": "CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
+  "title": "U.S. retail sales slow just ahead of the holiday shopping season. A hint of trouble? Nope.",
+  "link": "https://www.marketwatch.com/story/u-s-retail-sales-slow-just-ahead-of-the-holiday-shopping-season-a-hint-of-trouble-a89c9f98?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T14:32:00+00:00",
+  "desc": "Sales at U.S. retailers rose just slightly in October after two months of big increases, suggesting that households took a small but temporary breather before the start of the holiday shopping season.",
   "ccs": [
-   "KR"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Russia aims for ‘joint statement’ from trilateral summit with US and China",
-  "link": "https://www.ft.com/content/e567ba7d-c53a-47a2-a361-3b8a107fcdef?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T23:22:46+00:00",
-  "desc": "Thursday’s unprecedented meeting of Donald Trump, Xi Jinping and Vladimir Putin has drawn intense international attention",
-  "ccs": [
-   "CN"
+   "US"
   ],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-  "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+  "title": "Nike lays out financial goals ahead of first investor day in 9 years",
+  "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
   "source": "CNBC",
-  "date": "2026-11-16T23:05:12+00:00",
-  "desc": "Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.",
+  "date": "2026-11-17T14:26:39+00:00",
+  "desc": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
   "ccs": [],
-  "cat": "gp",
-  "imp": "high"
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia investors will be clamoring for these answers during today’s historic earnings call",
+  "link": "https://www.marketwatch.com/story/nvidia-investors-will-be-clamoring-for-answers-to-these-questions-during-the-companys-hotly-anticipated-earnings-call-a49ec19d?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T14:24:00+00:00",
+  "desc": "There’s a lot that Nvidia investors want to know about the post-Jensen Huang era — although management is likely to be tight-lipped on the topic of succession.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "The biggest financial decision of your life isn’t an investment — it’s your spouse",
+  "link": "https://www.marketwatch.com/story/the-biggest-financial-decision-of-your-life-isnt-an-investment-its-your-spouse-1cbb8680?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T14:10:00+00:00",
+  "desc": "These are the money conversation to have before the wedding, and the paperwork to do after.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
  },
  {
   "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
   "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-16T23:04:00+00:00",
+  "date": "2026-11-17T14:05:00+00:00",
   "desc": "Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-  "link": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+  "title": "Republicans outspent Democrats for first time in over a decade in record 2026 midterm election political ad blitz",
+  "link": "https://www.cnbc.com/2026/11/17/2026-election-political-ad-spending.html",
   "source": "CNBC",
-  "date": "2026-11-16T23:01:19+00:00",
-  "desc": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+  "date": "2026-11-17T14:00:02+00:00",
+  "desc": "Republicans slightly outspent Democrats for the first time as Democrats swept national and state elections.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
-  "link": "https://www.cnbc.com/2026/11/16/as-nike-lululemon-struggle-in-china-xiaohongshu-helps-local-brands.html",
-  "source": "CNBC",
-  "date": "2026-11-16T23:00:01+00:00",
-  "desc": "There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-  "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T23:00:00+00:00",
-  "desc": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
-  "link": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-16T22:51:00+00:00",
-  "desc": "The conglomerate formerly run by Warren Buffett also trimmed stakes in Capital One and Nucor during the September quarter.",
+  "title": "El Nasdaq, ansioso por conocer los resultados de Nvidia",
+  "link": "https://www.expansion.com/mercados/2026/11/17/nasdaq-ansioso-conocer-resultados-nvidia.html",
+  "source": "Expansión",
+  "date": "2026-11-17T13:45:31+00:00",
+  "desc": "Desde los altos anuales e históricos de principios de octubre el índice más amplio de la tecnología acumula un descenso del 11,60%. Leer",
   "ccs": [
    "US"
   ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump has arrived in Asia. Here’s what he said about Iran and Deutsche Bank",
+  "link": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+  "source": "CNBC",
+  "date": "2026-11-17T13:44:02+00:00",
+  "desc": "Trump threatens Iran and responds to a tax leak report as his Asia trip begins.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+  "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+  "source": "CNBC",
+  "date": "2026-11-17T13:40:54+00:00",
+  "desc": "The forecast represents one of the most hawkish views among policymakers.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "high"
+ },
+ {
+  "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+  "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T13:15:00+00:00",
+  "desc": "“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+  "link": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
+  "source": "CNBC",
+  "date": "2026-11-17T13:11:40+00:00",
+  "desc": "How the market set-up is more favorable for the Anthropic IPO than the lead-up to SpaceX's debut.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
+  "link": "https://www.ft.com/content/b8215e9c-bed2-49e8-a36f-6d7aca599bba?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T13:07:17+00:00",
+  "desc": "US currency has increased to levels last seen in April 2025, helped by ‘perfect storm’ of dollar-positive factors",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Now’s the perfect time for networking. Here’s how to send a cringe-free email.",
+  "link": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T12:46:00+00:00",
+  "desc": "Hiring for white-collar jobs usually dips in November and December, so try sending “cold emails” to your network instead.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "A misty outlook for rates",
+  "link": "https://www.ft.com/content/c53ae58c-64b9-4d90-8a0b-d338e80f4614?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T12:30:05+00:00",
+  "desc": "Contrasting speeches from the Fed’s Christopher Waller and BoE’s Clare Lombardelli show that central bank communications still matter",
+  "ccs": [
+   "US",
+   "GB"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "Fund managers just slashed their tech bets at the fastest pace in two decades — and this is the tail risk keeping them up at night",
+  "link": "https://www.marketwatch.com/story/fund-managers-just-slashed-their-tech-bets-at-the-fastest-pace-in-two-decades-and-this-is-the-tail-risk-keeping-them-up-at-night-60fcc160?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T12:28:00+00:00",
+  "desc": "Investors are shifting their overweight positioning away from megacap tech and getting less bearish on bonds. Yet they still maintain exceedingly low cash positions as global growth forecasts are bullish.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Can Nvidia sell investors on a future without Jensen Huang?",
+  "link": "https://www.marketwatch.com/story/can-nvidia-sell-investors-on-a-future-without-jensen-huang-3fe4bb49?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-17T12:27:00+00:00",
+  "desc": "Co-founder Huang is gone. Can Colette Kress ease market fears? Can a new board committee? Plus, the Fed weighs AI’s economic fallout, and parents confront their kids’ gambling problems.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "AI grapples with the return of the ‘Antichrist’",
+  "link": "https://www.ft.com/content/551f078e-4cd5-4302-8143-96b8ed5c9eeb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T12:20:22+00:00",
+  "desc": "Tech titans doubled down on Trump and now find themselves in the crosshairs of voters who reject progress at any cost",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Acciona vuelve a soportes",
+  "link": "https://www.expansion.com/mercados/2026/11/17/acciona-vuelve-soportes.html",
+  "source": "Expansión",
+  "date": "2026-11-17T11:44:49+00:00",
+  "desc": "Los títulos de la multinacional española acumulan un descenso del 28% desde los máximos históricos de junio. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia creates committee to oversee compliance with US chip export controls",
+  "link": "https://www.ft.com/content/aeacbf89-5511-4d1c-81c2-b4c227bdfceb?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T11:24:44+00:00",
+  "desc": "Move comes as US chipmaker faces criticism in Washington over its ambition to increase revenues in China",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Euríbor hoy, 17 de noviembre: El Euríbor continua imparable",
+  "link": "https://www.expansion.com/mercados/euribor/2026/11/17/euribor-hoy-17-noviembre-euribor-continua-imparable.html",
+  "source": "Expansión",
+  "date": "2026-11-17T11:19:39+00:00",
+  "desc": "Tras la subida del Euríbor, la media mensual se sitúa en 3,279% en noviembre, lo que supone un aumento de 0,040 puntos respecto al día anterior. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Mapfre acusa en el Ibex las caídas que augura Barclays",
+  "link": "https://www.expansion.com/mercados/2026/11/17/mapfre-acusa-ibex-caidas-augura-barclays.html",
+  "source": "Expansión",
+  "date": "2026-11-17T11:17:10+00:00",
+  "desc": "La doble rebaja emitida por los analistas de Barclays deja rezagado en el Ibex a Mapfre. La firma británica se muestra \"negativa\" sobre el conjunto del sector asegurador con vistas a 2027. Leer",
+  "ccs": [
+   "ES",
+   "GB"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "It’s Hard to Protect Your Nest Egg from Nvidia",
+  "link": "https://www.wsj.com/finance/stocks/its-hard-to-protect-your-nest-egg-from-nvidia-2e7419b7?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-17T11:17:00+00:00",
+  "desc": "Plus, Nvidia’s royal family, and souring apartment deals.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "El precio del Bitcoin hoy, 17 de noviembre: el Bitcoin asciende de los 65.000 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/11/17/precio-bitcoin-hoy-17-noviembre-bitcoin-asciende-65-000-dolares.html",
+  "source": "Expansión",
+  "date": "2026-11-17T11:00:14+00:00",
+  "desc": "Asciende el precio del bitcoin hoy 17 de noviembre y se queda en 64.682,64 dólares Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Dodgers Owner Mark Walter’s Insurer Misses Target to Reduce Affiliated Assets",
+  "link": "https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-17T10:57:00+00:00",
+  "desc": "Delaware Life Insurance said the share of its holdings tied to Walter fell to 35% in the third quarter.",
+  "ccs": [],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-  "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T22:46:00+00:00",
-  "desc": "The dollar recently climbed to its strongest level in a year and a half.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "fx",
+  "title": "Nokia e Intel sufren en Bolsa con las desinversiones desveladas por Nvidia",
+  "link": "https://www.expansion.com/mercados/2026/11/17/nokia-e-intel-sufren-bolsa-desinversiones-desveladas-nvidia.html",
+  "source": "Expansión",
+  "date": "2026-11-17T10:30:46+00:00",
+  "desc": "El gigante mundial de los chips no solo es noticia hoy por la publicación de sus resultados. Las desinversiones desveladas en otras cotizadas agravan el correctivo bursátil a Nokia e Intel. Leer",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Why Big Investors Are Burning Lenders on Apartment Loans",
+  "link": "https://www.wsj.com/real-estate/commercial/why-big-investors-are-burning-lenders-on-apartment-loans-7129d849?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-17T10:30:00+00:00",
+  "desc": "Deep-pocketed landlords like Brookfield may be the most willing to cut their losses on troubled properties.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Stock Market Today: Dow Opens Lower Ahead of Nvidia Earnings",
+  "link": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-17T10:11:07+00:00",
+  "desc": "Stocks around the world are in the red",
+  "ccs": [],
+  "cat": "er",
   "imp": "medium"
  },
  {
   "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
   "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
   "source": "CNBC",
-  "date": "2026-11-16T22:37:45+00:00",
+  "date": "2026-11-17T10:08:32+00:00",
   "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
   "ccs": [
    "US"
@@ -204,97 +353,31 @@
   "imp": "medium"
  },
  {
-  "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-  "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T22:33:00+00:00",
-  "desc": "Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-  "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T22:30:00+00:00",
-  "desc": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+  "title": "CaixaBank y la magia de la media móvil de 50 semanas",
+  "link": "https://www.expansion.com/mercados/2026/11/17/caixabank-magia-media-movil-50-semanas.html",
+  "source": "Expansión",
+  "date": "2026-11-17T09:48:13+00:00",
+  "desc": "Desde los máximos históricos de principios de septiembre hasta los mínimos de octubre el banco se dejó un 20%. Leer",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.",
-  "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T22:21:00+00:00",
-  "desc": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "high"
- },
- {
-  "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-  "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-  "source": "CNBC",
-  "date": "2026-11-16T22:19:02+00:00",
-  "desc": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
-  "ccs": [
-   "US"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-  "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
-  "source": "CNBC",
-  "date": "2026-11-16T22:14:47+00:00",
-  "desc": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
+  "title": "Ukraine destroys section of Crimea bridge in fierce exchange",
+  "link": "https://www.ft.com/content/eb8031c0-a96a-4408-b762-b92ff0402f82?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T09:01:17+00:00",
+  "desc": "Part of key Russian road crossing collapses and parallel rail bridge damaged while Moscow hits infrastructure in Ukrainian capital",
   "ccs": [],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
-  "link": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
-  "source": "CNBC",
-  "date": "2026-11-16T22:11:09+00:00",
-  "desc": "Two OpenAI models in July gained unauthorized access to Hugging Face's internal systems to find information for use in cheating on an evaluation.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-  "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T22:08:00+00:00",
-  "desc": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
-  "link": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T21:58:59+00:00",
-  "desc": "US chip stocks fall as Nvidia sustains fresh bout of selling pressure",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia’s stock extends decline following harsh words from the U.S. government",
-  "link": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-16T21:53:00+00:00",
-  "desc": "The Commerce Department announced a new rule aimed at restricting China’s remote access to advanced chips.",
+  "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+  "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-17T08:52:45+00:00",
+  "desc": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
   "ccs": [
    "US",
    "CN"
@@ -303,184 +386,99 @@
   "imp": "medium"
  },
  {
-  "title": "AI Stocks Resume Their Slide",
-  "link": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-16T21:38:00+00:00",
-  "desc": "Plus, the Fed weighs AI jobs scenarios and Tyson improves its beef outlook",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Kalshi plans to launch stock trading soon",
-  "link": "https://www.cnbc.com/2026/11/16/kalshi-plans-to-launch-stock-trading-soon.html",
-  "source": "CNBC",
-  "date": "2026-11-16T21:23:34+00:00",
-  "desc": "Kalshi's interest in offering stock trading shows the platform's push into traditional financial markets.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Chevron nears $5bn deal for Blackstone-backed oil producer in US Gulf",
-  "link": "https://www.ft.com/content/92e1c14a-f836-40b0-8d9e-0ed1c1d2fea9?syn-25a6b1a6=1",
+  "title": "Leak of 15mn Deutsche Bank files exposes systemic failures",
+  "link": "https://www.ft.com/content/df518845-ed97-4a38-8a38-7fa9d4d24003?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-11-16T21:20:03+00:00",
-  "desc": "Oil major pulls ahead of rival bidders for Beacon Offshore Energy oilfield as it expands deepwater production",
+  "date": "2026-11-17T08:09:20+00:00",
+  "desc": "Email, internal probes and other documents throw new light on the career and leadership of chief executive Christian Sewing",
   "ccs": [],
-  "cat": "ma",
+  "cat": "rg",
   "imp": "medium"
  },
  {
-  "title": "OpenAI sued by California over 80 ‘loss of control’ incidents",
-  "link": "https://www.ft.com/content/1e18af77-d434-4871-81cc-b0e74a0e97bd?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T20:48:37+00:00",
-  "desc": "State’s attorney-general claims hacking by rogue AI models is the ‘predictable result of an internal culture that prioritises growth over safety’",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Kalshi Buys Securities Firm to Expand Into Stock Trading",
-  "link": "https://www.wsj.com/finance/kalshi-buys-securities-firm-to-expand-into-stock-trading-8c1ade89?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-16T19:33:00+00:00",
-  "desc": "The prediction-markets platform, still fighting legal battles with U.S. states over its yes-or-no contracts, wants to expand into other assets.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-  "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-16T18:46:07+00:00",
-  "desc": "",
-  "ccs": [
-   "US"
-  ],
-  "cat": "cb",
-  "imp": "high"
- },
- {
-  "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
-  "link": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T18:14:16+00:00",
-  "desc": "Co-founder of chipmaker resigned following extramarital affair with executive at Singapore-based customer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "La apuesta de HSBC por los bots podría transformar la batalla por el negocio de la gestión de patrimonios",
-  "link": "https://www.expansion.com/economia/financial-times/2026/11/16/apuesta-hsbc-bots-podria-transformar-batalla-negocio-gestion-patrimonios.html",
+  "title": "¿Qué ventajas fiscales ofrece invertir en un plan de pensiones?",
+  "link": "https://www.expansion.com/economia/2026/11/17/ventajas-fiscales-ofrece-invertir-plan-pensiones.html",
   "source": "Expansión",
-  "date": "2026-11-16T18:09:51+00:00",
-  "desc": "El banco británico se adentra en un experimento de alto riesgo. Leer",
-  "ccs": [
-   "GB"
-  ],
+  "date": "2026-11-17T07:21:02+00:00",
+  "desc": "¿Qué fiscalidad se aplica para rescatar un plan de pensiones? ¿Qué opciones tiene el ahorrador para evitar un impacto fiscal excesivo? ¿Qué resulta fiscalmente más conveniente rescatar el plan de pensiones de golpe o de",
+  "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-  "link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
-  "source": "CNBC",
-  "date": "2026-11-16T17:39:32+00:00",
-  "desc": "Following the donations, the chairman emeritus of Berkshire still owns 182,140 Class A shares -- roughly $162 billion.",
+  "title": "Redeia construye figura de vuelta al alza",
+  "link": "https://www.expansion.com/mercados/2026/11/17/redeia-construye-figura-vuelta-alza.html",
+  "source": "Expansión",
+  "date": "2026-11-17T07:14:53+00:00",
+  "desc": "Los títulos de la compañía energética llevan tres semanas consecutivas de ganancias y acaban de pulverizar niveles de resistencia claves. Leer",
   "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+  "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+  "source": "CNBC",
+  "date": "2026-11-17T07:07:35+00:00",
+  "desc": "The U.S. Commerce Department is making moves to tighten export controls.",
+  "ccs": [
+   "US",
+   "CN"
+  ],
   "cat": "gp",
   "imp": "high"
  },
  {
-  "title": "Optimum Skips Bond Interest Payments Amid Restructuring Talks",
-  "link": "https://www.wsj.com/pro/bankruptcy/optimum-skips-bond-interest-payments-amid-restructuring-talks-3a1644f9?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-16T17:37:00+00:00",
-  "desc": "The broadband company entered a 30-day grace period as it negotiated with creditors.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-  "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+  "title": "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+  "link": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
   "source": "CNBC",
-  "date": "2026-11-16T17:14:13+00:00",
-  "desc": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Russia’s richest woman hit by EU sanctions",
-  "link": "https://www.ft.com/content/4d014005-1a99-4e3e-88d5-b116fe2497bc?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T17:11:52+00:00",
-  "desc": "Founder of country’s largest online retailer Wildberries targeted in latest round of EU sanctions over war in Ukraine",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Las mayores OPV de este año provocan pérdidas a los inversores a medida que se desinfla la fiebre por la IA",
-  "link": "https://www.expansion.com/economia/financial-times/2026/11/16/mayores-opv-ano-provocan-perdidas-inversores-medida-desinfla-fiebre-ia.html",
-  "source": "Expansión",
-  "date": "2026-11-16T15:55:06+00:00",
-  "desc": "Las diez mayores salidas a Bolsa han registrado caídas medias superiores al 20% en 2026 después de cuatro años de ganancias. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy",
-  "link": "https://www.ft.com/content/5621d364-c767-4b40-a090-054042d1c49b?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-16T15:10:54+00:00",
-  "desc": "Summits in China and the Philippines provide a backdrop for a string of meetings involving powerful global rivals",
+  "date": "2026-11-17T06:59:42+00:00",
+  "desc": "The Commerce and Justice departments said in a joint statement that U.S. investigations into Megaspeed began in 2024.",
   "ccs": [
-   "CN"
+   "US"
   ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "El euro/dólar tiene margen de caída",
-  "link": "https://www.expansion.com/mercados/2026/11/16/euro-dolar-margen-caida.html",
-  "source": "Expansión",
-  "date": "2026-11-16T14:16:56+00:00",
-  "desc": "El cruce acumula una caída del 9% desde los altos de enero, en los 1,2083 dólares por cada euro. Leer",
-  "ccs": [],
-  "cat": "fx",
+  "cat": "rg",
   "imp": "medium"
  },
  {
-  "title": "Euríbor hoy, 16 de noviembre: Euríbor diario se se encamina a máximos",
-  "link": "https://www.expansion.com/mercados/euribor/2026/11/16/euribor-hoy-16-noviembre-euribor-diario-encamina-maximos.html",
+  "title": "La estampida perfecta",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/17/estampida-perfecta.html",
   "source": "Expansión",
-  "date": "2026-11-16T12:26:28+00:00",
-  "desc": "Tras la nueva subida del Euríbor, la media mensual provisional se sitúa en 3,279% en noviembre, lo que supone un aumento de 0,040 puntos respecto al mes anterior. Leer",
+  "date": "2026-11-17T06:45:16+00:00",
+  "desc": "Supongamos, a modo de ejemplo, que existe una burbuja en el sector de la IA. Leer",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Why Putin, Trump and Xi cannot be the new ‘big three’",
-  "link": "https://www.ft.com/content/f87fc05f-6689-4051-9d6b-40754315355f?syn-25a6b1a6=1",
+  "title": "‘Katastrophe’: inside the chaos at Germany’s biggest bank",
+  "link": "https://www.ft.com/content/4f8dae68-bfec-43bd-bef6-b830815ec538?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-11-16T12:22:48+00:00",
-  "desc": "The leaders of the US, China and Russia cannot carve up the world between them, even if they wanted to",
+  "date": "2026-11-17T06:00:07+00:00",
+  "desc": "Millions of leaked documents cast light on Christian Sewing’s leadership of the scandal-hit lender",
   "ccs": [
-   "CN"
+   "DE"
   ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Epstein’s dealings with Deutsche were far larger than previously known",
+  "link": "https://www.ft.com/content/72ac6fee-55f3-4db5-a1e3-873ef39c0b96?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T06:00:06+00:00",
+  "desc": "Figure revealed by internal documents is substantially higher than previously known",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "An ‘awful mistake’ that leaked Trump’s tax statements",
+  "link": "https://www.ft.com/content/784cbdc7-c852-4081-b1e5-390779e9fad1?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-17T06:00:06+00:00",
+  "desc": "Data breach in 2017 was described internally as an ‘awful mistake’ by Christian Sewing, then head of lender’s private bank",
+  "ccs": [],
   "cat": "eq",
   "imp": "low"
  }
