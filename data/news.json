@@ -1,21 +1,142 @@
 [
  {
-  "title": "California AG issues subpoena to Nvidia in probe of China chips",
-  "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+  "title": "The bull market has a new problem. The 'smart money' is selling",
+  "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
   "source": "CNBC",
-  "date": "2026-11-19T23:04:13+00:00",
-  "desc": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
+  "date": "2026-11-20T14:15:29+00:00",
+  "desc": "Companies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the test.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
+  "link": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html",
+  "source": "CNBC",
+  "date": "2026-11-20T14:15:08+00:00",
+  "desc": "Sean Cairncross will be replaced by Pentagon chief information officer Kirsten Davies.",
+  "ccs": [],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "GameStop has transformed from a meme stock into a ‘real company,’ analysts say",
+  "link": "https://www.marketwatch.com/story/gamestop-has-transformed-from-a-meme-stock-into-a-real-company-analysts-say-7ae5c7ed?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T14:15:00+00:00",
+  "desc": "Roaring Kitty’s return had minimal impact on GameStop’s stock, which has started to gain more sophisticated appeal for its “new and improved story.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "SpaceX’s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models",
+  "link": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+  "source": "CNBC",
+  "date": "2026-11-20T14:07:24+00:00",
+  "desc": "SpaceX's Cursor is considering phasing out Chinese-developed open-weight AI models over geopolitical risk, according to a House report reviewed by CNBC.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Our top 10 things to watch in the stock market Friday",
+  "link": "https://www.cnbc.com/investingclub/2026/11/20/our-top-10-things-to-watch-in-the-stock-market-friday.html",
+  "source": "CNBC",
+  "date": "2026-11-20T14:06:35+00:00",
+  "desc": "Can Anthropic stay above its IPO price of $83?",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Anthropic shares tumble as AI giant swept up in tech sell-off",
+  "link": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T14:01:58+00:00",
+  "desc": "Shares of Claude developer under pressure in pre-market trading a day after blockbuster initial public offering",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "These little-known investments could be among the best bargains in a crash",
+  "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T14:00:00+00:00",
+  "desc": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "high"
+ },
+ {
+  "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+  "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+  "source": "CNBC",
+  "date": "2026-11-20T13:56:23+00:00",
+  "desc": "The AI company sold an aggregate of 1,127,000,000 shares at $83 per share in the record IPO.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+  "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T13:48:00+00:00",
+  "desc": "Anthropic’s inability to hold its opening stock price has been seen as “bad for the rest of tech.”",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+  "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+  "source": "CNBC",
+  "date": "2026-11-20T13:29:50+00:00",
+  "desc": "Analysts note few concrete outcomes from the high-profile trilateral and other meetings for APEC in Shenzhen this week.",
   "ccs": [
+   "US",
    "CN"
   ],
-  "cat": "rg",
+  "cat": "gp",
   "imp": "medium"
+ },
+ {
+  "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+  "link": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+  "source": "CNBC",
+  "date": "2026-11-20T13:25:56+00:00",
+  "desc": "Anthropic faced a market sell-off, raging anti-AI sentiment and a crisis at Nvidia in pulling off the largest IPO on record.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Cathie Wood's ARK Invest was a big buyer of Anthropic, tells CNBC she's 'quite optimistic'",
+  "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
+  "source": "CNBC",
+  "date": "2026-11-20T13:11:25+00:00",
+  "desc": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Is Social Security a Ponzi scheme? No. Don’t get carried away with 1930s-era prophecies of doom.",
+  "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T13:00:00+00:00",
+  "desc": "Wisconsin Republican Sen. Ron Johnson called Social Security a “scam” and urged lawmakers to shut it down.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
  },
  {
   "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
   "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-19T22:53:00+00:00",
+  "date": "2026-11-20T12:59:00+00:00",
   "desc": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
   "ccs": [
    "US"
@@ -24,11 +145,11 @@
   "imp": "high"
  },
  {
-  "title": "UK and EU set to finalise deal to ‘reset’ relations",
-  "link": "https://www.ft.com/content/912a7730-2428-4d4c-8dde-9c41a99ab562?syn-25a6b1a6=1",
+  "title": "Burnham’s EU deal in brief",
+  "link": "https://www.ft.com/content/be7924c4-8e29-4630-82f3-f94001765d37?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-11-19T22:44:56+00:00",
-  "desc": "Andy Burnham due to seal accord that will improve Britain’s post-Brexit arrangements with the bloc, including on trade",
+  "date": "2026-11-20T12:45:08+00:00",
+  "desc": "UK prime minister hopes Friday’s agreement is first step in a much closer post-Brexit relationship",
   "ccs": [
    "GB"
   ],
@@ -36,50 +157,68 @@
   "imp": "medium"
  },
  {
-  "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
-  "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+  "title": "These 5 defense stocks are drawing millions in insider bets ahead of military-spending boom in 2027",
+  "link": "https://www.marketwatch.com/story/these-5-defense-stocks-are-drawing-millions-in-insider-bets-ahead-of-military-spending-boom-in-2027-8b3b556b?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-19T22:41:00+00:00",
-  "desc": "While executives typically buy shares to signal confidence, CoreWeave co-founder Brian Venturo is turning to the bond market to calm AI jitters.",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic’s IPO Mints New Millionaires",
-  "link": "https://www.wsj.com/finance/investing/anthropics-ipo-mints-new-millionaires-5dbb6289?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T22:41:00+00:00",
-  "desc": "Plus, GOP Senators are suspending their push for extra military spending, and hackers leaked data from Visa, Mastercard and JPMorgan customers.",
-  "ccs": [],
+  "date": "2026-11-20T12:45:00+00:00",
+  "desc": "U.S. defense spending is projected to be around $1.15 trillion next year, boosting business for companies that make missiles, drones, aircraft and more",
+  "ccs": [
+   "US"
+  ],
   "cat": "gp",
   "imp": "medium"
  },
  {
-  "title": "Congress passes bill to protect older investors from financial fraud",
-  "link": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
-  "source": "CNBC",
-  "date": "2026-11-19T22:23:29+00:00",
-  "desc": "Both chambers of Congress have now approved the Financial Exploitation Prevention Act of 2025, which is aimed at protecting vulnerable investors from fraud.",
+  "title": "Bank of America strategist warns doom loop could hit stocks with Wall Street underpricing hard-landing risks",
+  "link": "https://www.marketwatch.com/story/bank-of-america-strategist-warns-doom-loop-could-hit-stocks-with-wall-street-underpricing-hard-landing-risks-c3181e57?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T12:43:00+00:00",
+  "desc": "The S&P 500 is nearing a level worth buying if the U.S. avoids a recession, but one strategist warns Wall Street is underpricing the hard-landing risk as he said investors should wait before buying risky assets.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?",
+  "link": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T12:30:00+00:00",
+  "desc": "“We have $2.9 million in retirement accounts. That includes some money that we inherited about 10 years ago.”",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990.",
+  "link": "https://www.marketwatch.com/story/anthropic-soared-in-its-debut-as-stocks-tanked-only-one-other-ipo-has-done-that-since-1990-77b75258?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-20T12:19:00+00:00",
+  "desc": "A look at what the S&P 500 did after that earlier IPO. Plus, a CoreWeave co-founder’s bet on bonds, and why tech outages have people stocking up on food and cash.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "high"
+ },
+ {
+  "title": "Euríbor hoy, 20 de noviembre: Euríbor cierra la semana con un nuevo máximo y se acerca al 3,4%",
+  "link": "https://www.expansion.com/mercados/euribor/2026/11/20/euribor-hoy-20-noviembre-euribor-cierra-semana-nuevo-maximo-acerca-3-4.html",
+  "source": "Expansión",
+  "date": "2026-11-20T12:08:50+00:00",
+  "desc": "Con el último aumento del Euríbor, la media mensual provisional se sitúa en 3,3% en noviembre. Leer",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
-  "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T22:15:00+00:00",
-  "desc": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
   "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-19T22:12:00+00:00",
+  "date": "2026-11-20T12:04:00+00:00",
   "desc": "All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025",
   "ccs": [
    "US"
@@ -88,383 +227,105 @@
   "imp": "high"
  },
  {
-  "title": "Markets are sending troubling signals about the state of the economy",
-  "link": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:57:00+00:00",
-  "desc": "A number of recession trades have started to emerge, even as economic data has largely held up.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-  "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T21:56:00+00:00",
-  "desc": "The incident involved data belonging to thousands of customers, but it isn’t disrupting payment services or connected to banking issues earlier this week.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
-  "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:45:00+00:00",
-  "desc": "There are only 20 companies in the world with a market capitalization of $669 billion or higher",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-  "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
-  "source": "CNBC",
-  "date": "2026-11-19T21:43:30+00:00",
-  "desc": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Two Big Debuts Fail To Boost Stocks",
-  "link": "https://www.wsj.com/finance/stocks/two-big-debuts-fail-to-boost-stocks-b68b79b1?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T21:43:00+00:00",
-  "desc": "Plus, cyber fears hit financials and Williams-Sonoma gets cooked",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
-  "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
-  "source": "CNBC",
-  "date": "2026-11-19T21:40:31+00:00",
-  "desc": "Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
-  "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:27:00+00:00",
-  "desc": "The Anthropic enthusiasm has faded while China concerns have intensified.",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "UnitedHealth’s stock tumbles after government signals crackdown on Medicare Advantage fraud",
-  "link": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:22:00+00:00",
-  "desc": "UnitedHealth Group’s stock fell again on Thursday amid a tough week in which the government pledged to crack down on Medicare Advantage fraud and lawmakers renewed calls for Medicare for All.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
-  "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
-  "source": "CNBC",
-  "date": "2026-11-19T21:16:41+00:00",
-  "desc": "Brokerage firms may put future IPO limits in place for investors who sell their Anthropic stake too soon.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "AMD dives on short-seller report of alleged China exposure",
-  "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-  "source": "CNBC",
-  "date": "2026-11-19T21:14:46+00:00",
-  "desc": "AMD closed down over 7% after a short-seller alleged that its firmware showed up at a blacklisted Chinese company. The company said it complies with U.S. law.",
-  "ccs": [
-   "US",
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Why Walmart is making a bigger bet on fast-food delivery",
-  "link": "https://www.marketwatch.com/story/why-walmart-is-making-a-bigger-bet-on-fast-food-delivery-27263735?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:13:00+00:00",
-  "desc": "The retail giant says around 90% of spending at fast-food chains occurs within a few miles from a Walmart.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-  "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-19T21:06:00+00:00",
-  "desc": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Anthropic shares jump 17% after record Wall Street listing",
-  "link": "https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd?syn-25a6b1a6=1",
+  "title": "‘A necessary evil’: how Anthropic pulled off its IPO",
+  "link": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
   "source": "Financial Times",
-  "date": "2026-11-19T21:02:09+00:00",
-  "desc": "AI group led by Dario Amodei raises $81bn in upsized public offering",
+  "date": "2026-11-20T12:02:46+00:00",
+  "desc": "Fears about the AI trade did not damp enthusiasm for shares. But can the low-key company preserve its idiosyncratic culture in the glare of public markets?",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
+  "link": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
+  "source": "CNBC",
+  "date": "2026-11-20T12:00:02+00:00",
+  "desc": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
+  "link": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
+  "source": "CNBC",
+  "date": "2026-11-20T12:00:02+00:00",
+  "desc": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Anthropic market cap in line with Alphaville’s guess",
+  "link": "https://www.ft.com/content/67938df3-a9ce-4eb8-9299-af0ab80db87b",
+  "source": "Financial Times",
+  "date": "2026-11-20T11:57:35+00:00",
+  "desc": "A (very) light autopsy on our pre-IPO market cap guestimation",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Grabbing Inflation Protection Now Is a No-Brainer",
+  "link": "https://www.wsj.com/finance/investing/grabbing-inflation-protection-now-is-a-no-brainer-45a6364e?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T11:16:00+00:00",
+  "desc": "Plus, the AI trade keeps deflating despite Anthropic’s strong debut.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic Lives Up to Wall Street Hype, but AI Doubts Linger",
+  "link": "https://www.wsj.com/finance/investing/anthropic-lives-up-to-wall-street-hype-but-ai-doubts-linger-d6a4519b?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T10:59:00+00:00",
+  "desc": "Plus, Kushner floats a Ukraine peace deal that would upend U.S. policy, and the snack sailors aboard the USS George Washington can’t get enough of.",
   "ccs": [
    "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
-  "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
-  "source": "CNBC",
-  "date": "2026-11-19T21:00:57+00:00",
-  "desc": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Australian PM to meet Xi Jinping as iron ore tensions loom",
-  "link": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T21:00:10+00:00",
-  "desc": "Prime Minister Anthony Albanese to hold bilateral talks with China’s president on Friday",
-  "ccs": [
-   "CN",
-   "AU"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
-  "link": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
-  "source": "CNBC",
-  "date": "2026-11-19T20:46:23+00:00",
-  "desc": "Amazon has lobbied heavily against the proposed legislation, while New York City Mayor Zohran Mamdani backed the bill earlier this year.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Law firms that caved to Trump brace for scrutiny from new Congress",
-  "link": "https://www.ft.com/content/4e712188-9dfc-4e2a-b997-3dacde95bf08?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T20:35:00+00:00",
-  "desc": "Firms are hiring outside lawyers as Democrats probe deals they struck with the president",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
-  "link": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
-  "source": "CNBC",
-  "date": "2026-11-19T19:58:30+00:00",
-  "desc": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-  "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
-  "source": "CNBC",
-  "date": "2026-11-19T19:43:08+00:00",
-  "desc": "President Trump disclosed purchases of Nvidia stock, SpaceX debt and Tesla shares in September, alongside millions of dollars in other investments.",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "‘GTA VI’ muestra el poder de un éxito de ventas",
-  "link": "https://www.expansion.com/economia/financial-times/2026/11/19/gta-vi-muestra-exito-ventas.html",
-  "source": "Expansión",
-  "date": "2026-11-19T19:21:33+00:00",
-  "desc": "En lugar de lanzar varios videojuegos mediocres, como hacen sus competidores, Take-Two está centrando sus esfuerzos en conseguir que un único lanzamiento salga perfecto. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Jensen Huang's — and Nvidia's — legal exposure balloons",
-  "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
-  "source": "CNBC",
-  "date": "2026-11-19T18:44:34+00:00",
-  "desc": "\"It's not going to get any better for Jensen Huang; it's going to get far worse,\" said Salvatore Graziano, a New York securities litigation attorney.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "AMD shares fall after short seller report on China links",
-  "link": "https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T18:40:23+00:00",
-  "desc": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Is Anthropic Worth $2 Trillion, or $1.5 Trillion? How to Make Sense of the Valuations",
-  "link": "https://www.wsj.com/finance/investing/is-anthropic-worth-1-1-trillion-or-1-5-trillion-how-to-make-sense-of-the-valuations-721b4df8?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T18:19:00+00:00",
-  "desc": "The company’s complex structure and funding make for confusing valuation math.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "What to Know About Anthropic’s Record-Breaking IPO",
-  "link": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-record-breaking-ipo-372a1fec?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T18:14:00+00:00",
-  "desc": "Shares in the maker of the Claude chatbot began trading midday Thursday.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Wall Street cae más de un 1% tras el estreno de Anthropic",
-  "link": "https://www.expansion.com/mercados/2026/11/19/wall-street-cae-1-estreno-anthropic.html",
-  "source": "Expansión",
-  "date": "2026-11-19T17:42:53+00:00",
-  "desc": "El Nasdaq borra sus avances tras llegar a subir más de un 2%. Nvidia vuelve a caer a pesar de abrir con subidas del 4%. Leer",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "US stocks end more than 2% lower in wake of Anthropic debut",
-  "link": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T16:19:06+00:00",
-  "desc": "AI giant begins trading after raising $81bn in record IPO",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "La IA se estrena en Wall Street: Anthropic protagoniza la mayor salida a Bolsa de la historia",
-  "link": "https://www.expansion.com/mercados/2026/11/19/ia-estrena-wall-street-anthropic-protagoniza-mayor-salida-bolsa-historia.html",
-  "source": "Expansión",
-  "date": "2026-11-19T14:31:30+00:00",
-  "desc": "Las acciones de la compañía responsable del modelo Claude han comenzado a cotizar este jueves en la Bolsa de Nueva York, a 83 dólares por título, capitalizando el apetito por la revolución de la Inteligencia Artificial.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
-  "link": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
-  "source": "CNBC",
-  "date": "2026-11-19T14:15:18+00:00",
-  "desc": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The key to Anthropic’s value",
-  "link": "https://www.ft.com/content/aa8290dc-a20a-45af-97ab-1e71f97f236a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T13:47:00+00:00",
-  "desc": "The AI company needs to become a full enterprise technology platform after IPO",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Dodgers Owner Walter Faces Probe From State Regulator That Says It Was ‘Misled’",
-  "link": "https://www.wsj.com/finance/regulation/dodgers-owner-walter-faces-probe-from-state-regulator-that-says-it-was-misled-8f527738?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-19T13:40:00+00:00",
-  "desc": "Delaware’s insurance department has joined federal authorities in investigating loans Walter’s insurers made to entities he also controls.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Xi, Trump and Putin hail ‘groundbreaking’ meeting",
-  "link": "https://www.ft.com/content/3fde6008-d9c4-46a3-89f8-0f7611cd9b3a?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-19T13:00:44+00:00",
-  "desc": "The world’s three largest nuclear powers agree to talks on preventing proliferation",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Anthropic destina menos del 1% de la OPV a los inversores de España y Europa",
-  "link": "https://www.expansion.com/mercados/2026/11/19/anthropic-destina-1-opv-inversores-espana-europa.html",
-  "source": "Expansión",
-  "date": "2026-11-19T11:41:12+00:00",
-  "desc": "Los colocadores solo garantizan una acción por persona en la UE, con el resto de la demanda sometida a un fuerte prorrateo. Leer",
-  "ccs": [
-   "ES"
   ],
   "cat": "ma",
   "imp": "medium"
  },
  {
-  "title": "Euríbor hoy, 19 de noviembre: El Euríbor mantiene en vilo a los hipotecados apuntando a máximos anuales",
-  "link": "https://www.expansion.com/mercados/euribor/2026/11/19/euribor-hoy-19-noviembre-euribor-mantiene-vilo-hipotecados-apuntando-maximos-anuales.html",
-  "source": "Expansión",
-  "date": "2026-11-19T11:23:05+00:00",
-  "desc": "Con el último descenso del Euríbor, la media mensual se sitúa en 3,291% en noviembre, lo que supone un aumento de 0,052 puntos respecto al día anterior. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Bitcoin y Nvidia: por qué vuelven a moverse en la misma dirección",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/19/bitcoin-nvidia-vuelven-moverse-direccion.html",
-  "source": "Expansión",
-  "date": "2026-11-19T11:13:43+00:00",
-  "desc": "El binomio bitcoin-Nvidia atraviesa horas bajas. La reciente crisis bursátil del gigante de los chips ha agravado los mínimos de la criptomoneda. Los expertos consultados recalcan que los dos activos tienen característic",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Anthropic is a ‘must own’",
-  "link": "https://www.ft.com/content/4224e2ed-116c-466b-97f4-54a5ef43a54e",
-  "source": "Financial Times",
-  "date": "2026-11-19T11:06:08+00:00",
-  "desc": "Is that good?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Anthropic IPO Updates: AI Giant's Shares Jump, But Nasdaq, Dow Fall Again",
-  "link": "https://www.wsj.com/livecoverage/anthropic-ipo-stock-market-today-11-19-2026?mod=rss_markets_main",
+  "title": "The Seven Charts That Explain the New Normal for Oil Prices",
+  "link": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main",
   "source": "WSJ Markets",
-  "date": "2026-11-19T09:34:15+00:00",
-  "desc": "Claude maker’s shares rise 17% after largest IPO on record",
+  "date": "2026-11-20T10:56:00+00:00",
+  "desc": "Traders and analysts say oil prices of around $85 to $95 a barrel are poised to be the reality for the foreseeable future.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "UK and EU agree Brexit ‘reset’ but delivery rests on tuition fees",
+  "link": "https://www.ft.com/content/8515b514-2067-43eb-a7f5-b5aa20ec4cc3",
+  "source": "Financial Times",
+  "date": "2026-11-20T10:47:15+00:00",
+  "desc": "Brussels insists Britain must cut university fees for bloc’s students",
+  "ccs": [
+   "GB"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Anthropic Shares Are a Rational Bet on the Next Phase of AI",
+  "link": "https://www.wsj.com/tech/ai/anthropic-shares-are-a-rational-bet-on-the-next-phase-of-ai-a748dba3?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T10:30:00+00:00",
+  "desc": "The artificial-intelligence boom’s profits today go mostly to picks and shovels, but that will shift.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Stock Market Today: Anthropic Stock Slides as Tech Rout Intensifies",
+  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T10:08:25+00:00",
+  "desc": "Claude maker on course to give up large chunk of day-one gains; S&P 500 heads for longest losing streak since 2020",
   "ccs": [
    "US"
   ],
@@ -472,15 +333,146 @@
   "imp": "medium"
  },
  {
-  "title": "Trump praises ‘great relationship’ with Putin after meeting, as Ukraine war takes center stage",
-  "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-  "source": "CNBC Markets",
-  "date": "2026-11-19T09:02:00+00:00",
-  "desc": "U.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping.",
+  "title": "El precio del Bitcoin hoy, 20 de noviembre: el Bitcoin desciende de los 62.000 dólares",
+  "link": "https://www.expansion.com/mercados/bitcoin/2026/11/20/precio-bitcoin-hoy-20-noviembre-bitcoin-desciende-62-000-dolares.html",
+  "source": "Expansión",
+  "date": "2026-11-20T08:48:07+00:00",
+  "desc": "Desciende el precio del bitcoin hoy 20 de noviembre y se queda en 61.799,17 dólares Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "White House replaces top cyber security official",
+  "link": "https://www.ft.com/content/6333f2e6-98da-4491-bd2e-30237d7bfbf5?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T08:33:59+00:00",
+  "desc": "Kirsten Davies joins from the Pentagon to succeed Sean Cairncross after string of online outages",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+  "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
+  "source": "CNBC",
+  "date": "2026-11-20T06:00:01+00:00",
+  "desc": "Iceland’s famed Blue Lagoon geothermal spa is going public in a $110 million IPO, tapping investor interest in tourism and the booming wellness industry.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Asian Equities Tumble as AI Stock Selloff Deepens",
+  "link": "https://www.wsj.com/finance/investing/asian-equities-fall-as-anthropics-ipo-fails-to-staunch-ai-stock-selloff-c47592b0?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T05:40:00+00:00",
+  "desc": "Asian equities fell Friday morning as Anthropic’s blockbuster initial public offering failed to staunch the selloff in artificial intelligence stocks.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
+  "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T05:00:26+00:00",
+  "desc": "Tight correlation between crude prices and borrowing costs has broken down",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Why Britons can feel smugger than the French",
+  "link": "https://www.ft.com/content/b9b16f2f-f88e-454e-aa85-c131256310fe?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T05:00:17+00:00",
+  "desc": "It’s not a competition, but if it were, the UK economy would be winning",
   "ccs": [
-   "US"
+   "FR",
+   "GB"
   ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Can Nvidia learn from AIG’s mistakes?",
+  "link": "https://www.ft.com/content/c1f1c0d2-466e-46b9-b346-5ce4677c55ea?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T05:00:17+00:00",
+  "desc": "The chip giant’s position is reminiscent of the insurance company AIG’s before the subprime mortgage bubble",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Pensions: unjust and unsustainable?",
+  "link": "https://www.ft.com/content/6986a3b5-12ed-4aad-ac61-f86ded3e6fa3?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T05:00:08+00:00",
+  "desc": "Retirees are more affluent than ever in high-income countries. Why are states still giving them so much?",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "This Ex-Sheriff Was on the Beat When Mark Walter Loaded Insurers With Insider Deals",
+  "link": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-20T04:09:00+00:00",
+  "desc": "Delaware’s insurance commissioner gave clean bills of health to Walter’s conflict-ridden insurers. Now his department says it was “intentionally misled” and is investigating.",
+  "ccs": [],
   "cat": "gp",
   "imp": "high"
+ },
+ {
+  "title": "Lenders aim to bar SpaceX from launching $40bn of chips into orbit",
+  "link": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-20T00:15:12+00:00",
+  "desc": "Investors in latest semiconductor financing demand legal protection for coveted collateral",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Morgan Stanley y Goldman se llevan 390 millones con Anthropic y SpaceX",
+  "link": "https://www.expansion.com/mercados/2026/11/20/morgan-stanley-goldman-llevan-390-millones-anthropic-spacex.html",
+  "source": "Expansión",
+  "date": "2026-11-20T00:13:08+00:00",
+  "desc": "Los dos bancos lideran la pareja de grandes OPVs de 2026 y repiten la misma estructura de la transacción. ¿Repetirá Anthropic las caídas de SpaceX tras el salto inicial? Leer",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic: un valor destinado para amantes del riesgo",
+  "link": "https://www.expansion.com/inversion/2026/11/20/anthropic-valor-destinado-amantes-riesgo.html",
+  "source": "Expansión",
+  "date": "2026-11-19T23:58:09+00:00",
+  "desc": "Anthtopic cotiza a múltiplos muy exigentes. La euforia de la OPV y el tipo de valor invitan a los inversores a la prudencia y tomar precauciones, en un momento de visibilidad reducida y de tensión en la IA, dicen los est",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Citi rebaja el doble su pronóstico sobre bitcoin que sobre ethereum",
+  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/20/citi-rebaja-doble-pronostico-sobre-bitcoin-sobre-ethereum.html",
+  "source": "Expansión",
+  "date": "2026-11-19T23:49:37+00:00",
+  "desc": "La fase de consolidación del mercado de criptomonedas \"ha roto a la baja\", según advierte Citi en un informe en el que reduce, en porcentaje desigual, sus perspectivas sobre bitcoin y ethereum debido a que \"el entorno ma",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El oro pierde brillo y decepciona a los inversores",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/20/oro-pierde-brillo-decepciona-inversores.html",
+  "source": "Expansión",
+  "date": "2026-11-19T23:41:04+00:00",
+  "desc": "Cae un 30% desde máximos y deja de actuar como refugio frente a la turbulencia de mercado y la inflación. Leer",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
  }
 ]
