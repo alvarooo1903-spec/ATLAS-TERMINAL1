@@ -1,50 +1,206 @@
 [
  {
-  "title": "Anthropic falls below IPO price as tech rally fades",
-  "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T16:26:16+00:00",
-  "desc": "Investor relief over reinstatement of Jensen Huang as Nvidia CEO subsides",
-  "ccs": [],
+  "title": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names",
+  "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+  "source": "CNBC",
+  "date": "2026-11-25T00:55:35+00:00",
+  "desc": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+  "ccs": [
+   "US",
+   "JP"
+  ],
   "cat": "tc",
-  "imp": "medium"
+  "imp": "high"
  },
  {
-  "title": "Americans don’t like Trump’s tariffs. He’s doubling down anyway — as soon as this week.",
-  "link": "https://www.marketwatch.com/story/americans-dont-like-trumps-tariffs-hes-doubling-down-anyway-as-soon-as-this-week-74c8bed5?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T16:24:00+00:00",
-  "desc": "The move risks new trade friction, but spares already imported holiday goods.",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
+  "title": "Sibbern: \"Esperamos tener cientos de ETF del mercado español en dos años\"",
+  "link": "https://www.expansion.com/mercados/2026/11/25/sibbern-esperamos-cientos-etf-mercado-espanol-dos-anos.html",
+  "source": "Expansión",
+  "date": "2026-11-25T00:40:18+00:00",
+  "desc": "Actualmente, solo hay 6 ETF en la Bolsa española, frente a los 2.000 de la suiza. La cuenta de ahorro e inversión impulsará los fondos cotizados. Leer",
+  "ccs": [
+   "CH"
+  ],
+  "cat": "eq",
+  "imp": "low"
  },
  {
-  "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-  "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+  "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+  "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-24T16:23:00+00:00",
-  "desc": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
-  "link": "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T16:18:00+00:00",
-  "desc": "Medicare Advantage is starting to lose its all-in-one benefit.",
+  "date": "2026-11-25T00:30:00+00:00",
+  "desc": "“Given my age, I never make a major new purchase without thinking about the future.”",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Anthropic sinks 12%, falling below $83 IPO price, but analysts are still largely positive",
-  "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+  "title": "Singular AM ve al Ibex en los 22.00 puntos en 2027",
+  "link": "https://www.expansion.com/inversion/2026/11/25/singular-am-ve-ibex-22-00-puntos-2027.html",
+  "source": "Expansión",
+  "date": "2026-11-25T00:29:43+00:00",
+  "desc": "La gestora de Singular Bank es optimista con las tecnológicas y aprovecha las caídas para comprar, pero advierte de que hay que ser muy selectivo. Al S&P 500 le da un potencial de subida cercano al 20% y del 15% al Ibex,",
+  "ccs": [
+   "US",
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Qué esperar de bancos, ‘utilities’ e inmobiliarias tras el 29-N",
+  "link": "https://www.expansion.com/mercados/2026/11/25/esperar-bancos-utilities-e-inmobiliarias-29-n.html",
+  "source": "Expansión",
+  "date": "2026-11-25T00:25:47+00:00",
+  "desc": "Las empresas de estos tres sectores reaccionarían al alza, al menos a corto plazo, si hay una mayoría de PP y Vox como apuntan las encuestas. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+  "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-25T00:05:00+00:00",
+  "desc": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Shein to pay $100mn to resolve US  allegations it deceived customers",
+  "link": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-24T23:48:33+00:00",
+  "desc": "Federal Trade Commission claims cotton that the retailer’s suppliers said was US-grown was harvested in China.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Dell’s stock rises as the AI boom helps sales more than double",
+  "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T23:34:00+00:00",
+  "desc": "Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Nvidia: las firmas de inversión bajan su precio objetivo un 25%",
+  "link": "https://www.expansion.com/mercados/2026/11/25/nvidia-firmas-inversion-bajan-precio-objetivo-25.html",
+  "source": "Expansión",
+  "date": "2026-11-24T23:30:00+00:00",
+  "desc": "El precio objetivo promedio de Nvidia ha caído un 25%, según se desprende del consenso de analistas que compila Bloomberg, desde que se conoció a principios de mes que su presidente y consejero delegado, Jensen Huang, ma",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "El temor a la 'corrección Kennedy' se cierne sobre la Bolsa",
+  "link": "https://www.expansion.com/mercados/2026/11/25/temor-correccion-kennedy-cierne-sobre-bolsa.html",
+  "source": "Expansión",
+  "date": "2026-11-24T23:21:19+00:00",
+  "desc": "Un 'crash' bursátil de hace 64 años puede dar pistas sobre la situación actual. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+  "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
   "source": "CNBC",
-  "date": "2026-11-24T16:11:58+00:00",
-  "desc": "Anthropic has been sinking steadily since the stock opened at $111.50 on the Nasdaq on Nov. 19.",
+  "date": "2026-11-24T23:13:49+00:00",
+  "desc": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+  "ccs": [
+   "CN"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+  "link": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T23:11:00+00:00",
+  "desc": "Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+  "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-24T23:03:24+00:00",
+  "desc": "The product, the first one beyond event contracts, was introduced in May.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Huawei convicted in US trial that exposed corporate espionage and sanctions evasion",
+  "link": "https://www.ft.com/content/6c64b8b8-531c-4eea-8fd0-90c4c4967ab9?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-24T22:36:29+00:00",
+  "desc": "Verdict marks a victory for federal prosecutors after an eight-year legal battle with the Chinese telecoms company",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+  "link": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html",
+  "source": "CNBC",
+  "date": "2026-11-24T22:18:47+00:00",
+  "desc": "Trump Account contributions from friends and family have passed $1 billion, according to the Treasury Department. Here's what families need to know.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+  "link": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+  "source": "CNBC",
+  "date": "2026-11-24T22:07:45+00:00",
+  "desc": "The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic Had the Biggest IPO Ever. The Trade Is Already Unraveling.",
+  "link": "https://www.wsj.com/finance/stocks/anthropic-had-the-biggest-ipo-ever-the-trade-is-already-unraveling-f971d7c5?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-24T22:07:00+00:00",
+  "desc": "The Claude model developer fell below its offering price on Tuesday, extending its slide to three straight sessions.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+  "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+  "source": "CNBC",
+  "date": "2026-11-24T22:03:01+00:00",
+  "desc": "Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.",
+  "ccs": [
+   "SA"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "Venezuela Reveals an Eye-Popping Debt Load of $237 Billion",
+  "link": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-24T21:55:00+00:00",
+  "desc": "The higher-than-expected figure underscores the challenges faced by the U.S.-backed interim government.",
   "ccs": [
    "US"
   ],
@@ -52,33 +208,183 @@
   "imp": "low"
  },
  {
-  "title": "A 10% cap on credit-card interest rates? Holiday shoppers shouldn’t bank on it.",
-  "link": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705?mod=mw_rss_topstories",
+  "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+  "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
   "source": "MarketWatch",
-  "date": "2026-11-24T16:08:00+00:00",
-  "desc": "As Americans prepare to pull out their credit cards for the holiday shopping season, President Donald Trump is saying he’s up for capping the interest rates they’re paying on their cards.",
+  "date": "2026-11-24T21:53:00+00:00",
+  "desc": "Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.",
   "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-  "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-  "source": "CNBC",
-  "date": "2026-11-24T16:06:07+00:00",
-  "desc": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-  "ccs": [],
-  "cat": "inf",
+  "cat": "fx",
   "imp": "medium"
  },
  {
   "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
   "link": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
   "source": "WSJ Markets",
-  "date": "2026-11-24T16:01:00+00:00",
+  "date": "2026-11-24T21:53:00+00:00",
   "desc": "Nvidia’s board said as recently as last week that Jensen Huang wouldn’t return as CEO. Some investors sold their shares.",
   "ccs": [],
   "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Anthropic’s stock just broke below its IPO price for the first time",
+  "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T21:46:00+00:00",
+  "desc": "Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+  "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T21:45:00+00:00",
+  "desc": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
+  "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T21:31:00+00:00",
+  "desc": "Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+  "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T21:30:00+00:00",
+  "desc": "“Retirement is a financial status, not an age.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Nvidia’s Relief Rally Stalls",
+  "link": "https://www.wsj.com/finance/stocks/nvidias-relief-rally-stalls-a9455613?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-24T21:23:00+00:00",
+  "desc": "Plus, Anthropic dips below its IPO price, and the investors who won—and lost—in the Nvidia saga.",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Micron’s stock falls as an analyst warns about a future supply glut",
+  "link": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-24T21:22:00+00:00",
+  "desc": "A BNP Paribas analyst says the risk of an  “oversupply scenario is mounting” for memory chips, and that could threaten Micron’s pricing power.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+  "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+  "source": "CNBC",
+  "date": "2026-11-24T21:13:39+00:00",
+  "desc": "Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+  "link": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+  "source": "CNBC",
+  "date": "2026-11-24T21:07:19+00:00",
+  "desc": "Sanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "high"
+ },
+ {
+  "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+  "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+  "source": "CNBC Markets",
+  "date": "2026-11-24T20:45:57+00:00",
+  "desc": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Huang says he still does not believe in CEO succession planning at Nvidia",
+  "link": "https://www.ft.com/content/cd1831d0-c3f1-4705-b8e2-badfb5e39764?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-24T20:18:29+00:00",
+  "desc": "Chief executive speaks to staff at first company-wide meeting after returning to the chipmaker",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Gold is doing something strange. Here's one way to play it",
+  "link": "https://www.cnbc.com/2026/11/24/gold-is-doing-something-strange-heres-one-way-to-play-it-.html",
+  "source": "CNBC",
+  "date": "2026-11-24T19:25:13+00:00",
+  "desc": "Gold is not acting like the traditional safe haven. How one trader is playing the move.",
+  "ccs": [],
+  "cat": "cm",
+  "imp": "medium"
+ },
+ {
+  "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+  "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+  "source": "CNBC",
+  "date": "2026-11-24T18:34:43+00:00",
+  "desc": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Los bancos recuperan terreno en la lucha por el mercado del crédito privado",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/24/bancos-recuperan-terreno-lucha-mercado-credito-privado.html",
+  "source": "Expansión",
+  "date": "2026-11-24T18:10:23+00:00",
+  "desc": "Para los prestatarios, la coexistencia de entidades bancarias y prestamistas no bancarios está abriendo una ventana de oportunidad. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+  "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+  "source": "CNBC",
+  "date": "2026-11-24T17:51:45+00:00",
+  "desc": "Jensen Huang is back as CEO of Nvidia and immediately faces the challenge of leading the chip giant and defending himself in Washington.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump readies raft of new tariffs on major economies",
+  "link": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-24T16:30:35+00:00",
+  "desc": "China, the EU, Japan and South Korea expected to be hit by levies as US president doubles down on trade strategy",
+  "ccs": [
+   "JP",
+   "CN",
+   "KR"
+  ],
+  "cat": "gp",
   "imp": "medium"
  },
  {
@@ -92,163 +398,6 @@
   "imp": "medium"
  },
  {
-  "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
-  "link": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:49:27+00:00",
-  "desc": "Sanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "high"
- },
- {
-  "title": "Jensen Huang faces DC grilling the same day Nvidia releases new products at GTC",
-  "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:47:17+00:00",
-  "desc": "Jensen Huang is back as CEO of Nvidia and immediately faces the challenge of leading the chip giant and defending himself in Washington.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia shares fall over 5% after Huang comeback rally",
-  "link": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:36:34+00:00",
-  "desc": "Jensen Huang was reinstated as CEO of Nvidia after he resigned following an acknowledgement of an extramarital affair.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-  "link": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:34:10+00:00",
-  "desc": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "BioNTech founders to raise $1bn for cancer start-up",
-  "link": "https://www.ft.com/content/00eace12-390a-492d-ae91-639ae0ac93f5?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T15:31:46+00:00",
-  "desc": "Plural leads funding round for oncology company to be helmed by Uğur Şahin and Özlem Türeci",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
-  "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T15:30:00+00:00",
-  "desc": "“Retirement is a financial status, not an age.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
-  "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T15:21:00+00:00",
-  "desc": "French drugmaker Sanofi on Tuesday agreed to pay $41 billion for U.S. biotech Insmed, a hefty price that will help the pharmaceutical giant offset the patent expiration on a key drug.",
-  "ccs": [
-   "US",
-   "FR"
-  ],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Anthropic’s stock just broke below its IPO price for the first time",
-  "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T15:21:00+00:00",
-  "desc": "Shares traded below their IPO price of $83 on Tuesday morning, less than a week after their debut on the Nasdaq.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
-  "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:19:46+00:00",
-  "desc": "Kress led the company for 11 days during Huang’s sudden departure and steered Nvidia through billions in AI financing deals before that. Now she's back to CFO.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
-  "link": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:05:14+00:00",
-  "desc": "Commercial real estate activity dropped 14% in October from September, according to an index from LightBox, a commercial real estate data platform.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia brought Jensen Huang back. But the investigations aren’t over",
-  "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html",
-  "source": "CNBC",
-  "date": "2026-11-24T15:03:36+00:00",
-  "desc": "Jensen Huang is back as Nvidia CEO, but the company still faces an internal investigation and California and federal scrutiny.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-  "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T15:00:00+00:00",
-  "desc": "“My wife stopped working outside the home in 1970.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "The number of 401(k) millionaires drops as the stock market swings",
-  "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T14:59:00+00:00",
-  "desc": "‘It was a rocky quarter’: 401(k) balances drop and affordability concerns persist, Fidelity says",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Nvidia’s stock drops as these major questions loom over Jensen Huang’s return",
-  "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-these-major-questions-loom-over-jensen-huangs-return-9096636f?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-24T14:59:00+00:00",
-  "desc": "Huang’s reinstatement as CEO doesn’t fix regulatory issues or the investigation into his relationship with a former Megaspeed executive.",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
-  "link": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
-  "source": "CNBC",
-  "date": "2026-11-24T14:51:58+00:00",
-  "desc": "Best Buy beat quarterly expectations for its fiscal third-quarter earnings results on Tuesday and raised its full-year guidance.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
   "title": "Euríbor hoy: El Euríbor se queda a tres milésimas de su máximo del año y la hipoteca que se revisa en diciembre ya sube casi 90 euros al mes",
   "link": "https://www.expansion.com/mercados/euribor/2026/11/24/euribor-hoy-el-euribor-se-queda-a-tres-milesimas-de-su-maximo-del-ano-y-la-hipoteca-que-se-revisa-en-diciembre-ya-sube-casi-90-euros-al-mes.html",
   "source": "Expansión",
@@ -257,18 +406,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
-  "link": "https://www.ft.com/content/d9f17145-cdc0-424a-bace-7147a971d0ab?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T14:30:21+00:00",
-  "desc": "Acts could include arson attacks carried out by proxy agents, say security chiefs",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "gp",
-  "imp": "high"
  },
  {
   "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
@@ -288,28 +425,6 @@
   "source": "CNBC",
   "date": "2026-11-24T13:31:29+00:00",
   "desc": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Britain bought fake C4 explosives for Ukraine",
-  "link": "https://www.ft.com/content/b5873050-2b90-4889-bbf6-902234e51e9f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T13:04:38+00:00",
-  "desc": "Flagship UK procurement unit paid a part-time US police officer for tonnes of plastic explosives with no detectable RDX, the main ingredient in military C4",
-  "ccs": [
-   "GB"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Jensen Huang’s return should not stop tighter US chip controls",
-  "link": "https://www.ft.com/content/55a32e72-2cee-4a7f-874f-0936e2581a8a",
-  "source": "Financial Times",
-  "date": "2026-11-24T12:54:15+00:00",
-  "desc": "Nvidia was wrong to think Chinese competitors would remain inside the company’s ecosystem",
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
@@ -365,109 +480,5 @@
   "ccs": [],
   "cat": "tc",
   "imp": "high"
- },
- {
-  "title": "El precio del Bitcoin hoy, 24 de noviembre: el Bitcoin asciende hasta los 60.364,14 dólares",
-  "link": "https://www.expansion.com/mercados/bitcoin/2026/11/24/precio-bitcoin-hoy-24-noviembre-bitcoin-asciende-60-364-14-dolares.html",
-  "source": "Expansión",
-  "date": "2026-11-24T09:59:24+00:00",
-  "desc": "Asciende el precio del bitcoin hoy 24 de noviembre y se queda en 62.141,05 dólares Leer",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Stock Market Today: Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
-  "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-24T09:53:51+00:00",
-  "desc": "Anthropic plunges more than 12%, dropping below its IPO price",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Roche says breast cancer pill could be best-selling drug ever",
-  "link": "https://www.ft.com/content/6c2b8be7-2c74-4920-a4fa-5c90e164eae9?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T09:51:03+00:00",
-  "desc": "Swiss group hails ‘new era of breast cancer treatment’ with newly approved medicine",
-  "ccs": [
-   "CH"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Democrats widen graft investigation into Donald Trump Jr-linked groups",
-  "link": "https://www.ft.com/content/90858eba-0c00-4e10-bcca-31ae34bd835d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T09:45:03+00:00",
-  "desc": "Senior lawmaker demands information from companies backed by 1789 Capital, where the president’s eldest son is a partner",
-  "ccs": [],
-  "cat": "rg",
-  "imp": "medium"
- },
- {
-  "title": "EFPA crea una certificación para profesionales que informan sobre criptoactivos",
-  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/24/efpa-crea-certificacion-profesionales-informan-sobre-criptoactivos.html",
-  "source": "Expansión",
-  "date": "2026-11-24T08:00:20+00:00",
-  "desc": "EFPA ha creado una nueva certificación profesional para profesionales que informen sobre activos digitales. Esta iniciativa surge del crecimiento de la industria y las necesidades de contar con profesionales cualificados",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Big Tech’s blind spot",
-  "link": "https://www.ft.com/content/c96c40c5-6b07-4433-b65f-19105e9ccb44?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T05:00:16+00:00",
-  "desc": "AI groups are now at the heart of geopolitics. Some are not ready",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Pentagon delays Patriot missile shipments to Ukraine",
-  "link": "https://www.ft.com/content/02db16f6-808f-44b4-98dc-fe47f6a04d33?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-24T05:00:15+00:00",
-  "desc": "US defence secretary Pete Hegseth has yet to sign off on 60 Patriot interceptors for Kyiv, including from European arsenals",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Las dos claves para frenar las caídas de la Bolsa",
-  "link": "https://www.expansion.com/mercados/2026/11/24/dos-claves-frenar-caidas-bolsa.html",
-  "source": "Expansión",
-  "date": "2026-11-24T01:00:02+00:00",
-  "desc": "Las alertas bajistas alcanzaron una nueva dimensión a finales de la semana pasada. El escenario inversor se complica, incluso para los sectores defensivos, según advierte Citi. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Por qué Jensen Huang, 'el banquero de la IA', vale 5 billones de dólares para la Bolsa global",
-  "link": "https://www.expansion.com/mercados/2026/11/24/jensen-huang-banquero-ia-vale-5-billones-dolares-bolsa-global.html",
-  "source": "Expansión",
-  "date": "2026-11-24T00:45:04+00:00",
-  "desc": "El mercado respira con el regreso a Nvidia del gran financiador de la IA. Leer",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Las cuatro estrategias clave para apostar por Anthropic",
-  "link": "https://www.expansion.com/inversion/2026/11/24/cuatro-estrategias-clave-apostar-anthropic.html",
-  "source": "Expansión",
-  "date": "2026-11-24T00:44:15+00:00",
-  "desc": "La salida a Bolsa de Anthropic ha pasado a la historia por captar 119.541 millones de dólares (unos 108.752 millones de euros) entre la oferta pública inicial (OPV) y la colocación privada paralela. La demanda récord pro",
-  "ccs": [],
-  "cat": "fx",
-  "imp": "medium"
  }
 ]
