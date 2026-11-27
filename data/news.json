@@ -1,5 +1,270 @@
 [
  {
+  "title": "La Fed se prepara para subir los tipos de interés",
+  "link": "https://www.expansion.com/mercados/2026/11/27/fed-prepara-subir-tipos-interes.html",
+  "source": "Expansión",
+  "date": "2026-11-27T00:36:18+00:00",
+  "desc": "La inflación es la principal preocupación de los funcionarios del banco central estadounidense, por encima de la tormeta bursátil Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+  "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T00:31:00+00:00",
+  "desc": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Microsoft, Alphabet, Meta y Amazon son la ‘tecnología de calidad’ para 2027, según Pictet",
+  "link": "https://www.expansion.com/mercados/2026/11/27/microsoft-alphabet-meta-amazon-son-tecnologia-calidad-2027-pictet.html",
+  "source": "Expansión",
+  "date": "2026-11-27T00:29:15+00:00",
+  "desc": "La estrategia de Pictet para 2027, que proyecta retornos de entre el 10% y el 15% para la renta variable, apuesta sin dudas por la sobreponderación en valores tecnológicos centrados en la monetización y la calidad. Leer",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Sovereign wealth funds are acting more like private equity giants — and inheriting their risks",
+  "link": "https://www.cnbc.com/2026/11/27/swf-private-equity-risks.html",
+  "source": "CNBC",
+  "date": "2026-11-27T00:22:29+00:00",
+  "desc": "Sovereign wealth funds are increasingly originating deals, taking controlling stakes and building their own investment platforms.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El bitcoin se enfrenta hoy a un gran vencimiento de opciones",
+  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/27/bitcoin-enfrenta-hoy-gran-vencimiento-opciones.html",
+  "source": "Expansión",
+  "date": "2026-11-26T23:44:36+00:00",
+  "desc": "Hoy vencen opciones de bitcoin por valor de 7.000 millones de dólares. Los expertos señalan que la mayoría de los vencimientos son de apuestas bajistas. Leer",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Los retos del nuevo BCE: combatir la inflación con un ojo en Francia",
+  "link": "https://www.expansion.com/mercados/2026/11/27/retos-nuevo-bce-combatir-inflacion-ojo-francia.html",
+  "source": "Expansión",
+  "date": "2026-11-26T23:42:15+00:00",
+  "desc": "El BCE seguirá subiendo los tipos de interés para recuperar la estabilidad de precios, pero podría haber turbulencias en el mercado de deuda. Leer",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+  "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T22:00:00+00:00",
+  "desc": "“Our financial and healthcare situation has become increasingly concerning.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+  "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T21:45:00+00:00",
+  "desc": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+  "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T21:30:00+00:00",
+  "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+  "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+  "source": "CNBC",
+  "date": "2026-11-26T21:13:17+00:00",
+  "desc": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "Two Italians killed in drone strike on Kuwait",
+  "link": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-26T20:23:24+00:00",
+  "desc": "Workers are the first reported deaths in the Gulf since the US and Iran restarted exchanging fire this month",
+  "ccs": [
+   "IT"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Pensions Trusted by Millions of Industrial Workers Make a Surprising Comeback",
+  "link": "https://www.wsj.com/finance/investing/pensions-trusted-by-millions-of-industrial-workers-make-a-surprising-comeback-9937ea46?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-26T19:55:00+00:00",
+  "desc": "An ironworkers’ retirement plan is now fully funded, thanks largely to the U.S. stock market’s yearslong rally.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+  "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T19:00:00+00:00",
+  "desc": "“Retirement is a financial status, not an age.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+  "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T18:30:00+00:00",
+  "desc": "“My wife stopped working outside the home in 1970.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+  "link": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+  "source": "CNBC",
+  "date": "2026-11-26T18:27:43+00:00",
+  "desc": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "SAP explores at least 10,000 job cuts",
+  "link": "https://www.ft.com/content/ef05b4ab-7944-44ae-ad00-15475f8c1ec9?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-26T18:24:34+00:00",
+  "desc": "European software group is latest to restructure as AI hits software sector",
+  "ccs": [
+   "DE"
+  ],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Nintendo y Sony se preparan para librar una batalla a dos niveles con la IA",
+  "link": "https://www.expansion.com/economia/financial-times/2026/11/26/nintendo-sony-preparan-librar-batalla-dos-niveles-ia.html",
+  "source": "Expansión",
+  "date": "2026-11-26T18:02:20+00:00",
+  "desc": "La industria debe prepararse para un futuro en el que la capacidad de procesamiento que sustenta los videojuegos resida en la nube. Leer",
+  "ccs": [
+   "GB",
+   "JP"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Un verdadero banquero central",
+  "link": "https://www.expansion.com/mercados/2026/11/26/verdadero-banquero-central.html",
+  "source": "Expansión",
+  "date": "2026-11-26T18:00:14+00:00",
+  "desc": "Hernández de Cos tiene la virtud reconocida de trabajar por conseguir consensos y de ser un firme partidario de abrir las instituciones hacia la sociedad como demostró durante su periodo al frente del Banco de España. Le",
+  "ccs": [
+   "ES"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Semiconductor chips are the new oil. Here's why",
+  "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+  "source": "CNBC",
+  "date": "2026-11-26T17:52:15+00:00",
+  "desc": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
+  "ccs": [],
+  "cat": "en_",
+  "imp": "medium"
+ },
+ {
+  "title": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+  "link": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-26T17:13:40+00:00",
+  "desc": "Breakthroughs in mathematics have stoked fears that data across financial systems is under threat",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Israel’s Eisenkot takes steps towards replacing Netanyahu",
+  "link": "https://www.ft.com/content/a0731abb-c7bf-421b-9486-682114c705ff",
+  "source": "Financial Times",
+  "date": "2026-11-26T16:51:18+00:00",
+  "desc": "Opposition leader’s deals with two parties advance plans to oust prime minister",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Do voters want vision or concision from politicians?",
+  "link": "https://www.ft.com/content/af51083d-f076-44c0-8858-c9e9d4487fcc?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-26T16:16:34+00:00",
+  "desc": "Their flowery flights of rhetoric used to go on forever. Now they keep it brief",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+  "link": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+  "source": "CNBC",
+  "date": "2026-11-26T16:00:01+00:00",
+  "desc": "ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's  sharp losses and latest comeback.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+  "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-26T16:00:00+00:00",
+  "desc": "“Given my age, I never make a major new purchase without thinking about the future.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "De Cos: un ‘fontanero’ de consensos y rigor para el BCE",
+  "link": "https://www.expansion.com/mercados/2026/11/26/cos-fontanero-consensos-rigor-bce.html",
+  "source": "Expansión",
+  "date": "2026-11-26T15:56:13+00:00",
+  "desc": "Pablo Hernández de Cos, futuro presidente del BCE, es banquero central de profesión y es reconocido por su perfil técnico y su capacidad para formar consensos. Leer",
+  "ccs": [],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
   "title": "Larry Fink (BlackRock): \"España está especialmente bien posicionada para invertir\"",
   "link": "https://www.expansion.com/catalunya/2026/11/26/larry-fink-blackrock-espana-especialmente-bien-posicionada-invertir.html",
   "source": "Expansión",
@@ -12,28 +277,6 @@
   "imp": "low"
  },
  {
-  "title": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say",
-  "link": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
-  "source": "CNBC",
-  "date": "2026-11-26T15:34:08+00:00",
-  "desc": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
-  "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T15:30:00+00:00",
-  "desc": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
   "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
   "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
   "source": "CNBC",
@@ -44,16 +287,6 @@
   ],
   "cat": "cb",
   "imp": "medium"
- },
- {
-  "title": "Bringing data to the Thanksgiving table",
-  "link": "https://www.ft.com/content/1c91974e-8b52-4bd6-a9c3-fb42c1d02cf4?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T15:26:58+00:00",
-  "desc": "Does America really face a food affordability crisis?",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
  },
  {
   "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
@@ -78,16 +311,6 @@
   "imp": "medium"
  },
  {
-  "title": "Pablo Hernández de Cos wins race for ECB presidency",
-  "link": "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T14:44:13+00:00",
-  "desc": "Spanish economist set to succeed Christine Lagarde after Dutch government ends support for rival candidate Klaas Knot",
-  "ccs": [],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
   "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
   "source": "MarketWatch",
@@ -96,16 +319,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Global stocks climb after volatile US trading over AI risks",
-  "link": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T14:09:52+00:00",
-  "desc": "Tech shares hit this month by fears over whether boom can be sustained",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
  },
  {
   "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
@@ -118,38 +331,6 @@
   "imp": "medium"
  },
  {
-  "title": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
-  "link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T13:41:00+00:00",
-  "desc": "A rebound off lows for the S&P 500 on Wednesday calms bourses after the tech washout.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "What is ‘texture-maxxing’? The food trend putting crunch on the menu",
-  "link": "https://www.cnbc.com/2026/11/26/texture-maxxing-food-trends-gen-z.html",
-  "source": "CNBC",
-  "date": "2026-11-26T13:34:51+00:00",
-  "desc": "Texture-maxxing is the latest food trend taking social media by storm as consumers, driven by aesthetics and taste, are now looking for a sensory experience too.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Roth IRA conversions aren’t free money. Watch out for these 5 costly mistakes.",
-  "link": "https://www.marketwatch.com/story/roth-ira-conversions-arent-free-money-watch-out-for-these-5-costly-mistakes-39b182d3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T13:24:00+00:00",
-  "desc": "Do it poorly, and you trigger taxes you didn’t even know existed.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "Pablo Hernández de Cos, nuevo presidente del Banco Central Europeo",
   "link": "https://www.expansion.com/mercados/2026/11/26/pablo-hernandez-cos-nuevo-presidente-banco-central-europeo.html",
   "source": "Expansión",
@@ -157,16 +338,6 @@
   "desc": "El español sucederá a Christine Lagarde al frente del banco central el próximo 7 de febrero a falta de cerrar los últimos pasos del proceso con el Parlamento Europeo y el propio BCE. Leer",
   "ccs": [],
   "cat": "cb",
-  "imp": "medium"
- },
- {
-  "title": "Semiconductor chips are the new oil. Here's why",
-  "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-  "source": "CNBC",
-  "date": "2026-11-26T13:19:25+00:00",
-  "desc": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
-  "ccs": [],
-  "cat": "en_",
   "imp": "medium"
  },
  {
@@ -182,124 +353,23 @@
   "imp": "low"
  },
  {
-  "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-  "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T13:06:00+00:00",
-  "desc": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
+  "title": "Planes, trains and automobiles: The best ways to beat travel fatigue—so you can come home feeling rested and fulfilled",
+  "link": "https://www.cnbc.com/make-it/2026/11/26/travel-fatigue-holiday-tips.html",
+  "source": "CNBC",
+  "date": "2026-11-26T13:00:01+00:00",
+  "desc": "Visiting loved ones for the holidays? Here's how to manage the travel fatigue, from a travel expert and a sleep medicine specialist.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "Amundi sale a la caza de dividendos europeos",
-  "link": "https://www.expansion.com/inversion/2026/11/26/amundi-sale-caza-dividendos-europeos.html",
-  "source": "Expansión",
-  "date": "2026-11-26T13:04:16+00:00",
-  "desc": "Amundi adopta un sesgo defensivo para 2027 para sus posiciones en renta variable y considera que la estrategia de invertir por dividendos, con el foco en Europa, es la que mejor va a resistir ante la volatilidad y ventas",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Capital preservation rather than chasing the market is how hedge funds are negotiating this volatility",
-  "link": "https://www.marketwatch.com/story/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility-f4288b71?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T12:37:00+00:00",
-  "desc": "After a strong first half, performance for the hedge fund sector has dipped in the second half, and Goldman Sachs expects the investor class to try and hold onto what they have for now.",
-  "ccs": [],
-  "cat": "cm",
-  "imp": "medium"
- },
- {
-  "title": "Paris and Berlin seek to shield EU budget from Marine Le Pen",
-  "link": "https://www.ft.com/content/3f577839-deed-40f4-af9f-bf8fb54890e3?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T12:23:57+00:00",
-  "desc": "France requests an extra €35bn for farmers to raise the cost of far-right leader picking apart deal on bloc’s budget if she becomes president",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
-  "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+  "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+  "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
   "source": "CNBC",
-  "date": "2026-11-26T12:22:25+00:00",
-  "desc": "Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
+  "date": "2026-11-26T12:46:55+00:00",
+  "desc": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.",
   "ccs": [
    "US"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Switzerland’s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
-  "link": "https://www.cnbc.com/2026/11/26/ubs-swiss-capital-rules-finma-crisis-plan.html",
-  "source": "CNBC",
-  "date": "2026-11-26T11:17:39+00:00",
-  "desc": "Swiss regulator FINMA said UBS can execute its preferred crisis-resolution strategy, even as the bank faces a separate parliamentary fight over tougher capital requirements.",
-  "ccs": [
-   "CH"
-  ],
-  "cat": "rg",
-  "imp": "high"
- },
- {
-  "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
-  "link": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-  "source": "CNBC",
-  "date": "2026-11-26T10:45:45+00:00",
-  "desc": "Trump and NATO chief Mark Rutte urged Russia to avoid actions that could expand the war and called for a rapid peaceful resolution.",
-  "ccs": [],
-  "cat": "en_",
-  "imp": "high"
- },
- {
-  "title": "Franco-German clash over ‘Made in Europe’ in EU defence budget",
-  "link": "https://www.ft.com/content/c9e569cd-d9c7-43ea-877e-7fa6d1e91ea7?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T10:11:49+00:00",
-  "desc": "Berlin leads pushback against French demands for European preference in buying military equipment",
-  "ccs": [
-   "DE",
-   "FR"
-  ],
-  "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
-  "link": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T10:11:00+00:00",
-  "desc": "Deutsche Bank sees the benchmark index reaching 9,000 points by the end of 2027 as focus shifts from capital expenditure to monetization from artificial intelligence.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia rebota desde su suporte de largo plazo",
-  "link": "https://www.expansion.com/mercados/2026/11/26/nvidia-rebota-suporte-plazo.html",
-  "source": "Expansión",
-  "date": "2026-11-26T08:59:58+00:00",
-  "desc": "Las acciones del gigante de los chips y de la IA se han desplomado desde máximos un 48,84%. Leer",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "China hits back at Trump tariff threat",
-  "link": "https://www.ft.com/content/31ae0162-f946-4e2c-b656-1930baea19d0?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T08:02:13+00:00",
-  "desc": "Levies follow investigation into whether countries give their own companies unfair subsidies",
-  "ccs": [
-   "CN"
   ],
   "cat": "gp",
   "imp": "medium"
@@ -315,29 +385,6 @@
   "imp": "low"
  },
  {
-  "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
-  "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-26T07:16:00+00:00",
-  "desc": "The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los valores del Ibex más sensibles a las elecciones",
-  "link": "https://www.expansion.com/mercados/2026/11/26/valores-ibex-sensibles-elecciones.html",
-  "source": "Expansión",
-  "date": "2026-11-26T06:52:19+00:00",
-  "desc": "Referencias del exterior como el rally de la IA, los tipos de la Fed, la deuda y el petróleo han condicionado en los últimos tiempos los flujos de inversión en el Ibex. A partir del lunes, una vez conocido el resultado d",
-  "ccs": [
-   "US",
-   "ES"
-  ],
-  "cat": "cb",
-  "imp": "medium"
- },
- {
   "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
   "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
   "source": "CNBC",
@@ -346,16 +393,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Cómo la megaoperación de Sanofi desafía la maldición de las M&A en el sector farmacéutico",
-  "link": "https://www.expansion.com/economia/financial-times/2026/11/25/megaoperacion-sanofi-desafia-maldicion-m-sector-farmaceutico.html",
-  "source": "Expansión",
-  "date": "2026-11-26T06:32:02+00:00",
-  "desc": "Los inversores parecen considerar que esta adquisición resultará beneficiosa tanto para el comprador como para el vendedor a pesar de las decepciones que han supuesto otras grandes operaciones. Leer",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
  },
  {
   "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
@@ -380,45 +417,28 @@
   "imp": "low"
  },
  {
-  "title": "Software stocks spared in tech rout as AI narrative shifts",
-  "link": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T05:00:29+00:00",
-  "desc": "Semiconductor and software shares now neck-and-neck in 2026 as investors think again about the technology’s winners and losers",
-  "ccs": [],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Nvidia halts chip shipments to south-east Asia",
-  "link": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1",
+  "title": "Angry young men turn against their elders in ‘two Spains’ election",
+  "link": "https://www.ft.com/content/6b8ac07d-d589-4ff2-9ad3-8cda56287a8e?syn-25a6b1a6=1",
   "source": "Financial Times",
   "date": "2026-11-26T05:00:19+00:00",
-  "desc": "Move comes as US steps up export controls to prevent Chinese access to AI computing power",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "How Britain taxed itself into a corner",
-  "link": "https://www.ft.com/content/168aa97b-1a58-480e-a995-31287308432f?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T05:00:12+00:00",
-  "desc": "Strained public finances and a reluctance to cut spending have shaped a system with comical distortions",
+  "desc": "Retirees’ generous pensions and property ownership stoke discontent among youths voting to oust Pedro Sánchez",
   "ccs": [
-   "GB"
+   "ES"
   ],
   "cat": "eq",
   "imp": "low"
  },
  {
-  "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
-  "link": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html",
+  "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+  "link": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
   "source": "CNBC",
-  "date": "2026-11-26T03:13:43+00:00",
-  "desc": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
-  "ccs": [],
-  "cat": "tc",
+  "date": "2026-11-26T04:12:18+00:00",
+  "desc": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage.",
+  "ccs": [
+   "CN",
+   "IN"
+  ],
+  "cat": "gp",
   "imp": "medium"
  },
  {
@@ -444,45 +464,23 @@
   "imp": "high"
  },
  {
-  "title": "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
-  "link": "https://www.ft.com/content/368c4526-a0ce-4951-a847-f039af2a51af?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-26T00:45:54+00:00",
-  "desc": "Jensen Huang is among the few business leaders to straddle both sides of the Taiwan Strait",
-  "ccs": [
-   "CN"
-  ],
+  "title": "Jensen Huang, Trump and the 11 Days That Rocked Nvidia",
+  "link": "https://www.wsj.com/finance/stocks/jensen-huang-trump-and-the-11-days-that-rocked-nvidia-604fff0b?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-25T22:27:00+00:00",
+  "desc": "Watch WSJ reporters break down what happened in the days after Nvidia ousted its CEO—and then brought him back.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
+  "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
+  "source": "CNBC",
+  "date": "2026-11-25T21:56:43+00:00",
+  "desc": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
+  "ccs": [],
   "cat": "gp",
-  "imp": "medium"
- },
- {
-  "title": "Los inversores se refugian en los bonos tras la tormenta de la IA",
-  "link": "https://www.expansion.com/mercados/renta-fija/2026/11/26/inversores-refugian-bonos-tormenta-ia.html",
-  "source": "Expansión",
-  "date": "2026-11-26T00:37:36+00:00",
-  "desc": "Las rentabilidades de los bonos soberanos descienden tras el regreso de los inversores en la renta fija, por las dudas en torno a la IA. Leer",
-  "ccs": [],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "Los siete activos alternativos favoritos de los europeos",
-  "link": "https://www.expansion.com/mercados/2026/11/26/siete-activos-alternativos-favoritos-europeos.html",
-  "source": "Expansión",
-  "date": "2026-11-26T00:00:47+00:00",
-  "desc": "Los grandes inversores apuestan por el capital privado, los hedge fund y las infraestructuras. Leer",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Últimos días para cobrar el dividendo de Bankinter",
-  "link": "https://www.expansion.com/inversion/2026/11/26/ultimos-dias-cobrar-dividendo-bankinter.html",
-  "source": "Expansión",
-  "date": "2026-11-25T23:41:36+00:00",
-  "desc": "La entidad abonará la próxima semana un dividendo de 0,337 euros brutos por acción, pero hay que ser accionistas al cierre del viernes para cobrarlo. El banco tiene una rentabilidad por dividendo superior al 5% para los",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
+  "imp": "high"
  }
 ]
