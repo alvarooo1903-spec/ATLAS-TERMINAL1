@@ -1,5 +1,311 @@
 [
  {
+  "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+  "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-28T00:00:00+00:00",
+  "desc": "“Given my age, I never make a major new purchase without thinking about the future.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "JPMorgan Plans a Private Club for Well-Heeled Clients in a 1930s Branch",
+  "link": "https://www.wsj.com/finance/banking/jpmorgan-plans-a-private-club-for-well-heeled-clients-in-a-1930s-branch-c609a03c?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-28T00:00:00+00:00",
+  "desc": "The mansion-like historic structure is being renovated for lounges and a dining room, kitchen and bar, city documents show.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Citigroup’s $35 Billion Bookkeeping Snafu Sparks Shake-Up in Upper Ranks",
+  "link": "https://www.wsj.com/finance/banking/citigroups-35-billion-bookkeeping-snafu-sparks-shake-up-in-upper-ranks-71d8afe9?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-28T00:00:00+00:00",
+  "desc": "Several London-based executives are leaving the bank, and a top risk official is overseeing the cleanup from the trading hub.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Los valores más expuestos a las elecciones del 29-N",
+  "link": "https://www.expansion.com/inversion/2026/11/28/valores-expuestos-elecciones-29-n.html",
+  "source": "Expansión",
+  "date": "2026-11-27T23:51:19+00:00",
+  "desc": "Los bancos, las eléctricas, las inmobiliarias junto a compañías como Indra y Telefónica están en el radar de los inversores por el efecto que las decisiones políticas puede tener en sus cotizaciones. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "El Nasdaq y los ETF tienen la llave del rebote del bitcoin",
+  "link": "https://www.expansion.com/mercados/criptomonedas/2026/11/28/nasdaq-etf-llave-rebote-bitcoin.html",
+  "source": "Expansión",
+  "date": "2026-11-27T23:36:56+00:00",
+  "desc": "Las dudas en torno a la IA, las salidas de los ETF de bitcoin, la menor liquidez y las mayores expectativas de subidas de tipos de interés han pasado factura al bitcoin. Leer",
+  "ccs": [
+   "US"
+  ],
+  "cat": "cb",
+  "imp": "medium"
+ },
+ {
+  "title": "La IA, en la encrucijada en Bolsa",
+  "link": "https://www.expansion.com/mercados/2026/11/28/ia-encrucijada-bolsa.html",
+  "source": "Expansión",
+  "date": "2026-11-27T23:36:35+00:00",
+  "desc": "Las cotizaciones de las grandes compañías del sector han rebotado desde los mínimos del mes de noviembre, pero persisten las dudas sobre si habrá demanda para una oferta cada vez mayor. Leer",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+  "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T23:30:00+00:00",
+  "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+  "link": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T23:15:00+00:00",
+  "desc": "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
+  "ccs": [],
+  "cat": "ma",
+  "imp": "medium"
+ },
+ {
+  "title": "OpenAI countersues Apple for stealing trade secrets",
+  "link": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T23:00:08+00:00",
+  "desc": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Comprar cuando nadie quiere hacerlo",
+  "link": "https://www.expansion.com/mercados/2026/11/27/comprar-nadie-quiere-hacerlo.html",
+  "source": "Expansión",
+  "date": "2026-11-27T22:47:05+00:00",
+  "desc": "Los inversores minoristas han vendido ETF de tecnología al ritmo más rápido de la historia. Leer",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "S&P cuts France outlook to negative",
+  "link": "https://www.ft.com/content/4e16110a-9604-4455-8557-4edece5df01a?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T22:45:36+00:00",
+  "desc": "Rating agency says political instability will make it harder for the country to tackle its public deficit",
+  "ccs": [
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+  "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+  "source": "CNBC",
+  "date": "2026-11-27T22:00:57+00:00",
+  "desc": "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.",
+  "ccs": [],
+  "cat": "inf",
+  "imp": "medium"
+ },
+ {
+  "title": "Tech Stocks Jump as Investors Take a Break From AI Jitters",
+  "link": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main",
+  "source": "WSJ Markets",
+  "date": "2026-11-27T21:16:00+00:00",
+  "desc": "The Nasdaq composite finished its best week since April, while the Dow and S&P 500 also ended the week strong.",
+  "ccs": [
+   "US"
+  ],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T20:16:00+00:00",
+  "desc": "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "high"
+ },
+ {
+  "title": "US tech stocks rise in latest market swing",
+  "link": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T20:08:09+00:00",
+  "desc": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings",
+  "ccs": [],
+  "cat": "er",
+  "imp": "medium"
+ },
+ {
+  "title": "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
+  "link": "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T19:55:00+00:00",
+  "desc": "Medicare Advantage is starting to lose its all-in-one benefit.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "The warnings behind this week’s stock-market rally",
+  "link": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T18:40:00+00:00",
+  "desc": "Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.",
+  "ccs": [],
+  "cat": "gp",
+  "imp": "high"
+ },
+ {
+  "title": "Trump’s Nvidia intervention has a cost for US stocks",
+  "link": "https://www.ft.com/content/3318a827-bf20-4826-947d-9327381c3c10?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T18:26:25+00:00",
+  "desc": "Political meddling has already rubbed some of the gloss off the dollar and US Treasuries. Now it is hitting equities",
+  "ccs": [
+   "US"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+  "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+  "source": "CNBC",
+  "date": "2026-11-27T18:24:06+00:00",
+  "desc": "SpaceX shares jumped in trading Friday after Elon Musk said on X that he would donate shares to American children every year.",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+  "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+  "source": "CNBC",
+  "date": "2026-11-27T18:20:32+00:00",
+  "desc": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "high"
+ },
+ {
+  "title": "AI and the decryption nightmare",
+  "link": "https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T18:18:27+00:00",
+  "desc": "New breakthroughs call for faster upgrades to security, not panic",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "Can AI crack encryption?",
+  "link": "https://www.ft.com/content/1a29e62d-b18d-4bad-937d-34f3eae0587a?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T18:16:51+00:00",
+  "desc": "New models’ advancing capabilities raise concerns over the risks of data leaks in banking and commerce",
+  "ccs": [],
+  "cat": "tc",
+  "imp": "medium"
+ },
+ {
+  "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+  "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T17:04:00+00:00",
+  "desc": "Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.",
+  "ccs": [],
+  "cat": "fx",
+  "imp": "medium"
+ },
+ {
+  "title": "Mélenchon takes aim at Germany in Berlin campaign stop",
+  "link": "https://www.ft.com/content/6689598a-47f2-41b3-92d7-e5c234914c5b?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T16:45:39+00:00",
+  "desc": "Far-left presidential candidate has increased his attacks on France’s neighbour and closest ally",
+  "ccs": [
+   "DE",
+   "FR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Wave of cyber incidents rattles western economies",
+  "link": "https://www.ft.com/content/6ab1172b-4f27-49f5-ad53-b384df82da77?syn-25a6b1a6=1",
+  "source": "Financial Times",
+  "date": "2026-11-27T16:19:21+00:00",
+  "desc": "UK Department for Work and Pensions, Fifa and the US Treasury among institutions hit by outages as concerns grow over threat from AI",
+  "ccs": [
+   "US",
+   "GB"
+  ],
+  "cat": "bd",
+  "imp": "medium"
+ },
+ {
+  "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+  "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T16:00:00+00:00",
+  "desc": "“Retirement is a financial status, not an age.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+  "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+  "source": "CNBC",
+  "date": "2026-11-27T15:52:00+00:00",
+  "desc": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+  "ccs": [],
+  "cat": "rg",
+  "imp": "medium"
+ },
+ {
+  "title": "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
+  "link": "https://www.cnbc.com/make-it/2026/11/27/the-traitors-ends-with-246300-prize-heres-how-much-goes-to-taxes.html",
+  "source": "CNBC",
+  "date": "2026-11-27T15:49:29+00:00",
+  "desc": "Winning prize money can come with some big financial decisions, including how much to set aside for taxes.",
+  "ccs": [
+   "KR"
+  ],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
+  "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+  "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+  "source": "MarketWatch",
+  "date": "2026-11-27T15:45:00+00:00",
+  "desc": "“My wife stopped working outside the home in 1970.”",
+  "ccs": [],
+  "cat": "eq",
+  "imp": "low"
+ },
+ {
   "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
   "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
   "source": "MarketWatch",
@@ -22,113 +328,11 @@
   "imp": "medium"
  },
  {
-  "title": "US tech stocks rise in latest market swing",
-  "link": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T15:17:23+00:00",
-  "desc": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "From Jobs to Jensen: tech’s metamorphosis",
-  "link": "https://www.ft.com/content/5b10a0e6-aad6-403b-9f2e-23b5ca78897d",
-  "source": "Financial Times",
-  "date": "2026-11-27T15:10:17+00:00",
-  "desc": "The Nvidia saga is part of a bigger, stranger story about Silicon Valley’s political transformation",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "My friends play ‘credit-card roulette’ to see who pays for dinner — but one ‘winner’ still Venmoed me afterward. Should I say something?",
-  "link": "https://www.marketwatch.com/story/my-friends-play-credit-card-roulette-to-see-who-pays-for-dinner-but-one-winner-still-venmoed-me-afterward-should-i-say-something-0a657eee?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T15:04:00+00:00",
-  "desc": "‘I was stunned! I’ve lost my fair share, and won my fair share, and truly believe it all evens out over time.’",
-  "ccs": [
-   "KR"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-  "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T15:01:00+00:00",
-  "desc": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive. However, they  don’t seem to be generating  revenues from it at the same rate.",
-  "ccs": [],
-  "cat": "er",
-  "imp": "medium"
- },
- {
-  "title": "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
-  "link": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T14:56:00+00:00",
-  "desc": "Jensen Huang faces tough questions from Congress this week. Good luck pinning him down, one analyst says.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "high"
- },
- {
-  "title": "Tech Stocks Rise as Investors Take a Break From AI Jitters",
-  "link": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-27T14:46:00+00:00",
-  "desc": "Shares rebounded at the start of a shorter trading session, with all three major indexes poised to end the week strong.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
-  "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T14:23:00+00:00",
-  "desc": "Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
   "title": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
   "link": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
   "source": "CNBC",
   "date": "2026-11-27T14:12:55+00:00",
   "desc": "EU leaders failed to break a deadlock over the bloc’s budget, with talks set to resume in December as a key deadline looms.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
-  "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
-  "source": "CNBC",
-  "date": "2026-11-27T13:58:19+00:00",
-  "desc": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
-  "link": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T13:45:00+00:00",
-  "desc": "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Renters are now a national political constituency that can influence elections",
-  "link": "https://www.marketwatch.com/story/renters-are-now-a-national-political-constituency-that-can-influence-elections-8f028445?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T13:30:00+00:00",
-  "desc": "Renters backed Democrats 61% to 31% in the midterms, a 30-point margin, according to YouGov.",
   "ccs": [],
   "cat": "eq",
   "imp": "low"
@@ -141,16 +345,6 @@
   "desc": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
   "ccs": [],
   "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals",
-  "link": "https://www.marketwatch.com/story/new-home-sales-just-hit-a-2026-high-as-builders-dangle-low-mortgages-and-black-friday-deals-291a3b62?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T13:22:00+00:00",
-  "desc": "Sales of newly built homes surged to the highest level of the year in October, as home builders offered aggressive discounts to buyers.",
-  "ccs": [],
-  "cat": "eq",
   "imp": "high"
  },
  {
@@ -174,26 +368,6 @@
   "ccs": [],
   "cat": "eq",
   "imp": "high"
- },
- {
-  "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
-  "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T13:15:00+00:00",
-  "desc": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "It’s not just you: Durable goods are getting less reliable, from sputtering cars to glitching smart TVs",
-  "link": "https://www.cnbc.com/make-it/2026/11/27/durable-goods-reliability-cars-appliances-tvs.html",
-  "source": "CNBC",
-  "date": "2026-11-27T13:05:02+00:00",
-  "desc": "A wide swath of consumer products are becoming less reliable and durable, even as their prices rise, research shows.",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
  },
  {
   "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
@@ -228,16 +402,6 @@
   "imp": "low"
  },
  {
-  "title": "How to spot Black Friday shopping scams like ‘bogus boutiques’ and AI-generated product images",
-  "link": "https://www.marketwatch.com/story/how-to-spot-bogus-boutiques-and-other-black-friday-shopping-scams-86cc182d?mod=mw_rss_topstories",
-  "source": "MarketWatch",
-  "date": "2026-11-27T12:42:00+00:00",
-  "desc": "AI tools have made it even easier for scammers to create fake storefronts and misleading product listings.",
-  "ccs": [],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
   "title": "First principles to cling to when markets convulse",
   "link": "https://www.ft.com/content/839c7d2c-adad-4e70-9abd-3cd5bdf5e09e?syn-25a6b1a6=1",
   "source": "Financial Times",
@@ -256,19 +420,6 @@
   "ccs": [],
   "cat": "tc",
   "imp": "medium"
- },
- {
-  "title": "Japanese carmakers’ sales collapse amid China market plunge",
-  "link": "https://www.ft.com/content/f627ff39-58e4-4def-8e79-794d3dc2996b?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T11:31:30+00:00",
-  "desc": "Nissan’s October sales in the country tumbled 67%, the lowest monthly figure since the Covid-19 pandemic",
-  "ccs": [
-   "JP",
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "high"
  },
  {
   "title": "Un hombre cambiado: ¿Cómo dirigirá Jensen Huang a Nvidia a partir de ahora?",
@@ -291,12 +442,14 @@
   "imp": "medium"
  },
  {
-  "title": "SpaceX shares jump 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
-  "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+  "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+  "link": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
   "source": "CNBC",
-  "date": "2026-11-27T10:20:39+00:00",
-  "desc": "SpaceX shares jumped in premarket trading after Elon Musk said on X that he would donate shares to American children every year.",
-  "ccs": [],
+  "date": "2026-11-27T10:13:44+00:00",
+  "desc": "Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support.",
+  "ccs": [
+   "CN"
+  ],
   "cat": "tc",
   "imp": "medium"
  },
@@ -321,165 +474,5 @@
   ],
   "cat": "eq",
   "imp": "low"
- },
- {
-  "title": "Chinese shares soar after Beijing signals more support",
-  "link": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T08:32:35+00:00",
-  "desc": "Biggest one-day rise for CSI 300 index in two years following months of weakness",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "eq",
-  "imp": "high"
- },
- {
-  "title": "El Ibex apunta a una apertura en positivo",
-  "link": "https://www.expansion.com/mercados/cronica-bolsa/2026/11/27/ibex-apunta-apertura-positivo.html",
-  "source": "Expansión",
-  "date": "2026-11-27T07:02:56+00:00",
-  "desc": "El Ibex 35 parte este viernes desde los 19.057 puntos, tras anotarse ayer una subida del 2,26%. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Hong Kong seeks to lure sovereign wealth funds with tax breaks",
-  "link": "https://www.ft.com/content/0285a2eb-5312-443d-bd60-b094af9575b1?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T06:47:12+00:00",
-  "desc": "Move comes after some global investors pulled out or scaled back teams in Asian financial hub",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Asian Markets Rise as AI Sentiment Stabilizes",
-  "link": "https://www.wsj.com/finance/asian-markets-mostly-higher-as-sentiment-stabilizes-8f998c4d?mod=rss_markets_main",
-  "source": "WSJ Markets",
-  "date": "2026-11-27T05:53:00+00:00",
-  "desc": "Asian markets tracked gains in U.S. stock futures as sentiment around artificial intelligence stabilized.",
-  "ccs": [
-   "US"
-  ],
-  "cat": "tc",
-  "imp": "medium"
- },
- {
-  "title": "Venezuelan oil magnate defends contentious deal with Trump",
-  "link": "https://www.ft.com/content/2586bde3-a1e1-463c-b5fc-0775e8512d28?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:01:01+00:00",
-  "desc": "Alejandro Betancourt tells FT he welcomes scrutiny of agreement that hands huge share of country’s crude supply to US",
-  "ccs": [],
-  "cat": "ma",
-  "imp": "medium"
- },
- {
-  "title": "Kirkland & Ellis under fire from private equity backers over sell-to-yourself deals",
-  "link": "https://www.ft.com/content/5cc534e6-d461-4fc7-a744-b938e54eee1d?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:00:23+00:00",
-  "desc": "Lawyers say contracts for so-called continuation vehicles remove investors’ right to sue in event of dispute",
-  "ccs": [],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Marine Le Pen: the woman who could break the EU",
-  "link": "https://www.ft.com/content/9bbd926e-ccef-4717-9044-48a23c9353ba?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:00:13+00:00",
-  "desc": "The far-right frontrunner for the French presidency is the biggest populist challenge in the bloc’s history",
-  "ccs": [
-   "FR"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Warsh’s ‘good family fight’ could turn ugly",
-  "link": "https://www.ft.com/content/71ffa69f-2a07-44e4-8305-ae5548b89828?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:00:13+00:00",
-  "desc": "Federal Reserve officials face a three-dimensional tussle over inflation, AI and guidance",
-  "ccs": [],
-  "cat": "inf",
-  "imp": "high"
- },
- {
-  "title": "Chinese households shed billions in consumer debt",
-  "link": "https://www.ft.com/content/8c5e0298-58f0-47e9-a843-513178d9fa2e?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:00:04+00:00",
-  "desc": "A three-year decline in mortgages in China is now spreading to consumer loans",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "bd",
-  "imp": "medium"
- },
- {
-  "title": "China’s super-rich have a new obsession: million-dollar fish",
-  "link": "https://www.ft.com/content/5a8b6b3c-c293-4f38-9f14-f5cc6cf98a34?syn-25a6b1a6=1",
-  "source": "Financial Times",
-  "date": "2026-11-27T05:00:04+00:00",
-  "desc": "Collectors are spending fortunes on koi, but an economic slowdown and Beijing’s crackdown on conspicuous wealth are threatening the market",
-  "ccs": [
-   "CN"
-  ],
-  "cat": "fx",
-  "imp": "medium"
- },
- {
-  "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
-  "link": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
-  "source": "CNBC",
-  "date": "2026-11-27T03:30:23+00:00",
-  "desc": "Iran's foreign minister Abbas Araghchi said \"The incident is suspicious and looks like a precooked recipe for war.\"",
-  "ccs": [
-   "IT"
-  ],
-  "cat": "gp",
-  "imp": "high"
- },
- {
-  "title": "El cisne del Ibex que vuela alto este año y encandila a los expertos",
-  "link": "https://www.expansion.com/inversion/2026/11/27/cisne-ibex-vuela-alto-ano-encandila-expertos.html",
-  "source": "Expansión",
-  "date": "2026-11-27T01:12:34+00:00",
-  "desc": "De patito feo a cisne. La compañía del Ibex más rezagada el año pasado, vuela muy alto este ejercicio. Gusta a todos los expertos que le siguen en el parqué y creen que seguirá en las alturas a medio plazo. Leer",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "eq",
-  "imp": "low"
- },
- {
-  "title": "Los valores más firmes del Ibex en plenas turbulencias",
-  "link": "https://www.expansion.com/mercados/2026/11/27/valores-firmes-ibex-plenas-turbulencias.html",
-  "source": "Expansión",
-  "date": "2026-11-27T01:01:28+00:00",
-  "desc": "La tensión se ha recrudecido en los mercados. La inestabilidad se ha apoderado de los principales índices bursátiles, y el Ibex no ha sido una excepción. De cara a posibles turbulencias futuras, los datos de volatilidad",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "en_",
-  "imp": "medium"
- },
- {
-  "title": "Así es T. Rowe Price, la gestora pionera en el estilo de inversión en crecimiento",
-  "link": "https://www.expansion.com/mercados/fondos/2026/11/27/asi-t-rowe-price-gestora-pionera-estilo-inversion-crecimiento.html",
-  "source": "Expansión",
-  "date": "2026-11-27T01:01:14+00:00",
-  "desc": "La oficina de Madrid, dirigida por Alfonso del Moral, aporta 3.600 millones de dólares a la firma. Junto a sus fondos y ETF activos, va a incorporar al mercado español vehículos de gestión alternativa de private equity y",
-  "ccs": [
-   "ES"
-  ],
-  "cat": "fx",
-  "imp": "medium"
  }
 ]
